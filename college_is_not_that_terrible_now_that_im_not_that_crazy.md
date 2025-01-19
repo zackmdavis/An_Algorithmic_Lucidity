@@ -1,25 +1,31 @@
 ## College Is Not That Terrible Now That I'm Not That Crazy??
 
- * Previously: http://zackmdavis.net/blog/2024/05/should-i-finish-my-bachelors-degree/
- * SF State is still the communist dystopia I remember from a dozen years ago, but it doesn't hurt this time, because I have a sense of humor about it now
- * Communist dystopia: propaganda about how beneficial and humanitarian it is, but authoritarian command economies are not human
- * People talk about math courses by number
- * We submit our homework through the online course portal; other than that, everything is the same
+Previously, [I wrote about how I was considering going back to San Francisco State University for two semesters](http://zackmdavis.net/blog/2024/05/should-i-finish-my-bachelors-degree/) to finish up my math B.A. After one semester, going back is looking like a great decision; I'm getting more out of it than I expected.
 
-### My Tragic Backstory
+To be clear, "better than I expected" is not an endorsement of college. SF State is still the same communist dystopia I remember from a dozen years ago—a bureaucratic command economy dripping in propaganda about how indispensible and humanitarian it is, whose subjects' souls have withered to the point where, even if they don't quite believe the propaganda, they can't conceive of life and work outside the system.
 
- * went to UCSC out of high school, intended to major in philosophy
- * nervous beakdown triggered by "Intro to Feminisms" 
- * I believed in school==education; "my mandate to the University" mentioned in my Diary, "are you trying to sabotage my education?" when mom asked if maybe it was better if I lived at home
- * TODO: read my "prodigal son" letter to recapture the spirit
- * Heald
- * differential equations debacle
- * DVC
- * SFSU
+But it doesn't hurt this time, because I have a sense of humor about it now—and a sense of perspective (thanks to life experience, no thanks to school). Ultimately, [policy debates should not appear one-sided](https://www.readthesequences.com/Policy-Debates-Should-Not-Appear-One-Sided): if things are terrible, it's probably not because people are choosing the straightforwardly terrible thing for no reason whatsoever, with no trade-offs, coordination problems, or nonobvious truths making the terrible thing look like the best option.
+
+The thing that makes life under communism unbearable is the fact that you can't leave. Having escaped, and coming back as a visiting dignitary, one is a better position to make sense of how and why the regime functions—the problems it solves, at whatever cost in human lives or dignity—the forces that make it stable if not good.
 
 ### Doing It Right This Time: "Real Analysis II" and "Probability Models"
 
- * Picking up where I left off: my last class but SFSU was "Real Analysis I" with Prof. A in Spring 2013, this is "Real Analysis II" with Prof. A in Fall 2024
+My last class at SF State in Spring 2013 (before getting rescued by the software industry) had been [Real Analysis I"](https://math.sfsu.edu/courses/370) with Prof. "A". I regret that I wasn't in a state to properly savor it at the time: I [had a pretty bad sleep-deprivation-induced psychotic break in early February 2013](http://zackmdavis.net/blog/2013/03/religious/) and for a few months thereafter was [mostly just trying to hold myself together](http://zackmdavis.net/blog/2013/04/prodrome/). I withdrew from my other classes and ended up getting a B− in "Real Analysis I".
+
+It was particularly disappointing because I had been looking forward to "Real Analysis I" as my first "serious" school math class (being concerned with proving theorems rather than applying given techniques to given problem classes). I had wanted to take it concurrently with the prerequsite, ["Exploration and Proof"](https://math.sfsu.edu/courses/301), during my first semester at SFSU, Fall 2012 (after having sat through two years of worthless community college classes, after having been cowed into feeling like I needed to finish my degree to prove that I could after doing poorly
+
+
+
+
+
+
+
+
+
+ * https://tvtropes.org/pmwiki/pmwiki.php/Main/YouAreNumberSix
+
+ * Picking up where I left off: my last class but SFSU was "Real Analysis I" with Prof. A in Spring 2013, this is "Real Analysis II" with Prof. A in Fall 2024,
+  * People talk about math courses by number
  * a memory from 2013: he asked what a sequence was, I said, "A function from the naturals to the reals", he asked how I knew that, I said, "I know how to read"
  * First day, I "marked my territory" by showing up and writing the multidimensional chain rule on the board
  * Prof. "A" does office hours in a conference room, which is great
@@ -32,9 +38,8 @@
  * 82% midterm
  * botching a compactness proof on the final
  * didn't quite have the same rapport in office hours; lanauge and culture might have made a difference
- * quiz resubmit for half-credit thing
- * LLM use and citing it
 
+["I could if I wanted to"](https://www.youtube.com/watch?v=GUuU99c_9mY)
 
 ### "Queer Literatures and Media"
 
@@ -43,10 +48,14 @@
  
 ### Cynicism and Sanity
 
+ * the linear algebra credits
  * Grief that I didn't know how to do this when I was young; I could have majored in math (even if I'm actually a philosopher) and taken the Putnam and started my career in 2010
  * The TA recommeneded I look up the solution manual online 
  * clicking through anti-harrassment training is obviously OK
  * tutoring center punch card
+ * LLM use and citing it
+ * quiz resubmit for half-credit thing
+ * ducking out of class to coordinate on the Putnam registration
 
 the fiction of "grade level"
 
