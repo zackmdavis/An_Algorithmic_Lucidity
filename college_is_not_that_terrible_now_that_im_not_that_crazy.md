@@ -1,25 +1,22 @@
 ## College Is Not That Terrible Now That I'm Not That Crazy??
 
-Previously, [I wrote about how I was considering going back to San Francisco State University for two semesters](http://zackmdavis.net/blog/2024/05/should-i-finish-my-bachelors-degree/) to finish up my math B.A. After one semester, going back is looking like a great decision; I'm getting more out of it than I expected.
+Previously, [I wrote about how I was considering going back to San Francisco State University for two semesters](http://zackmdavis.net/blog/2024/05/should-i-finish-my-bachelors-degree/) to finish up my math B.A. Having completed the first semester, going back is looking like a great decision; I'm getting more out of it than I expected.
 
 To be clear, "better than I expected" is not an endorsement of college. SF State is still the same communist dystopia I remember from a dozen years ago—a bureaucratic command economy dripping in propaganda about how indispensible and humanitarian it is, whose subjects' souls have withered to the point where, even if they don't quite believe the propaganda, they can't conceive of life and work outside the system.
 
-But it doesn't hurt this time, because I have a sense of humor about it now—and a sense of perspective (thanks to life experience, no thanks to school). Ultimately, [policy debates should not appear one-sided](https://www.readthesequences.com/Policy-Debates-Should-Not-Appear-One-Sided): if things are terrible, it's probably not because people are choosing the straightforwardly terrible thing for no reason whatsoever, with no trade-offs, coordination problems, or nonobvious truths making the terrible thing look like the best option.
-
-The thing that makes life under communism unbearable is the fact that you can't leave. Having escaped, and coming back as a visiting dignitary, one is a better position to make sense of how and why the regime functions—the problems it solves, at whatever cost in human lives or dignity—the forces that make it stable if not good.
+But it doesn't hurt this time, because I have a sense of humor about it now—and a sense of perspective (thanks to life experience, no thanks to school). Ultimately, [policy debates should not appear one-sided](https://www.readthesequences.com/Policy-Debates-Should-Not-Appear-One-Sided): if things are terrible, it's probably not because people are choosing the straightforwardly terrible thing for no reason whatsoever, with no trade-offs, coordination problems, or nonobvious truths making the terrible thing look bnetter than it is. The thing that makes life under communism unbearable is the fact that you can't leave. Having escaped, and coming back as a visiting dignitary, one is a better position to make sense of how and why the regime functions—the problems it solves, at whatever cost in human lives or dignity—the forces that make it stable if not good.
 
 ### Doing It Right This Time: "Real Analysis II" and "Probability Models"
 
-My last class at SF State in Spring 2013 (before getting rescued by the software industry) had been [Real Analysis I"](https://math.sfsu.edu/courses/370) with Prof. "A". I regret that I wasn't in a state to properly savor it at the time: I [had a pretty bad sleep-deprivation-induced psychotic break in early February 2013](http://zackmdavis.net/blog/2013/03/religious/) and for a few months thereafter was [mostly just trying to hold myself together](http://zackmdavis.net/blog/2013/04/prodrome/). I withdrew from my other classes and ended up getting a B− in "Real Analysis I".
+My last class at SF State in Spring 2013 (before getting rescued by the software industry) had been [Real Analysis I"](https://math.sfsu.edu/courses/370) with Prof. "A". I regret that I wasn't in a state to properly focus and savor it at the time: I [had a pretty bad sleep-deprivation-induced psychotic break in early February 2013](http://zackmdavis.net/blog/2013/03/religious/) and for a few months thereafter was [mostly just trying to hold myself together](http://zackmdavis.net/blog/2013/04/prodrome/). I withdrew from my other classes and ended up getting a B−.
 
-It was particularly disappointing because I had been looking forward to "Real Analysis I" as my first "serious" school math class (being concerned with proving theorems rather than applying given techniques to given problem classes). I had wanted to take it concurrently with the prerequsite, ["Exploration and Proof"](https://math.sfsu.edu/courses/301), during my first semester at SFSU, Fall 2012 (after having sat through two years of worthless community college classes, after having been cowed into feeling like I needed to finish my degree to prove that I could after doing poorly
+My psychiatric impairment that semester was particularly disappointing because I had been looking forward to "Real Analysis I" as my first "serious" school math class (being concerned with proving theorems rather than applying given techniques to given problem classes). I had wanted to take it concurrently with the prerequsite, ["Exploration and Proof"](https://math.sfsu.edu/courses/301) upon transferring to SFSU the previous semester, but was not permitted to. I had emailed Prof. "A" asking to be allowed to enroll, with evidence that I was ready (attaching a PDF of a small result I had proved about analogues of π under the _p_-norm, and including the contact email of my community college "Calculus III" professor, who agreed to vouch for my preparedness), but he didn't reply.
 
+Coming back eleven years later, I was eager to make up for that disappointment by picking up where I left off in ["Real Analysis II"](https://webapps.sfsu.edu/public/classservices/classsearch/detail/2247/REG/6041) with the same Prof. "A". I came to the classroom early the first day and made a point of marking my territory, using the whiteboard
 
+a proof of the multivariate chain rule
 
-
-
-
-
+Bernd S. W. Schröder's _Mathematical Analysis: A Concise Introduction_ 
 
 
  * https://tvtropes.org/pmwiki/pmwiki.php/Main/YouAreNumberSix
@@ -44,7 +41,7 @@ It was particularly disappointing because I had been looking forward to "Real An
 ### "Queer Literatures and Media"
 
  * Getting a C- is the funniest possible outcome
- * 
+ * forum post
  
 ### Cynicism and Sanity
 
@@ -56,9 +53,16 @@ It was particularly disappointing because I had been looking forward to "Real An
  * LLM use and citing it
  * quiz resubmit for half-credit thing
  * ducking out of class to coordinate on the Putnam registration
+ * being more aggressive about working the system
 
 the fiction of "grade level"
 
 re studying for life vs. studying for school, people also exercise outside of sports, but I _did_ train harder when I was competing—you could say, that was different because this is a matter of the soul
 
 Geoffrey Hinton
+
+### This Semester
+
+
+the world is small
+https://puzzlezapper.com/blog/2025/02/carnival-of-mathematics-236/
