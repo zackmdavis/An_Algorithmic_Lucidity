@@ -8,20 +8,45 @@ To be clear, "better than I expected" is not an endorsement of college. SF State
 
 But it didn't hurt this time, because I had a sense of humor about it now—and a sense of perspective (thanks to life experience, no thanks to school). Ultimately, [policy debates should not appear one-sided](https://www.readthesequences.com/Policy-Debates-Should-Not-Appear-One-Sided): if things are terrible, it's probably not because people are choosing the straightforwardly terrible thing for no reason whatsoever, with no trade-offs, coordination problems, or nonobvious truths making the terrible thing look better than it is. The thing that makes life under communism unbearable is the fact that you can't leave. Having escaped, and coming back as a visiting dignitary, one is a better position to make sense of how and why the regime functions—the problems it solves, at whatever cost in human lives or dignity—the forces that make it stable if not good.
 
-### Prologue [TODO: section title about my previous schooling troubles]
+### Prologue
+
+[prologue might get broken out into a separate post?]]
 
 [TODO—
- * pretty normal school experience 
-
-
-
-
+ * I would say I had a pretty normal school experience—public elementary school, then Jewish day school from 5th–8th grades after my parents thought I was sad in normal school, then public high school.
+ * I had accepted the necessity of school==education because everyone said so; looking back, there are clues.
+ * Reading stars and workbooks in 1st–2nd grade (they should have kept doing that!)
+ * Time in middle school where they let us play games and I thought less of it; the time in high school where he had a class party and I described high school life as "easy" in my Diary 
+ * The theme of intellectual ambition in my juvenillia: "The Greater Glory of Our Humble Academy" (and also, after my anti-school reformation, "Rusting in the Rain")
+ * The time my mother asked if I was OK at Santa Cruz and suggested the idea of DVC at home, and I said, are you _trying_ to sabotage my education?
+ * The time I thought I didn't want to go to college and wrote about it in my Diary (September 2005); "I could buy college textbooks and read them, all by myself"
+ * I had a really bad nervous breakdown when I didn't know how to write my "Introduction to Feminisms" paper in fall 2007, intending to take up my Safeway job and then
+ * Part of what made school hard was "the incomplete contract", not knowing what was allowed; at least in work there was more obviously a purpose other than to obey
+ * I don't know why this didn't bother me in high school as much, perhaps because college was more obviously a choice; I think it didn't bother me in middle school as much because my adult conscience hadn't fully grown yet (I remember plagiarizing other kids' summaries of _As a Driven Leaf_ rather than doing the reading myself)
+ * more evidence about the incomplete contract: asking Rich about how much of the reading he did at Stanford (contrast to Nicole in summer 2025 visit claiming she learned more in lecture and often skipped reading), Diary entry about linear algebra and office hours
+ * enrolled in Heald, thinking that "OK, they'll just teach me Job stuff" (which won't feel bad the way school did)
+ * I remember staff at Heald being shocked at my high test scores
+ * There was an elementary algebra requirement, which I imagined myself dominating, but I remember the staff saying I could clearly skip it because of my Santa Cruz calculus credits; they had a more pragmatic understanding of school than I did; the obedience test was all in my head!
+ * Heald still felt awful and I had a crying fit and quit again; passed the A+ and Network+ on my own, but never converted those into a job (could I have, if I had searched harder?)
+ * Fall 2010, tried to enroll in differential equations for fun, got "schooled", humiliating
+ * Then felt like I had to finish my degree in order to prove that I could (note that I have Diary coverage of this period and can quote it)
+ * DVC didn't have any more decent math classes; I took Calc III for completeness even though my vector-calc 23A from Santa Cruz might have covered it
+ * resenting the women-in-history professor not understanding what I was trying to do with the take-home test
+ * summer history teacher, my objection to colored pencils, her bafflement that I was in her class (peeking at her reading my papers during the test while feeling guilty for not having eyes on my own paper)
+ * book review log
+ * including math in LyX in papers whenever possible
+  * having to stay at DVC longer than I expected to cover the SFSU gened requirements (is there Diary coverage of this?)
+ * "Shakespeare Is Overrated", inviting Julia Galef as guest lecturer
+ * anxiety over whether to include Heald in transfer applications
+ * no response from Schuster about "Real Analysis I"
+ * bitterness and dejection at SFSU, Prof. Hosten being welcoming but not wanting to cover chapters ahead
+ * Hayashi was nice, Putnam disappointment
+ * App Academy and rescue and happily ever after
 ]
 
+### Doing It Right This Time (Math)
 
-### Doing It Right This Time
-
-My last class at SF State in Spring 2013 (before getting rescued by the software industry) had been [Real Analysis I"](https://math.sfsu.edu/courses/370) with Prof. "A". I regret that I wasn't in a state to properly focus and savor it at the time: I [had a pretty bad sleep-deprivation-induced psychotic break in early February 2013](http://zackmdavis.net/blog/2013/03/religious/) and for a few months thereafter was [mostly just trying to hold myself together](http://zackmdavis.net/blog/2013/04/prodrome/). I withdrew from my other classes and ended up getting a B−.
+My last class at SF State in Spring 2013 (before getting rescued by the software industry) had been [Real Analysis I"](https://math.sfsu.edu/courses/370) with Prof. Alex Schuster. I regret that I wasn't in a state to properly focus and savor it at the time: I [had a pretty bad sleep-deprivation-induced psychotic break in early February 2013](http://zackmdavis.net/blog/2013/03/religious/) and for a few months thereafter was [mostly just trying to hold myself together](http://zackmdavis.net/blog/2013/04/prodrome/). I withdrew from my other classes and ended up getting a B−.
 
 My psychiatric impairment that semester was particularly disappointing because I had been looking forward to "Real Analysis I" as my first "serious" school math class (being concerned with proving theorems rather than applying given techniques to given problem classes). I had wanted to take it concurrently with the prerequsite, ["Exploration and Proof"](https://math.sfsu.edu/courses/301) upon transferring to SFSU the previous semester, but was not permitted to. I had emailed Prof. "A" asking to be allowed to enroll, with evidence that I was ready (attaching a PDF of a small result I had proved about analogues of π under the _p_-norm, and including the contact email of my community college "Calculus III" professor, who agreed to vouch for my preparedness), but he didn't reply.
 
@@ -48,13 +73,15 @@ Bernd S. W. Schröder's _Mathematical Analysis: A Concise Introduction_
  * 82% midterm
  * botching a compactness proof on the final
  * didn't quite have the same rapport in office hours; lanauge and culture might have made a difference
-
+ * Putnam
+ * algebra tutoring and punch card
+ 
 ["I could if I wanted to"](https://www.youtube.com/watch?v=GUuU99c_9mY)
 
-### 
+###  (Non-Math)
 
  * Getting a C- is the funniest possible outcome
- * forum post
+ * forum post that wasn't acknowledged
  
 ### Cynicism and Sanity
 
@@ -62,11 +89,15 @@ Bernd S. W. Schröder's _Mathematical Analysis: A Concise Introduction_
  * Grief that I didn't know how to do this when I was young; I could have majored in math (even if I'm actually a philosopher) and taken the Putnam and started my career in 2010
  * The TA recommeneded I look up the solution manual online 
  * clicking through anti-harrassment training is obviously OK
- * tutoring center punch card
+ * a memory of "mandatory orientation"
  * LLM use and citing it
  * quiz resubmit for half-credit thing
  * ducking out of class to coordinate on the Putnam registration
  * being more aggressive about working the system
+
+
+
+-------
 
 the fiction of "grade level"
 
@@ -80,12 +111,8 @@ cognitive formidibility as a theme in my junvenilia fiction (in retrospect, I fe
 
 Shakespeare vs. Hrunkner Unnerby
 
-### This Semester
-
 the world is small
 https://puzzlezapper.com/blog/2025/02/carnival-of-mathematics-236/
-
-mandatory orientation
 
 XKCD on one weekend with Perl
 
