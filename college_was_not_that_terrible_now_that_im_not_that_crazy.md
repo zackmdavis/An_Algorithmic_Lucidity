@@ -23,7 +23,8 @@ But it didn't hurt this time, because I had a sense of humor about it now—and 
  * I had a really bad nervous breakdown when I didn't know how to write my "Introduction to Feminisms" paper in fall 2007, intending to take up my Safeway job and then
  * Part of what made school hard was "the incomplete contract", not knowing what was allowed; at least in work there was more obviously a purpose other than to obey
  * I don't know why this didn't bother me in high school as much, perhaps because college was more obviously a choice; I think it didn't bother me in middle school as much because my adult conscience hadn't fully grown yet (I remember plagiarizing other kids' summaries of _As a Driven Leaf_ rather than doing the reading myself)
- * more evidence about the incomplete contract: asking Rich about how much of the reading he did at Stanford (contrast to Nicole in summer 2025 visit claiming she learned more in lecture and often skipped reading), Diary entry about linear algebra and office hours
+ * more evidence about the incomplete contract: asking Rich about how much of the reading he did at Stanford (contrast to Nicole in summer 2025 visit claiming she learned more in lecture and often skipped reading), Diary entry about linear algebra and office hours (and more confessions in Diary 260)
+ * Meggie Sprengel
  * enrolled in Heald, thinking that "OK, they'll just teach me Job stuff" (which won't feel bad the way school did)
  * I remember staff at Heald being shocked at my high test scores
  * There was an elementary algebra requirement, which I imagined myself dominating, but I remember the staff saying I could clearly skip it because of my Santa Cruz calculus credits; they had a more pragmatic understanding of school than I did; the obedience test was all in my head!
@@ -31,6 +32,7 @@ But it didn't hurt this time, because I had a sense of humor about it now—and 
  * Fall 2010, tried to enroll in differential equations for fun, got "schooled", humiliating
  * Then felt like I had to finish my degree in order to prove that I could (note that I have Diary coverage of this period and can quote it)
  * DVC didn't have any more decent math classes; I took Calc III for completeness even though my vector-calc 23A from Santa Cruz might have covered it
+ * "Competing Accounts of the Events of September 11, 2001: A Simplified and Incomplete Bayesian Analysis"
  * resenting the women-in-history professor not understanding what I was trying to do with the take-home test
  * summer history teacher, my objection to colored pencils, her bafflement that I was in her class (peeking at her reading my papers during the test while feeling guilty for not having eyes on my own paper)
  * book review log
@@ -38,6 +40,7 @@ But it didn't hurt this time, because I had a sense of humor about it now—and 
   * having to stay at DVC longer than I expected to cover the SFSU gened requirements (is there Diary coverage of this?)
  * "Shakespeare Is Overrated", inviting Julia Galef as guest lecturer
  * anxiety over whether to include Heald in transfer applications
+ * Calc III show-off
  * no response from Schuster about "Real Analysis I"
  * bitterness and dejection at SFSU, Prof. Hosten being welcoming but not wanting to cover chapters ahead
  * Hayashi was nice, Putnam disappointment
