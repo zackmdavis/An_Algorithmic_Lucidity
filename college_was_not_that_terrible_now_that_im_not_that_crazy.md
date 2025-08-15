@@ -8,7 +8,7 @@ To be clear, "better than I expected" is not an endorsement of college. SF State
 
 But it didn't hurt this time, because I had a sense of humor about it now—and a sense of perspective (thanks to life experience, no thanks to school). Ultimately, [policy debates should not appear one-sided](https://www.readthesequences.com/Policy-Debates-Should-Not-Appear-One-Sided): if things are terrible, it's probably not because people are choosing the straightforwardly terrible thing for no reason whatsoever, with no trade-offs, coordination problems, or nonobvious truths making the terrible thing look better than it is. The thing that makes life under communism unbearable is the fact that you can't leave. Having escaped, and coming back as a visiting dignitary, one is a better position to make sense of how and why the regime functions—the problems it solves, at whatever cost in human lives or dignity—the forces that make it stable if not good.
 
-### Prologue
+### Past Prologue
 
 [prologue might get broken out into a separate post?]]
 
@@ -38,54 +38,108 @@ But it didn't hurt this time, because I had a sense of humor about it now—and 
  * book review log
  * including math in LyX in papers whenever possible
   * having to stay at DVC longer than I expected to cover the SFSU gened requirements (is there Diary coverage of this?)
- * "Shakespeare Is Overrated", inviting Julia Galef as guest lecturer
+ * "The Skriker and the Relativity of Aesthetic Value"
+ * "_Anarchy Evolution_ and Selection as an Optimization Process" ("THis is the best community college paper I have ever read") "Shakespeare Is Overrated", inviting Julia Galef as guest lecturer
  * anxiety over whether to include Heald in transfer applications
  * Calc III show-off
  * no response from Schuster about "Real Analysis I"
  * bitterness and dejection at SFSU, Prof. Hosten being welcoming but not wanting to cover chapters ahead
  * Hayashi was nice, Putnam disappointment
+  * a memory from 2013: he asked what a sequence was, I said, "A function from the naturals to the reals", he asked how I knew that, I said, "I know how to read"
+ * obsessively doing lots of math in my private pages and neglecting my official schoolwork; B in "Probability and Statistics I", B+ in "Mathematical Optimization" (and I'm kind of suspicious of the grading curve there)
  * App Academy and rescue and happily ever after
 ]
 
 ### Doing It Right This Time (Math)
 
-My last class at SF State in Spring 2013 (before getting rescued by the software industry) had been [Real Analysis I"](https://math.sfsu.edu/courses/370) with Prof. Alex Schuster. I regret that I wasn't in a state to properly focus and savor it at the time: I [had a pretty bad sleep-deprivation-induced psychotic break in early February 2013](http://zackmdavis.net/blog/2013/03/religious/) and for a few months thereafter was [mostly just trying to hold myself together](http://zackmdavis.net/blog/2013/04/prodrome/). I withdrew from my other classes and ended up getting a B−.
+#### Real Analysis II (Fall 2024)
 
-My psychiatric impairment that semester was particularly disappointing because I had been looking forward to "Real Analysis I" as my first "serious" school math class (being concerned with proving theorems rather than applying given techniques to given problem classes). I had wanted to take it concurrently with the prerequsite, ["Exploration and Proof"](https://math.sfsu.edu/courses/301) upon transferring to SFSU the previous semester, but was not permitted to. I had emailed Prof. "A" asking to be allowed to enroll, with evidence that I was ready (attaching a PDF of a small result I had proved about analogues of π under the _p_-norm, and including the contact email of my community college "Calculus III" professor, who agreed to vouch for my preparedness), but he didn't reply.
+My last class at SF State in Spring 2013 (before getting rescued by the software industry) had been [Real Analysis I"](https://math.sfsu.edu/courses/370) with Prof. Alex Schuster. I regret that I wasn't in a state to properly focus and savor it at the time: I [had a pretty bad sleep-deprivation-induced psychotic break in early February 2013](http://zackmdavis.net/blog/2013/03/religious/) and for a few months thereafter was [mostly just trying to hold myself together](http://zackmdavis.net/blog/2013/04/prodrome/). I withdrew from my other classes ("Introduction to Functions of a Complex Variable" and "Urban Issues of Black Children and Youth") and ended up getting a B−.
 
-Coming back eleven years later, I was eager to make up for that disappointment by picking up where I left off in ["Real Analysis II"](https://webapps.sfsu.edu/public/classservices/classsearch/detail/2247/REG/6041) with the same Prof. "A". I came to the classroom early the first day and made a point of marking my territory, using the whiteboard
+My psychiatric impairment that semester was particularly disappointing because I had been looking forward to "Real Analysis I" as my first "serious" school math class, being concerned with proving theorems rather than applying given techniques to given problem classes. I had wanted to take it concurrently with the prerequsite, ["Exploration and Proof"](https://math.sfsu.edu/courses/301) (which I didn't consider sufficiently "serious") upon transferring to SFSU the previous semester, but was not permitted to. I had emailed Prof. Schuster asking to be allowed to enroll, with evidence that I was ready (attaching a PDF of a small result I had proved about analogues of π under the _p_-norm, and including the contact email of Prof. Robert Hasner of Diablo Valley College, who had been my "Calculus III" professor and had agreed to vouch for my preparedness), but he didn't reply.
 
-a proof of the multivariate chain rule
+Coming back eleven years later, I was eager to make up for that disappointment by picking up where I left off in "Real Analysis II" with the same Prof. Schuster. On the first day on instruction, I wore a collared shirt and tie (and mask, having contracted COVID-19 while traveling the previous week) and came to classroom early to make a point of marking my territory, using the whiteboard to write out the first part of a proof of the multivariate chain rule that I was working through in Bernd S. W. Schröder's _Mathematical Analysis: A Concise Introduction_—my favorite analysis textbook, which I had discovered in the SFSU library in 2012 and subsequently bought my own copy. (I would soon check up on the withdrawal stamp sheet in the front of the library's copy. No one had checked it out in the intervening twelve years.)
 
-Bernd S. W. Schröder's _Mathematical Analysis: A Concise Introduction_ 
+The official University Bulletin officially titled the course "Real Analysis II: Several Variables", so you'd expect trying to get a leg up on the multidimensional chain rule would be studying ahead for the course, but it turned out that the Bulletin was lying relative to the syllabus that Prof. Schuster had emailed out the week before: we would be covering series, series of functions, and metric space topology. Fine. (I was already pretty familiar with metric space topology, but even my "non-epsilon" calculus-level knowledge of series was weak; to me, the topic stunk of school rather than freedom.)
 
+"Real II" was an intimate class that semester, befitting the SFSU's status as a [garbage-tier institution](https://en.wikipedia.org/wiki/List_of_research_universities_in_the_United_States#Map_of_R2_institutions): there were only seven or eight students enrolled. It was one of many classes in the department that were cross-listed as both a graduate ("MATH 770") and upper-division undergraduate course ("MATH 470"). I was the only student enrolled in 470. The university website [hosted an old syllabus from 2008](http://archive.today/2025.08.14-233957/https://math.sfsu.edu/courses/470) which said that the graduate students would additionally write a paper on an approved topic, but that wasn't a thing the way Prof. Schuster was teaching the class. Partway through the semester, I was added to Canvas (the online course management system) for the 770 class, to save Prof. Schuster and the TA Sean Hadley the hassle of maintaining both.
 
- * https://tvtropes.org/pmwiki/pmwiki.php/Main/YouAreNumberSix
+The textbook was _An Introduction to Analysis_ by William R. Wade, the same book that had been used for "Real I" in Spring 2013. It felt in bad taste for reasons that are hard to precisely articulate. I want to say the tone is patronizing, but don't feel like I could defend that judgement in debate against someone who doesn't share it. What I love so much about Schröder was how it manages to simultaneously be friendly to the novice (the early chapters sprinkling analysis tips and tricks as numbered "Standard Proof Techniques" among the numbered theorems and definitions) while also showcasing the fearsome technicality of the topic. In contrast, Wade is written like it's hiding something from children who are now in fact teenagers. Skipping ahead to chapter 11 (not covered in our course at SFSU), Wade's proof that differentiability of vector functions implies continuity briefly invokes the squeeze theorem. Schröder leaves the proof of that particular theorem as an exercise, but the other proofs in the section [...]
 
- * Picking up where I left off: my last class but SFSU was "Real Analysis I" with Prof. A in Spring 2013, this is "Real Analysis II" with Prof. A in Fall 2024,
-  * People talk about math courses by number
- * a memory from 2013: he asked what a sequence was, I said, "A function from the naturals to the reals", he asked how I knew that, I said, "I know how to read"
- * First day, I "marked my territory" by showing up and writing the multidimensional chain rule on the board
+gory inequalities that 
+
  * Prof. "A" does office hours in a conference room, which is great
- * The syllabus is a lie: you might expect that "Several Variables" (https://math.sfsu.edu/courses/470) would cover Stokes, but we actually covered series, series of functions, and metric spaces
- * intimate class: like 7 people
- * 470/770 split: I was the only undergraduate in "Math 470"
+ * People talk about math courses by number: https://tvtropes.org/pmwiki/pmwiki.php/Main/YouAreNumberSix
  * free Palestine and Rashid Khalidi
+
  * time for the Stone-Weirstrass
  * Prof. "A" impressed when a student mentioned ZFC; I think this is "knowing how to read" territory and should not be impressive
  * 82% midterm
  * botching a compactness proof on the final
- * didn't quite have the same rapport in office hours; lanauge and culture might have made a difference
- * Putnam
- * algebra tutoring and punch card
- 
-["I could if I wanted to"](https://www.youtube.com/watch?v=GUuU99c_9mY)
+ * http://zackmdavis.net/blog/2025/01/the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective/
 
-###  (Non-Math)
+
+#### Probability Models (Fall 2024)
+
+ * I had to get an add code 
+ * didn't quite have the same rapport in office hours; lanauge and culture might have made a difference
+
+#### The Putnam Exam
+
+I also organized a team for the Putnam Competition, SFSU's first in institutional memory. (I'm really proud of [my recruitment advertisements](http://zackmdavis.net/blog/2025/01/recruitment-advertisements-for-the-2024-putnam-competition-at-san-francisco-state-university/) to the _math\_majors@lists.sfsu.edu_ mailing list.) The story of the Putnam effort has been recounted in a separate post, ["The End of the Movie: SF State's 2024 Putnam Competition Team, A Retrospective"](http://zackmdavis.net/blog/2025/01/the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective/).
+
+As the email headers at the top of the post indicate, the post was originally composed for the department mailing lists, but it never actually got published there: department chair Eric Hsu wrote to me that it was "much too long to send directly to the whole department" but asked for my "permission to eventually share it with the department, either as a link or possibly as a department web page." (He cc'd a department office admin who I had spoken to about posting the Putnam training session announcements on the mailing list; reading between the lines, I'm imagining that she was puzzled by the long post and deferred to Prof. Hsu's authority about whether to let it through.)
+
+I assumed that the ask to share with the department "eventually" was polite bullshit on Hsu's part to let me down gently. (Probably no one gets to be department chair without being molded into a master of polite bullshit.) Privately, I didn't think the rationale made sense—it's just as easy to delete a long unwanted mailing list message as a short one; the email server wasn't going to run out of _paper_—but it seemed petty to argue. I replied that I hadn't known the rules for the mailing list and that he should feel free to share or not as he saw fit.
+
+#### Measure and Integration (Spring 2025)
+
+ * academic Senate 
+
+#### Theory of Functions of a Complex Variable (Spring 2025)
+
+
+
+ * the course numbers are actually informative
+
+#### Modern Algebra I (Spring 2025)
+
+One of the quirks of being an autodidact is that it's easy to end up with an "unbalanced" skill profile relative to what school authorities expect. As a student of mathematics, I consider myself more of an analyst than an algebraist and had not previously prioritized learning abstract algebra nor (what the school authorities cared about) "taking" an algebra "class", neither last semester nor in Fall 2012/Spring 2013. (Over the years, I had taken a few [desultory swings at Dummit & Foote](http://zackmdavis.net/blog/2019/05/group-theory-for-wellness-i/), but never got very far.)
+
+But "Modern Algebra I" was a graduation requirement,
+
+so I found myself in Prof. Dusty Ross
+
+
+ * 
+
+Prof. Ross is an outstanding schoolteacher, the best I encountered at SFSU. I choose my words here very carefully. _My_ favorite professor was Alex Schuster.
+
+
+
+
+Prof. Ross is a better teacher, but Prof. Schuster is a better person, because Dusty Ross _believes_ in San Francisco State University; Alex Schuster just works there.
+
+
+ * algebra tutoring and punch card
+
+
+
+
+### Not Sweating the Fake Stuff (Non-Math)
 
  * Getting a C- is the funniest possible outcome
  * forum post that wasn't acknowledged
- 
+
+#### Queer Literatures and Media (Fall 2024)
+
+["I could if I wanted to"](https://www.youtube.com/watch?v=GUuU99c_9mY)
+
+#### Philosophy of Animals (Spring 2025)
+
+#### Self, Place, and Knowing: An Introduction to Interdisciplinary Inquiry (Spring 2025)
+
+
 ### Cynicism and Sanity
 
  * the linear algebra credits
@@ -97,96 +151,5 @@ Bernd S. W. Schröder's _Mathematical Analysis: A Concise Introduction_
  * quiz resubmit for half-credit thing
  * ducking out of class to coordinate on the Putnam registration
  * being more aggressive about working the system
-
-
-
--------
-
-the fiction of "grade level"
-
-re studying for life vs. studying for school, people also exercise outside of sports, but I _did_ train harder when I was competing—you could say, that was different because this is a matter of the soul
-
-Geoffrey Hinton
-
-Steven Byrnes on changing the world through Slack and hobbies
-
-cognitive formidibility as a theme in my junvenilia fiction (in retrospect, I feel like I was trying too hard)
-
-Shakespeare vs. Hrunkner Unnerby
-
-the world is small
-https://puzzlezapper.com/blog/2025/02/carnival-of-mathematics-236/
-
-XKCD on one weekend with Perl
-
-SAT predicts college GPA, high school GPA doesn't (and communty college is high school)
-https://x.com/MengHu13/status/1901771403470250138
-https://opportunityinsights.org/wp-content/uploads/2024/01/SAT_ACT_on_Grades.pdf
-
-https://x.com/GabrielPeterss4/status/1902512259659919669
-
-https://x.com/IvanVendrov/status/1911218627182772264
-> the key social tech that college and ~no other institution has is the ability to hard commit to 100h of deep work in a specific domain with a group of people.
-> 100h is a sweet spot between the 2-5h commitments we call "events" or the 3000h+ commitments we call "jobs"
-
-complaining about the Defend Public Ed event via email and then embarrassing myself in the followup email because I wasn't in class because I was interviewing the machine shop guy
-
-https://unoptimal.substack.com/p/reflections-on-a-year-of-college
-
-https://www.henryjosephson.com/writing/college-advice/
-
-> it is not recommended that you learn logic in this manner.
-https://philosophy.sfsu.edu/formal-logic-challenge-exam
-
-STEM childhood
-https://x.com/Saraht0n1n/status/1916495641863192836
-https://benexdict.io/p/math-team
-
-I'm alienated from schoolwork (I don't remember it the way I remember my blogging), but ... I'm also kind of alienated from paid work? (I wrote a lot of code for SwiftStack and Coalition, it's not salient in the way my own projects are)
-
-"Each question should be about 4-6 sentences as you ask the question and give context."—I'm not sure I met that
-
-https://thezvi.wordpress.com/2025/05/09/cheaters-gonna-cheat-cheat-cheat-cheat-cheat/
-
-if I wanted to avoid this particular source of moral ambiguity at all costs but still wanted a Bachelor's degree, I could have taken easier classes for which I wouldn't need so much LLM assistance to help with the material ... it's just that that would be insane. I think the thing I'm doing now, of jointly trying to maximize math knowledge while also participating in the standard system to help with that, makes sense, and minimizing perceived moral ambiguity (which is all in my head) is just a really stupid goal
-
-
-Prof. Lai feedback on assignment #7: "I like your footnote. Very genuine and is a modern way of learning math."
-
-
-algebra homework lead times (due/submitted)—
-H1
-	Feb 5 by 11am 	Jan 28 at 10:13pm 		
-HW2
-	Feb 12 by 11am 	Jan 30 at 10:17pm 		
-HW3
-	Feb 19 by 11am 	Feb 8 at 1:34pm 		
-HW4
-	Feb 26 by 11am 	Feb 14 at 3:41pm 		
-HW5
-	Mar 5 by 11am 	Mar 1 at 6:09pm 		
-HW6
-	Mar 12 by 11am 	Mar 10 at 11:23pm 		
-HW7
-	Mar 19 by 11am 	Mar 17 at 11:18pm 		
-HW9
-	Apr 9 by 11am 	Mar 26 at 3:03pm 		
-HW10
-	Apr 16 by 11am 	Apr 14 at 7:15pm 		
-HW11
-	Apr 23 by 11am 	Apr 19 at 6:11pm 		
-HW12
-	Apr 30 by 11am 	Apr 28 at 10:39pm 		
-HW13
-	May 7 by 11am 	May 5 at 1:12pm 		
-HW14
-	May 14 by 11am 	May 13 at 10:01pm 
-
-"Self, Place, and Knowing" quiz; I think I remember succumbing to temptation to look at the PDF at one point, but it didn't counterfactually change my answer
-
-https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2009/resources/mit18_102s09_pset01/
-"Write out a proof (you can steal it from one of many places but at least write it out in your own hand)"
-
-https://www.thefp.com/p/ai-everyones-cheating-thats-good-news
-
-Estimate: I did "about" 25.5 pages of complex analysis homework/takehomes (plus 4 page expository paper) and 17.25 pages of measure theory homework. So if I start doing private work to the same standard, say 60 pages is the equivalent of a school semester?
+ * Peter Verdone
+ * it was chance that I ended up deciding to finish before moving; finishing at Reno would be harder
