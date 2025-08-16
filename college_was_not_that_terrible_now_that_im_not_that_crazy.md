@@ -64,23 +64,29 @@ The official University Bulletin officially titled the course "Real Analysis II:
 
 "Real II" was an intimate class that semester, befitting the SFSU's status as a [garbage-tier institution](https://en.wikipedia.org/wiki/List_of_research_universities_in_the_United_States#Map_of_R2_institutions): there were only seven or eight students enrolled. It was one of many classes in the department that were cross-listed as both a graduate ("MATH 770") and upper-division undergraduate course ("MATH 470"). I was the only student enrolled in 470. The university website [hosted an old syllabus from 2008](http://archive.today/2025.08.14-233957/https://math.sfsu.edu/courses/470) which said that the graduate students would additionally write a paper on an approved topic, but that wasn't a thing the way Prof. Schuster was teaching the class. Partway through the semester, I was added to Canvas (the online course management system) for the 770 class, to save Prof. Schuster and the TA Sean Hadley the hassle of maintaining both.
 
-The textbook was _An Introduction to Analysis_ by William R. Wade, the same book that had been used for "Real I" in Spring 2013. It felt in bad taste for reasons that are hard to precisely articulate. I want to say the tone is patronizing, but don't feel like I could defend that judgement in debate against someone who doesn't share it. What I love so much about Schröder was how it manages to simultaneously be friendly to the novice (the early chapters sprinkling analysis tips and tricks as numbered "Standard Proof Techniques" among the numbered theorems and definitions) while also showcasing the fearsome technicality of the topic. In contrast, Wade is written like it's hiding something from children who are now in fact teenagers. Skipping ahead to chapter 11 (not covered in our course at SFSU), Wade's proof that differentiability of vector functions implies continuity briefly invokes the squeeze theorem. Schröder leaves the proof of that particular theorem as an exercise, but the other proofs in the section [...]
+The textbook was _An Introduction to Analysis_ by William R. Wade, the same book that had been used for "Real I" in Spring 2013. It felt in bad taste for reasons that are hard to precisely articulate. I want to say the tone is patronizing, but don't feel like I could defend that judgement in debate against someone who doesn't share it. What I love about Schröder is how it tries to simultaneously be friendly to the novice (the early chapters sprinkling analysis tips and tricks as numbered "Standard Proof Techniques" among the numbered theorems and definitions) while also showcasing the fearsome technicality of the topic in excruciatingly detailed estimates (proofs involving chains of inequalities, typically ending on "< ε"). In contrast, Wade often feels like it's hiding something from children who are now in fact teenagers.
 
-gory inequalities that 
+The assignments were a lot of work, but that was good. It was what I was there for—to prove that I could do the work.
 
- * Prof. "A" does office hours in a conference room, which is great
+Prof. Schuster held his office hours in the math department conference room rather than his office, which created a nice environment for multiple people to work or socialize, in addition to asking Prof. Schuster questions. I came almost every time, whether or not I had an analysis question for Prof. Schuster. Often there were other students from "Real II" or Prof. Schuster's "Real I" class there, or a lecturer who also enjoyed the environment, but sometimes it was just me.
+
+Office hours chatter didn't confine itself to math. Prof. Schuster sometimes wore a Free Palestine bracelet. I asked him what I should read to understand the pro-Palestinian position, which had been neglected in my Jewish upbringing. He recommended Rashid Khalidi's _The Hundred Years' War on Palestine_, which I read and found informative (in contrast to the student pro-Palestine demonstrators on campus, who I found anti-persuasive).
+
+The culture of school didn't feel quite as bad as I remembered. It's unclear to me how much of this is due to my memory having stored a hostile caricature, and how much is due to my being less sensitive to it this time. When I was at SFSU a dozen years ago, I remember seething with hatred at how everyone talked about their studies in terms of classes and teachers and grades, rather than about the subject matter in itself. There was still a lot of that—bad enough that I complained about it at every opportunity—but I wasn't seething with hatred anymore, as if I had come to terms with it as mere dysfunction and not sacrilege.
+
  * People talk about math courses by number: https://tvtropes.org/pmwiki/pmwiki.php/Main/YouAreNumberSix
- * free Palestine and Rashid Khalidi
+
 
  * time for the Stone-Weirstrass
  * Prof. "A" impressed when a student mentioned ZFC; I think this is "knowing how to read" territory and should not be impressive
  * 82% midterm
  * botching a compactness proof on the final
- * http://zackmdavis.net/blog/2025/01/the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective/
 
 
 #### Probability Models (Fall 2024)
 
+ * Mujamdar
+ * prereqs: linear algebra, probability and statistics I (now math 440), and calc III
  * I had to get an add code 
  * didn't quite have the same rapport in office hours; lanauge and culture might have made a difference
 
@@ -88,17 +94,15 @@ gory inequalities that
 
 I also organized a team for the Putnam Competition, SFSU's first in institutional memory. (I'm really proud of [my recruitment advertisements](http://zackmdavis.net/blog/2025/01/recruitment-advertisements-for-the-2024-putnam-competition-at-san-francisco-state-university/) to the _math\_majors@lists.sfsu.edu_ mailing list.) The story of the Putnam effort has been recounted in a separate post, ["The End of the Movie: SF State's 2024 Putnam Competition Team, A Retrospective"](http://zackmdavis.net/blog/2025/01/the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective/).
 
-As the email headers at the top of the post indicate, the post was originally composed for the department mailing lists, but it never actually got published there: department chair Eric Hsu wrote to me that it was "much too long to send directly to the whole department" but asked for my "permission to eventually share it with the department, either as a link or possibly as a department web page." (He cc'd a department office admin who I had spoken to about posting the Putnam training session announcements on the mailing list; reading between the lines, I'm imagining that she was puzzled by the long post and deferred to Prof. Hsu's authority about whether to let it through.)
+As the email headers at the top of the post indicate, the post was originally composed for the department mailing lists, but it never actually got published there: department chair Eric Hsu wrote to me that it was "much too long to send directly to the whole department" but asked for my "permission to eventually share it with the department, either as a link or possibly as a department web page." (He cc'd a department office admin who I had spoken to about posting the Putnam training session announcements on the mailing list; reading between the lines, I'm imagining that she was discomfited by the tone of the post and appealed to Prof. Hsu's authority about whether to let it through.)
 
 I assumed that the ask to share with the department "eventually" was polite bullshit on Hsu's part to let me down gently. (Probably no one gets to be department chair without being molded into a master of polite bullshit.) Privately, I didn't think the rationale made sense—it's just as easy to delete a long unwanted mailing list message as a short one; the email server wasn't going to run out of _paper_—but it seemed petty to argue. I replied that I hadn't known the rules for the mailing list and that he should feel free to share or not as he saw fit.
 
 #### Measure and Integration (Spring 2025)
 
- * academic Senate 
+
 
 #### Theory of Functions of a Complex Variable (Spring 2025)
-
-
 
  * the course numbers are actually informative
 
@@ -111,7 +115,7 @@ But "Modern Algebra I" was a graduation requirement,
 so I found myself in Prof. Dusty Ross
 
 
- * 
+
 
 Prof. Ross is an outstanding schoolteacher, the best I encountered at SFSU. I choose my words here very carefully. _My_ favorite professor was Alex Schuster.
 
@@ -128,12 +132,12 @@ Prof. Ross is a better teacher, but Prof. Schuster is a better person, because D
 
 ### Not Sweating the Fake Stuff (Non-Math)
 
- * Getting a C- is the funniest possible outcome
- * forum post that wasn't acknowledged
 
 #### Queer Literatures and Media (Fall 2024)
 
 ["I could if I wanted to"](https://www.youtube.com/watch?v=GUuU99c_9mY)
+ * Getting a C- is the funniest possible outcome
+ * forum post that wasn't acknowledged
 
 #### Philosophy of Animals (Spring 2025)
 
@@ -153,3 +157,4 @@ Prof. Ross is a better teacher, but Prof. Schuster is a better person, because D
  * being more aggressive about working the system
  * Peter Verdone
  * it was chance that I ended up deciding to finish before moving; finishing at Reno would be harder
+ 
