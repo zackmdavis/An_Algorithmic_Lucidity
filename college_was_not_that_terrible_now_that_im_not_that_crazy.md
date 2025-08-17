@@ -52,6 +52,8 @@ But it didn't hurt this time, because I had a sense of humor about it now—and 
 
 ### Doing It Right This Time (Math)
 
+The undergraduate mathematics program at SFSU has three tracks: for "advanced studies", for teaching, and for liberal arts. My student record from 2013 was still listed as on the advanced studies track. In order to graduate as quickly as possible, I switched to the liberal arts track, which, beyond a set of "core" courses, only requires five electives numbered 300 or higher. The only core course I hadn't completed was "Modern Algebra I", and I had done two electives in Fall 2012 ("Mathematical Optimization" and "Probability and Statistics I"), so I only had four math courses (including "Modern Algebra I") to complete for the major.
+
 #### Real Analysis II (Fall 2024)
 
 My last class at SF State in Spring 2013 (before getting rescued by the software industry) had been [Real Analysis I"](https://math.sfsu.edu/courses/370) with Prof. Alex Schuster. I regret that I wasn't in a state to properly focus and savor it at the time: I [had a pretty bad sleep-deprivation-induced psychotic break in early February 2013](http://zackmdavis.net/blog/2013/03/religious/) and for a few months thereafter was [mostly just trying to hold myself together](http://zackmdavis.net/blog/2013/04/prodrome/). I withdrew from my other classes ("Introduction to Functions of a Complex Variable" and "Urban Issues of Black Children and Youth") and ended up getting a B−.
@@ -66,24 +68,41 @@ The official University Bulletin officially titled the course "Real Analysis II:
 
 The textbook was _An Introduction to Analysis_ by William R. Wade, the same book that had been used for "Real I" in Spring 2013. It felt in bad taste for reasons that are hard to precisely articulate. I want to say the tone is patronizing, but don't feel like I could defend that judgement in debate against someone who doesn't share it. What I love about Schröder is how it tries to simultaneously be friendly to the novice (the early chapters sprinkling analysis tips and tricks as numbered "Standard Proof Techniques" among the numbered theorems and definitions) while also showcasing the fearsome technicality of the topic in excruciatingly detailed estimates (proofs involving chains of inequalities, typically ending on "< ε"). In contrast, Wade often feels like it's hiding something from children who are now in fact teenagers.
 
-The assignments were a lot of work, but that was good. It was what I was there for—to prove that I could do the work.
+The assignments were a lot of work, but that was good. It was what I was there for—to prove that I could do the work. I could do most of the proofs with some effort. In 2012–2013, I remembered submitting paper homework for a lot of classes at SFSU, but now, everything was to uploaded uploaded to Canvas. I did all my writeups in LyX, a GUI editor (I know) for LaTeX.
+
+[TODO: pull out a graf about LLMs being new, and
+When I got stuck, I sought help at office hours or from a large language model (citing the fact that I got help in my writeup).
+]
 
 Prof. Schuster held his office hours in the math department conference room rather than his office, which created a nice environment for multiple people to work or socialize, in addition to asking Prof. Schuster questions. I came almost every time, whether or not I had an analysis question for Prof. Schuster. Often there were other students from "Real II" or Prof. Schuster's "Real I" class there, or a lecturer who also enjoyed the environment, but sometimes it was just me.
 
-Office hours chatter didn't confine itself to math. Prof. Schuster sometimes wore a Free Palestine bracelet. I asked him what I should read to understand the pro-Palestinian position, which had been neglected in my Jewish upbringing. He recommended Rashid Khalidi's _The Hundred Years' War on Palestine_, which I read and found informative (in contrast to the student pro-Palestine demonstrators on campus, who I found anti-persuasive).
+Office hours chatter didn't confine itself to math. Prof. Schuster sometimes wore a Free Palestine bracelet. I asked him what I should read to understand the pro-Palestinian position, which had been neglected in my Jewish upbringing. He recommended Rashid Kalidi's _The Hundred Years' War on Palestine_, which I read and found informative (in contrast to the student pro-Palestine demonstrators on campus, who I found anti-persuasive).
 
-The culture of school didn't feel quite as bad as I remembered. It's unclear to me how much of this is due to my memory having stored a hostile caricature, and how much is due to my being less sensitive to it this time. When I was at SFSU a dozen years ago, I remember seething with hatred at how everyone talked about their studies in terms of classes and teachers and grades, rather than about the subject matter in itself. There was still a lot of that—bad enough that I complained about it at every opportunity—but I wasn't seething with hatred anymore, as if I had come to terms with it as mere dysfunction and not sacrilege.
+I got along fine with the other students, but do not seem to have formed any lasting friendships. The culture of school didn't feel quite as bad as I remembered. It's unclear to me how much of this is due to my memory having stored a hostile caricature, and how much is due to my being less sensitive to it this time. When I was at SFSU a dozen years ago, I remember seething with hatred at how everyone talked about their studies in terms of classes and teachers and grades, rather than about the subject matter in itself. There was still a lot of that—bad enough that I complained about it at every opportunity—but I wasn't seething with hatred anymore, as if I had come to terms with it as mere dysfunction and not sacrilege. I only cried while complaining about it a couple times.
 
- * People talk about math courses by number: https://tvtropes.org/pmwiki/pmwiki.php/Main/YouAreNumberSix
+One of my signature gripes was about the way people in the department habitually refered to courses by number rather than title, which felt [like something out of a dystopian YA novel](https://tvtropes.org/pmwiki/pmwiki.php/Main/YouAreNumberSix). A course title like "Real Analysis II" at least communicates that the students are working on real analysis, even if the opaque "II" doesn't expose which real-analytic topics are covered. In contrast, a course number like "MATH 770" _doesn't mean anything_ outside of SFSU's bureaucracy. It isn't how people would talk if they believed there was a subject matter worth knowing about except insofar as the customs of bureaucratic servitude demanded it.
 
+There were two examinations: a midterm, and the final. Each involved stating some definitions, identifying some propositions as true or false with a brief justification, and writing two or three proofs. A reference sheet was allowed, which made the definitions portion somewhat farcical as a test of anything more than having bothered to prepare a reference sheet. (I objected to Prof. Schuster calling it a "cheat sheet." Since he was allowing it, it's wasn't "cheating"!)
 
- * time for the Stone-Weirstrass
- * Prof. "A" impressed when a student mentioned ZFC; I think this is "knowing how to read" territory and should not be impressive
- * 82% midterm
- * botching a compactness proof on the final
-
+I did okay. I posted a 32.5/40 (81%) on the midterm. I'm embarrassed by my performance on the final. It looked easy, and I left the examination room an hour early after providing an answer to all the questions, only to realize a couple hours later that I had completely botched a compactness proof. Between that gaffe, the midterm, and my homework grades, I was expecting to end up with a B+ in the course. (How mortifying—to have gone back to school almost specifically for this course and then _not even get an A_.) But when the final grades came in, it ended up being an A: Prof. Schuster only knocked off 6 points for the bogus proof, and had a policy of discarding the midterm grade when the final exam grade was higher. It still seemed to me that that should have probably worked out to an A− rather than an A, but it wasn't my job to worry about that.
 
 #### Probability Models (Fall 2024)
+
+In addition to the serious math–math of analysis, the practical math of probability seemed like a good choice for making the most of my elective credits at the university, so I also enrolled in Prof. Mujamdar's "Probability Models" for the Fall 2024 semester. The prerequisites were linear algebra, "Probability and Statistics I", and "Calculus III", but the registration webapp hadn't allowed me to enroll, presumably because it didn't believe I knew linear algebra. (The linear algebra requirement at SFSU was four units. My linear algebra class from UCSC, which was on a quarter system, got translated to 3.3 semester units.) Prof. Mujamdar hadn't replied to my 9 July 2024 email requesting a permission code, but got me the code after telling me to send a followup email after I inquired in person at the end of the first class.
+
+(I had also considered taking the online-only "Introduction to Linear Models", which had the same prerequisites, but Prof. Kafai also hadn't replied to my July email, and I didn't bother following up, which was just as well: the semester ended up feeling busy enough with just the real analysis, probability models, my gen-ed puff course, and maintaining my soul in an environment that assumes people need a bureaucratic control structure in order to keep busy.)
+
+
+
+
+Like "Real II", "Probability Models" was also administratively cross-listed as both a graduate ("MATH 742", "Advanced Probability Models") and upper-division undergraduate course ("MATH 442"), despite no difference whatsoever in the work required of graduate and undergraduate students.
+
+
+
+There was a memorable moment when Prof. Mujamdar asked which students were in undergrad. I raised my hand. "Really?" she said.
+
+
+
 
  * Mujamdar
  * prereqs: linear algebra, probability and statistics I (now math 440), and calc III
@@ -102,6 +121,7 @@ I assumed that the ask to share with the department "eventually" was polite bull
 
 
 
+
 #### Theory of Functions of a Complex Variable (Spring 2025)
 
  * the course numbers are actually informative
@@ -114,19 +134,11 @@ But "Modern Algebra I" was a graduation requirement,
 
 so I found myself in Prof. Dusty Ross
 
-
-
-
 Prof. Ross is an outstanding schoolteacher, the best I encountered at SFSU. I choose my words here very carefully. _My_ favorite professor was Alex Schuster.
-
-
-
 
 Prof. Ross is a better teacher, but Prof. Schuster is a better person, because Dusty Ross _believes_ in San Francisco State University; Alex Schuster just works there.
 
-
  * algebra tutoring and punch card
-
 
 
 
@@ -157,4 +169,3 @@ Prof. Ross is a better teacher, but Prof. Schuster is a better person, because D
  * being more aggressive about working the system
  * Peter Verdone
  * it was chance that I ended up deciding to finish before moving; finishing at Reno would be harder
- 
