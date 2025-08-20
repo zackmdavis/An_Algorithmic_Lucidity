@@ -58,11 +58,11 @@ The undergraduate mathematics program at SFSU has three tracks: for "advanced st
 
 My last class at SF State in Spring 2013 (before getting rescued by the software industry) had been [Real Analysis I"](https://math.sfsu.edu/courses/370) with Prof. Alex Schuster. I regret that I wasn't in a state to properly focus and savor it at the time: I [had a pretty bad sleep-deprivation-induced psychotic break in early February 2013](http://zackmdavis.net/blog/2013/03/religious/) and for a few months thereafter was [mostly just trying to hold myself together](http://zackmdavis.net/blog/2013/04/prodrome/). I withdrew from my other classes ("Introduction to Functions of a Complex Variable" and "Urban Issues of Black Children and Youth") and ended up getting a B−.
 
-My psychiatric impairment that semester was particularly disappointing because I had been looking forward to "Real Analysis I" as my first "serious" school math class, being concerned with proving theorems rather than applying given techniques to given problem classes. I had wanted to take it concurrently with the prerequsite, ["Exploration and Proof"](https://math.sfsu.edu/courses/301) (which I didn't consider sufficiently "serious") upon transferring to SFSU the previous semester, but was not permitted to. I had emailed Prof. Schuster asking to be allowed to enroll, with evidence that I was ready (attaching a PDF of a small result I had proved about analogues of π under the _p_-norm, and including the contact email of Prof. Robert Hasner of Diablo Valley College, who had been my "Calculus III" professor and had agreed to vouch for my preparedness), but he didn't reply.
+My psychiatric impairment that semester was particularly disappointing because I had been looking forward to "Real Analysis I" as my first "serious" math class, being concerned with proving theorems rather than the "school-math" that most people associate with the subject, of applying given techniques to given problem classes. I had wanted to take it concurrently with the prerequsite, ["Exploration and Proof"](https://math.sfsu.edu/courses/301) (which I didn't consider sufficiently "serious") upon transferring to SFSU the previous semester, but was not permitted to. I had emailed Prof. Schuster asking to be allowed to enroll, with evidence that I was ready (attaching a PDF of a small result I had proved about analogues of π under the _p_-norm, and including the contact email of Prof. Robert Hasner of Diablo Valley College, who had been my "Calculus III" professor and had agreed to vouch for my preparedness), but he didn't reply.
 
 Coming back eleven years later, I was eager to make up for that disappointment by picking up where I left off in "Real Analysis II" with the same Prof. Schuster. On the first day on instruction, I wore a collared shirt and tie (and mask, having contracted COVID-19 while traveling the previous week) and came to classroom early to make a point of marking my territory, using the whiteboard to write out the first part of a proof of the multivariate chain rule that I was working through in Bernd S. W. Schröder's _Mathematical Analysis: A Concise Introduction_—my favorite analysis textbook, which I had discovered in the SFSU library in 2012 and subsequently bought my own copy. (I would soon check up on the withdrawal stamp sheet in the front of the library's copy. No one had checked it out in the intervening twelve years.)
 
-The official University Bulletin officially titled the course "Real Analysis II: Several Variables", so you'd expect trying to get a leg up on the multidimensional chain rule would be studying ahead for the course, but it turned out that the Bulletin was lying relative to the syllabus that Prof. Schuster had emailed out the week before: we would be covering series, series of functions, and metric space topology. Fine. (I was already pretty familiar with metric space topology, but even my "non-epsilon" calculus-level knowledge of series was weak; to me, the topic stunk of school rather than freedom.)
+The official University Bulletin officially titled the course "Real Analysis II: Several Variables", so you'd expect trying to get a leg up on the multidimensional chain rule would be studying ahead for the course, but it turned out that the Bulletin was lying relative to the syllabus that Prof. Schuster had emailed out the week before: we would be covering series, series of functions, and metric space topology. Fine. (I was already pretty familiar with metric space topology, but even my "non-epsilon" calculus-level knowledge of series was weak; to me, the topic stunk of school.)
 
 "Real II" was an intimate class that semester, befitting the SFSU's status as a [garbage-tier institution](https://en.wikipedia.org/wiki/List_of_research_universities_in_the_United_States#Map_of_R2_institutions): there were only seven or eight students enrolled. It was one of many classes in the department that were cross-listed as both a graduate ("MATH 770") and upper-division undergraduate course ("MATH 470"). I was the only student enrolled in 470. The university website [hosted an old syllabus from 2008](http://archive.today/2025.08.14-233957/https://math.sfsu.edu/courses/470) which said that the graduate students would additionally write a paper on an approved topic, but that wasn't a thing the way Prof. Schuster was teaching the class. Partway through the semester, I was added to Canvas (the online course management system) for the 770 class, to save Prof. Schuster and the TA Sean Hadley the hassle of maintaining both.
 
@@ -70,7 +70,7 @@ The textbook was _An Introduction to Analysis_ by William R. Wade, the same book
 
 The assignments were a lot of work, but that was good. It was what I was there for—to prove that I could do the work. I could do most of the proofs with some effort. In 2012–2013, I remembered submitting paper homework for a lot of classes at SFSU, but now, everything was to uploaded uploaded to Canvas. I did all my writeups in LyX, a GUI editor (I know) for LaTeX.
 
-[TODO: pull out a graf about LLMs being new, and
+[TODO: pull out a graf about LLMs being new, and being useful enough but still confused about some things
 When I got stuck, I sought help at office hours or from a large language model (citing the fact that I got help in my writeup).
 ]
 
@@ -88,30 +88,44 @@ I did okay. I posted a 32.5/40 (81%) on the midterm. I'm embarrassed by my perfo
 
 #### Probability Models (Fall 2024)
 
-In addition to the serious math–math of analysis, the practical math of probability seemed like a good choice for making the most of my elective credits at the university, so I also enrolled in Prof. Mujamdar's "Probability Models" for the Fall 2024 semester. The prerequisites were linear algebra, "Probability and Statistics I", and "Calculus III", but the registration webapp hadn't allowed me to enroll, presumably because it didn't believe I knew linear algebra. (The linear algebra requirement at SFSU was four units. My linear algebra class from UCSC, which was on a quarter system, got translated to 3.3 semester units.) Prof. Mujamdar hadn't replied to my 9 July 2024 email requesting a permission code, but got me the code after telling me to send a followup email after I inquired in person at the end of the first class.
+In addition to the rarified math-math of analysis, the practical math of probability seemed like a good choice for making the most of my elective credits at the university, so I also enrolled in Prof. Mujamdar's "Probability Models" for the Fall 2024 semester. The prerequisites were linear algebra, "Probability and Statistics I", and "Calculus III", but the registration webapp hadn't allowed me to enroll, presumably because it didn't believe I knew linear algebra. (The linear algebra requirement at SFSU was four units. My 2007 linear algebra class from UCSC, which was on a quarter system, got translated to 3.3 semester units.) Prof. Mujamdar hadn't replied to my 9 July 2024 email requesting a permission code, but got me the code after telling me to send a followup email after I inquired in person at the end of the first class.
 
 (I had also considered taking the online-only "Introduction to Linear Models", which had the same prerequisites, but Prof. Kafai also hadn't replied to my July email, and I didn't bother following up, which was just as well: the semester ended up feeling busy enough with just the real analysis, probability models, my gen-ed puff course, and maintaining my soul in an environment that assumes people need a bureaucratic control structure in order to keep busy.)
 
+Like "Real II", "Probability Models" was also administratively cross-listed as both a graduate ("MATH 742", "Advanced Probability Models") and upper-division undergraduate course ("MATH 442"), despite no difference whatsoever in the work required of graduate and undergraduate students. After some weeks of reviewing the basics of random variables and conditional expectation, the course covered Markov chains and the Poisson process.
+
+Lectures were punctuated with recitation days on which we took a brief quiz and then did exercises from a worksheet for the rest of the class period. There was more content to cover than the class meeting schedule could accomodate, so there were also video lectures on Canvas, which I mostly did not watch. (I attended class because it was a social expectation and because attendance was 10% of the grade, but I preferred to learn from the book. As long as I was completing the assignments, that shouldn't be a problem ... right?)
+
+In contrast to what I considered serious math, the course was very much school-math about applying particular techniques to solve particular problem classes, taken to the parodic extent of quizzes and tests re-using worksheet problems verbatim. (You'd expect a statistics professor to know not to test on the training set!)
+
+It was still a lot of work, which I knew needed to be taken seriously in order to do well in the course. The task of the quiz #2 was to derive the moment-generating function of the exponential distribution. I had done that successfully from the recitation worksheet earlier, but apparently that and the homework hadn't been enough practice, because I botched it on the quiz day. After the quiz, Prof. Mujamdar wrote the correct derivation on the board. She had also said that we could re-submit a correction to our quiz for half-credit, but I found this policy confusing: it felt morally questionable that it should be possible to just copy down the solution from the board and submit that, even for partial credit. (I guess the policy made sense from the perspective of schoolstudents needing to be nudged and manipulated with credit in order to do even essential things like trying to learn from one's mistakes.) For my resubmission, I did the correct derivation at home in LyX, got it printed, and bought it to office hours the next class day. I resolved to be better prepared for future quizzes (to at least not botch them, minor errors aside) in order to avoid the indignity of having an incentive to resubmit.
+
+I continued my practice of using LLMs for hints when I got stuck on assignments, and citing the help in my writeup; Prof. Mujamdar seemed OK with it when I mentioned it at office hours.
+
+I was apparently more conscientious than most students. Outside of class, the teaching assistant who graded our assignments recommended that I make use of the text's solutions manual (which was circulating in various places online) to check my work. Apparently, he had reason to suspect that some other students in the class were just copying from the solution manual, but was not given the authority to prosecute the matter when he raised the issue to the professor. He said that felt bad marking me down for my mistakes when it was clear that I was trying to do the work.
+
+The student quality seemed worse than "Real II", at least along the dimensions that I was sensitive to. There was a memorable moment when Prof. Mujamdar asked which students were in undergrad. I raised my hand. "Really?" she said.
+
+
+[TODO: A procedure that we performed 
+
+Late in the semester, I learned from non-course reading that the
+
+gap between the eigenvalues 
+
+I tried pointing this out in class; I don't think anyone got it. I don't think the professor got it, either (not because she couldn't have, but because it was unepxected); it just wasn't that kind of place, whereas Prof. Schuster's class was, to some extent ]
 
 
 
-Like "Real II", "Probability Models" was also administratively cross-listed as both a graduate ("MATH 742", "Advanced Probability Models") and upper-division undergraduate course ("MATH 442"), despite no difference whatsoever in the work required of graduate and undergraduate students.
+[TODO—
 
-
-
-There was a memorable moment when Prof. Mujamdar asked which students were in undergrad. I raised my hand. "Really?" she said.
-
-
-
-
- * Mujamdar
- * prereqs: linear algebra, probability and statistics I (now math 440), and calc III
- * I had to get an add code 
  * didn't quite have the same rapport in office hours; lanauge and culture might have made a difference
+
+]
 
 #### The Putnam Exam
 
-I also organized a team for the Putnam Competition, SFSU's first in institutional memory. (I'm really proud of [my recruitment advertisements](http://zackmdavis.net/blog/2025/01/recruitment-advertisements-for-the-2024-putnam-competition-at-san-francisco-state-university/) to the _math\_majors@lists.sfsu.edu_ mailing list.) The story of the Putnam effort has been recounted in a separate post, ["The End of the Movie: SF State's 2024 Putnam Competition Team, A Retrospective"](http://zackmdavis.net/blog/2025/01/the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective/).
+I also organized a team for the Putnam Competition, SFSU's first in institutional memory. (I'm really proud of [my recruitment advertisements](http://zackmdavis.net/blog/2025/01/recruitment-advertisements-for-the-2024-putnam-competition-at-san-francisco-state-university/) to the math majors' mailing list.) The story of the Putnam effort has been recounted in a separate post, ["The End of the Movie: SF State's 2024 Putnam Competition Team, A Retrospective"](http://zackmdavis.net/blog/2025/01/the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective/).
 
 As the email headers at the top of the post indicate, the post was originally composed for the department mailing lists, but it never actually got published there: department chair Eric Hsu wrote to me that it was "much too long to send directly to the whole department" but asked for my "permission to eventually share it with the department, either as a link or possibly as a department web page." (He cc'd a department office admin who I had spoken to about posting the Putnam training session announcements on the mailing list; reading between the lines, I'm imagining that she was discomfited by the tone of the post and appealed to Prof. Hsu's authority about whether to let it through.)
 
@@ -154,7 +168,6 @@ Prof. Ross is a better teacher, but Prof. Schuster is a better person, because D
 #### Philosophy of Animals (Spring 2025)
 
 #### Self, Place, and Knowing: An Introduction to Interdisciplinary Inquiry (Spring 2025)
-
 
 ### Cynicism and Sanity
 
