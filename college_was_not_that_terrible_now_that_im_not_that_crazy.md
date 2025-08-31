@@ -98,7 +98,7 @@ In contrast to what I considered serious math, the course was very much school-m
 
 It was still a lot of work, which I knew needed to be taken seriously in order to do well in the course. The task of quiz #2 was to derive the moment-generating function of the exponential distribution. I had done that successfully from the recitation worksheet earlier, but apparently that and the homework hadn't been enough practice, because I botched it on the quiz day. After the quiz, Prof. Mujamdar wrote the correct derivation on the board. She had also said that we could re-submit a correction to our quiz for half-credit, but I found this policy confusing: it felt morally questionable that it should be possible to just copy down the solution from the board and hand that in, even for partial credit. (I guess the policy made sense from the perspective of schoolstudents needing to be nudged and manipulated with credit in order to do even essential things like trying to learn from one's mistakes.) For my resubmission, I did the correct derivation at home in LyX, got it printed, and bought it to office hours the next class day. I resolved to be better prepared for future quizzes (to at least not botch them, minor errors aside) in order to avoid the indignity of having an incentive to resubmit, and mostly succeeded.
 
-I would end up doing a resubmission for quiz #8, which was about how to sample from an exponential distribution (with λ=1) given the ability to sample from the uniform distribution on [0,1] by inverting the exponential's cumulative distribution function. (It had been covered in class, and I had gotten plenty of practice on that week's assignments with importance sampling using exponential proposal distributions, but I did it Rust and used the rand_distr library rather than what was apparently the intended method of implementing exponential sampling from a uniform RNG "from scratch".) I blunted the indignity of my resubmission recapitulating the answer written on the board after the quiz by additionally inverting by myself the CDF of a different distribution, the Pareto.
+I would end up doing a resubmission for quiz #8, which was about how to sample from an exponential distribution (with λ=1) given the ability to sample from the uniform distribution on [0,1] by inverting the exponential's cumulative distribution function. (It had been covered in class, and I had gotten plenty of practice on that week's assignments with importance sampling using exponential proposal distributions, but I did it Rust and used the rand_distr library rather than what was apparently the intended method of implementing exponential sampling from a uniform RNG "from scratch".) I blunted the indignity of my resubmission recapitulating the answer written on the board after the quiz by additionally inverting by myself the c.d.f. of a different distribution, the Pareto.
 
 I continued my practice of using LLMs for hints when I got stuck on assignments, and citing the help in my writeup; Prof. Mujamdar seemed OK with it when I mentioned it at office hours. (I went to office hours occasionally, when I had a question for Prof. Mujamdar, who was kind and friendly to me, but it wasn't a social occasion like Prof. Schuster's conference-room office hours.)
 
@@ -140,9 +140,9 @@ I did okay. I was late on some of the assignments (and didn't entirely finish as
 
 My other graduate course was "Theory of Functions of a Complex Variable" ("MATH 730"), taught by Prof. Chun-Kit Lai. I loved the pretentious title and pronounced all seven words at every opportunity. (Everyone else, including Prof. Lai's syllabus, said "complex analysis" when they didn't say "730".)
 
-The content lived up to the pretension of the title. This was unambiguously the hardest school class I had ever taken. Not in the sense that Prof. Lai was particularly strict about grades or anything; on the contrary, he seemed charmingly easygoing about the institutional structure of school, while of course taking it for granted as an unquestioned background feature of existence. He was just pitching the material to a higher level than Prof. Schuster or Axler.
+The content lived up to the pretension of the title. This was unambiguously the hardest school class I had ever taken. Not in the sense that Prof. Lai was particularly strict about grades or anything; on the contrary, he seemed charmingly easygoing about the institutional structure of school, while of course taking it for granted as an unquestioned background feature of existence. But he was pitching the material to a higher level than Prof. Schuster or Axler.
 
-The textbook was _Complex Analysis_ by Elias M. Stein and Rami Shakarchi, volume II in their "Princeton Lectures in Analysis" series. Stein and Shakarchi leave a lot to the reader. It wasn't to my taste—but this time, I knew the problem was on my end. My distaste for Wade and Ross had been a reflection of the ways in which I was spiritually superior to the generic SFSU student; my distaste for Stein and Shakarchi reflected the grim reality that I was right where I belonged.
+The textbook was _Complex Analysis_ by Elias M. Stein and Rami Shakarchi, volume II in their "Princeton Lectures in Analysis" series. Stein and Shakarchi leave a lot to the reader (who is assumed to be a Princeton student). It wasn't to my taste—but this time, I knew the problem was on my end. My distaste for Wade and Ross had been a reflection of the ways in which I was spiritually superior to the generic SFSU student; my distaste for Stein and Shakarchi reflected the grim reality that I was right where I belonged.
 
 I don't think I was alone in finding the work difficult. Prof. Lai gave the entire class an extension to rebsubmit assignment #2 because the average performance had been so poor.
 
@@ -154,13 +154,32 @@ I told myself not to worry about it. Prof. Lai had said in class and in office h
 
 Prof. Lai eschewed in-person exams in favor of take-homes for both the midterm and the final. He said reasonable internet reference usage was allowed, as with the assignments. I didn't ask for further clarification, but resolved to myself that for the take-homes, I would allow myself static websites but obviously no LLMs. (I had already neurotically asked for clarification about the assignments once more than was necessary. I suspect he would have allowed LLMs if I had asked—I didn't get the sense that he yet understood the edge that the latest models offered over mere books and websites—but even asking would have been undignified.)
 
-I got a [TODO: lookup score] on the midterm. [TODO: describe errors]
+I got a 73 on the midterm. [TODO: describe errors, my takehome/midterm split looks bad]
 
-[TODO: expository paper]
+There were only 9 homework assignments during the semester (contrasted to 12 in "Measure and Integration") to give us time to work on an expository paper and presentation on one of the Gamma function, the Reimann zeta function, the prime number theorem, or elliptic functions. I wrote four pages on "Pinpointing the Generalized Factorial", explaining the significance of the Gamma function, except that I'm not fond of how the definition is shifted by one from what anyone would expect, so I wrote about the unshifted Pi function instead. I wish I had allocated more time to it.
 
-There were only 9 assignments during the semester (contrasted to 12 in "Measure and Integration") to give us time to work on it.
+This was my one opporunity to "write a paper" and not merely "complete an assignment"
 
-[TODO: Discord log of Prof. Lai's reaction to frontier LLMs]
+[TODO: 95/100 final, math.SE use, "don't worry, everyone will get a good grade"; getting an A; I could have used the inverse function theorem
+
+> #4 Yes. The key is all closed loops either wrap both poles and does not wrap any pole. Therefore, primitive exists. I could put a point off here, but this is a subtle point, so let's make it OK.
+]
+
+[TODO: Discord log of Prof. Lai's reaction to frontier LLMs
+
+4/29 discussion
+Fyodorov — 4/29/25, 9:13 PM
+Nah it's fine
+That's exactly the kind of thing I might do.
+After all, instructors will increasingly just assume you cheated with LLMs anyway, anything that shows you put actual thought in will be refreshing.
+"He actually bothered to ask the LLM to explain it rather than just cheating? Wow."
+Zack M. Davis — 4/29/25, 9:14 PM
+for this particular class/prof, I think I'm a semester or two early
+
+5/13
+... two weeks early (before class and in the conference room, this prof was remarking with surprise to people that he tried giving a bunch of analysis problems to Gemini last night and it got them right)
+
+]
 
 #### "Modern Algebra I" (Spring 2025)
 
@@ -201,7 +220,7 @@ Prof. Ross is a better teacher, but Prof. Schuster is a better person, because D
  * quiz resubmit for half-credit thing
  * ducking out of class to coordinate on the Putnam registration
  * being more aggressive about working the system
- * Peter Verdone
+ * Peter Verdone https://www.peterverdone.com/academia-math-trans-and-a-ton-of-other-stuff/
  * it was chance that I ended up deciding to finish before moving; finishing at Reno would be harder
 
 
