@@ -106,7 +106,7 @@ I was apparently more conscientious than most students. Outside of class, the gr
 
 The student quality seemed noticeably worse than "Real II", at least along the dimensions that I was sensitive to. There was a memorable moment when Prof. Mujamdar asked which students were in undergrad. I raised my hand. "Really?" she said.
 
-It was only late in the semester that I was alerted by non-course reading (specifically a footnote in the Daphne Koller and the other guy book) that the stationary distribution of a Markov chain is an eigenvector of the transition matrix with eigenvalue 1. Taking such a linear-algebraic view has interesting applications: for example, the mixing time of the chain is determined by the second-largest eigenvalue, which is less than one, because any starting distribution can be expressed in terms of an eigenbasis, and the coefficients of all but the stationary vector decay as you keep iterating.
+It was only late in the semester that I was alerted by non-course reading (specifically a footnote in the Daphne Koller and the other guy book) that the stationary distribution of a Markov chain is an eigenvector of the transition matrix with eigenvalue 1. Taking this linear-algebraic view has interesting applications: for example, the mixing time of the chain is determined by the second-largest eigenvalue, because any starting distribution can be expressed in terms of an eigenbasis, and the coefficients of all but the stationary vector decay as you keep iterating (because all the other eigenvalues are less than 1).
 
 The feeling of enlightenment was outweighed by embarrassment that I hadn't independently noticed that the stationary distribution was an eigenvector (we had been subtracting one off the main diagonal and solving the system for weeks; the operation should have _felt familiar_), and, more than either of those, annoyance that neither the textbook nor the professor had deigned to mention this relevant fact _in a course that had linear algebra as a prerequisite_. When I tried to point it out during the final review session, it didn't seem like Prof. Mujamdar had understood what I said—not for the lack of linear algebra knowledge, I'm sure—let alone any of the other students.
 
@@ -140,7 +140,7 @@ My other graduate course was "Theory of Functions of a Complex Variable" ("MATH 
 
 The content lived up to the pretension of the title. This was unambiguously the hardest school class I had ever taken. Not in the sense that Prof. Lai was particularly strict about grades or anything; on the contrary, he seemed charmingly easygoing about the institutional structure of school, while of course taking it for granted as an unquestioned background feature of existence. But he was pitching the material to a higher level than Prof. Schuster or Axler.
 
-The textbook was _Complex Analysis_ by Elias M. Stein and Rami Shakarchi, volume II in their "Princeton Lectures in Analysis" series. Stein and Shakarchi leave a lot to the reader (who is assumed to be a Princeton student). It wasn't to my taste—but this time, I knew the problem was on my end. My distaste for Wade and Ross had been a reflection of the ways in which I was spiritually superior to the generic SFSU student; my distaste for Stein and Shakarchi reflected the grim reality that I was right where I belonged.
+The textbook was _Complex Analysis_ by Elias M. Stein and Rami Shakarchi, volume II in their "Princeton Lectures in Analysis" series. Stein and Shakarchi leave a lot to the reader (who is prototypically a Princeton student). It wasn't to my taste—but this time, I knew the problem was on my end. My distaste for Wade and Ross had been a reflection of the ways in which I was spiritually superior to the generic SFSU student; my distaste for Stein and Shakarchi reflected the grim reality that I was right where I belonged.
 
 I don't think I was alone in finding the work difficult. Prof. Lai gave the entire class an extension to rebsubmit assignment #2 because the average performance had been so poor.
 
@@ -190,21 +190,58 @@ I mostly treated the algebra coursework as an afterthought to the analysis cours
 
 The Tutoring and Academic Support Center (TASC) offered tutoring for "Modern Algebra I", so I signed up for weekly tutoring sessions with the TA for the class, not because I needed help to do well in the class, but it was nice to work with someone. Sometimes I did the homework, sometimes we talked about some other algebra topic (from Dummit & Foote, or Ross & Clader that one week), one week I tried to explain my struggles with measure theory. TASC gave out "loyalty program"-style punch cards that bribed students with a choice of between two prizes every three tutoring sessions, which is as patronizing as it sounds, but wondering what the next prize options would be provided a source of anticipation and mystery; I got a pen and a button and a tote bag over the course of the semester.
 
-I posted a somewhat disappointing 79/90 (87.8%) on the final, mostly due to stupid mistakes or laziness on my part. Wracking my brain during a "Give an example of each the [_sic_] following" question on the exam, I was proud to have come up with the quaternions and even-integer quaternions as examples of noncommutative rings with and without unity, respectively.
+I posted a somewhat disappointing 79/90 (87.8%) on the final, mostly due to stupid mistakes or laziness on my part; I hadn't prepped that much. Wracking my brain during a "Give an example of each the [_sic_] following" question on the exam, I was proud to have come up with the quaternions and "even-integer quaternions" as examples of noncommutative rings with and without unity, respectively.
 
-He didn't give me credit for those. We hadn't covered that in class.
+He didn't give me credit for those. We hadn't covered the quaternions in class.
 
 ### Not Sweating the Fake Stuff (Non-Math)
 
-#### Queer Literatures and Media (Fall 2024)
+In addition to the gen-ed requirements that could be satisfied with transfer credits, there were also upper-division gen-ed requirements that had to be taken at SFSU: one class each from "UD-B: Physical and/or Life Sciences" (which I had satisfied with a ridiculous "Contemporary Sexuality" class in Summer 2012), "UD-C: Arts and/or Humanities", and "UD-D: Social Sciences". There was also an "Area E: Lifelong Learning and Self-Development" requirement, and four "SF State Studies" requirements (which overlapped with the UD- classes).
 
-["I could if I wanted to"](https://www.youtube.com/watch?v=GUuU99c_9mY)
+[TODO: check website and clarify exact reqs, Area E and SF State Studies might be new]
+
+#### "Queer Literatures and Media" (Fall 2024)
+
+I try to keep it separate from my wholesome math and philosophy blogging, but at this point [it's not a secret that](http://unremediatedgender.space/2023/Jul/i-am-dropping-the-pseudonym-from-this-blog/) I have a sideline in gender-politics blogging. As soon as I saw the title in the schedule of classes, it was clear that if I had to sit through another gen-ed class, "Queer Literatures and Media" was the obvious choice. I thought I might be able to reuse some of my coursework for the blog, or if nothing else, get an opportunity to troll the professor.
+
+The schedule of classes had said the course was to be taught by Prof. Deborah Cohler, so in addition to the listed required texts, I bought the Kindle version of her _Citizen, Invert, Queer: Lesbianism and War in Early Twentieth-Century Britain_, thinking that "I read your book, and ..." would make an ideal office-hours icebreaker. There was a last-minute change: the course would actually be taught by Prof. Sasha Goldberg (who would not be using Prof. Cohler's book list; I requested Kindle Store refunds on most of them).
+
+[TODO: look up Kindle Store refunds and mention the books I kept]
+
+I didn't take the class very seriously. That semester, I was taking "Real Analysis II" and "Probability Models" seriously, because for those classes, I had something to prove—that I could do well in upper-division math classes if I wanted to. For this class, the claim that ["I could if I wanted to"](https://www.youtube.com/watch?v=GUuU99c_9mY) didn't really seem in doubt.
+
+I didn't _not_ want to. But even easy tasks take time that could be spent doing other things. I didn't always get around to doing all of the assigned reading or video-watching. I didn't read the assigned segment of _Giovanni's Room_. (And honestly disclosed that fact during class discussion.) I skimmed a lot of the narratives in _The Stonewall Reader_. My analysis of _Carol_ (assigned as 250 words, but I wrote 350) used evidence from a scene in the first quarter of the film, because that was all I sat through. I read the _Wikipedia_ synopsis of _They/Them_ instead of sitting through the whole film. I skimmed a lot of _Fun Home_, which was literally a comic book that you'd expect me to enjoy.
+
+[TODO: ordering _Code White_ and then not reading it]
+
+My negligence was the source of some angst. If I was going back to school to "do it right this time", why couldn't I even be bothered to watch a movie as commanded? The shame! But the reason I had come back was that I could recognize the moral seriousness of a command to prove a theorem about uniform convergence. For this class, while I could have worked harder if I had wanted to, it was impossible take seriously.
+
+Asked to explain why the author of [an article](https://www.sfgayhistory.com/2014/10/28/sf-halloween-was-never-just-for-kids/) said that Halloween was "one of the High Holy Days for the gay community", I objected to the characterization as implicitly anti-Semitic and homophobic. The High Holy Days are not a "fun" masquerade holiday the way modern Halloween is. The יָמִים נוֹרָאִים—_yamim noraim_, "days of awe"—are a time of repentance and seeking closeness to God, in which it is said that הַשֵּׁם—_ha'Shem_, literally "the name", an epithet for God—will inscribe the names of the righteous in the Book of Life. Calling Halloween a gay High Holy Day implicitly disrespects either the Jews (by denying the seriousness of the Days of Awe), or the gays (by suggesting that their people are incapable of seriousness), or the reader (by assuming that they're incapable of any less superficial connection between holidays than "they both happen around October"). In contrast, describing Halloween as a gay Purim would have been entirely appropriate. "They tried to oppress us; we're still here; let’s have a masquerade party with alcohol" is entirely the spirit of both Purim and Halloween.
+
+I was proud of that answer (and Prof. Goldberg bought it), but it was the pride of coming up with something witty in response to a garbage prompt that had no other function than to prove that the student can read and write. I didn't really think the question was anti-Semitic and homophobic; I was doing a bit.
+
+
+[TODO: look up on Canvas what I wrote about that queers of color scholar of resistance]
+
+[TODO—
+ * office hours with Prof. Goldberg (ditching "Probability Models" lecture to do so) because office hours were just before or after class; she normally teaches at City College and was commuting to SFSU for this one class
+ * said she had never had a math major
+ * ignoring the presentation instructions and just writing a paper that footnotes my gender-politics blog a bunch of times (including the no-math-major barb)
+ * Commenting on "For my first source, I chose"; went I complained to Prof. Goldberg, she said we could talk about methodology later, but the assignment was what it was
  * Getting a C- is the funniest possible outcome
  * forum post that wasn't acknowledged
+ * notecard as proof that I had done the reading; deliberately not turning one in when I thought I didn't deserve it
+ * I banged out my final paper/pres on Dec 8-9, the two days after the Putnam exam
+]
 
-#### Philosophy of Animals (Spring 2025)
+Given the assignments I had skipped and my blatant disregard of the final presentation instructions, I ended up getting a C− in the class, which is perhaps the funniest possible outcome. 
 
-#### Self, Place, and Knowing: An Introduction to Interdisciplinary Inquiry (Spring 2025)
+#### "Philosophy of Animals" (Spring 2025)
+
+I wrote a 630 word email in response (Subject: "ostroveganism vs. Schelling points (was: "Phil 392 - Welcome")") arguing that there are game-theoretic reasons for animal welfare advocates to commit to vegetarianism or veganism despite a _prima facie_ case that oysters don't suffer—with a postscript asking if referring to courses by number was common in the philosophy department.
+
+
+#### "Self, Place, and Knowing: An Introduction to Interdisciplinary Inquiry" (Spring 2025)
 
 ### Cynicism and Sanity
 
