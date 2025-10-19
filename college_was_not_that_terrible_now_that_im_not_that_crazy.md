@@ -98,7 +98,7 @@ In contrast to what I considered serious math, the course was very much school-m
 
 It was still a lot of work, which I knew needed to be taken seriously in order to do well in the course. The task of quiz #2 was to derive the moment-generating function of the exponential distribution. I had done that successfully from the recitation worksheet earlier, but apparently that and the homework hadn't been enough practice, because I botched it on the quiz day. After the quiz, Prof. Mujamdar wrote the correct derivation on the board. She had also said that we could re-submit a correction to our quiz for half-credit, but I found this policy confusing: it felt morally questionable that it should be possible to just copy down the solution from the board and hand that in, even for partial credit. (I guess the policy made sense from the perspective of schoolstudents needing to be nudged and manipulated with credit in order to do even essential things like trying to learn from one's mistakes.) For my resubmission, I did the correct derivation at home in LyX, got it printed, and bought it to office hours the next class day. I resolved to be better prepared for future quizzes (to at least not botch them, minor errors aside) in order to avoid the indignity of having an incentive to resubmit, and mostly succeeded.
 
-I would end up doing a resubmission for quiz #8, which was about how to sample from an exponential distribution (with λ=1) given the ability to sample from the uniform distribution on [0,1] by inverting the exponential's cumulative distribution function. (It had been covered in class, and I had gotten plenty of practice on that week's assignments with importance sampling using exponential proposal distributions, but I did it Rust and used the rand_distr library rather than what was apparently the intended method of implementing exponential sampling from a uniform RNG "from scratch".) I blunted the indignity of my resubmission recapitulating the answer written on the board after the quiz by additionally inverting by myself the c.d.f. of a different distribution, the Pareto.
+I would end up doing a resubmission for quiz #8, which was about how to sample from an exponential distribution (with λ=1) given the ability to sample from the uniform distribution on [0,1], by inverting the exponential's cumulative distribution function. (It had been covered in class, and I had gotten plenty of practice on that week's assignments with importance sampling using exponential proposal distributions, but I did it Rust and used the rand_distr library rather than what was apparently the intended method of implementing exponential sampling from a uniform RNG "from scratch".) I blunted the indignity of my resubmission recapitulating the answer written on the board after the quiz by additionally inverting by myself the c.d.f. of a different distribution, the Pareto.
 
 I continued my practice of using LLMs for hints when I got stuck on assignments, and citing the help in my writeup; Prof. Mujamdar seemed OK with it when I mentioned it at office hours. (I went to office hours occasionally, when I had a question for Prof. Mujamdar, who was kind and friendly to me, but it wasn't a social occasion like Prof. Schuster's conference-room office hours.)
 
@@ -206,19 +206,28 @@ I try to keep it separate from my wholesome math and philosophy blogging, but at
 
 The schedule of classes had said the course was to be taught by Prof. Deborah Cohler, so in addition to the listed required texts, I bought the Kindle version of her _Citizen, Invert, Queer: Lesbianism and War in Early Twentieth-Century Britain_, thinking that "I read your book, and ..." would make an ideal office-hours icebreaker. There was a last-minute change: the course would actually be taught by Prof. Sasha Goldberg (who would not be using Prof. Cohler's book list; I requested Kindle Store refunds on most of them).
 
+[TODO: genderbread person course resource https://www.itspronouncedmetrosexual.com/2018/10/the-genderbread-person-v4/]
+
 [TODO: look up Kindle Store refunds and mention the books I kept]
 
-I didn't take the class very seriously. That semester, I was taking "Real Analysis II" and "Probability Models" seriously, because for those classes, I had something to prove—that I could do well in upper-division math classes if I wanted to. For this class, the claim that ["I could if I wanted to"](https://www.youtube.com/watch?v=GUuU99c_9mY) didn't really seem in doubt.
+I didn't take the class very seriously. I was taking "Real Analysis II" and "Probability Models" seriously that semester, because for those classes, I had something to prove—that I could do well in upper-division math classes if I wanted to. For this class, the claim that ["I could if I wanted to"](https://www.youtube.com/watch?v=GUuU99c_9mY) didn't really seem in doubt.
 
-I didn't _not_ want to. But even easy tasks take time that could be spent doing other things. I didn't always get around to doing all of the assigned reading or video-watching. I didn't read the assigned segment of _Giovanni's Room_. (And honestly disclosed that fact during class discussion.) I skimmed a lot of the narratives in _The Stonewall Reader_. My analysis of _Carol_ (assigned as 250 words, but I wrote 350) used evidence from a scene in the first quarter of the film, because that was all I sat through. I read the _Wikipedia_ synopsis of _They/Them_ instead of sitting through the whole film. I skimmed a lot of _Fun Home_, which was literally a comic book that you'd expect me to enjoy.
+I didn't _not_ want to. But even easy tasks take time that could be spent doing other things. I didn't always get around to doing all of the assigned reading or video-watching. I didn't read the assigned segment of _Giovanni's Room_. (And honestly disclosed that fact during class discussion.) I skimmed a lot of the narratives in _The Stonewall Reader_. My analysis of _Carol_ (assigned as 250 words, but I wrote 350) used evidence from a scene in the first quarter of the film, because that was all I sat through. I read the _Wikipedia_ synopsis of _They/Them_ instead of sitting through the whole film. I skimmed part of _Fun Home_, which was literally a comic book that you'd expect me to enjoy.
 
 [TODO: ordering _Code White_ and then not reading it]
 
-My negligence was the source of some angst. If I was going back to school to "do it right this time", why couldn't I even be bothered to watch a movie as commanded? The shame! But the reason I had come back was that I could recognize the moral seriousness of a command to prove a theorem about uniform convergence. For this class, while I could have worked harder if I had wanted to, it was impossible take seriously.
+My negligence was the source of some angst. If I was going back to school to "do it right this time", why couldn't I even be bothered to watch a movie as commanded?
 
-Asked to explain why the author of [an article](https://www.sfgayhistory.com/2014/10/28/sf-halloween-was-never-just-for-kids/) said that Halloween was "one of the High Holy Days for the gay community", I objected to the characterization as implicitly anti-Semitic and homophobic. The High Holy Days are not a "fun" masquerade holiday the way modern Halloween is. The יָמִים נוֹרָאִים—_yamim noraim_, "days of awe"—are a time of repentance and seeking closeness to God, in which it is said that הַשֵּׁם—_ha'Shem_, literally "the name", an epithet for God—will inscribe the names of the righteous in the Book of Life. Calling Halloween a gay High Holy Day implicitly disrespects either the Jews (by denying the seriousness of the Days of Awe), or the gays (by suggesting that their people are incapable of seriousness), or the reader (by assuming that they're incapable of any less superficial connection between holidays than "they both happen around October"). In contrast, describing Halloween as a gay Purim would have been entirely appropriate. "They tried to oppress us; we're still here; let’s have a masquerade party with alcohol" is entirely the spirit of both Purim and Halloween.
+But the reason I had come back was that I could recognize the moral legitimacy of a command to prove a theorem about uniform convergence. For this class, while I could have worked harder if I had wanted to, it was hard to want to when the content was so impossible to take seriously.
+
+Asked to explain why the author of [an article](https://www.sfgayhistory.com/2014/10/28/sf-halloween-was-never-just-for-kids/) said that Halloween was "one of the High Holy Days for the gay community", I objected to the characterization as implicitly anti-Semitic and homophobic. The High Holy Days are not a "fun" masquerade holiday the way modern Halloween is. The יָמִים נוֹרָאִים—_yamim noraim_, "days of awe"—are a time of repentance and seeking closeness to God, in which it is said that הַשֵּׁם—_ha'Shem_, literally "the name", an epithet for God—will inscribe the names of the righteous in the Book of Life. Calling Halloween a gay High Holy Day implicitly disrespects either the Jews (by denying the seriousness of the Days of Awe), or the gays (by suggesting that their people are incapable of seriousness), or the reader (by assuming that they're incapable of any less superficial connection between holidays than "they both happen around October"). In contrast, describing Halloween as a gay Purim would have been entirely appropriate. "They tried to oppress us; we're still here; let's have a masquerade party with alcohol" is entirely the spirit of both Purim and Halloween.
 
 I was proud of that answer (and Prof. Goldberg bought it), but it was the pride of coming up with something witty in response to a garbage prompt that had no other function than to prove that the student can read and write. I didn't really think the question was anti-Semitic and homophobic; I was doing a bit.
+
+Another assignment asked us to write paragraphs connecting each of our more theoretical course readings (like an excerpt from _Disidentifications: Queers of Color and the Performance of Politics_) to _Gordo_, a collection of short stories about a gay Latino boy growing up in 1970s California. 
+
+[TODO: Muñoz's first name, fact-check Gordo timeline]
+
 
 
 [TODO: look up on Canvas what I wrote about that queers of color scholar of resistance]
@@ -240,6 +249,10 @@ Given the assignments I had skipped and my blatant disregard of the final presen
 
 I wrote a 630 word email in response (Subject: "ostroveganism vs. Schelling points (was: "Phil 392 - Welcome")") arguing that there are game-theoretic reasons for animal welfare advocates to commit to vegetarianism or veganism despite a _prima facie_ case that oysters don't suffer—with a postscript asking if referring to courses by number was common in the philosophy department.
 
+24 / 25 (+ 2 point curve)
+21.5 / 25 (+ 4 point curve)
+22/25 (+ 2 point curve)
+total grade 101.5%
 
 #### "Self, Place, and Knowing: An Introduction to Interdisciplinary Inquiry" (Spring 2025)
 
@@ -258,6 +271,9 @@ I wrote a 630 word email in response (Subject: "ostroveganism vs. Schelling poin
  * it was chance that I ended up deciding to finish before moving; finishing at Reno would be harder
  * I would have leaned on office hours more if LLMs didn't exist
  * the struggle and external resources are probably normal
+ * Prof. "A" impressed when a student mentioned ZFC; I think this is "knowing how to read" territory and should not be impressive; but MathAcademy Justin would say it "doesn't matter", and he had a point
+
+ * maybe I had spent all my life in classes that were just obedience tests, that it wasn't immediately obvious to recognize the good classes that weren't
 
 Afterwards, Prof. Schuster encouraged me via email to at least consider grad school, saying that I seemed comparable talent-wise to his peers in the University of Michigan Ph.D. program (which was ranked #10 in the U.S. at that time in the late '90s). I demurred: I said I would consider it if circumstances were otherwise, but in contrast to the last two semesters to finish undergrad, grad school didn't pass a cost-benefit analysis.
 
