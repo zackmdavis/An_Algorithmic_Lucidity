@@ -88,6 +88,8 @@ I did okay. I posted a 32.5/40 (81%) on the midterm. I'm embarrassed by my perfo
 
 In addition to the rarified math-math of analysis, the practical math of probability seemed like a good choice for making the most of my elective credits at the university, so I also enrolled in Prof. Mujamdar's "Probability Models" for the Fall 2024 semester. The prerequisites were linear algebra, "Probability and Statistics I", and "Calculus III", but the registration webapp hadn't allowed me to enroll, presumably because it didn't believe I knew linear algebra. (The linear algebra requirement at SFSU was four units. My 2007 linear algebra class from UCSC, which was on a quarter system, got translated to 3.3 semester units.) Prof. Mujamdar hadn't replied to my 9 July 2024 email requesting a permission code, but got me the code after telling me to send a followup email after I inquired in person at the end of the first class.
 
+[TODO: look up and insert Prof. Mujumdar's first name]
+
 (I had also considered taking the online-only "Introduction to Linear Models", which had the same prerequisites, but Prof. Kafai also hadn't replied to my July email, and I didn't bother following up, which was just as well: the semester ended up feeling busy enough with just the real analysis, probability models, my gen-ed puff course, and maintaining my soul in an environment that assumes people need a bureaucratic control structure in order to keep busy.)
 
 Like "Real II", "Probability Models" was also administratively cross-listed as both a graduate ("MATH 742", "Advanced Probability Models") and upper-division undergraduate course ("MATH 442"), despite no difference whatsoever in the work required of graduate and undergraduate students. After some weeks of reviewing the basics of random variables and conditional expectation, the course covered Markov chains and the Poisson process.
@@ -224,21 +226,31 @@ Asked to explain why the author of [an article](https://www.sfgayhistory.com/201
 
 I was proud of that answer (and Prof. Goldberg bought it), but it was the pride of coming up with something witty in response to a garbage prompt that had no other function than to prove that the student can read and write. I didn't really think the question was anti-Semitic and homophobic; I was doing a bit.
 
-Another assignment asked us to write paragraphs connecting each of our more theoretical course readings (like an excerpt from _Disidentifications: Queers of Color and the Performance of Politics_) to _Gordo_, a collection of short stories about a gay Latino boy growing up in 1970s California. 
+Another assignment asked us to write paragraphs connecting each of our more theoretical course readings (such as an excerpt from _Disidentifications: Queers of Color and the Performance of Politics_) to _Gordo_, a collection of short stories about a gay Latino boy growing up in 1970s California. (I think Prof. Goldberg was concerned that students hadn't gotten the "big ideas" of the course, such as they were, and wanted to give an assignment that would force us to re-read them.) I did it, and did it well, and got full credit. But it took _time_, and it didn't feel like time well spent.
 
 [TODO: Muñoz's first name, fact-check Gordo timeline]
 
+There was a discussion forum on Canvas, which is always depressing. No one ever posts in school class forums unless the teacher makes an assignment of it—except me. I threw together a quick 1800-word post, "in search of gender studies (as contrasted to gender activism)". It was clever, I thought, albeit rambling and self-indulgent, as one does when writing in haste. It felt like an obligation, to show the other schoolstudents what a forum could be and should be. No one replied.
 
+[TODO: can I pull the HTML from Canvas?]
 
-[TODO: look up on Canvas what I wrote about that queers of color scholar of resistance]
+I inquired about Prof. Goldberg's office hours, which turned out to be directly before and after class, which conflicted with my other classes. (I gathered that Prof. Goldberg was commuting to SF State specifically to teach this class in an adjunct capacity; she more commonly taught at City College San Francisco.) I ditched "Probability Models" lecture one day, just to talk with her about my whole deal. (She didn't seem to approve of me ditching another class when I mentioned that detail.)
 
-[TODO—
- * office hours with Prof. Goldberg (ditching "Probability Models" lecture to do so) because office hours were just before or after class; she normally teaches at City College and was commuting to SFSU for this one class
- * said she had never had a math major
+It went surprisingly well. Prof. Goldberg is a butch lesbian who, crucially, was old enough to remember the before-time prior to the hegemony of gender identity ideology, and seemed sympathetic to gentle skepticism of some of the newer ideas. She could grant that trans women's womanhood was different from that of cis women, and criticized the way activist tends to glamorizes suicide, in contrast to promoting narratives of queer resilience.
+
+[TODO: look up CCSF]
+
+When I mentioned my specialization, she remarked that she had never had a math major among her students. Privately, I doubted whether that was really true. (I couldn't be the only one who needed the gen-ed credits.) But I found it striking for the lack of intellectual ambition it implied within the discipline. I unironically think you do need some math in order to do gender studies correctly—not a lot, just enough linear algebraic and statistical intuition to ground the idea of categories as clusters in high-dimensional space.
+
+[TODO— 
  * ignoring the presentation instructions and just writing a paper that footnotes my gender-politics blog a bunch of times (including the no-math-major barb)
+ 
+ * Dane's feedback
+ * midterm feedback
+ * final feedback
+
  * Commenting on "For my first source, I chose"; went I complained to Prof. Goldberg, she said we could talk about methodology later, but the assignment was what it was
- * Getting a C- is the funniest possible outcome
- * forum post that wasn't acknowledged
+
  * notecard as proof that I had done the reading; deliberately not turning one in when I thought I didn't deserve it
  * I banged out my final paper/pres on Dec 8-9, the two days after the Putnam exam
 ]
