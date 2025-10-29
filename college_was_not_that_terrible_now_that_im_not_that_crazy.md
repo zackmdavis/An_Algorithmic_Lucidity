@@ -124,7 +124,7 @@ I assumed that the ask to share with the department "eventually" was polite bull
 
 #### "Measure and Integration" (Spring 2025)
 
-I had a busy semester planned for Spring 2025, with two graduate-level (true graduate-level, not cross-listed) analysis courses plus three gen-ed courses that I needed to graduate. (Following Prof. Schuster, I'm humorously counting "Modern Algebra I" as a gen-ed course.) I only needed one upper-division undergrad math course other than "Modern Algebra I" to graduate, but while I was at the University for one more semester, I was intent on getting my money's worth. I aspired to get a head start (ideally on all three math courses) over winter break and checked out a complex analysis book with exercise solutions from the library, but only ended up getting much traction on measure theory, doing some exercises from chapter 14 of Schröder, "Integration on Measure Spaces".
+I had a busy semester planned for Spring 2025, with two graduate-level (true graduate-level, not cross-listed) analysis courses plus three gen-ed courses that I needed to graduate. (Following Prof. Schuster, I'm humorously counting "Modern Algebra I" as a gen-ed course.) I only needed one upper-division undergrad math course other than "Modern Algebra I" to graduate, but while I was at the University for one more semester, I was intent on getting my money's worth. I aspired to get a head start (ideally on all three math courses) over winter break and checked out a complex analysis book with exercise solutions from the library, but only ended up getting any traction on measure theory, doing some exercises from chapter 14 of Schröder, "Integration on Measure Spaces".
 
 Prof. Schuster was teaching "Measure and Integration" ("MATH 710"). It was less intimate than "Real II" the previous semester, with a number of students in the teens. The class met at 9:30 a.m. on Tuesdays and Thursdays, which I found inconveniently early in the morning given my hour-and-twenty-minute BART-and-bus commute. I was late the first day. After running into to the room, I put the printout of my exercises from Schröder on the instructor's desk and said, "Homework." Prof. Schuster looked surprised for a moment, then accepted it without a word.
 
@@ -214,13 +214,13 @@ The schedule of classes had said the course was to be taught by Prof. Deborah Co
 
 I didn't take the class very seriously. I was taking "Real Analysis II" and "Probability Models" seriously that semester, because for those classes, I had something to prove—that I could do well in upper-division math classes if I wanted to. For this class, the claim that ["I could if I wanted to"](https://www.youtube.com/watch?v=GUuU99c_9mY) didn't really seem in doubt.
 
-I didn't _not_ want to. But even easy tasks take time that could be spent doing other things. I didn't always get around to doing all of the assigned reading or video-watching. I didn't read the assigned segment of _Giovanni's Room_. (And honestly disclosed that fact during class discussion.) I skimmed a lot of the narratives in _The Stonewall Reader_. My analysis of _Carol_ (assigned as 250 words, but I wrote 350) used evidence from a scene in the first quarter of the film, because that was all I sat through. I read the _Wikipedia_ synopsis of _They/Them_ instead of sitting through the whole film. I skimmed part of _Fun Home_, which was literally a comic book that you'd expect me to enjoy.
+I didn't _not_ want to. But even easy tasks take time that could be spent doing other things. I didn't always get around to doing all of the assigned reading or video-watching. I didn't read the assigned segment of _Giovanni's Room_. (And honestly disclosed that fact during class discussion.) I skimmed a lot of the narratives in _The Stonewall Reader_. My analysis of _Carol_ (assigned as 250 words, but I wrote 350) used evidence from a scene in the first quarter of the film, because that was all I sat through. I read the _Wikipedia_ synopsis of _They/Them_ instead of watching it. I skimmed part of _Fun Home_, which was literally a comic book that you'd expect me to enjoy.
 
 [TODO: ordering _Code White_ and then not reading it]
 
 My negligence was the source of some angst. If I was going back to school to "do it right this time", why couldn't I even be bothered to watch a movie as commanded?
 
-But the reason I had come back was that I could recognize the moral legitimacy of a command to prove a theorem about uniform convergence. For this class, while I could have worked harder if I had wanted to, it was hard to want to when the content was so impossible to take seriously.
+But the reason I had come back was that I could recognize the moral legitimacy of a command to prove a theorem about uniform convergence. For this class, while I could have worked harder if I had wanted to, it was hard to want to when much of the content was so impossible to take seriously.
 
 Asked to explain why the author of [an article](https://www.sfgayhistory.com/2014/10/28/sf-halloween-was-never-just-for-kids/) said that Halloween was "one of the High Holy Days for the gay community", I objected to the characterization as implicitly anti-Semitic and homophobic. The High Holy Days are not a "fun" masquerade holiday the way modern Halloween is. The יָמִים נוֹרָאִים—_yamim noraim_, "days of awe"—are a time of repentance and seeking closeness to God, in which it is said that הַשֵּׁם—_ha'Shem_, literally "the name", an epithet for God—will inscribe the names of the righteous in the Book of Life. Calling Halloween a gay High Holy Day implicitly disrespects either the Jews (by denying the seriousness of the Days of Awe), or the gays (by suggesting that their people are incapable of seriousness), or the reader (by assuming that they're incapable of any less superficial connection between holidays than "they both happen around October"). In contrast, describing Halloween as a gay Purim would have been entirely appropriate. "They tried to oppress us; we're still here; let's have a masquerade party with alcohol" is entirely the spirit of both Purim and Halloween.
 
@@ -230,9 +230,7 @@ Another assignment asked us to write paragraphs connecting each of our more theo
 
 [TODO: Muñoz's first name, fact-check Gordo timeline]
 
-There was a discussion forum on Canvas, which is always depressing. No one ever posts in school class forums unless the teacher makes an assignment of it—except me. I threw together a quick 1800-word post, "in search of gender studies (as contrasted to gender activism)". It was clever, I thought, albeit rambling and self-indulgent, as one does when writing in haste. It felt like an obligation, to show the other schoolstudents what a forum could be and should be. No one replied.
-
-[TODO: can I pull the HTML from Canvas?]
+There was a discussion forum on Canvas, which is always depressing. No one ever posts in school class forums unless the teacher makes an assignment of it—except me. I threw together [a quick 1800-word post, "in search of gender studies (as contrasted to gender activism)"](http://unremediatedgender.space/ancillary/in-search-of-gender-studies/). It was clever, I thought, albeit rambling and self-indulgent, as one does when writing in haste. It felt like an obligation, to show the other schoolstudents what a forum could be and should be. No one replied.
 
 I inquired about Prof. Goldberg's office hours, which turned out to be directly before and after class, which conflicted with my other classes. (I gathered that Prof. Goldberg was commuting to SF State specifically to teach this class in an adjunct capacity; she more commonly taught at City College San Francisco.) I ditched "Probability Models" lecture one day, just to talk with her about my whole deal. (She didn't seem to approve of me ditching another class when I mentioned that detail.)
 
@@ -240,22 +238,17 @@ It went surprisingly well. Prof. Goldberg is a butch lesbian who, crucially, was
 
 [TODO: look up CCSF]
 
-When I mentioned my specialization, she remarked that she had never had a math major among her students. Privately, I doubted whether that was really true. (I couldn't be the only one who needed the gen-ed credits.) But I found it striking for the lack of intellectual ambition it implied within the discipline. I unironically think you do need some math in order to do gender studies correctly—not a lot, just enough linear algebraic and statistical intuition to ground the idea of categories as clusters in high-dimensional space.
+When I mentioned my specialization, she remarked that she had never had a math major among her students. Privately, I doubted whether that was really true. (I couldn't be the only one who needed the gen-ed credits.) But I found it striking for the lack of intellectual ambition it implied within the discipline. I unironically think you do need some math in order to do gender studies correctly—not a lot, just enough linear-algebraic and statistical intuition to ground the idea of categories as clusters in high-dimensional space. I can't imagine resigning myself to such smallness, consigning such a vast and foundational area of knowledge to be someone else's problem—or when I do (_e.g._, I can't say I know any chemistry), I feel sad about it.
 
-[TODO— 
- * ignoring the presentation instructions and just writing a paper that footnotes my gender-politics blog a bunch of times (including the no-math-major barb)
- 
- * Dane's feedback
- * midterm feedback
- * final feedback
+I was somewhat surprised to see Virginia Prince featured in _The Stonewall Reader_, which I thought was anachronistic: Prince was the founder of Tri-Ess, the Society for the Second Self, an organization for heterosexual male crossdressers which specifically excluded homosexuals. I chose Prince as the subject for my final project/presentation.
 
- * Commenting on "For my first source, I chose"; went I complained to Prof. Goldberg, she said we could talk about methodology later, but the assignment was what it was
+Giving feedback on my project proposal, Prof. Goldberg wrote that I "likely got a master's thesis in here" (or, one might think, a blog?), and that "because autogynephilia wasn't coined until 1989, retroactively applying it to a subject who literally could not have identified in that way is inaccurate." (I wasn't writing about how Prince _identified_.)
 
- * notecard as proof that I had done the reading; deliberately not turning one in when I thought I didn't deserve it
- * I banged out my final paper/pres on Dec 8-9, the two days after the Putnam exam
-]
+During the final presentations, I noticed that a lot of students were slavishly mentioning the requirements in the presentation itself: the rubric had said to cite two readings, two media selections, _&c_. from the course, and people were literally saying, "For my two readings, I choose ..." When I pointed out to the Prof. Goldberg that this isn't how anyone does scholarship when they have something to say, she said that we could talk about methodology later, but the assignment was what it was.
 
-Given the assignments I had skipped and my blatant disregard of the final presentation instructions, I ended up getting a C− in the class, which is perhaps the funniest possible outcome. 
+For my project, I ignored the presentation instructions entirely and just spent the two days after the Putnam exam banging out a paper titled "Virginia Prince and the Hazards of Noticing" (four pages with copious footnotes, mostly self-citing my gender-politics blog, in LyX with a couple of mathematical expression in the appendix, for tradition's sake). I didn't think it was high-quality enough to republish on the blog.
+
+Between the assignments I had skipped and my blatant disregard of the final presentation instructions, I ended up getting a C− in the class, which is perhaps the funniest possible outcome. 
 
 #### "Philosophy of Animals" (Spring 2025)
 
@@ -284,7 +277,7 @@ total grade 101.5%
  * I would have leaned on office hours more if LLMs didn't exist
  * the struggle and external resources are probably normal
  * Prof. "A" impressed when a student mentioned ZFC; I think this is "knowing how to read" territory and should not be impressive; but MathAcademy Justin would say it "doesn't matter", and he had a point
-
+ * notecard as proof that I had done the reading; deliberately not turning one in when I thought I didn't deserve it
  * maybe I had spent all my life in classes that were just obedience tests, that it wasn't immediately obvious to recognize the good classes that weren't
 
 Afterwards, Prof. Schuster encouraged me via email to at least consider grad school, saying that I seemed comparable talent-wise to his peers in the University of Michigan Ph.D. program (which was ranked #10 in the U.S. at that time in the late '90s). I demurred: I said I would consider it if circumstances were otherwise, but in contrast to the last two semesters to finish undergrad, grad school didn't pass a cost-benefit analysis.
