@@ -252,14 +252,35 @@ Between the assignments I had skipped and my blatant disregard of the final pres
 
 #### "Philosophy of Animals" (Spring 2025)
 
-I wrote a 630 word email in response (Subject: "ostroveganism vs. Schelling points (was: "Phil 392 - Welcome")") arguing that there are game-theoretic reasons for animal welfare advocates to commit to vegetarianism or veganism despite a _prima facie_ case that oysters don't suffer—with a postscript asking if referring to courses by number was common in the philosophy department.
+I was pleased that the charmingly-titled "Philosophy of Animals" fit right into my Tuesday–Thursday schedule after measure theory and the theory of functions of a complex variable; it would satisfy the "UD-B: Physical/Life Science" and "SF State Studies: Environmental Sustainability" gen-ed requirements.
 
-24 / 25 (+ 2 point curve)
-21.5 / 25 (+ 4 point curve)
-22/25 (+ 2 point curve)
-total grade 101.5%
+Before the semester, the Prof. Kimbrough Moore sent out an introductory email asking us to consider as a discussion question for our first session whether it is is some sense contradictory for a vegetarian to eat oysters. I wrote a 630 word email in response (Subject: "ostroveganism vs. Schelling points (was: "Phil 392 - Welcome")") arguing that there are game-theoretic reasons for animal welfare advocates to commit to vegetarianism or veganism despite a _prima facie_ case that oysters don't suffer—with a postscript asking if referring to courses by number was common in the philosophy department.
+
+The course, and Prof. Moore himself, were pretty relaxed. There were readings on animal consciousness and rights from the big names (Singer, Nagel) and small ones, and then some readings about AI at the end of course. 
+
+Homework was to post two questions about the readings on Canvas. There were three written exams, which Prof. Moore indicated was a new anti-ChatGPT measure this semester; he used to assign term papers.
+
+Prof. Moore's office hours were on Zoom. I would often phone in to chat with him about philosophy, or to complain about school. I found this much more stimulating than the lecture/discussion periods, which I started to ditch more often than not on Tuesdays in favor of Prof. Schuster's office hours.
+
+Prof. Moore was reasonably competent at his job; I just had trouble seeing why his job, or for that matter, the SFSU philosophy department, should exist.
+
+In one class session, he mentioned offhand (in a slight digression from the philosophy of animals) that there are different types of infinity. By way of explaining, he pointed out that there's no "next" decimal after 0.2 the way that there's a next integer after 2. I called out that that wasn't the argument. (The rationals are countable.) The same lecture, he explained Occam's razor in a way that I found rather superficial. (I think you need Kolmogorov complexity or the [minimum description length](https://www.lesswrong.com/posts/mB95aqTSJLNR9YyjH/message-length) principle to do the topic justice.) That night, I sent him an email explaining the countability of the rationals and recommending a pictoral intuition pump for Occam's razor due to David MacKay (Subject: "countability; and, a box behind a tree").
+
+In April, the usual flavors of leftists on campus had scheduled a "Defend Higher Education" demonstration to protest proposed budget cuts to the California State University system; Prof. Moore offered one point of extra credit in "Philosophy of Animals" for participating.
+
+I was livid. Surely it would be a be a breach of professional conduct to offer students course credit for attending an anti-abortion or pro-Israel rally. Why should the school presume it had the authority to tell students to speak out in favor of more school? I quickly wrote Prof. Moore an email in complaint, suggesting that the extra credit opportunity be viewpoint-neutral: 
+
+I added:
+
+> If I don’t receive a satisfactory response addressing the inappropriate use of academic credit to incentivize political activities outside the classroom by Thursday 17 April (the day of the protest), I will elevate this concern to Department Chair Landy. This timeline is necessary to prevent the ethical breach of students being bribed into bad faith political advocacy with University course credit.
+
+[TODO: ...]
+
+I posted 24/25 (plus a 2 point "curve" because SFSU students are illiterate), 21.5/25 (plus 4), and 22/25 (plus 2) on the three tests, and finished the semester at 101.5%. 
 
 #### "Self, Place, and Knowing: An Introduction to Interdisciplinary Inquiry" (Spring 2025)
+
+
 
 ### Cynicism and Sanity
 
@@ -279,6 +300,7 @@ total grade 101.5%
  * Prof. "A" impressed when a student mentioned ZFC; I think this is "knowing how to read" territory and should not be impressive; but MathAcademy Justin would say it "doesn't matter", and he had a point
  * notecard as proof that I had done the reading; deliberately not turning one in when I thought I didn't deserve it
  * maybe I had spent all my life in classes that were just obedience tests, that it wasn't immediately obvious to recognize the good classes that weren't
+ * not asking permission to do it in Rust
 
 Afterwards, Prof. Schuster encouraged me via email to at least consider grad school, saying that I seemed comparable talent-wise to his peers in the University of Michigan Ph.D. program (which was ranked #10 in the U.S. at that time in the late '90s). I demurred: I said I would consider it if circumstances were otherwise, but in contrast to the last two semesters to finish undergrad, grad school didn't pass a cost-benefit analysis.
 
