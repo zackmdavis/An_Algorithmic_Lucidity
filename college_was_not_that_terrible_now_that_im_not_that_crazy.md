@@ -166,7 +166,7 @@ I got a 73 on the midterm. Even with the (static) internet, sometimes I would hi
 
 There were only 9 homework assignments during the semester (contrasted to 12 in "Measure and Integration") to give us time to work on an expository paper and presentation on one of either the Gamma function, the Reimann zeta function, the prime number theorem, or elliptic functions. I wrote four pages on "Pinpointing the Generalized Factorial", explaining the motivation of the Gamma function, except that I'm not fond of how the definition is shifted by one from what you'd expect, so I wrote about the unshifted Pi function instead.
 
-I wish I had allocated more time to it. This was my one opportunity in my institutionalized math career to "write a paper" and not merely "complete an assignment"; it would have been vindicating to go over and above knocking this one out of the park. (Expository work had been the lifeblood of my non-institutionalized math life.) There was so much more I could have said about the generalized factorial, and applications (like the fractional calculus), but it was a busy semester and I didn't get to it all. It's hardly an excuse that Prof. Lai wrote an approving comment and gave me full credit for those four pages.
+I wish I had allocated more time to it. This was my one opportunity in my institutionalized math career to "write a paper" and not merely "complete an assignment"; it would have been vindicating to go over and above knocking this one out of the park. (Expository work had been the lifeblood of my non-institutionalized math life.) There was so much more I could have said about the generalized factorial, and applications (like the fractional calculus), but it was a busy semester and I didn't get to it. It's hardly an excuse that Prof. Lai wrote an approving comment and gave me full credit for those four pages.
 
 I was resolved to do better on the take-home final than the take-home midterm, but it was a struggle. I eventually got everything, but what I submitted ended up having five footnotes to various _math.stackexchange.com_ answers. (I was very transparent about my reasoning process; no one could accuse me of dishonesty.) For one problem, I ended up using formulas for the modulus of the derivative of a Bashke factor at 0 and the preimage of zero which I found in David C. Ulrich's _Complex Made Simple_ from the University library. It wasn't until after I submitted my work that I realized that the explicit formulas had been unnecessary; the fact that they were inverses followed from the inverse function theorem.
 
@@ -244,7 +244,7 @@ I was somewhat surprised to see Virginia Prince featured in _The Stonewall Reade
 
 Giving feedback on my project proposal, Prof. Goldberg wrote that I "likely got a master's thesis in here" (or, one might think, a blog?), and that "because autogynephilia wasn't coined until 1989, retroactively applying it to a subject who literally could not have identified in that way is inaccurate." (I wasn't writing about how Prince _identified_.)
 
-During the final presentations, I noticed that a lot of students were slavishly mentioning the requirements in the presentation itself: the rubric had said to cite two readings, two media selections, _&c_. from the course, and people were literally saying, "For my two readings, I choose ..." When I pointed out to the Prof. Goldberg that this isn't how anyone does scholarship when they have something to say, she said that we could talk about methodology later, but the assignment was what it was.
+During the final presentations, I noticed that a lot of students were slavishly mentioning the assignment requirements in the presentation itself: the rubric had said to cite two readings, two media selections, _&c_. from the course, and people were literally saying, "For my two course readings, I choose ..." When I pointed out to the Prof. Goldberg that this isn't how anyone does scholarship when they have something to say, she said that we could talk about methodology later, but the assignment was what it was.
 
 For my project, I ignored the presentation instructions entirely and just spent the two days after the Putnam exam banging out a paper titled "Virginia Prince and the Hazards of Noticing" (four pages with copious footnotes, mostly self-citing my gender-politics blog, in LyX with a couple of mathematical expression in the appendix, for tradition's sake). I didn't think it was high-quality enough to republish on the blog.
 
@@ -252,11 +252,11 @@ Between the assignments I had skipped and my blatant disregard of the final pres
 
 #### "Philosophy of Animals" (Spring 2025)
 
-I was pleased that the charmingly-titled "Philosophy of Animals" fit right into my Tuesday–Thursday schedule after measure theory and the theory of functions of a complex variable; it would satisfy the "UD-B: Physical/Life Science" and "SF State Studies: Environmental Sustainability" gen-ed requirements.
+I was pleased that the charmingly-titled "Philosophy of Animals" fit right into my Tuesday–Thursday schedule after measure theory and the theory of functions of a complex variable. It would satisfy the "UD-B: Physical/Life Science" and "SF State Studies: Environmental Sustainability" gen-ed requirements.
 
 Before the semester, the Prof. Kimbrough Moore sent out an introductory email asking us to consider as a discussion question for our first session whether it is is some sense contradictory for a vegetarian to eat oysters. I wrote a 630 word email in response (Subject: "ostroveganism vs. Schelling points (was: "Phil 392 - Welcome")") arguing that there are game-theoretic reasons for animal welfare advocates to commit to vegetarianism or veganism despite a _prima facie_ case that oysters don't suffer—with a postscript asking if referring to courses by number was common in the philosophy department.
 
-The course, and Prof. Moore himself, were pretty relaxed. There were readings on animal consciousness and rights from the big names (Singer, Nagel) and small ones, and then some readings about AI at the end of course. 
+The course, and Prof. Moore himself, were pretty relaxed. There were readings on animal consciousness and rights from the big names (Singer on "All Animals are Equal", Nagel on "What Is It Like to Be a Bat?") and small ones, and then some readings about AI at the end of course. 
 
 Homework was to post two questions about the readings on Canvas. There were three written exams, which Prof. Moore indicated was a new anti-ChatGPT measure this semester; he used to assign term papers.
 
@@ -266,17 +266,21 @@ Prof. Moore was reasonably competent at his job; I just had trouble seeing why h
 
 In one class session, he mentioned offhand (in a slight digression from the philosophy of animals) that there are different types of infinity. By way of explaining, he pointed out that there's no "next" decimal after 0.2 the way that there's a next integer after 2. I called out that that wasn't the argument. (The rationals are countable.) The same lecture, he explained Occam's razor in a way that I found rather superficial. (I think you need Kolmogorov complexity or the [minimum description length](https://www.lesswrong.com/posts/mB95aqTSJLNR9YyjH/message-length) principle to do the topic justice.) That night, I sent him an email explaining the countability of the rationals and recommending a pictoral intuition pump for Occam's razor due to David MacKay (Subject: "countability; and, a box behind a tree").
 
-In April, the usual flavors of leftists on campus had scheduled a "Defend Higher Education" demonstration to protest proposed budget cuts to the California State University system; Prof. Moore offered one point of extra credit in "Philosophy of Animals" for participating.
+In April, the usual leftist blob on campus had scheduled a "Defend Higher Education" demonstration to protest proposed budget cuts to the California State University system; Prof. Moore offered one point of extra credit in "Philosophy of Animals" for participating.
 
-I was livid. Surely it would be a be a breach of professional conduct to offer students course credit for attending an anti-abortion or pro-Israel rally. Why should the school presume it had the authority to tell students to speak out in favor of more school? I quickly wrote Prof. Moore an email in complaint, suggesting that the extra credit opportunity be viewpoint-neutral: 
+I was livid. Surely it would be a be a breach of professional conduct to offer students course credit for attending an anti-abortion or pro-Israel rally. Why should the school presume it had the authority to tell students to speak out in favor of more school? I quickly wrote Prof. Moore an email in complaint, suggesting that the extra credit opportunity be viewpoint-neutral: available to available to budget cut _proponents_ (or those with more nuanced views) as well as opponents.
 
 I added:
 
-> If I don’t receive a satisfactory response addressing the inappropriate use of academic credit to incentivize political activities outside the classroom by Thursday 17 April (the day of the protest), I will elevate this concern to Department Chair Landy. This timeline is necessary to prevent the ethical breach of students being bribed into bad faith political advocacy with University course credit.
+> If I don't receive a satisfactory response addressing the inappropriate use of academic credit to incentivize political activities outside the classroom by Thursday 17 April (the day of the protest), I will elevate this concern to Department Chair Landy. This timeline is necessary to prevent the ethical breach of students being bribed into bad faith political advocacy with University course credit.
 
-[TODO: ...]
+I can imagine some readers finding this level of aggression completely inappropriate and morally wrong. Obviously, my outrage was performative in some sense, but it was also deeply felt—as if putting on a performance was the most sincere thing I could do under the circumstances.
 
-I posted 24/25 (plus a 2 point "curve" because SFSU students are illiterate), 21.5/25 (plus 4), and 22/25 (plus 2) on the three tests, and finished the semester at 101.5%. 
+It's not just that it would be absurd to get worked up over one measly point of extra credit if there weren't a principle at stake. (That, I would happilly grant while "in character.") It was that _expecting San Francisco State University to have principles_ was only slightly less absurd.
+
+It was fine. Prof. Moore "clarified" that the extra credit was viewpoint-neutral. (I was a little embarrassed not to have witnessed the verbal announcement in class on Tuesday, but I had already made plans to [interview the campus machine-shop guy](https://www.peterverdone.com/academia-math-trans-and-a-ton-of-other-stuff/) at that time instead of coming to class.) After having made a fuss, I was obligated to follow through, so I made a "BUDGET CUTS ARE PROBABLY OK" sign (re-using the other side of the foamboard from an anti–designated hitter rule sign I had made for a recent National League baseball game) and held it at the rally on Thursday for ten minutes.
+
+As for the philosophy of animals itself, I was already sufficiently well-versed in naturalist philosophy of mind that I feel like I learned much of anything new. I posted 24/25 (plus a 2 point "curve" because SFSU students are illiterate), 21.5/25 (plus 4), and 22/25 (plus 2) on the three tests, and finished the semester at 101.5% for an A.
 
 #### "Self, Place, and Knowing: An Introduction to Interdisciplinary Inquiry" (Spring 2025)
 
