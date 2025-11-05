@@ -142,7 +142,7 @@ My other graduate course was "Theory of Functions of a Complex Variable" ("MATH 
 
 The content lived up to the pretension of the title. This was unambiguously the hardest school class I had ever taken. Not in the sense that Prof. Lai was particularly strict about grades or anything; on the contrary, he seemed charmingly easygoing about the institutional structure of school, while of course taking it for granted as an unquestioned background feature of existence. But he was pitching the material to a higher level than Prof. Schuster or Axler.
 
-The textbook was _Complex Analysis_ by Elias M. Stein and Rami Shakarchi, volume II in their "Princeton Lectures in Analysis" series. Stein and Shakarchi leave a lot to the reader (who is prototypically a Princeton student). It wasn't to my taste—but this time, I knew the problem was on my end. My distaste for Wade and Ross had been a reflection of the ways in which I was spiritually superior to the generic SFSU student; my distaste for Stein and Shakarchi reflected the grim reality that I was right where I belonged.
+The textbook was _Complex Analysis_ by Elias M. Stein and Rami Shakarchi, volume II in their "Princeton Lectures in Analysis" series. Stein and Shakarchi leave a lot to the reader (prototypically a Princeton student). It wasn't to my taste—but this time, I knew the problem was on my end. My distaste for Wade and Ross had been a reflection of the ways in which I was spiritually superior to the generic SFSU student; my distaste for Stein and Shakarchi reflected the grim reality that I was right where I belonged.
 
 I don't think I was alone in finding the work difficult. Prof. Lai gave the entire class an extension to rebsubmit assignment #2 because the average performance had been so poor.
 
@@ -276,15 +276,39 @@ I added:
 
 I can imagine some readers finding this level of aggression completely inappropriate and morally wrong. Obviously, my outrage was performative in some sense, but it was also deeply felt—as if putting on a performance was the most sincere thing I could do under the circumstances.
 
-It's not just that it would be absurd to get worked up over one measly point of extra credit if there weren't a principle at stake. (That, I would happilly grant while "in character.") It was that _expecting San Francisco State University to have principles_ was only slightly less absurd.
+It's not just that it would be absurd to get worked up over one measly point of extra credit if there weren't a principle at stake. (That, I would happily grant while "in character.") It was that expecting San Francisco State University to have principles about freedom of conscience was only slightly less absurd.
 
-It was fine. Prof. Moore "clarified" that the extra credit was viewpoint-neutral. (I was a little embarrassed not to have witnessed the verbal announcement in class on Tuesday, but I had already made plans to [interview the campus machine-shop guy](https://www.peterverdone.com/academia-math-trans-and-a-ton-of-other-stuff/) at that time instead of coming to class.) After having made a fuss, I was obligated to follow through, so I made a "BUDGET CUTS ARE PROBABLY OK" sign (re-using the other side of the foamboard from an anti–designated hitter rule sign I had made for a recent National League baseball game) and held it at the rally on Thursday for ten minutes.
+It was fine. Prof. Moore "clarified" that the extra credit was viewpoint-neutral. (I was a little embarrassed not to have witnessed the verbal announcement in class on Tuesday, but I had already made plans to [interview the campus machine-shop guy](https://www.peterverdone.com/academia-math-trans-and-a-ton-of-other-stuff/) at that time instead of coming to class.) After having made a fuss, I was obligated to follow through, so I made a "BUDGET CUTS ARE PROBABLY OK!" sign (re-using the other side of the foamboard from an anti–designated hitter rule sign I had made for a recent National League baseball game) and held it at the rally on Thursday for ten minutes to earn the extra-credit point.
 
-As for the philosophy of animals itself, I was already sufficiently well-versed in naturalist philosophy of mind that I feel like I learned much of anything new. I posted 24/25 (plus a 2 point "curve" because SFSU students are illiterate), 21.5/25 (plus 4), and 22/25 (plus 2) on the three tests, and finished the semester at 101.5% for an A.
+As for the philosophy of animals itself, I was already sufficiently well-versed in naturalist philosophy of mind that I don't feel like I learned much of anything new. I posted 24/25 (plus a 2 point "curve" because SFSU students are illiterate), 21.5/25 (plus 4), and 22/25 (plus 2) on the three tests, and finished the semester at 101.5% for an A.
+
+[TODO: mention suggesting that the class forum be open]
 
 #### "Self, Place, and Knowing: An Introduction to Interdisciplinary Inquiry" (Spring 2025)
 
+I was able to satisfy the "Area E: Lifelong Learning and Self-Development" gen-ed requirement with an asynchronous online-only class, Prof. Mariana Ferreira's "Self, Place, and Knowing". Whatever expectations I had of a lower-division social studies gen-ed class at San Francisco State University, this felt like a parody of that.
 
+The first few weekly assignments were quizzes on given readings. This already annoyed me: in a synchronous in-person class, a "quiz" is typically closed-book unless otherwise specified. The purpose is to verify that the student did the reading. It would be a perversion of that purpose for the quiz-taker to read the question, and then Ctrl-F in the PDF to find the answer, but there was no provision for stopping that eventuality here.
+
+The first quiz was incredibly poorly written: some of the answers were obvious just from looking at the multiple choice options, and some of them depended on minutiae of the text that a typical reader couldn't reasonably be expected to remember. (The article quoted several academics in passing, and then the quiz had a question of the form "[name] at [university] expresses concerns about:".) I took it closed-book and got 7/10.
+
+I posted a question on the class forum asking for clarification on the closed-book issue, and gently complaining about the terrible questions (Subject: "Are the quizzes supposed to be 'open book'? And, question design").
+
+[TODO: the syllabus instructions for getting office hours were intimidating; I didn't bother; I was hopefully imagining she read the forum]
+
+You might question why I bothered to ask, given my contempt for grades. But I had noticed that my cumulative GPA was sitting at 3.47 (down from 3.49 in Spring 2013 because of that C− in "Queer Literatures and Media" last semester), and 3.5 would classify my degree as _cum laude_. Despite everything, I think I did want an A in "Self, Place, and Knowing", and my probability of getting an A was lower if I handicapped myself with moral constraints perceived by myself and probably not anyone else.
+
+My forum post got no responses. I also did the next two quizzes closed book—except that on the third quiz, I think I succumbed to the temptation to peek at the PDF once, but didn't end up changing my answer as the result of the peek.  Was that contrary to the moral law? Was this entire endeavor now morally tainted by that one moment, however inconsequential it was to any outcome?
+
+[TODO— One could argue that it was genuinely unclear whether closed-book was an expectation, such that I did nothing wrong!—that even my good-faith attempt to clarify on the class forum was supererogatory. If she expected closed-book on the honor system, she probably should have said that on the syllabus, right? The syllabus was very clear about AI plagiarism. Part of the reason I peeked—even though I would have never peeked at another student's paper duing a math exam—is because I sensed that "Self, Place, and Knowing" was not a place where the moral law applied. In a math quiz, it's _clear_ to everyone that peeking is wrong. Here, no one clarified what the rules even were, even after I asked in the most obvious place—and no one would clarify, because no one cared.]
+
+It turned out that I needn't have worried about my handicapped quiz scores (cumulative 32/40) hurting my chances to get _cum laude_. Almost all of the remaining assignments were written (often in the form of posts to the class forum, including responses to other students), and Prof. Ferreira awarded full or almost-full credit for submissions that met the prescribed wordcount and made an effort to satisfy the (often unclear or contradictory) requirements.
+
+[TODO: my ChatGPT accusation—]
+
+> I have to say, there's something striking about your writing style in this post, and even more so your comments of Ms. Williams's and Ms. Mcsorley's posts. The way you summarize and praise your classmates' ideas has a certain _personality_ to it—somehow I imagine the voice of a humble manservant with a Nigeran accent (betraying no feelings of his own) employed by a technology company, perhaps one headquartered on 18th Street in our very city. You simply must tell us where you learned to write like that!
+
+[TODO: topology objection to week 2 video, Prof. Schuster's joke at social time that the torus is flat]
 
 ### Cynicism and Sanity
 
