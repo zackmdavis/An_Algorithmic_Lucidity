@@ -132,7 +132,7 @@ The previous semester, Prof. Schuster said he was undecided between using _Real 
  
 I would frequently be a few minutes late throughout the semester. One day, the BART had trouble while my train was in downtown San Francisco, and it wasn't clear when it would move again. I got off and summoned a Waymo driverless taxi to take me the rest of the way to the University. We were covering the Cantor set that day, and I rushed in with more than half the class period over. "Sorry, someone deleted the middle third of the train," I said.
 
-Measure theory was a test of faith which I'm not sure I passed. Everyone who reads _Wikipedia_ knows about the notorious axiom of choice. This was the part of the school curriculum in which the axiom of choice becomes relevant. It impressed upon me that as much as I like analysis as an intellectual activity, I ... don't necessarily believe in this stuff? We go to all this work to define sigma-algebras in order to rule out pathological sets whose elements _cannot be written down because they're defined using the axiom of choice_. You could argue that it's not worse than uncountable sets, and that alternatives to classical mathematics just end up biting different bullets. (In computable analysis, equality ends up being uncomputable, because there's no limit on how many decimal places you would need to check for a tiny difference between two almost-equal numbers. For related reasons, all computable functions are continuous.) But I'm not necessarily happy about the situation.
+Measure theory was a test of faith which I'm not sure I passed. Everyone who reads _Wikipedia_ knows about the notorious axiom of choice. This was the part of the school curriculum in which the axiom of choice becomes relevant. It impressed upon me that as much as I like analysis as an intellectual activity, I ... don't necessarily believe in this stuff? We go to all this work to define sigma-algebras in order to rule out pathological sets whose elements _cannot be written down because they're defined using the axiom of choice_. You could argue that it's not worse than uncountable sets, and that alternatives to classical mathematics just end up needing to bite different bullets. (In computable analysis, equality turns out to be uncomputable, because there's no limit on how many decimal places you would need to check for a tiny difference between two almost-equal numbers. For related reasons, all computable functions are continuous.) But I'm not necessarily happy about the situation.
 
 I did okay. I was late on some of the assignments (and didn't entirely finish assignments #9 and #10), but the TA was late in grading them, too. I posted a 31/40 (77.5%) on the midterm. I was expecting to get around 80% on the final based on my previous performance on Prof. Schuster's examinations, but I ended up posting a 48/50 (96%), locking in an A for the course.
 
@@ -302,16 +302,32 @@ My forum post got no responses. I also did the next two quizzes closed book—ex
 
 [TODO— One could argue that it was genuinely unclear whether closed-book was an expectation, such that I did nothing wrong!—that even my good-faith attempt to clarify on the class forum was supererogatory. If she expected closed-book on the honor system, she probably should have said that on the syllabus, right? The syllabus was very clear about AI plagiarism. Part of the reason I peeked—even though I would have never peeked at another student's paper duing a math exam—is because I sensed that "Self, Place, and Knowing" was not a place where the moral law applied. In a math quiz, it's _clear_ to everyone that peeking is wrong. Here, no one clarified what the rules even were, even after I asked in the most obvious place—and no one would clarify, because no one cared.]
 
-It turned out that I needn't have worried about my handicapped quiz scores (cumulative 32/40) hurting my chances to get _cum laude_. Almost all of the remaining assignments were written (often in the form of posts to the class forum, including responses to other students), and Prof. Ferreira awarded full or almost-full credit for submissions that met the prescribed wordcount and made an effort to satisfy the (often unclear or contradictory) requirements.
+It turned out that I needn't have worried about my handicapped quiz scores (cumulative 32/40 = 80%) hurting my chances to get _cum laude_. Almost all of the remaining assignments were written (often in the form of posts to the class forum, including responses to other students), and Prof. Ferreira awarded full or almost-full credit for submissions that met the prescribed wordcount and made an effort to satisfy the (often unclear or contradictory) requirements.
 
-[TODO: my ChatGPT accusation—]
+Despite the syllabus's warnings, a few forum responses stuck out to me as having the characteristic tells of being written by an LLM assistant. I insinuated my suspicions in one of my replies to other classmates:
 
 > I have to say, there's something striking about your writing style in this post, and even more so your comments of Ms. Williams's and Ms. Mcsorley's posts. The way you summarize and praise your classmates' ideas has a certain _personality_ to it—somehow I imagine the voice of a humble manservant with a Nigeran accent (betraying no feelings of his own) employed by a technology company, perhaps one headquartered on 18th Street in our very city. You simply must tell us where you learned to write like that!
 
+[TODO: name the plagiarist, she deserves it]
+
+I felt a little bit nervous about that afterwards: my explicit intent with the "Nigerian manservant" simile was to allude to the story about ChatGPT's affinity for the word _delve_ being traceable to the word's prevalence among the English-speaking Nigerians that OpenAI employed as data labelers, but I worried that it would be called out as racist. (And whatever my explicit intent, maybe at some level I was asking for it.)
+
+I definitely shouldn't have worried. Other than the fact that Prof. Ferreira gave me credit for the assignment, I have no evidence that any human being read what I wrote.
+
+I titled my final paper "How Do Housing Supply and Community Assets Affect Rents and Quality of Life in Census Tract 3240.03? An Critical Microeconomic Synthesis of Self, Place, and Knowing". It was an exercise in bullshit and malicious compliance: of the course of an afternoon and evening (and finishing up the next morning), I rambled until I hit the wordcount requirement.
+
+My contempt for the exercise would have been quite apparent to anyone who read my work.
+
+
+[TODO: vocabulary terms from assignment spec]
+
 [TODO: topology objection to week 2 video, Prof. Schuster's joke at social time that the torus is flat]
+
+
 
 ### Cynicism and Sanity
 
+[TODO—
  * the linear algebra credits
  * Grief that I didn't know how to do this when I was young; I could have majored in math (even if I'm actually a philosopher) and taken the Putnam and started my career in 2010
  * The TA recommeneded I look up the solution manual online 
@@ -324,11 +340,17 @@ It turned out that I needn't have worried about my handicapped quiz scores (cumu
  * Peter Verdone https://www.peterverdone.com/academia-math-trans-and-a-ton-of-other-stuff/
  * it was chance that I ended up deciding to finish before moving; finishing at Reno would be harder
  * I would have leaned on office hours more if LLMs didn't exist
+ * sorrow that autodidacticism was less feasible before the GPT-4 era _and I didn't realize it_ (I thought I was doing OK from just books, and maybe I wasn't); grief that learning is easier now is arguably perverse, but it's real
  * the struggle and external resources are probably normal
  * Prof. "A" impressed when a student mentioned ZFC; I think this is "knowing how to read" territory and should not be impressive; but MathAcademy Justin would say it "doesn't matter", and he had a point
  * notecard as proof that I had done the reading; deliberately not turning one in when I thought I didn't deserve it
  * maybe I had spent all my life in classes that were just obedience tests, that it wasn't immediately obvious to recognize the good classes that weren't
  * not asking permission to do it in Rust
+ * https://www.lesswrong.com/posts/pESH2aYfu4B9rhNEm/free-learning-in-today-s-society-some-personal-experiences
+ * https://www.lesswrong.com/posts/ZFeEtLmfawgqmJQw8/where-our-engineering-education-went-wrong
+ * Diary entry about taking 6 math classes in a semester was delusional; it's not actually true of real classes, even if it were potentially true of "Self, Place, and Knowing"-tier classes
+ * my standards were not high enough when I audited Prof. Pugh's class
+]
 
 Afterwards, Prof. Schuster encouraged me via email to at least consider grad school, saying that I seemed comparable talent-wise to his peers in the University of Michigan Ph.D. program (which was ranked #10 in the U.S. at that time in the late '90s). I demurred: I said I would consider it if circumstances were otherwise, but in contrast to the last two semesters to finish undergrad, grad school didn't pass a cost-benefit analysis.
 
