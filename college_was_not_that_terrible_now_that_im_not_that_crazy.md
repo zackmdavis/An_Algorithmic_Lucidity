@@ -10,8 +10,6 @@ But it didn't hurt this time, because I had a sense of humor about it now—and 
 
 ### Past Prologue
 
-[prologue might get broken out into a separate post?—or maybe not; I want to include detail, but it doesn't feel important enough to be a separate post, so I'll just try to pack in as much detail as I can in a reasonable wordcount]
-
 [TODO—
  * I would say I had a pretty normal school experience—public elementary school, then Jewish day school from 5th–8th grades after my parents thought I was sad in normal school, then public high school.
  * I had accepted the necessity of school==education because everyone said so; looking back, there are clues.
@@ -45,7 +43,7 @@ But it didn't hurt this time, because I had a sense of humor about it now—and 
  * no response from Schuster about "Real Analysis I"
  * bitterness and dejection at SFSU, Prof. Hosten being welcoming but not wanting to cover chapters ahead
  * Hayashi was nice, Putnam disappointment
-  * a memory from 2013: he asked what a sequence was, I said, "A function from the naturals to the reals", he asked how I knew that, I said, "I know how to read"
+ * a memory from 2013: he asked what a sequence was, I said, "A function from the naturals to the reals", he asked how I knew that, I said, "I know how to read"
  * obsessively doing lots of math in my private pages and neglecting my official schoolwork; B in "Probability and Statistics I", B+ in "Mathematical Optimization" (and I'm kind of suspicious of the grading curve there)
  * App Academy and rescue and happily ever after
 ]
@@ -68,13 +66,13 @@ The official University Bulletin officially titled the course "Real Analysis II:
 
 The textbook was _An Introduction to Analysis_ (4th edition) by William R. Wade, the same book that had been used for "Real I" in Spring 2013. It felt in bad taste for reasons that are hard to precisely articulate. I want to say the tone is patronizing, but don't feel like I could defend that judgement in debate against someone who doesn't share it. What I love about Schröder is how it tries to simultaneously be friendly to the novice (the early chapters sprinkling analysis tips and tricks as numbered "Standard Proof Techniques" among the numbered theorems and definitions) while also showcasing the fearsome technicality of the topic in excruciatingly detailed estimates (proofs involving chains of inequalities, typically ending on "< ε"). In contrast, Wade often feels like it's hiding something from children who are now in fact teenagers.
 
-The assignments were a lot of work, but that was good. It was what I was there for—to prove that I could do the work. I could do most of the proofs with some effort. At SFSU in 2012–2013, I remembered submitting paper homework, but now, everything was uploaded to Canvas. I did all my writeups in LyX, a GUI editor (yeah, I know) for LaTeX.
+The assignments were a lot of work, but that was good. It was what I was there for—to prove that I could do the work. I could do most of the proofs with some effort. At SFSU in 2012–2013, I remembered submitting paper homework, but now, everything was uploaded to Canvas. I did all my writeups in LyX, a GUI editor for LaTeX.
 
 One thing that had changed very recently, not about SFSU, but about the world, was the availability of large language models, which had in the GPT-4 era become good enough to be useful tutors on standard undergrad material. They definitely weren't totally reliable, but human tutors aren't always reliable, either. I adopted the policy that I was allowed to consult LLMs for a hint when I got stuck on homework assignments, citing the fact that I had gotten help in my writeup. Prof. Schuster didn't object when I inquired about the propriety of this at office hours. (I also cited office-hours hints in my writeups.)
 
 Prof. Schuster held his office hours in the math department conference room rather than his office, which created a nice environment for multiple people to work or socialize, in addition to asking Prof. Schuster questions. I came almost every time, whether or not I had an analysis question for Prof. Schuster. Often there were other students from "Real II" or Prof. Schuster's "Real I" class there, or a lecturer who also enjoyed the environment, but sometimes it was just me.
 
-Office hours chatter didn't confine itself to math. Prof. Schuster sometimes wore a Free Palestine bracelet. I asked him what I should read to understand the pro-Palestinian position, which had been neglected in my Jewish upbringing. He recommended Rashid Kalidi's _The Hundred Years' War on Palestine_, which I read and found informative (in contrast to the student pro-Palestine demonstrators on campus, who I found anti-persuasive).
+Office hours chatter didn't confine itself to math. Prof. Schuster sometimes wore a Free Palestine bracelet. I asked him what I should read to understand the pro-Palestinian position, which had been neglected in my Jewish upbringing. He recommended Rashid Kalidi's _The Hundred Years' War on Palestine_, which I read and found informative (in contrast to the student pro-Palestine demonstrators on campus, whom I found anti-persuasive).
 
 I got along fine with the other students but do not seem to have formed any lasting friendships. The culture of school didn't feel quite as bad as I remembered. It's unclear to me how much of this is due to my memory having stored a hostile caricature, and how much is due to my being less sensitive to it this time. When I was at SFSU a dozen years ago, I remember seething with hatred at how everyone talked about their studies in terms of classes and teachers and grades, rather than about the subject matter in itself. There was still a lot of that—bad enough that I complained about it at every opportunity—but I wasn't seething with hatred anymore, as if I had come to terms with it as mere dysfunction and not sacrilege. I only cried while complaining about it a couple times.
 
@@ -98,9 +96,9 @@ The textbook was _Introduction to Probability Models_ (12th edition) by Sheldon 
 
 In contrast to what I considered serious math, the course was very much school-math about applying particular techniques to solve particular problem classes, taken to the parodic extent of quizzes and tests re-using worksheet problems verbatim. (You'd expect a statistics professor to know not to test on the training set!)
 
-It was still a lot of work, which I knew needed to be taken seriously in order to do well in the course. The task of quiz #2 was to derive the moment-generating function of the exponential distribution. I had done that successfully from the recitation worksheet earlier, but apparently that and the homework hadn't been enough practice, because I botched it on the quiz day. After the quiz, Prof. Mujamdar wrote the correct derivation on the board. She had also said that we could re-submit a correction to our quiz for half-credit, but I found this policy confusing: it felt morally questionable that it should be possible to just copy down the solution from the board and hand that in, even for partial credit. (I guess the policy made sense from the perspective of schoolstudents needing to be nudged and manipulated with credit in order to do even essential things like trying to learn from one's mistakes.) For my resubmission, I did the correct derivation at home in LyX, got it printed, and bought it to office hours the next class day. I resolved to be better prepared for future quizzes (to at least not botch them, minor errors aside) in order to avoid the indignity of having an incentive to resubmit, and mostly succeeded.
+It was still a lot of work, which I knew needed to be taken seriously in order to do well in the course. The task of quiz #2 was to derive the moment-generating function of the exponential distribution. I had done that successfully from the recitation worksheet earlier, but apparently that and the homework hadn't been enough practice, because I botched it on the quiz day. After the quiz, Prof. Mujamdar wrote the correct derivation on the board. She had also said that we could re-submit a correction to our quiz for half-credit, but I found this policy confusing: it felt morally dubious that it should be possible to just copy down the solution from the board and hand that in, even for partial credit. (I guess the policy made sense from the perspective of schoolstudents needing to be nudged and manipulated with credit in order to do even essential things like trying to learn from one's mistakes.) For my resubmission, I did the correct derivation at home in LyX, got it printed, and bought it to office hours the next class day. I resolved to be better prepared for future quizzes (to at least not botch them, minor errors aside) in order to avoid the indignity of having an incentive to resubmit.
 
-I would end up doing a resubmission for quiz #8, which was about how to sample from an exponential distribution (with λ=1) given the ability to sample from the uniform distribution on [0,1], by inverting the exponential's cumulative distribution function. (It had been covered in class, and I had gotten plenty of practice on that week's assignments with importance sampling using exponential proposal distributions, but I did it Rust and used the rand_distr library rather than what was apparently the intended method of implementing exponential sampling from a uniform RNG "from scratch".) I blunted the indignity of my resubmission recapitulating the answer written on the board after the quiz by additionally inverting by myself the c.d.f. of a different distribution, the Pareto.
+I mostly succeeded at that. I would end up doing a resubmission for quiz #8, which was about how to sample from an exponential distribution (with λ=1) given the ability to sample from the uniform distribution on [0,1], by inverting the exponential's cumulative distribution function. (It had been covered in class, and I had gotten plenty of practice on that week's assignments with importance sampling using exponential proposal distributions, but I did it in Rust using the rand_distr library rather than what was apparently the intended method of implementing exponential sampling from a uniform RNG "from scratch".) I blunted the indignity of my resubmission recapitulating the answer written on the board after the quiz by additionally inverting by myself the c.d.f. of a different distribution, the Pareto.
 
 I continued my practice of using LLMs for hints when I got stuck on assignments, and citing the help in my writeup; Prof. Mujamdar seemed OK with it when I mentioned it at office hours. (I went to office hours occasionally, when I had a question for Prof. Mujamdar, who was kind and friendly to me, but it wasn't a social occasion like Prof. Schuster's conference-room office hours.)
 
@@ -110,7 +108,7 @@ The student quality seemed noticeably worse than "Real II", at least along the d
 
 It was only late in the semester that I was alerted by non-course reading (specifically a footnote in the Daphne Koller and the other guy book) that the stationary distribution of a Markov chain is an eigenvector of the transition matrix with eigenvalue 1. Taking this linear-algebraic view has interesting applications: for example, the mixing time of the chain is determined by the second-largest eigenvalue, because any starting distribution can be expressed in terms of an eigenbasis, and the coefficients of all but the stationary vector decay as you keep iterating (because all the other eigenvalues are less than 1).
 
-The feeling of enlightenment was outweighed by embarrassment that I hadn't independently noticed that the stationary distribution was an eigenvector (we had been subtracting one off the main diagonal and solving the system for weeks; the operation should have _felt familiar_), and, more than either of those, annoyance that neither the textbook nor the professor had deigned to mention this relevant fact _in a course that had linear algebra as a prerequisite_. When I tried to point it out during the final review session, it didn't seem like Prof. Mujamdar had understood what I said—not for the lack of linear algebra knowledge, I'm sure—let alone any of the other students.
+The feeling of enlightenment was outweighed by embarrassment that I hadn't independently noticed that the stationary distribution was an eigenvector (we had been subtracting 1 off the main diagonal and solving the system for weeks; the operation should have _felt familiar_), and, more than either of those, annoyance that neither the textbook nor the professor had deigned to mention this relevant fact _in a course that had linear algebra as a prerequisite_. When I tried to point it out during the final review session, it didn't seem like Prof. Mujamdar had understood what I said—not for the lack of linear algebra knowledge, I'm sure—let alone any of the other students.
 
 I can only speculate that the occurrence of a student pointing out something about mathematical reality that wasn't on the test or syllabus was so unexpected, so beyond what everyone had been conditioned to think school was about, that no one had any context to make sense of it. A graduate statistics class at San Francisco State University just wasn't that kind of space. I did get an A.
 
@@ -118,7 +116,7 @@ I can only speculate that the occurrence of a student pointing out something abo
 
 I also organized a team for the Putnam Competition, SFSU's first in institutional memory. (I'm really proud of [my recruitment advertisements](http://zackmdavis.net/blog/2025/01/recruitment-advertisements-for-the-2024-putnam-competition-at-san-francisco-state-university/) to the math majors' mailing list.) The story of the Putnam effort has been recounted in a separate post, ["The End of the Movie: SF State's 2024 Putnam Competition Team, A Retrospective"](http://zackmdavis.net/blog/2025/01/the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective/).
 
-As the email headers at the top of the post indicate, the post was originally composed for the department mailing lists, but it never actually got published there: department chair Eric Hsu wrote to me that it was "much too long to send directly to the whole department" but asked for my "permission to eventually share it with the department, either as a link or possibly as a department web page." (He cc'd a department office admin who I had spoken to about posting the Putnam training session announcements on the mailing list; reading between the lines, I'm imagining that she was discomfited by the tone of the post and appealed to Prof. Hsu's authority about whether to let it through.)
+As the email headers at the top of the post indicate, the post was originally composed for the department mailing lists, but it never actually got published there: department chair Eric Hsu wrote to me that it was "much too long to send directly to the whole department" but asked for my "permission to eventually share it with the department, either as a link or possibly as a department web page." (He cc'd a department office admin whom I had spoken to about posting the Putnam training session announcements on the mailing list; reading between the lines, I'm imagining that she was discomfited by the tone of the post and appealed to Prof. Hsu's authority about whether to let it through.)
 
 I assumed that the ask to share with the department "eventually" was polite bullshit on Hsu's part to let me down gently. (Probably no one gets to be department chair without being molded into a master of polite bullshit.) Privately, I didn't think the rationale made sense—it's just as easy to delete a long unwanted mailing list message as a short one; the email server wasn't going to run out of _paper_—but it seemed petty to argue. I replied that I hadn't known the rules for the mailing list and that he should feel free to share or not as he saw fit.
 
@@ -178,13 +176,15 @@ I guess that's okay because grades aren't real, but the work was real. If Prof. 
 
 One of the quirks of being an autodidact is that it's easy to end up with an "unbalanced" skill profile relative to what school authorities expect. As a student of mathematics, I consider myself more of an analyst than an algebraist and had not previously prioritized learning abstract algebra nor (what the school authorities cared about) "taking" an algebra "class", neither the previous semester nor in Fall 2012/Spring 2013. (Over the years, I had taken a few [desultory swings at Dummit & Foote](http://zackmdavis.net/blog/2019/05/group-theory-for-wellness-i/), but had never gotten very far.) I thus found myself in Prof. Dusty Ross's "Modern Algebra I" ("MATH 335"), the last "core" course I needed to graduate.
 
-Prof. Ross is an outstanding schoolteacher, the best I encountered at SFSU. I choose my words here very carefully. I don't mean he was my favorite professor. I mean that he was good at his job as understood in Society: his lectures were clear and well-prepared and puncutated with group work on well-designed worksheets (pedogogically superior to the whole class just being lecture), the assignments and tests were fair, and so on.
+"Modern Algebra I" met on Monday, Wednesday, and Friday. All of my other classes met Tuesdays and Thursdays. I had wondered whether I could save myself a lot of commuting by ditching algebra most of the time, but started off the semester dutifully attending—and, as long as I was on campus that day anyway, also sitting in on Prof. Ross's "Topology" ("MATH 450") even though I couldn't commit to a fourth math course for credit.
 
-[TODO— square on the first day; dihedral group; "those are just words"; maybe the Schuster comparison goes here; you can see why he was not my favorite professor]
+Prof. Ross is an outstanding schoolteacher, the best I encountered at SFSU. I choose my words here very carefully. I don't mean he was my favorite professor. I mean that he was good at his job. His lectures were clear and well-prepared, and puncutated with group work on well-designed worksheets (pedogogically superior to the whole class just being lecture). The assignments and tests were fair, and son on.
 
-"Modern Algebra I" met on Monday, Wednesday, and Friday. All of my other classes met Tuesdays and Thursdays. I had wondered whether I could save myself a lot of commuting by ditching algebra most of the time, but started off the semester dutifully attending—and, as long as I was on campus that day anyway, also sitting in on Prof. Ross's "Topology" ("MATH 450") and doing the worksheet with an acquaintance in that class, even though I couldn't commit to a fourth math course for credit.
+On the first day, he brought a cardboard square with color-labeled corners to illustrate the dihedral group. When he asked us how many ways there were to position the square, I said: eight, because the dihedral group for the _n_-gon has 2<em>n</em> elements. On Monday of the second week, Prof. Ross stopped me after class to express disapproval with how I had brought out my copy of Dummit & Foote and referred to Lagrange's theorem during the group worksheet discussion about subgroups of cyclic groups; we hadn't covered that yet. He also criticized my response about the dihedral group from the previous week; those were just words, he said.
 
-On Monday of the second week, Prof. Ross stopped me after class to express disapproval with how I had brought out my copy of Dummit & Foote and referred to Lagrange's theorem during the group worksheet discussion about subgroups of cyclic groups; we hadn't covered that yet. I asked whether he cared whether I attended class, and he said that the answer was already in the syllabus. (Attendance was worth 5% of the grade.) After that, I mostly stayed home on Mondays, Wednesdays, and Fridays unless there was a quiz, and didn't show up to topology again.
+I asked whether he cared whether I attended class, and he said that the answer was already in the syllabus. (Attendance was worth 5% of the grade.) After that, I mostly stayed home on Mondays, Wednesdays, and Fridays unless there was a quiz (and didn't show up to topology again), which seemed like a mutually agreeable outcome to all parties.
+
+Dusty Ross is a better schoolteacher than Alex Schuster, but in my book, Schuster is a better person. Dusty Ross believes in San Francisco State University; Alex Schuster just works there.
 
 The course covered the basics of group theory, with a little bit about rings at the end of the semester. The textbook was Joseph A. Gallian's _Contemporary Abstract Algebra_, which I found to be in insultingly poor taste. The contrast between "Modern Algebra I" ("MATH 335") and "Theory of Functions of a Complex Variable" ("MATH 730") that semester did persuade me that the course numbers did have semantic content in their first digit (3xx = insulting, 4xx or cross-listed 4xx/7xx = requires effort, 7xx = potentially punishing).
 
@@ -244,9 +244,11 @@ I was somewhat surprised to see Virginia Prince featured in _The Stonewall Reade
 
 Giving feedback on my project proposal, Prof. Goldberg wrote that I "likely got a master's thesis in here" (or, one might think, a blog?), and that "because autogynephilia wasn't coined until 1989, retroactively applying it to a subject who literally could not have identified in that way is inaccurate." (I wasn't writing about how Prince _identified_.)
 
-During the final presentations, I noticed that a lot of students were slavishly mentioning the assignment requirements in the presentation itself: the rubric had said to cite two readings, two media selections, _&c_. from the course, and people were literally saying, "For my two course readings, I choose ..." When I pointed out to the Prof. Goldberg that this isn't how anyone does scholarship when they have something to say, she said that we could talk about methodology later, but the assignment was what it was.
+During the final presentations, I noticed that a lot of students were slavishly mentioning the assignment requirements in the presentation itself: the rubric had said to cite two readings, two media selections, _&c_. from the course, and people were explicitly saying, "For my two course readings, I choose ..." When I pointed out to the Prof. Goldberg that this isn't how anyone does scholarship when they have something to say (you cite sources in order to support your thesis; you don't say "the two works I'm citing are ..."), she said that we could talk about methodology later, but that the assignment was what it was.
 
-For my project, I ignored the presentation instructions entirely and just spent the two days after the Putnam exam banging out a paper titled "Virginia Prince and the Hazards of Noticing" (four pages with copious footnotes, mostly self-citing my gender-politics blog, in LyX with a couple of mathematical expression in the appendix, for tradition's sake). I didn't think it was high-quality enough to republish on the blog.
+For my project, I ignored the presentation instructions entirely and just spent the two days after the Putnam exam banging out a paper titled "Virginia Prince and the Hazards of Noticing" (four pages with copious footnotes, mostly self-citing my gender-politics blog, in LyX with a couple of mathematical expression in the appendix, for tradition's sake). For my presentation, I just had my paper on the screen in lieu of slides and talked until Prof. Goldberg said I was out of time (halfway through the second page).
+
+I didn't think it was high-quality enough to republish on the blog.
 
 Between the assignments I had skipped and my blatant disregard of the final presentation instructions, I ended up getting a C− in the class, which is perhaps the funniest possible outcome. 
 
@@ -302,7 +304,7 @@ My forum post got no responses. I also did the next two quizzes closed book—ex
 
 [TODO— One could argue that it was genuinely unclear whether closed-book was an expectation, such that I did nothing wrong!—that even my good-faith attempt to clarify on the class forum was supererogatory. If she expected closed-book on the honor system, she probably should have said that on the syllabus, right? The syllabus was very clear about AI plagiarism. Part of the reason I peeked—even though I would have never peeked at another student's paper duing a math exam—is because I sensed that "Self, Place, and Knowing" was not a place where the moral law applied. In a math quiz, it's _clear_ to everyone that peeking is wrong. Here, no one clarified what the rules even were, even after I asked in the most obvious place—and no one would clarify, because no one cared.]
 
-It turned out that I needn't have worried about my handicapped quiz scores (cumulative 32/40 = 80%) hurting my chances to get _cum laude_. Almost all of the remaining assignments were written (often in the form of posts to the class forum, including responses to other students), and Prof. Ferreira awarded full or almost-full credit for submissions that met the prescribed wordcount and made an effort to satisfy the (often unclear or contradictory) requirements.
+It turned out that I needn't have worried about my handicapped quiz scores (cumulative 32/40 = 80%) hurting my chances of making _cum laude_. Almost all of the remaining assignments were written (often in the form of posts to the class forum, including responses to other students), and Prof. Ferreira awarded full or almost-full credit for submissions that met the prescribed wordcount and made an effort to satisfy the (often unclear or contradictory) requirements.
 
 Despite the syllabus's warnings, a few forum responses stuck out to me as having the characteristic tells of being written by an LLM assistant. I insinuated my suspicions in one of my replies to other classmates:
 
@@ -314,27 +316,30 @@ I felt a little bit nervous about that afterwards: my explicit intent with the "
 
 I definitely shouldn't have worried. Other than the fact that Prof. Ferreira gave me credit for the assignment, I have no evidence that any human being read what I wrote.
 
-I titled my final paper "How Do Housing Supply and Community Assets Affect Rents and Quality of Life in Census Tract 3240.03? An Critical Microeconomic Synthesis of Self, Place, and Knowing". It was an exercise in bullshit and malicious compliance: of the course of an afternoon and evening (and finishing up the next morning), I rambled until I hit the wordcount requirement.
-
-My contempt for the exercise would have been quite apparent to anyone who read my work.
-
-
 [TODO: vocabulary terms from assignment spec]
 
 [TODO: topology objection to week 2 video, Prof. Schuster's joke at social time that the torus is flat]
 
-
+My final paper was an exercise in bullshit and malicious compliance: over the course of an afternoon and evening (and finishing up the next morning), I rambled until I hit the wordcount requirement, titling the result, "How Do Housing Supply and Community Assets Affect Rents and Quality of Life in Census Tract 3240.03? An Critical Microeconomic Synthesis of Self, Place, and Knowing". My contempt for the exercise would have been quite apparent to anyone who read my work, but Prof. Ferreira predictably either didn't read it or didn't care. I got my A, and my Bachelor of Arts in Mathematics for Liberal Arts _cum laude_.
 
 ### Cynicism and Sanity
 
+The satisfaction of finally finishing after all these years was tinged with grief. Despite the manifest justice of my complaints, it really hadn't been that terrible—now. The math was real, and it kind of made sense for an institution to vouch for people knowing math, rather than having to take people's word for it.
+
+So why didn't I do this when I was young, the first time, at Santa Cruz? I could have majored in math, even if I'm actually a philosopher. I could have taken the Putnam (which is just offered at UCSC without a student needing to step up to organize). I could have gotten my career started in 2010.
+
+What is a tragedy rather than an excuse is, I hadn't known how, at the time. The official fiction is that Authority school is necessary to prepare students for "the real world".
+
+
+
+
+
+
 [TODO—
  * the linear algebra credits
- * Grief that I didn't know how to do this when I was young; I could have majored in math (even if I'm actually a philosopher) and taken the Putnam and started my career in 2010
- * The TA recommeneded I look up the solution manual online 
  * clicking through anti-harrassment training is obviously OK
  * a memory of "mandatory orientation"
  * LLM use and citing it
- * quiz resubmit for half-credit thing
  * ducking out of class to coordinate on the Putnam registration
  * being more aggressive about working the system
  * Peter Verdone https://www.peterverdone.com/academia-math-trans-and-a-ton-of-other-stuff/
