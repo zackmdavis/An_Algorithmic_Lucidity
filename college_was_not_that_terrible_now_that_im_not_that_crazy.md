@@ -320,33 +320,35 @@ I definitely shouldn't have worried. Other than the fact that Prof. Ferreira gav
 
 [TODO: topology objection to week 2 video, Prof. Schuster's joke at social time that the torus is flat]
 
-My final paper was an exercise in bullshit and malicious compliance: over the course of an afternoon and evening (and finishing up the next morning), I rambled until I hit the wordcount requirement, titling the result, "How Do Housing Supply and Community Assets Affect Rents and Quality of Life in Census Tract 3240.03? An Critical Microeconomic Synthesis of Self, Place, and Knowing". My contempt for the exercise would have been quite apparent to anyone who read my work, but Prof. Ferreira predictably either didn't read it or didn't care. I got my A, and my Bachelor of Arts in Mathematics for Liberal Arts _cum laude_.
+My final paper was an exercise in bullshit and malicious compliance: over the course of an afternoon and evening (and finishing up the next morning), I rambled until I hit the wordcount requirement, titling the result, "How Do Housing Supply and Community Assets Affect Rents and Quality of Life in Census Tract 3240.03? An Critical Microeconomic Synthesis of Self, Place, and Knowing". My contempt for the exercise would have been quite apparent to anyone who read my work, but Prof. Ferreira predictably either didn't read it or didn't care. I got my A, and my Bachelor of Arts in Mathematics (Mathematics for Liberal Arts) _cum laude_.
 
 ### Cynicism and Sanity
 
-The satisfaction of finally finishing after all these years was tinged with grief. Despite the manifest justice of my complaints, it really hadn't been that terrible—now. The math was real, and it kind of made sense for an institution to vouch for people knowing math, rather than having to take people's word for it.
+The satisfaction of finally finishing after all these years was tinged with grief. Despite the manifest justice of my complaints about school, it really hadn't been that terrible—this time. The math was real, and I suppose it makes sense for some sort of institution to vouch for people knowing math, rather than having to take people's word for it.
 
-So why didn't I do this when I was young, the first time, at Santa Cruz? I could have majored in math, even if I'm actually a philosopher. I could have taken the Putnam (which is just offered at UCSC without a student needing to step up to organize). I could have gotten my career started in 2010.
+So why didn't I do this when I was young, the first time, at Santa Cruz? I could have majored in math, even if I'm actually a philosopher. I could have taken the Putnam (which is just offered at UCSC without a student needing to step up to organize). I could have gotten my career started in 2010. I could have been happier and more successful so much earlier. It wouldn't have been hard—that is, it wouldn't have been _cognitively_ hard, the way that the theory of functions of a complex variable is hard.
 
-What is a tragedy rather than an excuse is, I hadn't known how, at the time. The official fiction is that Authority school is necessary to prepare students for "the real world".
+What is a tragedy rather than an excuse is, I hadn't known how, at the time. The official story is that the Authority of school is necessary to prepare students for "the real world". But the thing that made it bearable and even worthwhile this time is that I had enough life experience to treat school as part of the real world that I could interact with on my own terms, and not any kind of Authority. The incomplete contract was an annoyance, not a contradiction in the fabric of reality that made life unbearable.
 
-
-
-
-
+[TODO: get Goetz email]
 
 [TODO—
  * the linear algebra credits
  * clicking through anti-harrassment training is obviously OK
  * a memory of "mandatory orientation"
- * LLM use and citing it
+
+In a word, what saved me was cynicism. 
+
  * ducking out of class to coordinate on the Putnam registration
  * being more aggressive about working the system
  * Peter Verdone https://www.peterverdone.com/academia-math-trans-and-a-ton-of-other-stuff/
  * it was chance that I ended up deciding to finish before moving; finishing at Reno would be harder
+
  * I would have leaned on office hours more if LLMs didn't exist
+ * LLM use and citing it
  * sorrow that autodidacticism was less feasible before the GPT-4 era _and I didn't realize it_ (I thought I was doing OK from just books, and maybe I wasn't); grief that learning is easier now is arguably perverse, but it's real
  * the struggle and external resources are probably normal
+ 
  * Prof. "A" impressed when a student mentioned ZFC; I think this is "knowing how to read" territory and should not be impressive; but MathAcademy Justin would say it "doesn't matter", and he had a point
  * notecard as proof that I had done the reading; deliberately not turning one in when I thought I didn't deserve it
  * maybe I had spent all my life in classes that were just obedience tests, that it wasn't immediately obvious to recognize the good classes that weren't
@@ -354,6 +356,7 @@ What is a tragedy rather than an excuse is, I hadn't known how, at the time. The
  * https://www.lesswrong.com/posts/pESH2aYfu4B9rhNEm/free-learning-in-today-s-society-some-personal-experiences
  * https://www.lesswrong.com/posts/ZFeEtLmfawgqmJQw8/where-our-engineering-education-went-wrong
  * Diary entry about taking 6 math classes in a semester was delusional; it's not actually true of real classes, even if it were potentially true of "Self, Place, and Knowing"-tier classes
+ * I think I'm latching on to math as something legible where the school model is tolerable; non-math school _could_ be real; it just isn't, empirically
  * my standards were not high enough when I audited Prof. Pugh's class
 ]
 

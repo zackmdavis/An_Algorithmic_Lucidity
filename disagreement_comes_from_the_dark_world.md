@@ -50,14 +50,19 @@ At worst, approximating ideal belief exchange feels like working on math. Suppos
 
 -----
 
-It's worth noticing that most real-world disagreements of interest don't look like the bus arrival or math problem examples—qualitatively, not as a matter of trying to prove quantitatively harder theorems. Real-world disagreements tend to persist; they're [predictable—in flagrant contradiction of how the beliefs of Bayesian reasoners would follow a random walk](https://www.overcomingbias.com/p/we_cant_foreseehtml). From this we can infer that [typical human disagreements aren't "honest"](https://mason.gmu.edu/~rhanson/deceive.pdf), in the sense that at least one of the participants is behaving as if they have some other goal than getting to the truth.
+Most real-world disagreements of interest don't look like the bus arrival or math problem examples—qualitatively, not as a matter of trying to prove quantitatively harder theorems. Real-world disagreements tend to persist; they're [predictable—in flagrant contradiction of how the beliefs of Bayesian reasoners would follow a random walk](https://www.overcomingbias.com/p/we_cant_foreseehtml). From this we can infer that [typical human disagreements aren't "honest"](https://mason.gmu.edu/~rhanson/deceive.pdf), in the sense that at least one of the participants is behaving as if they have some other goal than getting to the truth.
 
 Importantly, this characterization of dishonesty is using [a functionalist criterion](https://www.lesswrong.com/posts/sXHQ9R5tahiaXEZhR/algorithmic-intent-a-hansonian-generalized-anti-zombie): when I say that people are behaving as if they have some other goal than getting to the truth, that [need not imply that anyone is consciously lying](https://www.lesswrong.com/posts/bSmgPNS6MTJsunTzS/maybe-lying-doesn-t-exist); "mere" bias is sufficient to carry the argument.
 
-Dishonest disagreements end up looking like conflicts because they are disguised conflicts. The parties to a dishonest disagreement are competing to get their preferred belief onto shared maps.
+Dishonest disagreements end up looking like conflicts because they are disguised conflicts. The parties to a dishonest disagreement are competing to get their preferred belief accepted, where beliefs are being preferred for some reason other than their accuracy: for example, because acceptance of the belief would imply actions that would benefit the belief-holder.
+
+If it were _true_ that my company is the best, it would follow logically that customers should buy my products and investors should fund me. And yet a discussion with me about whether or not my company is the best probably doesn't feel like a discussion about bus arrival times or the theory of functions of a complex variable. You probably expect me to behave as if I thought my belief is better "because it's mine."
+
+to treat attacks on the belief 
+
+
 
 [TODO—
- * people fight to get their preferred beliefs onto the shared map (and your preferred belief chosen for some reason other than accuracy is better "because it's yours", it deviates frm truth in a way that benefits your goals if believed)
  * There are techniques for resolving undisguised conflicts that involve being more cooperative, willing to do more of what the other party wants (while you reciprocate by doing more of what they want)
  * Someone who thought the economic-interpersonal and the epistemic were analogous, might look at disguised conflicts and try to apply the same toolkit
  * But the analogy is broken because when both parties have non-epistemic goals, "doing more of what the other person wants" results in validating rather than tearing down each other's self-serving delusions
