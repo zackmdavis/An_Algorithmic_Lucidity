@@ -31,8 +31,8 @@ But it didn't hurt this time, because I had a sense of humor about it now—and 
  * Then felt like I had to finish my degree in order to prove that I could (note that I have Diary coverage of this period and can quote it)
  * DVC didn't have any more decent math classes; I took Calc III for completeness even though my vector-calc 23A from Santa Cruz might have covered it
  * "Competing Accounts of the Events of September 11, 2001: A Simplified and Incomplete Bayesian Analysis"
- * resenting the women-in-history professor not understanding what I was trying to do with the take-home test
  * summer history teacher, my objection to colored pencils, her bafflement that I was in her class (peeking at her reading my papers during the test while feeling guilty for not having eyes on my own paper)
+* resenting the women-in-history professor not understanding what I was trying to do with the take-home test; ceasing to try on subsequent tests and feeling bad about that
  * book review log
  * including math in LyX in papers whenever possible
   * having to stay at DVC longer than I expected to cover the SFSU gened requirements (is there Diary coverage of this?)
@@ -300,7 +300,7 @@ I posted a question on the class forum asking for clarification on the closed-bo
 
 You might question why I bothered to ask, given my contempt for grades. But I had noticed that my cumulative GPA was sitting at 3.47 (down from 3.49 in Spring 2013 because of that C− in "Queer Literatures and Media" last semester), and 3.5 would classify my degree as _cum laude_. Despite everything, I think I did want an A in "Self, Place, and Knowing", and my probability of getting an A was lower if I handicapped myself with moral constraints perceived by myself and probably not anyone else.
 
-My forum post got no responses. I also did the next two quizzes closed book—except that on the third quiz, I think I succumbed to the temptation to peek at the PDF once, but didn't end up changing my answer as the result of the peek.  Was that contrary to the moral law? Was this entire endeavor now morally tainted by that one moment, however inconsequential it was to any outcome?
+My forum post got no responses. I also did the next two quizzes closed book—except that on the third quiz, I think I succumbed to the temptation to peek at the PDF once, but didn't end up changing my answer as the result of the peek. Was that contrary to the moral law? Was this entire endeavor now morally tainted by that one moment, however inconsequential it was to any outcome?
 
 [TODO— One could argue that it was genuinely unclear whether closed-book was an expectation, such that I did nothing wrong!—that even my good-faith attempt to clarify on the class forum was supererogatory. If she expected closed-book on the honor system, she probably should have said that on the syllabus, right? The syllabus was very clear about AI plagiarism. Part of the reason I peeked—even though I would have never peeked at another student's paper duing a math exam—is because I sensed that "Self, Place, and Knowing" was not a place where the moral law applied. In a math quiz, it's _clear_ to everyone that peeking is wrong. Here, no one clarified what the rules even were, even after I asked in the most obvious place—and no one would clarify, because no one cared.]
 
@@ -326,41 +326,51 @@ My final paper was an exercise in bullshit and malicious compliance: over the co
 
 The satisfaction of finally finishing after all these years was tinged with grief. Despite the manifest justice of my complaints about school, it really hadn't been that terrible—this time. The math was real, and I suppose it makes sense for some sort of institution to vouch for people knowing math, rather than having to take people's word for it.
 
-So why didn't I do this when I was young, the first time, at Santa Cruz? I could have majored in math, even if I'm actually a philosopher. I could have taken the Putnam (which is just offered at UCSC without a student needing to step up to organize). I could have gotten my career started in 2010. I could have been happier and more successful so much earlier. It wouldn't have been hard—that is, it wouldn't have been _cognitively_ hard, the way that the theory of functions of a complex variable is hard.
+So why didn't I do this when I was young, the first time, at Santa Cruz? I could have majored in math, even if I'm actually a philosopher. I could have taken the Putnam (which is just offered at UCSC without a student needing to step up to organize). I could have gotten my career started in 2010. It wouldn't have been hard—that is, it wouldn't have been cognitively hard, the way that the theory of functions of a complex variable is hard.
 
-What is a tragedy rather than an excuse is, I hadn't known how, at the time. The official story is that the Authority of school is necessary to prepare students for "the real world". But the thing that made it bearable and even worthwhile this time is that I had enough life experience to treat school as part of the real world that I could interact with on my own terms, and not any kind of Authority. The incomplete contract was an annoyance, not a contradiction in the fabric of reality that made life unbearable.
+What is a tragedy rather than an excuse is, I hadn't known how, at the time. The official story is that the Authority of school is necessary to prepare students for "the real world". But the thing that made it bearable and even worthwhile this time is that I had enough life experience to treat school as part of the real world that I could interact with on my own terms, and not any kind of Authority. The incomplete contract was an annoyance, not a torturous contradiction in the fabric of reality.
 
-[TODO: get Goetz email]
+In a word, what saved me was cynicism, except that cynicism is just naturalism about the properties of institutions made out of humans. The behavior of the humans is in part influenced by various streams of written and oral natural language instructions from various sources. It's not surprising that there would sometimes be ambiguity in some of the instructions, or even contradictions between different sources of instructions. As an agent interacting with the system, it was necessarily up to me to decide how to respond to ambiguities or contradictions in accordance with my perception of the moral law. The fact that my behavior in the system was subject to the moral law, didn't make _the streams of natural language instructions_ themselves an Authority under the moral law. I could ask for clarification from a human with authority within the system, but identifying a relevant human and asking had a cost; I didn't have to ask about every detail that might come up.
+
+Cheating on a math test would be contrary to the moral law: it feels unclean to even speak of it as a hypothetical possibility. In contrast, clicking through an anti-sexual-harrassment training module as quickly as possible without actually watching the video was not contrary to the moral law, even though I had received instructions to do the anti-sexual-harrassment training (and good faith adherence to the instructions would imply carefully attending to the training course content). I'm allowed to notice which instructions are morally "real" and which ones are "fake", without such guidance being provided by the instructions themselves.
+
+I ended up getting waivers from Chair Hsu for some of my UCSC credits that the computer system hadn't recognized as fulfilling the degree requirements. I didn't need to neurotically ask followup questions about whether it was "really" okay that (_e.g._) my converted 3.3 units of linear algebra were being accepted for a 4-unit requirement. It was Chair Hsu's job to make his own judgement call as to whether it was okay. I would have agreed to take a test to prove that I know linear algebra—but realistically, why would Hsu bother to have someone administer a test rather than just accept the UCSC credits? I was fine; it was fine.
+
+In [TODO], I had arranged by email to meet with Prof. Goetz about registering for the Putnam exam, but he wasn't at his office at the appointed time, and I had to go to "Queer Literatures and Media" class. During the class, I saw on my phone [TODO: finish anecdote with email reference]
+
+When Prof. Mujamdar asked us to bring our laptops for the recitation on importance sampling and I didn't feel like lugging my laptop on BART, I just did the work at home—in Rust—and verbally collaborated with a classmate during the recitation session. I didn't ask for permission to not bring the laptop, or to use Rust. It was fine; I was fine.
+
+[TODO— examples of agentic behavior
+ * contrast my "Intro to Feminisms" fit vs. my "Self, Place, and Knowing" bullshit
+ * a memory of "mandatory orientation"
+ * I probably didn't read everything for "Philosophy of Animals"
+ * listing Heald on admissions
+]
 
 [TODO—
- * the linear algebra credits
- * clicking through anti-harrassment training is obviously OK
- * a memory of "mandatory orientation"
+ * maybe I had spent all my life in classes that were just obedience tests, that it wasn't immediately obvious to recognize the good classes that weren't
+ * I think I'm latching on to math as something legible where the school model is tolerable; non-math school _could_ be real; it just isn't, empirically
+]
 
-In a word, what saved me was cynicism. 
-
- * ducking out of class to coordinate on the Putnam registration
- * being more aggressive about working the system
- * Peter Verdone https://www.peterverdone.com/academia-math-trans-and-a-ton-of-other-stuff/
+[TODO—benefits of knowing how it's done—
  * it was chance that I ended up deciding to finish before moving; finishing at Reno would be harder
+ * of course I did exercises in my continuous notes
+ * Diary entry about taking 6 math classes in a semester was delusional; it's not actually true of real classes, even if it were potentially true of "Self, Place, and Knowing"-tier classes
+ In a July 2011 Diary entry, I fantasized about doing the "advanced studies" track in two semesters
+"Six classes a semester sounds like a heavy load, but it won't be if I study some of the material in advance," I wrote.
+ * my standards were not high enough when I audited Prof. Pugh's class: I got a 56/100
+]
 
+[TODO—sorrow in not having the hard college math experience before the GPT-4 era
  * I would have leaned on office hours more if LLMs didn't exist
  * LLM use and citing it
  * sorrow that autodidacticism was less feasible before the GPT-4 era _and I didn't realize it_ (I thought I was doing OK from just books, and maybe I wasn't); grief that learning is easier now is arguably perverse, but it's real
  * the struggle and external resources are probably normal
- 
- * Prof. "A" impressed when a student mentioned ZFC; I think this is "knowing how to read" territory and should not be impressive; but MathAcademy Justin would say it "doesn't matter", and he had a point
- * notecard as proof that I had done the reading; deliberately not turning one in when I thought I didn't deserve it
- * maybe I had spent all my life in classes that were just obedience tests, that it wasn't immediately obvious to recognize the good classes that weren't
- * not asking permission to do it in Rust
- * https://www.lesswrong.com/posts/pESH2aYfu4B9rhNEm/free-learning-in-today-s-society-some-personal-experiences
- * https://www.lesswrong.com/posts/ZFeEtLmfawgqmJQw8/where-our-engineering-education-went-wrong
- * Diary entry about taking 6 math classes in a semester was delusional; it's not actually true of real classes, even if it were potentially true of "Self, Place, and Knowing"-tier classes
- * I think I'm latching on to math as something legible where the school model is tolerable; non-math school _could_ be real; it just isn't, empirically
- * my standards were not high enough when I audited Prof. Pugh's class
 ]
 
-Afterwards, Prof. Schuster encouraged me via email to at least consider grad school, saying that I seemed comparable talent-wise to his peers in the University of Michigan Ph.D. program (which was ranked #10 in the U.S. at that time in the late '90s). I demurred: I said I would consider it if circumstances were otherwise, but in contrast to the last two semesters to finish undergrad, grad school didn't pass a cost-benefit analysis.
+Afterwards, Prof. Schuster encouraged me via email to at least consider grad school, saying that I seemed comparable to his peers in the University of Michigan Ph.D. program (which was ranked #10 in the U.S. at that time in the late '90s). I demurred: I said I would consider it if circumstances were otherwise, but in contrast to the last two semesters to finish undergrad, grad school didn't pass a cost-benefit analysis.
+
+(Okay, I did end up crashing Prof. Emily Clader's "Advanced Topics in Mathematics: Algebraic Topology" the following semester, but I didn't _enroll_.)
 
 What was significant (but not appropriate to mention in the email) was that now the choice to pursue more schooling _was_ a matter of cost–benefit analysis, and not a prospect of torment or betrayal.
 
