@@ -8,6 +8,7 @@ To be clear, "better than I expected" is not an endorsement of college. SF State
 
 But it didn't hurt this time, because I had a sense of humor about it now—and a sense of perspective (thanks to life experience, no thanks to school). Ultimately, [policy debates should not appear one-sided](https://www.readthesequences.com/Policy-Debates-Should-Not-Appear-One-Sided): if things are terrible, it's probably not because people are choosing the straightforwardly terrible thing for no reason whatsoever, with no trade-offs, coordination problems, or nonobvious truths making the terrible thing look better than it is. The thing that makes life under communism unbearable is the fact that you can't leave. Having escaped, and coming back as a visiting dignitary, one is a better position to make sense of how and why the regime functions—the problems it solves, at whatever cost in human lives or dignity—the forces that make it stable if not good.
 
+
 ### Past Prologue
 
 [TODO—
@@ -48,9 +49,11 @@ But it didn't hurt this time, because I had a sense of humor about it now—and 
  * App Academy and rescue and happily ever after
 ]
 
+
 ### Doing It Right This Time (Math)
 
 The undergraduate mathematics program at SFSU has three tracks: for "advanced studies", for teaching, and for liberal arts. My student record from 2013 was still listed as on the advanced studies track. In order to graduate as quickly as possible, I switched to the liberal arts track, which, beyond a set of "core" courses, only requires five electives numbered 300 or higher. The only core course I hadn't completed was "Modern Algebra I", and I had done two electives in Fall 2012 ("Mathematical Optimization" and "Probability and Statistics I"), so I only had four math courses (including "Modern Algebra I") to complete for the major.
+
 
 #### "Real Analysis II" (Fall 2024)
 
@@ -82,6 +85,7 @@ There were two examinations: a midterm, and the final. Each involved stating som
 
 I did okay. I posted a 32.5/40 (81%) on the midterm. I'm embarrassed by my performance on the final. It looked easy, and I left the examination room an hour early after providing an answer to all the questions, only to realize a couple hours later that I had completely botched a compactness proof. Between that gaffe, the midterm, and my homework grades, I was expecting to end up with a B+ in the course. (How mortifying—to have gone back to school almost specifically for this course and then _not even get an A_.) But when the final grades came in, it ended up being an A: Prof. Schuster only knocked off 6 points for the bogus proof, for a final exam grade of 44/50 (88%), and had a policy of discarding the midterm grade when the final exam grade was higher. It still seemed to me that that should have probably worked out to an A− rather than an A, but it wasn't my job to worry about that.
 
+
 #### "Probability Models" (Fall 2024)
 
 In addition to the rarified math-math of analysis, the practical math of probability seemed like a good choice for making the most of my elective credits at the university, so I also enrolled in Prof. Anandamayee Mujamdar's "Probability Models" for the Fall 2024 semester. The prerequisites were linear algebra, "Probability and Statistics I", and "Calculus III", but the registration webapp hadn't allowed me to enroll, presumably because it didn't believe I knew linear algebra. (The linear algebra requirement at SFSU was four units. My 2007 linear algebra class from UCSC, which was on a quarter system, got translated to 3.3 semester units.) Prof. Mujamdar hadn't replied to my 9 July 2024 email requesting a permission code, but got me the code after telling me to send a followup email after I inquired in person at the end of the first class.
@@ -110,6 +114,7 @@ The feeling of enlightenment was outweighed by embarrassment that I hadn't indep
 
 I can only speculate that the occurrence of a student pointing out something about mathematical reality that wasn't on the test or syllabus was so unexpected, so beyond what everyone had been conditioned to think school was about, that no one had any context to make sense of it. A graduate statistics class at San Francisco State University just wasn't that kind of space. I did get an A.
 
+
 #### The 85th William Lowell Putnam Mathematical Competition
 
 I also organized a team for the Putnam Competition, SFSU's first in institutional memory. (I'm really proud of [my recruitment advertisements](http://zackmdavis.net/blog/2025/01/recruitment-advertisements-for-the-2024-putnam-competition-at-san-francisco-state-university/) to the math majors' mailing list.) The story of the Putnam effort has been recounted in a separate post, ["The End of the Movie: SF State's 2024 Putnam Competition Team, A Retrospective"](http://zackmdavis.net/blog/2025/01/the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective/).
@@ -117,6 +122,7 @@ I also organized a team for the Putnam Competition, SFSU's first in institutiona
 As the email headers at the top of the post indicate, the post was originally composed for the department mailing lists, but it never actually got published there: department chair Eric Hsu wrote to me that it was "much too long to send directly to the whole department" but asked for my "permission to eventually share it with the department, either as a link or possibly as a department web page." (He cc'd a department office admin whom I had spoken to about posting the Putnam training session announcements on the mailing list; reading between the lines, I'm imagining that she was discomfited by the tone of the post and appealed to Prof. Hsu's authority about whether to let it through.)
 
 I assumed that the ask to share with the department "eventually" was polite bullshit on Hsu's part to let me down gently. (Probably no one gets to be department chair without being molded into a master of polite bullshit.) Privately, I didn't think the rationale made sense—it's just as easy to delete a long unwanted mailing list message as a short one; the email server wasn't going to run out of _paper_—but it seemed petty to argue. I replied that I hadn't known the rules for the mailing list and that he should feel free to share or not as he saw fit.
+
 
 #### "Measure and Integration" (Spring 2025)
 
@@ -131,6 +137,7 @@ I would frequently be a few minutes late throughout the semester. One day, the B
 Measure theory was a test of faith which I'm not sure I passed. Everyone who reads _Wikipedia_ knows about the notorious axiom of choice. This was the part of the school curriculum in which the axiom of choice becomes relevant. It impressed upon me that as much as I like analysis as an intellectual activity, I ... don't necessarily believe in this stuff? We go to all this work to define sigma-algebras in order to rule out pathological sets whose elements _cannot be written down because they're defined using the axiom of choice_. You could argue that it's not worse than uncountable sets, and that alternatives to classical mathematics just end up needing to bite different bullets. (In computable analysis, equality turns out to be uncomputable, because there's no limit on how many decimal places you would need to check for a tiny difference between two almost-equal numbers. For related reasons, all computable functions are continuous.) But I'm not necessarily happy about the situation.
 
 I did okay. I was late on some of the assignments (and didn't entirely finish [assignments #9](http://zackmdavis.net/docs/davis-measure_and_integration-assignment09-attempt1.pdf) and [#10](http://zackmdavis.net/docs/davis-measure_and_integration-assignment10-attempt1.pdf)), but the TA was late in grading them, too. I posted a 31/40 (77.5%) on the midterm. I was expecting to get around 80% on the final based on my previous performance on Prof. Schuster's examinations, but I ended up posting a 48/50 (96%), locking in an A for the course.
+
 
 #### "Theory of Functions of a Complex Variable" (Spring 2025)
 
@@ -170,6 +177,7 @@ Prof. Lai gave me 95/100 on [my final](http://zackmdavis.net/docs/davis-theory_o
 
 I guess that's okay because grades aren't real, but the work was real. If Prof. Lai had faced a dilemma between watering down either the grading scale or the course content in order to accomodate SFSU students being retarded, I'm glad he chose to preserve the integrity of the content.
 
+
 #### "Modern Algebra I" (Spring 2025)
 
 One of the quirks of being an autodidact is that it's easy to end up with an "unbalanced" skill profile relative to what school authorities expect. As a student of mathematics, I consider myself more of an analyst than an algebraist and had not previously prioritized learning abstract algebra nor (what the school authorities cared about) "taking" an algebra "class", neither the previous semester nor in Fall 2012/Spring 2013. (Over the years, I had taken a few [desultory swings at Dummit & Foote](http://zackmdavis.net/blog/2019/05/group-theory-for-wellness-i/), but had never gotten very far.) I thus found myself in Prof. Dusty Ross's "Modern Algebra I" ("MATH 335"), the last "core" course I needed to graduate.
@@ -182,7 +190,7 @@ On the first day, he brought a cardboard square with color-labeled corners to il
 
 I asked whether he cared whether I attended class, and he said that the answer was already in the syllabus. (Attendance was worth 5% of the grade.) After that, I mostly stayed home on Mondays, Wednesdays, and Fridays unless there was a quiz (and didn't show up to topology again), which seemed like a mutually agreeable outcome to all parties.
 
-Dusty Ross is a better schoolteacher than Alex Schuster, but in my book, Schuster is a better person. Dusty Ross believes in San Francisco State University; Alex Schuster just works there.
+Dusty Ross is a better schoolteacher than Alex Schuster, but in my book, Schuster is a better person. Prof. Ross believes in San Francisco State University; Prof. Schuster just works there.
 
 The course covered the basics of group theory, with a little bit about rings at the end of the semester. The textbook was Joseph A. Gallian's _Contemporary Abstract Algebra_, which I found to be in insultingly poor taste. The contrast between "Modern Algebra I" ("MATH 335") and "Theory of Functions of a Complex Variable" ("MATH 730") that semester did persuade me that the course numbers did have semantic content in their first digit (3xx = insulting, 4xx or cross-listed 4xx/7xx = requires effort, 7xx = potentially punishing).
 
@@ -194,9 +202,11 @@ I posted a somewhat disappointing 79/90 (87.8%) on the final, mostly due to stup
 
 He didn't give me credit for those. We hadn't covered the quaternions in class.
 
+
 ### Not Sweating the Fake Stuff (Non-Math)
 
 In addition to the gen-ed requirements that could be satisfied with transfer credits, there were also upper-division gen-ed requirements that had to be taken at SFSU: one class each from "UD-B: Physical and/or Life Sciences" (which I had satisfied with [a ridiculous "Contemporary Sexuality" class in Summer 2012](http://zackmdavis.net/blog/2012/08/contemporary/)), "UD-C: Arts and/or Humanities", and "UD-D: Social Sciences". There was also an "Area E: Lifelong Learning and Self-Development" requirement, and four "SF State Studies" requirements (which overlapped with the UD- classes).
+
 
 #### "Queer Literatures and Media" (Fall 2024)
 
@@ -206,7 +216,7 @@ The schedule of classes had said the course was to be taught by Prof. Deborah Co
 
 I didn't take the class very seriously. I was taking "Real Analysis II" and "Probability Models" seriously that semester, because for those classes, I had something to prove—that I could do well in upper-division math classes if I wanted to. For this class, the claim that ["I could if I wanted to"](https://www.youtube.com/watch?v=GUuU99c_9mY) didn't really seem in doubt.
 
-I didn't _not_ want to. But even easy tasks take time that could be spent doing other things. I didn't always get around to doing all of the assigned reading or video-watching. I didn't read the assigned segment of _Giovanni's Room_. (And honestly disclosed that fact during class discussion.) I skimmed a lot of the narratives in _The Stonewall Reader_. My analysis of _Carol_ (assigned as 250 words, but I wrote 350) used evidence from a scene in the first quarter of the film, because that was all I watched. I read the _Wikipedia_ synopsis of _They/Them_ instead of watching it. I skimmed part of _Fun Home_, which was literally a comic book that you'd expect me to enjoy. When Prof. Goldberg assigned an out-of-print novel (it was straightened out how to get it free online), I bought the last copy from AbeBooks with expedited shipping ... and then didn't read it. (I gave it to Prof. Goldberg at the end of the semester.)
+I didn't _not_ want to. But even easy tasks take time that could be spent doing other things. I didn't always get around to doing all of the assigned reading or video-watching. I didn't read the assigned segment of _Giovanni's Room_. (And honestly disclosed that fact during class discussion.) I skimmed a lot of the narratives in _The Stonewall Reader_. My analysis of _Carol_ (assigned as 250 words, but I wrote 350) used evidence from a scene in the first quarter of the film, because that was all I watched. I read the _Wikipedia_ synopsis of _They/Them_ instead of watching it. I skimmed part of _Fun Home_, which was literally a comic book that you'd expect me to enjoy. When Prof. Goldberg assigned an out-of-print novel (and before it was straightened out how to get it free online), I bought the last copy from AbeBooks with expedited shipping ... and then didn't read most of it. (I gave the copy to Prof. Goldberg at the end of the semester.)
 
 My negligence was the source of some angst. If I was going back to school to "do it right this time", why couldn't I even be bothered to watch a movie as commanded? It's not like it's difficult!
 
@@ -218,7 +228,7 @@ I was proud of that answer (and Prof. Goldberg bought it), but it was the pride 
 
 Another assignment asked us to write paragraphs connecting each of our more theoretical course readings (such as Susan Sontag's "Notes on Camp", or an excerpt from José Esteban Muñoz's _Disidentifications: Queers of Color and the Performance of Politics_) to _Gordo_, a collection of short stories about a gay Latino boy growing up in 1970s California. (I think Prof. Goldberg was concerned that students hadn't gotten the "big ideas" of the course, such as they were, and wanted to give an assignment that would force us to re-read them.)
 
-I did it, and did it well. ("[F]or example, Muñoz discusses the possibility of a queer female revolutionary who disidentifies with Frantz Fanon's homophobia while making use of his work. When Nelson Pardo finds some pleasure in American daytime television despite limited English fluency ("not enough to understand everything he is seeing", p. 175), he might be practicing his own form of disidentification.") But it took time out of my day, and it didn't feel like time well spent.
+I did it, and did it well. ("[F]or example, Muñoz discusses the possibility of a queer female revolutionary who disidentifies with Frantz Fanon's homophobia while making use of his work. When Nelson Pardo [a character in _Gordo_] finds some pleasure in American daytime television despite limited English fluency ("not enough to understand everything he is seeing", p. 175), he might be practicing his own form of disidentification.") But it took time out of my day, and it didn't feel like time well spent.
 
 There was a discussion forum on Canvas. School class forums are always depressing. No one ever posts in them unless the teacher makes an assignment of it—except me. I threw together [a quick 1800-word post, "in search of gender studies (as contrasted to gender activism)"](http://unremediatedgender.space/ancillary/in-search-of-gender-studies/). It was clever, I thought, albeit rambling and self-indulgent, as one does when writing in haste. It felt like an obligation, to show the other schoolstudents what a forum could be and should be. No one replied.
 
@@ -238,7 +248,10 @@ For my project, I ignored the presentation instructions entirely and just spent 
 
 I didn't think it was high-quality enough to republish on the blog.
 
+[TODO: an unwelling of sadness and shame and anger near the end of the semester, the contradiction between the ideal and my negligence]
+
 Between the assignments I had skipped and my blatant disregard of the final presentation instructions, I ended up getting a C− in the class, which is perhaps the funniest possible outcome. 
+
 
 #### "Philosophy of Animals" (Spring 2025)
 
@@ -272,6 +285,7 @@ It was fine. Prof. Moore "clarified" that the extra credit was viewpoint-neutral
 
 As for the philosophy of animals itself, I was already sufficiently well-versed in naturalist philosophy of mind that I don't feel like I learned much of anything new. I posted 24/25 (plus a 2 point "curve" because SFSU students are illiterate), 21.5/25 (plus 4), and 22/25 (plus 2) on the three tests, and finished the semester at 101.5% for an A.
 
+
 #### "Self, Place, and Knowing: An Introduction to Interdisciplinary Inquiry" (Spring 2025)
 
 I was able to satisfy the "Area E: Lifelong Learning and Self-Development" gen-ed requirement with an asynchronous online-only class, Prof. Mariana Ferreira's "Self, Place, and Knowing". Whatever expectations I had of a lower-division social studies gen-ed class at San Francisco State University, this felt like a parody of that.
@@ -294,17 +308,12 @@ Despite the syllabus's warnings, a few forum responses stuck out to me as having
 
 > I have to say, there's something striking about your writing style in this post, and even more so your comments of Ms. Williams's and Ms. Mcsorley's posts. The way you summarize and praise your classmates' ideas has a certain _personality_ to it—somehow I imagine the voice of a humble manservant with a Nigeran accent (betraying no feelings of his own) employed by a technology company, perhaps one headquartered on 18th Street in our very city. You simply must tell us where you learned to write like that!
 
-I felt a little bit nervous about that afterwards: my conscious intent with the "Nigerian manservant" simile was to allude to the story about ChatGPT's affinity for the word _delve_ being traceable to the word's prevalence among the English-speaking Nigerians that OpenAI employed as data labelers, but I worried that it would be called out as racist. (And whatever my conscious intent, maybe at some level I was asking for it.)
+I felt a little bit nervous about that afterwards: my conscious intent with the "Nigerian manservant" simile was to allude to the story about ChatGPT's affinity for the word _delve_ being traceable to the word's prevalence among the English-speaking Nigerians that OpenAI employed as data labelers, but given the cultural milieu of an SFSU social studies class, I worried that it would be called out as racist. (And whatever my conscious intent, maybe at some level I was asking for it.)
 
 I definitely shouldn't have worried. Other than the fact that Prof. Ferreira gave me credit for the assignment, I have no evidence that any human being read what I wrote.
 
 My final paper was an exercise in bullshit and malicious compliance: over the course of an afternoon and evening (and finishing up the next morning), I rambled until I hit the wordcount requirement, [titling the result, "How Do Housing Supply and Community Assets Affect Rents and Quality of Life in Census Tract 3240.03? An Critical Microeconomic Synthesis of Self, Place, and Knowing"](http://zackmdavis.net/docs/davis-ls200-final_paper.pdf). My contempt for the exercise would have been quite apparent to anyone who read my work, but Prof. Ferreira predictably either didn't read it or didn't care. I got my A, and my Bachelor of Arts in Mathematics (Mathematics for Liberal Arts) _cum laude_.
 
-[TODO: vocabulary terms from assignment spec
-
-> Final Thoughts: Wrap up with a few paragraphs underlining at least TEN asset-mapping concepts-- all UNDERLINED, that you have learned throughout this course. Main concepts include: community, health disparities, poverty, racism, education equity, self and personality, human rights, food security, mental illness, domestic violence, Indigenous Peoples, violence against women and children, student debt, vulnerable populations, housing crisis, and many other important issues specific to health-related issues. Word count: 500 words.
-
-]
 
 ### Cynicism and Sanity
 
@@ -318,20 +327,29 @@ In a word, what saved me was cynicism, except that cynicism is just naturalism a
 
 Cheating on a math test would be contrary to the moral law: it feels unclean to even speak of it as a hypothetical possibility. In contrast, clicking through an anti-sexual-harrassment training module as quickly as possible without actually watching the video was not contrary to the moral law, even though I had received instructions to do the anti-sexual-harrassment training (and good faith adherence to the instructions would imply carefully attending to the training course content). I'm allowed to notice which instructions are morally "real" and which ones are "fake", without such guidance being provided by the instructions themselves.
 
-I ended up getting waivers from Chair Hsu for some of my UCSC credits that the computer system hadn't recognized as fulfilling the degree requirements. I told myself that I didn't need to neurotically ask followup questions about whether it was "really" okay that (_e.g._) my converted 3.3 units of linear algebra were being accepted for a 4-unit requirement. It was Chair Hsu's job to make his own judgement call as to whether it was okay. I would have been agreeable to take a test to prove that I know linear algebra—but realistically, why would Hsu bother to have someone administer a test rather than just accept the UCSC credits? I was fine; it was fine.
-
-In November 2024, I had arranged to meet with Prof. Arek Goetz "slightly before midday" regarding the rapidly approaching registration deadline for the Putnam competition. I ducked out of "Real II" early and knocked on his office door at 11:50 _a.m._, then waited until 12:20 before sending him an email on my phone and proceeding to my 12:30 "Queer Literatures and Media" class.
-
-At 12:38 _p.m._, he emailed me, "Hello Zack, I am in the office, not sure if you stopped by yet...".
-
-
+I ended up getting waivers from Chair Hsu for some of my UCSC credits that the computer system hadn't recognized as fulfilling the degree requirements. I told myself that I didn't need to neurotically ask followup questions about whether it was "really" okay that (_e.g._) my converted 3.3 units of linear algebra were being accepted for a 4-unit requirement. It was Chair Hsu's job to make his own judgement call as to whether it was okay. I would have been agreeable to take a test to prove that I know linear algebra—but realistically, why would Hsu bother to have someone administer a test rather than just accept the UCSC credits? It was fine; I was fine.
 
 When Prof. Mujamdar asked us to bring our laptops for the recitation on importance sampling and I didn't feel like lugging my laptop on BART, I just did the work at home—in Rust—and verbally collaborated with a classmate during the recitation session. I didn't ask for permission to not bring the laptop, or to use Rust. It was fine; I was fine.
 
+In November 2024, I had arranged to meet with Prof. Arek Goetz "slightly before midday" regarding the rapidly approaching registration deadline for the Putnam competition. I ducked out of "Real II" early and knocked on his office door at 11:50 _a.m._, then waited until 12:20 before sending him an email on my phone and proceeding to my 12:30 "Queer Literatures and Media" class. While surreptitiously checking my phone during class, I saw that at 12:38 _p.m._, he emailed me, "Hello Zack, I am in the office, not sure if you stopped by yet...". I raised my hand, made a contribution to the class discussion when Prof. Goldberg called on me (offering _Seinfeld_'s "not that there's anything wrong with that" episode as an example of homophobia in television), then grabbed my bag and slipped out while she had her back turned to the whiteboard. Syncing up with Prof. Goetz about the Putnam registration didn't take long. When I got back to "Queer Literatures and Media", the class had split up into small discussion groups; I joined someone's group. Prof. Goldberg acknowledged my return with a glance and didn't seem annoyed.
+
+Missing parts of two classes in order to organize another school activity might seem too trivial of an anecdote to be worth spending wordcount on, but it felt like a significant moment insofar as I was applying a wisdom not taught in schools, that you can just do things. Some professors would have considered it rude to just walk out of a class, but I didn't ask for permission, and it was fine; I was fine.
+
+In contrast to my negligence in "Queer Literatures and Media", I mostly did the reading for "Philosophy of Animals"—but only mostly. It wasn't important to notice or track if I missed an article or skimmed a few pages here and there (in addition to my thing of cutting class in favor of Prof. Schuster's office hours half the time). I engaged with the material enough to answer the written exam questions, and that was the only thing anyone was measuring. It was fine; I was fine.
+
+The contrast to my mindset at Santa Cruz in 2007 is stark and instructive. Recall that the precipitating event of my whole anti-school crusade had been the hysterical complete mental breakdown I had after finding myself unable to meet wordcount on a paper for "Introduction to Feminisms".
+
+It seems so insane in retrospect. As my performance of malicious compliance in "Self, Place, and Knowing" demonstrated, writing a paper that will receive a decent grade in a social studies class is not cognitively difficult (even if Prof. Aptheker and the UCSC of 2007 probably had higher standards than Prof. Ferreira and the SFSU of 2025). I could have done it—if I had been cynical enough to bullshit for the sake of the assignment, rather than holding myself to the standard of writing something I believed and being shattered by the implication that I apparently didn't actually believe what I was being taught in "Introduction to Feminisms."
+
+[TODO—
+ * I don't want to be too hard on my young self, because my insanity was expecting a form of integrity, but
+ * It really would have been better for everyone if I had either bullshit, or turned in a too-short paper without freading out about it.
+ * The kind of integrity that I craved could be had in other ways; I feel like I did better for myself this time by complying, but also writing this blog post
+ * If anyone has any doubts about the meaning of my BA, or the meaning of my A in "Self, Place, and Knowing", I've set it on the public record
+]
+
 [TODO— examples of agentic behavior
- * contrast my "Intro to Feminisms" fit vs. my "Self, Place, and Knowing" bullshit
  * a memory of "mandatory orientation"
- * I probably didn't read everything for "Philosophy of Animals"
  * listing Heald on admissions
 ]
 
@@ -355,6 +373,7 @@ When Prof. Mujamdar asked us to bring our laptops for the recitation on importan
  * sorrow that autodidacticism was less feasible before the GPT-4 era _and I didn't realize it_ (I thought I was doing OK from just books, and maybe I wasn't); grief that learning is easier now is arguably perverse, but it's real
  * the struggle and external resources are probably normal
 ]
+
 
 Afterwards, Prof. Schuster encouraged me via email to at least consider grad school, saying that I seemed comparable to his peers in the University of Michigan Ph.D. program (which was ranked #10 in the U.S. at that time in the late '90s). I demurred: I said I would consider it if circumstances were otherwise, but in contrast to the last two semesters to finish undergrad, grad school didn't pass a cost-benefit analysis.
 
