@@ -47,6 +47,7 @@ But it didn't hurt this time, because I had a sense of humor about it now—and 
  * a memory from 2013: he asked what a sequence was, I said, "A function from the naturals to the reals", he asked how I knew that, I said, "I know how to read"
  * obsessively doing lots of math in my private pages and neglecting my official schoolwork; B in "Probability and Statistics I", B+ in "Mathematical Optimization" (and I'm kind of suspicious of the grading curve there)
  * App Academy and rescue and happily ever after
+ * Pugh informal audit
 ]
 
 
@@ -98,7 +99,7 @@ The textbook was _Introduction to Probability Models_ (12th edition) by Sheldon 
 
 In contrast to what I considered serious math, the course was very much school-math about applying particular techniques to solve particular problem classes, taken to the parodic extent of quizzes and tests re-using worksheet problems verbatim. (You'd expect a statistics professor to know not to test on the training set!)
 
-It was still a lot of work, which I knew needed to be taken seriously in order to do well in the course. The task of quiz #2 was to derive the moment-generating function of the exponential distribution. I had done that successfully from the recitation worksheet earlier, but apparently that and the homework hadn't been enough practice, because I botched it on the quiz day. After the quiz, Prof. Mujamdar wrote the correct derivation on the board. She had also said that we could re-submit a correction to our quiz for half-credit, but I found this policy confusing: it felt morally dubious that it should be possible to just copy down the solution from the board and hand that in, even for partial credit. (I guess the policy made sense from the perspective of schoolstudents needing to be nudged and manipulated with credit in order to do even essential things like trying to learn from one's mistakes.) For my resubmission, [I did the correct derivation at home in LyX](http://zackmdavis.net/docs/davis-probability_models-quiz_resubmission02.pdf), got it printed, and bought it to office hours the next class day. I resolved to be better prepared for future quizzes (to at least not botch them, minor errors aside) in order to avoid the indignity of having an incentive to resubmit.
+It was still a lot of work, which I knew needed to be taken seriously in order to do well in the course. The task of quiz #2 was to derive the moment-generating function of the exponential distribution. I had done that successfully on the recitation worksheet earlier, but apparently that and the homework hadn't been enough practice, because I botched it on quiz day. After the quiz, Prof. Mujamdar wrote the correct derivation on the board. She had also said that we could re-submit a correction to our quiz for half-credit, but I found this policy confusing: it felt morally dubious that it should be possible to just copy down the solution from the board and hand that in, even for partial credit. (I guess the policy made sense from the perspective of schoolstudents needing to be nudged and manipulated with credit in order to do even essential things like trying to learn from one's mistakes.) For my resubmission, [I did the correct derivation at home in LyX](http://zackmdavis.net/docs/davis-probability_models-quiz_resubmission02.pdf), got it printed, and bought it to office hours the next class day. I resolved to be better prepared for future quizzes (to at least not botch them, minor errors aside) in order to avoid the indignity of having an incentive to resubmit.
 
 I mostly succeeded at that. I would end up doing [a resubmission for quiz #8](http://zackmdavis.net/docs/davis-probability_models-quiz_resubmission08.pdf), which was about how to sample from an exponential distribution (with λ=1) given the ability to sample from the uniform distribution on [0,1], by inverting the exponential's cumulative distribution function. (It had been covered in class, and I had gotten plenty of practice on that week's assignments with importance sampling using exponential proposal distributions, but [I did it in Rust](http://zackmdavis.net/docs/davis-probability_models-midterm_computer_assignment.pdf) using the rand_distr library rather than what was apparently the intended method of implementing exponential sampling from a uniform RNG "from scratch".) I blunted the indignity of my resubmission recapitulating the answer written on the board after the quiz by additionally inverting by myself the c.d.f. of a different distribution, the Pareto.
 
@@ -153,7 +154,7 @@ Prof. Lai didn't object to my LLM hint usage policy when I inquired about it at 
 
 It's been said that the real-world usefulness of LLM agents has been limited by low reliability impeding the [horizon length of tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/): if the agent can only successfully complete a single step with probability 0.9, then its probability of succeeding on a task that requires ten correct steps in sequence is only 0.9<sup>10</sup> ≈ 0.35.
 
-That was about how I felt with math. Schuster was assigning short horizon-length problems from Axler, which I could mostly do independently; Lai was assigning longer horizon-length problems from Stein and Shakarchi, which I mostly couldn't. All the individual steps made sense once explained, but I could only generate so many steps before getting stuck.
+That was about how I felt with math. Prof. Schuster was assigning short horizon-length problems from Axler, which I could mostly do independently; Prof. Lai was assigning longer horizon-length problems from Stein and Shakarchi, which I mostly couldn't. All the individual steps made sense once explained, but I could only generate so many steps before getting stuck.
  
 If I were just trying to learn, the external help wouldn't have seemed like a moral issue. I look things up all the time when I'm working on something I care about, but the institutional context of submitting an assignment for a grade seemed to introduce the kind of moral ambiguity that had made school so unbearable to me, in a way that didn't feel fully mitigated by the transparent footnotes.
 
@@ -195,6 +196,8 @@ Dusty Ross is a better schoolteacher than Alex Schuster, but in my book, Schuste
 The course covered the basics of group theory, with a little bit about rings at the end of the semester. The textbook was Joseph A. Gallian's _Contemporary Abstract Algebra_, which I found to be in insultingly poor taste. The contrast between "Modern Algebra I" ("MATH 335") and "Theory of Functions of a Complex Variable" ("MATH 730") that semester did persuade me that the course numbers did have semantic content in their first digit (3xx = insulting, 4xx or cross-listed 4xx/7xx = requires effort, 7xx = potentially punishing).
 
 I mostly treated the algebra coursework as an afterthought to the analysis courses I was devoting most of my focus to. I tried to maintain a lead on the weekly algebra assignments (five problems hand-picked by Prof. Ross, not from Gallian), submitting them an average of 5.9 days early—in the spirit of getting it out of the way. One week [I started working on the prequisite chapter on polynomial rings](http://zackmdavis.net/docs/polynomial_rings_1.pdf) from the algebraic geometry book Prof. Ross had just written with his partner Prof. Emily Clader, but that was just to show off to Prof. Ross at office hours that I had at least looked at his book; I didn't stick with it.
+
+[TODO: Python program calculations]
 
 The Tutoring and Academic Support Center (TASC) offered tutoring for "Modern Algebra I", so I signed up for weekly tutoring sessions with the TA for the class, not because I needed help to do well in the class, but it was nice to work with someone. Sometimes I did the homework, sometimes we talked about some other algebra topic (from Dummit & Foote, or Ross & Clader that one week), one week I tried to explain my struggles with measure theory. TASC gave out "loyalty program"-style punch cards that bribed students with a choice of between two prizes every three tutoring sessions, which is as patronizing as it sounds, but wondering what the next prize options would be provided a source of anticipation and mystery; I got a pen and a button and a tote bag over the course of the semester.
 
@@ -248,7 +251,9 @@ For my project, I ignored the presentation instructions entirely and just spent 
 
 I didn't think it was high-quality enough to republish on the blog.
 
-[TODO: an unwelling of sadness and shame and anger near the end of the semester, the contradiction between the ideal and my negligence]
+There was one day near the end of the semester when I remember being overcome with an intense feeling of sadness and shame and anger at the whole situation—at the contradiction between what I "should" have done to do well in the class, and what I did do. I felt both as if the contradiction was a moral indictment of me, and that the feeling that it was a moral indictment was a meta-moral indictment of moral indictment.
+
+The feeling passed.
 
 Between the assignments I had skipped and my blatant disregard of the final presentation instructions, I ended up getting a C− in the class, which is perhaps the funniest possible outcome. 
 
@@ -333,38 +338,42 @@ When Prof. Mujamdar asked us to bring our laptops for the recitation on importan
 
 In November 2024, I had arranged to meet with Prof. Arek Goetz "slightly before midday" regarding the rapidly approaching registration deadline for the Putnam competition. I ducked out of "Real II" early and knocked on his office door at 11:50 _a.m._, then waited until 12:20 before sending him an email on my phone and proceeding to my 12:30 "Queer Literatures and Media" class. While surreptitiously checking my phone during class, I saw that at 12:38 _p.m._, he emailed me, "Hello Zack, I am in the office, not sure if you stopped by yet...". I raised my hand, made a contribution to the class discussion when Prof. Goldberg called on me (offering _Seinfeld_'s "not that there's anything wrong with that" episode as an example of homophobia in television), then grabbed my bag and slipped out while she had her back turned to the whiteboard. Syncing up with Prof. Goetz about the Putnam registration didn't take long. When I got back to "Queer Literatures and Media", the class had split up into small discussion groups; I joined someone's group. Prof. Goldberg acknowledged my return with a glance and didn't seem annoyed.
 
-Missing parts of two classes in order to organize another school activity might seem too trivial of an anecdote to be worth spending wordcount on, but it felt like a significant moment insofar as I was applying a wisdom not taught in schools, that you can just do things. Some professors would have considered it rude to just walk out of a class, but I didn't ask for permission, and it was fine; I was fine.
+Missing parts of two classes in order to organize another school activity might seem too trivial of an anecdote to be worth spending wordcount on, but it felt like a significant moment insofar as I was applying a wisdom not taught in schools, that you can just do things. Some professors would have considered it an affront to just walk out of a class, but I hadn't asked for permission, and it was fine; I was fine.
 
 In contrast to my negligence in "Queer Literatures and Media", I mostly did the reading for "Philosophy of Animals"—but only mostly. It wasn't important to notice or track if I missed an article or skimmed a few pages here and there (in addition to my thing of cutting class in favor of Prof. Schuster's office hours half the time). I engaged with the material enough to answer the written exam questions, and that was the only thing anyone was measuring. It was fine; I was fine.
 
-The contrast to my mindset at Santa Cruz in 2007 is stark and instructive. Recall that the precipitating event of my whole anti-school crusade had been the hysterical complete mental breakdown I had after finding myself unable to meet wordcount on a paper for "Introduction to Feminisms".
-
-It seems so insane in retrospect. As my performance of malicious compliance in "Self, Place, and Knowing" demonstrated, writing a paper that will receive a decent grade in a social studies class is not cognitively difficult (even if Prof. Aptheker and the UCSC of 2007 probably had higher standards than Prof. Ferreira and the SFSU of 2025). I could have done it—if I had been cynical enough to bullshit for the sake of the assignment, rather than holding myself to the standard of writing something I believed and being shattered by the implication that I apparently didn't actually believe what I was being taught in "Introduction to Feminisms."
-
-[TODO—
- * I don't want to be too hard on my young self, because my insanity was expecting a form of integrity, but
- * It really would have been better for everyone if I had either bullshit, or turned in a too-short paper without freading out about it.
- * The kind of integrity that I craved could be had in other ways; I feel like I did better for myself this time by complying, but also writing this blog post
- * If anyone has any doubts about the meaning of my BA, or the meaning of my A in "Self, Place, and Knowing", I've set it on the public record
+[TODO— 
+ * listing Heald on admissions, aftermath
 ]
 
-[TODO— examples of agentic behavior
- * a memory of "mandatory orientation"
- * listing Heald on admissions
+I was fine now, but I hadn't been fine at Santa Cruz in 2007. The contrast in mindset is stark and instructive. Recall that the precipitating event of my whole anti-school crusade had been the hysterical complete mental breakdown I had after finding myself unable to meet pagecount on a paper for "Introduction to Feminisms".
+
+It seems so insane in retrospect. As I demonstrated with my malicious compliance for "Self, Place, and Knowing", writing a paper that will receive a decent grade in an undergraduate social studies class is just not cognitively difficult (even if Prof. Aptheker and the UCSC of 2007 probably had higher standards than Prof. Ferreira and the SFSU of 2025). I could have done it—if I had been cynical enough to bullshit for the sake of the assignment, rather than holding myself to the standard of writing something I believed and having a complete mental breakdown rather than confront the fact that I apparently didn't believe what I was being taught in "Introduction to Feminisms."
+
+I don't want to condemn my younger self entirely, because the trait that made me so insanely dysfunctional was a form of integrity. I was right to want to write something I believed. It would be morally wrong to give up my soul to the kind of cynicism that scorns ideals themselves, rather than scorning people and institutions for not living up to the ideals and lying about it.
+
+Even so, it would have been better for everyone if I had either bullshit to meet the pagecount, or just turned in a too-short paper without having a total mental breakdown about it. The total mental breakdown didn't help anyone! It was bad for me, and it imposed costs on everyone around me.
+
+I wish I had known that the kind of integrity I craved could be had in other ways. I think I did better for myself this time by mostly complying with the streams of natural language instructions, but not throwing a fit when I didn't comply, and writing this blog post afterwards to clarify what happened. If anyone has any doubts about the meaning of my Bachelor of Arts in Mathematics for Liberal Arts, they can read this post and get a pretty good idea of what that entailed. I've put in more than enough of an effort to be transparent that it just doesn't make sense for me to be neurotically afraid of accidentally being a fraud.
+
+I think the Bachelor of Arts in Mathematics does mean something, even to me. It can simultaneously be the case that existing schools are awful for all the reasons I've laid out, and that there's something real about some parts of the existing institutions that makes them potentially worth participating in. Part of the tragedy of my story is that because I had wasted too much of my life in classes that were just obedience tests, I wasn't prepared to appreciate the value of classes that weren't just that. If I had known, I could have sought them out at Santa Cruz.
+
+None of this is to justify credentialism, of course. Chris Olah never got his Bachelor's degree, and anyone who thinks less of him because of that is telling on themselves.
+
+At the same time, I'm not Chris Olah. There's a benefit to being calibrated about the standard way things are done. (Which, I hasten to note, I could in principle have gotten from MIT OpenCourseWare; my accounting of benefits from finishing is not an admission that the credentialists were right.) Obviously, I know that math is not a spectator sport: in the years that I was filling my pages of notes from my own textbooks, I was attempting exercises and not just reading (because just reading doesn't work). But was I doing _enough_ exercises, correctly, to the standard that would be demanded in a school class, before moving on to the next topic? It's not worth the effort to do an exhaustive audit of my 2008–2024 private work, but I think in many cases, I was not. Having a better sense of what the mainstream standard is will help me adjust my self-study practices going forward.
+
+When I informally audited honors analysis at UC Berkeley in 2017, Prof. Charles C. Pugh agreed to grade my midterm, and I got a 56/100. I don't know what the class's distribution was. Having been given to understand that many STEM courses offered a generous curve, I would later describe it as me ["[doing] fine on the midterm"](/2024/Mar/agreeing-with-stalin-in-ways-that-exhibit-generally-rationalist-principles/#it-matters-whether-peoples-beliefs-about-themselves-are-actually-true). Looking at the paper after having been through even SFSU's idea of an analysis course, I think I was expecting too little of myself: by all rights, a serious analysis student in exam shape _should_ be able to prove that the minimum distance between a compact and a connected set is achieved by some pair of points in the sets, or the product of connected spaces is connected (as opposed to merely writing down relevant observations that fell short of a proof, as I did).
+
+In a July 2011 Diary entry, yearning to finally be free of school, I fantasized about speedrunning SF State's "advanced studies" track in two semesters: "Six classes a semester sounds like a heavy load, but it won't be if I study some of the material in advance," I wrote. That seems delusional now. That's not actually true of real math classes, even if it were potentially true of "Self, Place, and Knowing"-tier bullshit classes.
+
+
+[TODO—
+  * without justifying the credentialist menace, the fact that I was ill-calibrated, is why coercion is functional; it's possible to do worse
+  * it was chance that I ended up deciding to finish before moving; finishing at Reno would be harder
 ]
 
 [TODO—
- * maybe I had spent all my life in classes that were just obedience tests, that it wasn't immediately obvious to recognize the good classes that weren't
  * I think I'm latching on to math as something legible where the school model is tolerable; non-math school _could_ be real; it just isn't, empirically
-]
-
-[TODO—benefits of knowing how it's done—
- * it was chance that I ended up deciding to finish before moving; finishing at Reno would be harder
- * of course I did exercises in my continuous notes
- * Diary entry about taking 6 math classes in a semester was delusional; it's not actually true of real classes, even if it were potentially true of "Self, Place, and Knowing"-tier classes
- In a July 2011 Diary entry, I fantasized about doing the "advanced studies" track in two semesters
-"Six classes a semester sounds like a heavy load, but it won't be if I study some of the material in advance," I wrote.
- * my standards were not high enough when I audited Prof. Pugh's class: I got a 56/100
 ]
 
 [TODO—sorrow in not having the hard college math experience before the GPT-4 era
@@ -373,7 +382,6 @@ It seems so insane in retrospect. As my performance of malicious compliance in "
  * sorrow that autodidacticism was less feasible before the GPT-4 era _and I didn't realize it_ (I thought I was doing OK from just books, and maybe I wasn't); grief that learning is easier now is arguably perverse, but it's real
  * the struggle and external resources are probably normal
 ]
-
 
 Afterwards, Prof. Schuster encouraged me via email to at least consider grad school, saying that I seemed comparable to his peers in the University of Michigan Ph.D. program (which was ranked #10 in the U.S. at that time in the late '90s). I demurred: I said I would consider it if circumstances were otherwise, but in contrast to the last two semesters to finish undergrad, grad school didn't pass a cost-benefit analysis.
 
