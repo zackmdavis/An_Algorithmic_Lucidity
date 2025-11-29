@@ -195,9 +195,7 @@ Dusty Ross is a better schoolteacher than Alex Schuster, but in my book, Schuste
 
 The course covered the basics of group theory, with a little bit about rings at the end of the semester. The textbook was Joseph A. Gallian's _Contemporary Abstract Algebra_, which I found to be in insultingly poor taste. The contrast between "Modern Algebra I" ("MATH 335") and "Theory of Functions of a Complex Variable" ("MATH 730") that semester did persuade me that the course numbers did have semantic content in their first digit (3xx = insulting, 4xx or cross-listed 4xx/7xx = requires effort, 7xx = potentially punishing).
 
-I mostly treated the algebra coursework as an afterthought to the analysis courses I was devoting most of my focus to. I tried to maintain a lead on the weekly algebra assignments (five problems hand-picked by Prof. Ross, not from Gallian), submitting them an average of 5.9 days early—in the spirit of getting it out of the way. One week [I started working on the prequisite chapter on polynomial rings](http://zackmdavis.net/docs/polynomial_rings_1.pdf) from the algebraic geometry book Prof. Ross had just written with his partner Prof. Emily Clader, but that was just to show off to Prof. Ross at office hours that I had at least looked at his book; I didn't stick with it.
-
-[TODO: Python program calculations]
+I mostly treated the algebra coursework as an afterthought to the analysis courses I was devoting most of my focus to. I tried to maintain a lead on the weekly algebra assignments (five problems hand-picked by Prof. Ross, not from Gallian), submitting them an average of 5.9 days early—in the spirit of getting it out of the way. [On](http://zackmdavis.net/docs/davis-algebra-assignment02.pdf) [a](http://zackmdavis.net/docs/davis-algebra-assignment05.pdf) [few](http://zackmdavis.net/docs/davis-algebra-assignment07.pdf) [assignments](http://zackmdavis.net/docs/davis-algebra-assignment07.pdf), I wrote some Python to compute orders of elements or cosets of permutation groups in preference to doing it by hand. One week [I started working on the prequisite chapter on polynomial rings](http://zackmdavis.net/docs/polynomial_rings_1.pdf) from the algebraic geometry book Prof. Ross had just written with his partner Prof. Emily Clader, but that was just to show off to Prof. Ross at office hours that I had at least looked at his book; I didn't stick with it.
 
 The Tutoring and Academic Support Center (TASC) offered tutoring for "Modern Algebra I", so I signed up for weekly tutoring sessions with the TA for the class, not because I needed help to do well in the class, but it was nice to work with someone. Sometimes I did the homework, sometimes we talked about some other algebra topic (from Dummit & Foote, or Ross & Clader that one week), one week I tried to explain my struggles with measure theory. TASC gave out "loyalty program"-style punch cards that bribed students with a choice of between two prizes every three tutoring sessions, which is as patronizing as it sounds, but wondering what the next prize options would be provided a source of anticipation and mystery; I got a pen and a button and a tote bag over the course of the semester.
 
@@ -356,7 +354,11 @@ Even so, it would have been better for everyone if I had either bullshit to meet
 
 I wish I had known that the kind of integrity I craved could be had in other ways. I think I did better for myself this time by mostly complying with the streams of natural language instructions, but not throwing a fit when I didn't comply, and writing this blog post afterwards to clarify what happened. If anyone has any doubts about the meaning of my Bachelor of Arts in Mathematics for Liberal Arts, they can read this post and get a pretty good idea of what that entailed. I've put in more than enough of an effort to be transparent that it just doesn't make sense for me to be neurotically afraid of accidentally being a fraud.
 
-I think the Bachelor of Arts in Mathematics does mean something, even to me. It can simultaneously be the case that existing schools are awful for all the reasons I've laid out, and that there's something real about some parts of the existing institutions that makes them potentially worth participating in. Part of the tragedy of my story is that because I had wasted too much of my life in classes that were just obedience tests, I wasn't prepared to appreciate the value of classes that weren't just that. If I had known, I could have sought them out at Santa Cruz.
+I think the Bachelor of Arts in Mathematics does mean something, even to me. It can simultaneously be the case that existing schools are awful for all the reasons I've laid out, and that there's something real about some parts of them. Part of the tragedy of my story is that because having wasting too much of my life in classes that were just obedience tests, I wasn't prepared to appreciate the value of classes that weren't just that. If I had known, I could have deliberately sought them out at Santa Cruz.
+
+[TODO—
+ * I think I'm latching on to math as something legible where the school model is tolerable; non-math school _could_ be real; it just isn't, empirically; math is so unnatural and writing is natural
+]
 
 None of this is to justify credentialism, of course. Chris Olah never got his Bachelor's degree, and anyone who thinks less of him because of that is telling on themselves.
 
@@ -366,15 +368,13 @@ When I informally audited honors analysis at UC Berkeley in 2017, Prof. Charles 
 
 In a July 2011 Diary entry, yearning to finally be free of school, I fantasized about speedrunning SF State's "advanced studies" track in two semesters: "Six classes a semester sounds like a heavy load, but it won't be if I study some of the material in advance," I wrote. That seems delusional now. That's not actually true of real math classes, even if it were potentially true of "Self, Place, and Knowing"-tier bullshit classes.
 
-
 [TODO—
   * without justifying the credentialist menace, the fact that I was ill-calibrated, is why coercion is functional; it's possible to do worse
   * it was chance that I ended up deciding to finish before moving; finishing at Reno would be harder
 ]
 
-[TODO—
- * I think I'm latching on to math as something legible where the school model is tolerable; non-math school _could_ be real; it just isn't, empirically
-]
+
+#### It's Going to Be the Future Soon
 
 [TODO—sorrow in not having the hard college math experience before the GPT-4 era
  * I would have leaned on office hours more if LLMs didn't exist
@@ -382,6 +382,9 @@ In a July 2011 Diary entry, yearning to finally be free of school, I fantasized 
  * sorrow that autodidacticism was less feasible before the GPT-4 era _and I didn't realize it_ (I thought I was doing OK from just books, and maybe I wasn't); grief that learning is easier now is arguably perverse, but it's real
  * the struggle and external resources are probably normal
 ]
+
+
+### Denouement
 
 Afterwards, Prof. Schuster encouraged me via email to at least consider grad school, saying that I seemed comparable to his peers in the University of Michigan Ph.D. program (which was ranked #10 in the U.S. at that time in the late '90s). I demurred: I said I would consider it if circumstances were otherwise, but in contrast to the last two semesters to finish undergrad, grad school didn't pass a cost-benefit analysis.
 
