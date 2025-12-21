@@ -23,18 +23,17 @@ I don't look particularly fondly on "fun" school activities lacking substance. I
 
 In January 2005, my 11th grade English teacher had a class party at the conclusion of our unit on _The Great Gatsby_. I wrote in my Diary: "Fancy that all this happened during hours when we were supposed to be, you know, learning stuff! Sometimes I feel guilty that my life, this high school life is too easy." I was not wise enough to spontaneously generate the obvious followup thought, that I could and should have been doing harder work.
 
-I did read a lot: books, and then blogs and _Wikipedia_. I liked Isaac Asimov and Ayn Rand, and later, Greg Egan. In high school, I started keeping little pocket notebooks and writing in them in preference to paying attention in class—nothing very structured, just rambling and observations and scraps of dialogue. I tried to write fiction, but never seemed to finish any stories.
+I did read a lot: books, and then blogs and _Wikipedia_. I liked Isaac Asimov and Ayn Rand, and later, Greg Egan. In high school, I started keeping little pocket notebooks and writing in them in preference to paying attention in class—nothing very structured, just rambling and observations and scraps of dialogue. I tried to write fiction, but never seemed to finish any stories. I got the farthest with "The Greater Glory of Our Humble Academy", a novella about a school of prodigies fielding a girls' cross-country team, the draft of which surpassed 22,000 words before permanently running out of stream. You can see my worship of intelligence in the draft; from my current perspective, it looks like trying too hard to show off how well-read I was.
 
+The contrast between my intellectual ambition (expressed in my reading and my notebooks and stories) and the monotony of my schooling wouldn't have been a contradiction if it had been a conscious strategic choice—to do a passable job of obeying my teachers because Society demanded it, while getting the real work done on my own time. That is what I was effectively doing. (I only took one Advanced Placement class during high school, "Calculus AB", which is not the academic record one might expect on reading "The Greater Glory".) But for the most part, I consciously accepted the conflation of education and schooling, because that's what everyone in Society seemed to believe.
 
-"The Greater Glory of Our Humble Academy"
+There were doubts. In September 2005, I wrote in my Diary that I felt as if I didn't want to go to college. I fantasized about getting a job and being independent as soon as possible. "If I were to stop my formal education after high school, would really be a sort of intellectual suicide?" I wrote. "I don't think so. I could buy college textbooks and read them, all by myself." But that was just a passing fantasy, unthinkable given my social background. The next year, I enrolled at the University of California at Santa Cruz, and I was ego-syntonic about it. My mother once asked if I was doing okay at Santa Cruz, and floated the idea of living at home and taking classes at community college. I said, "Are you _trying_ to sabotage my education?"
 
-The theme of intellectual ambition 
+I wasn't doing okay at Santa Cruz.
 
 
 [TODO—
- * The theme of intellectual ambition in my juvenillia: "The Greater Glory of Our Humble Academy" (and also, after my anti-school reformation, "Rusting in the Rain")
- * The time my mother asked if I was OK at Santa Cruz and suggested the idea of DVC at home, and I said, are you _trying_ to sabotage my education?
- * The time I thought I didn't want to go to college and wrote about it in my Diary (September 2005); "I could buy college textbooks and read them, all by myself"
+ * plagiarism fears, seeing psychiatrists
  * I had a really bad nervous breakdown when I didn't know how to write my "Introduction to Feminisms" paper in fall 2007, intending to take up my Safeway job and then
  * Part of what made school hard was "the incomplete contract", not knowing what was allowed; at least in work there was more obviously a purpose other than to obey
  * I don't know why this didn't bother me in high school as much, perhaps because college was more obviously a choice; I think it didn't bother me in middle school as much because my adult conscience hadn't fully grown yet (I remember plagiarizing other kids' summaries of _As a Driven Leaf_ rather than doing the reading myself)
