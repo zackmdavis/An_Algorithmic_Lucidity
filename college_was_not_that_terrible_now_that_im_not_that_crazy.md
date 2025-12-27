@@ -19,7 +19,7 @@ At some point, they stopped giving me workbooks and reading stars to race throug
 
 A crucial part of my complaint that schoolbound souls might not understand is that when I complain about being expected to obey the teacher's commands, I don't mean in contrast to not doing any intellectual work at all, and only doing frivolous and "fun" things. I'm saying that the arithmetic workbooks (offering me a choice of pace) and reading stars (offering a choice of book) were a superior form of intellectual work.
 
-I don't look particularly fondly on "fun" school activities lacking substance. In Jewish middle school, they gave us an occasional period to play games, which I remember looking down on. I didn't look down on recess, during which the other boys and I would often play basketball or football—but that was understood as _recess_, not a class period.
+I don't look particularly fondly on "fun" school activities lacking substance. In Jewish middle school, they gave us an occasional period to play games, which I remember looking down on. I didn't look down on recess, during which the other boys and I would often play basketball or touch football—but that was understood as _recess_, not a class period.
 
 In January 2005, my 11th grade English teacher had a class party at the conclusion of our unit on _The Great Gatsby_. I wrote in my Diary: "Fancy that all this happened during hours when we were supposed to be, you know, learning stuff! Sometimes I feel guilty that my life, this high school life is too easy." I was not wise enough to spontaneously generate the obvious followup thought, that I could and should have been doing harder work.
 
@@ -27,26 +27,39 @@ I did read a lot: books, and then blogs and _Wikipedia_. I liked Isaac Asimov an
 
 The contrast between my intellectual ambition (expressed in my reading and my notebooks and half-finished stories) and the monotony of my schooling wouldn't have been a contradiction if it had been a conscious strategic choice—to do a passable job of obeying my teachers because Society demanded it, while getting the real work done on my own time. That is what I was effectively doing. (I only took one Advanced Placement class during high school, "Calculus AB", which is not the academic record one might expect on reading "The Greater Glory".) But for the most part, I consciously accepted the conflation of education and schooling, because that's what everyone in Society seemed to believe.
 
-There were doubts. In September 2005, I wrote in my Diary that I felt as if I didn't want to go to college. I fantasized about getting a job and being independent as soon as possible. "If I were to stop my formal education after high school, would [that] really be a sort of intellectual suicide?" I wrote. "I don't think so. I could buy college textbooks and read them, all by myself." But that was just a passing fantasy, unthinkable given my social background. The next year, I enrolled at the University of California at Santa Cruz, and I was ego-syntonic about it. My mother once asked if I was doing okay at Santa Cruz, and floated the idea of living at home and taking classes at community college. I said, "Are you _trying_ to sabotage my education?"
+There were doubts. In September 2005, I wrote in my Diary that I felt as if I didn't want to go to college. I fantasized about getting a job and being independent as soon as possible. "If I were to stop my formal education after high school, would [that] really be a sort of intellectual suicide?" I wrote. "I don't think so. I could buy college textbooks and read them, all by myself." But that was just a passing fantasy; actually forgoing college was unthinkable given my social background. The next year, I enrolled at the University of California at Santa Cruz, and I was ego-syntonic about it. My mother once asked if I was doing okay at Santa Cruz, and floated the idea of living at home and taking classes at community college. I said, "Are you _trying_ to sabotage my education?"
 
-I wasn't doing okay at Santa Cruz. 
+I was not doing okay at Santa Cruz. I cried a lot.
 
+I went through a period where I was terrified of either accidentally committing plagiarism or being falsely accused of plagiarism. We don't have introspective access to where all our ideas come from. How could I _know_ whether an idea I thought of as "mine", I might have actually read about somewhere and then forgotten that I had read it?
 
+Professors would assign readings, and I would get stressed out about what constituted a "reading": if I felt myself skim over a paragraph, did I have to go back and make sure my eyes touched every word? If I didn't do the reading, did I have an obligation to confess this to the instructor, so that they could hypothetically mark me down for it?
+
+When I had trouble with a math problem and received help from a TA, I wasn't sure how I should indicate that on my homework submission. It seemed morally dubious to just copy down the steps without some sort of barrier to indicate which parts were me _vs._ not-me. (The standard injunction was to "show _your_ work", not just "show work", right?) On a homework paper for my Winter 2007 linear algebra class, I used red pen to clarify, "NOTE red ink indicates corrections/additions made at section 22 February".
+
+The unifying theme in these neuorses was that of an incomplete contract. I liked learning about "academic" topics, of course, but I implicitly felt as if in school, my job was not to learn, but to comply with the teacher's commands, and I couldn't bear it not being absolutely clear what constituted correct compliance. I must have known at some level that my scrupulosity was unusual, but that didn't make it stop hurting.
+
+I don't know why the incomplete contract apparently hadn't bothered me so much in high school. Maybe it had something to do with college attendance being more overtly a choice rather than a legal imposition? I know it hadn't bothered me in middle school, before my adult conscience had grown. (They had us read _As a Driven Leaf_ and write chapter summaries as homework; I remember summarizing another student's summary a few times when I hadn't read the chapter myself.)
+
+Events came to a head at the end of the quarter of Fall 2007, when I found myself unable to bring myself to complete the final essay for for Prof. Bettina Aptheker's famous "Introduction to Feminisms" course; I had felt like the class was taught in a dialect of English I couldn't speak. As a male being permitted to take a feminist studies course, the shame of my failure to obey was unbearable. I had a complete mental breakdown, crying and screaming for hours, "I betrayed them; I betrayed them." When it was over, I wrote a letter to my parents (in my overwrought purple prose) expressing my intent to withdraw from the University, go back to my supermarket job, and be an autodidact.
+
+I ended up getting a B+ in "Introduction to Feminisms." I wrote to the T.A. that this "puzzled me, because I thought it had been manifest that my performance merited an F or D grade." I concluded, "This email is just to alert you to this error." (She sent me a nice reply explaining that it wasn't an error, that she and Prof. Aptheker had valued my work.)
+
+In mid-2008, I enrolled in the network administration program at Heald career college, on the theory they could _just_ teach me job-relevant skills, without inserting their authority between me and the books of my real education. I thought that that wouldn't be torture the way that the University had been. I remember staff being surprised at my high scores on the entry test. (People with my IQ usually go to university, not career college.) The program had an elementary algebra requirement, which I imagined myself dominating and thereby attaining atonement for the sins of my failures to comply in my university math classes. They waived the algebra requirement on account of my UCSC calculus credits. In retrospect, waiving the requiement is obviously sensible and my vision of "atonement" was insane. Evidently, the career college staff had a more pragmatic understanding of the purpose of school than I did. (If someone is certified as knowing calculus, there's no reason for them to sit through an elementary algebra class.) The obedience test was all in my head.
+
+Nevertheless, Heald was still a school despite the "career" focus, and the torturous obedience test in my head was still active. I had another crying fit and quit again before the first term was over. Part of the program would have involved taking the A+ and Network+ certification exams. I got the books and passed those on my own, but never ended up converting them into a job; maybe I could have if I had tried harder.
+
+In fall 2008, I got the idea that my autodidacticism should include mathematics and started studying linear algebra from the textbook I had used at UCSC. When I had had my fill of linear algebra, I followed it up with work from books on complex analysis and discrete math, and various other math and programming excursions I came across.
+
+[TODO: Punnett cube, derivative of the natural log 20 March 2009, probability of a disjunction]
+
+I kept all my notes and exercises in a continuous sequence of numbered pages divided into two columns.
 
 [TODO—
-
- * Part of what made school hard was "the incomplete contract", not knowing what was allowed; at least in work there was more obviously a purpose other than to obey
- * I don't know why this didn't bother me in high school as much, perhaps because college was more obviously a choice; I think it didn't bother me in middle school as much because my adult conscience hadn't fully grown yet (I remember plagiarizing other kids' summaries of _As a Driven Leaf_ rather than doing the reading myself)
- * plagiarism fears, seeing psychiatrists
-
-
- * I had a really bad nervous breakdown when I didn't know how to write my "Introduction to Feminisms" paper in fall 2007, intending to take up my Safeway job and then
- * more evidence about the incomplete contract: asking Rich about how much of the reading he did at Stanford (contrast to Nicole in summer 2025 visit claiming she learned more in lecture and often skipped reading), Diary entry about linear algebra and office hours (and more confessions in Diary 260)
- * Meggie Sprengel
- * enrolled in Heald, thinking that "OK, they'll just teach me Job stuff" (which won't feel bad the way school did)
- * I remember staff at Heald being shocked at my high test scores
- * There was an elementary algebra requirement, which I imagined myself dominating, but I remember the staff saying I could clearly skip it because of my Santa Cruz calculus credits; they had a more pragmatic understanding of school than I did; the obedience test was all in my head!
- * Heald still felt awful and I had a crying fit and quit again; passed the A+ and Network+ on my own, but never converted those into a job (could I have, if I had searched harder?)
+ * April 2009 UCSC visit, Tantalo, Aptheker; Sean and Luke
+ * "When you try to solve a math problem and fail, you at least have the notes, but half of a computer program is nothing. When I mentioned this to Anna, I think she said something to the effect that half a math problem was just as bad"
+ * 'why did scripting seem safer in relation to my recent madness? Bigger projects have more scope for originality [...] It would be a monstrous absurdity for me to be accused of plagiarism every time I type "ls | grep" something—that's simply what is done when you want to see if something is in your current working directory.'
+ * page number checkpoint before discussing diffeq.
  * Fall 2010, tried to enroll in differential equations for fun, got "schooled", humiliating
  * Then felt like I had to finish my degree in order to prove that I could (note that I have Diary coverage of this period and can quote it)
  * DVC didn't have any more decent math classes; I took Calc III for completeness even though my vector-calc 23A from Santa Cruz might have covered it
@@ -108,7 +121,7 @@ I did okay. I posted a 32.5/40 (81%) on the midterm. I'm embarrassed by my perfo
 
 #### "Probability Models" (Fall 2024)
 
-In addition to the rarified math-math of analysis, the practical math of probability seemed like a good choice for making the most of my elective credits at the university, so I also enrolled in Prof. Anandamayee Mujamdar's "Probability Models" for the Fall 2024 semester. The prerequisites were linear algebra, "Probability and Statistics I", and "Calculus III", but the registration webapp hadn't allowed me to enroll, presumably because it didn't believe I knew linear algebra. (The linear algebra requirement at SFSU was four units. My 2007 linear algebra class from UCSC, which was on a quarter system, got translated to 3.3 semester units.) Prof. Mujamdar hadn't replied to my 9 July 2024 email requesting a permission code, but got me the code after telling me to send a followup email after I inquired in person at the end of the first class.
+In addition to the rarified math-math of analysis, the practical math of probability seemed like a good choice for making the most of my elective credits at the university, so I also enrolled in Prof. Anandamayee Mujamdar's "Probability Models" for the Fall 2024 semester. The prerequisites were linear algebra, "Probability and Statistics I", and "Calculus III", but the registration webapp hadn't allowed me to enroll, presumably because it didn't believe I knew linear algebra. (The linear algebra requirement at SFSU was four units. My 2007 linear algebra class from UCSC, which was on a quarter system, got translated to 3.3 semester units.) Prof. Mujamdar hadn't replied to my July email requesting a permission code, but got me the code after telling me to send a followup email after I inquired in person at the end of the first class.
 
 (I had also considered taking the online-only "Introduction to Linear Models", which had the same prerequisites, but Prof. Kafai also hadn't replied to my July email, and I didn't bother following up, which was just as well: the semester ended up feeling busy enough with just the real analysis, probability models, my gen-ed puff course, and maintaining my soul in an environment that assumes people need a bureaucratic control structure in order to keep busy.)
 
@@ -210,7 +223,7 @@ On the first day, he brought a cardboard square with color-labeled corners to il
 
 I asked whether he cared whether I attended class, and he said that the answer was already in the syllabus. (Attendance was worth 5% of the grade.) After that, I mostly stayed home on Mondays, Wednesdays, and Fridays unless there was a quiz (and didn't show up to topology again), which seemed like a mutually agreeable outcome to all parties.
 
-Dusty Ross is a better schoolteacher than Alex Schuster, but in my book, Schuster is a better person. Prof. Ross believes in San Francisco State University; Prof. Schuster just works there.
+Dusty Ross is a better schoolteacher than Alex Schuster, but in my book, Schuster is a better person. Ross believes in San Francisco State University; Schuster just works there.
 
 The course covered the basics of group theory, with a little bit about rings at the end of the semester. The textbook was Joseph A. Gallian's _Contemporary Abstract Algebra_, which I found to be in insultingly poor taste. The contrast between "Modern Algebra I" ("MATH 335") and "Theory of Functions of a Complex Variable" ("MATH 730") that semester did persuade me that the course numbers did have semantic content in their first digit (3xx = insulting, 4xx or cross-listed 4xx/7xx = requires effort, 7xx = potentially punishing).
 
@@ -393,7 +406,7 @@ The fact that humans are such weak general intelligences that so much of our liv
 
 Afterwards, Prof. Schuster encouraged me via email to at least consider grad school, saying that I seemed comparable to his peers in the University of Michigan Ph.D. program (which was ranked #10 in the U.S. at that time in the late '90s). I demurred: I said I would consider it if circumstances were otherwise, but in contrast to the last two semesters to finish undergrad, grad school didn't pass a cost-benefit analysis.
 
-(Okay, I did end up [crashing Prof. Clader's "Advanced Topics in Mathematics: Algebraic Topology"](http://zackmdavis.net/docs/algebraic_topology-01.pdf) the following semester, but I didn't _enroll_.)
+(Okay, I did end up [crashing Prof. Clader's "Advanced Topics in Mathematics: Algebraic Topology"](http://zackmdavis.net/docs/algebraic_topology-01.pdf) ("MATH 790") the following semester, but I didn't _enroll_.)
 
 What was significant (but not appropriate to mention in the email) was that now the choice to pursue more schooling _was_ a matter of cost–benefit analysis, and not a prospect of torment or betrayal of the divine.
 
