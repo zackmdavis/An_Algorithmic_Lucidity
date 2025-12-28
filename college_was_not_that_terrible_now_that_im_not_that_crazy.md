@@ -49,19 +49,28 @@ In mid-2008, I enrolled in the network administration program at Heald career co
 
 Nevertheless, Heald was still a school despite the "career" focus, and the torturous obedience test in my head was still active. I had another crying fit and quit again before the first term was over. Part of the program would have involved taking the A+ and Network+ certification exams. I got the books and passed those on my own, but never ended up converting them into a job; maybe I could have if I had tried harder.
 
-In fall 2008, I got the idea that my autodidacticism should include mathematics and started studying linear algebra from the textbook I had used at UCSC. When I had had my fill of linear algebra, I followed it up with work from books on complex analysis and discrete math, and various other math and programming excursions I came across.
+In fall 2008, I got the idea that my autodidacticism should include mathematics and started studying linear algebra from the textbook I had used at UCSC. When I had had my fill of linear algebra, I followed it up with work from books on complex analysis and discrete math, and various other math and programming excursions I came across: I [figured out how 1/x can be the derivative of log x even though the latter isn't defined for x≤0](http://zackmdavis.net/blog/2011/12/the-derivative-of-the-natural-logarithm/). I worked out a formula for the disjunction of independent events of probablity _p_ (and was later informed by a friend that DeMorgan's law gives a much simpler formula). I got a quantitative evolutionary theory book and tried to generalize the Hardy–Weinberg law to the science-fictional hypothetical case of a genome having three alleles per locus (in which case the famous Punnett square becomes a cube). I kept all my notes and exercises in a continuous sequence of numbered pages divided into two columns.
 
-[TODO: Punnett cube, derivative of the natural log 20 March 2009, probability of a disjunction]
+In April 2009, I visited the UCSC campus to see my friends and visit the office hours of Prof. Patrick Tantalo (who had taught that linear algebra class) and Prof. Aptheker. I told Prof. Tantalo about my mathematical exploits, but disclaimed several times that I wasn't even a "math person"; he wisely asked what that even meant.
 
-I kept all my notes and exercises in a continuous sequence of numbered pages divided into two columns.
+[TODO: Aptheker visit; check email for more evidence of Aptheker intent]
+
+I suspected I might have gotten more studying done than my friends during the visit.
 
 [TODO—
- * April 2009 UCSC visit, Tantalo, Aptheker; Sean and Luke
- * "When you try to solve a math problem and fail, you at least have the notes, but half of a computer program is nothing. When I mentioned this to Anna, I think she said something to the effect that half a math problem was just as bad"
- * 'why did scripting seem safer in relation to my recent madness? Bigger projects have more scope for originality [...] It would be a monstrous absurdity for me to be accused of plagiarism every time I type "ls | grep" something—that's simply what is done when you want to see if something is in your current working directory.'
+  * anxiety about the idea of being a programmer
+  * Introduction to Automata Theory, Languages and Computation for SingInst internship (Anna suggested just Turing machines, but I did the earlier stuff)
+  * vector calc
+  * microeconomic theory
+]
+
+[TODO—
  * page number checkpoint before discussing diffeq.
  * Fall 2010, tried to enroll in differential equations for fun, got "schooled", humiliating
  * Then felt like I had to finish my degree in order to prove that I could (note that I have Diary coverage of this period and can quote it)
+]
+
+[TODO—
  * DVC didn't have any more decent math classes; I took Calc III for completeness even though my vector-calc 23A from Santa Cruz might have covered it
  * "Competing Accounts of the Events of September 11, 2001: A Simplified and Incomplete Bayesian Analysis"
  * summer history teacher, my objection to colored pencils, her bafflement that I was in her class (peeking at her reading my papers during the test while feeling guilty for not having eyes on my own paper)
