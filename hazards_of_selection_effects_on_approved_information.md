@@ -18,25 +18,48 @@ But what if there were subtler manifestations of the problem, that _weren't_ obv
 
 ## Filtering Interlocutors
 
-> **Goofusia**: I don't see why you tolerate that distrustful, unpleasant witch Goody Osborne at your salon. Of course I understand the importance of criticism, which is an essential nutrient for any truthseeker. But you can acquire the nutrient without the downside of putting up with people like her. At least, I can. I've already got plenty of perceptive critics in my life among my friends who want the truth, and know that I want the truth.
+> **Goofusia**: I don't see why you tolerate that distrustful witch Goody Osborne at your salon. Of course I understand the importance of criticism, which is an essential nutrient for any truthseeker. But you can acquire the nutrient without the downside of putting up with unpleasant people like her. At least, I can. I've already got plenty of perceptive critics in my life among my friends who want the truth, and know that I want the truth.
 >
-> **Gallantina**: 
+> **Gallantina**: But aren't your friends who know you want the truth selected for agreeing with you? If there _were_ some crushing counterargument to your beliefs that would only be found by someone who _didn't_ know that you want the truth, how would you ever hear about it?
 
-[TODO: "know I want the truth" is a bad filter, Parliment debating the Duke's monopoly, nutrients not homogenous]
+This one is subtle. You can't invite the whole world to your salon; you can't _not_ do some sort of filtering.
+
+Goofusia isn't throwing a crying fit
+
+
+
+The "nutrient" metaphor is a tell. Goofusia seems to be thinking of criticism as if it were a homogenous ingredient 
+
+
+
+[TODO: "know I want the truth" is a bad filter, Parliment debating the Duke's monopoly]
 
 
 ## Filtering Information Sources
 
-> **Goofusia**: John Proctor's news makes it so I don't have to be the sort of person who reads those awful corners of the internet where these topics are discussed all day in order to understand what is happening. They do truth-seeking far worse there.
+> **Goofusia**: You shouldn't have to be the sort of person who follows discourse in crappy filter-bubbles in order to understand what's happening. Samuel Parris's news summaries are the sort of thing that lets me do that. Our salon should work like that if it's going to talk about the atheist threat and the witchcraft crisis. I don't want to have to read the awful corners of the internet where this is discussed all day. They do truthseeking far worse there.
 >
-> **Gallantina**:
+> **Gallantina**: But then you're turning your salon into a Samuel Parris filter bubble. Don't you want your salon members to be well-read?
+
+This one is similar.
+
+The "awful", "crappy", and "do[ing] truthseeking far worse there" characterizations are a tell.
+
+[TODO: filtering interlocutors is more forgiveable if they're expensive, but reading contamination is wack]
 
 
 ## Suppressing Information Sources
 
-> **Goofusia**: 
+> **Goofusia**: I caught Goody Osborne distributing pamphlets quoting the honest and candid and vulnerable reflections of Samuel Parris on guiding his flock, in pretty obviously reasonable ways, and just trying to somehow twist that into maximum anger and hatred. It seems quite clear to me what's going on in both of the relevant pamphlets, and I think signal boosting both of them is a pretty clear norm violation in my culture.
 >
-> **Gallantina**:
+> **Gallantina**: I read those pamphlets. They seemed like intellectually substantive satire of a public figure. If it's a norm violation to signal-boost satire of public figures, 
+
+This one is worse. Above, when Goofusia filtered who she talks to and what she reads, she was in an important sense only hurting herself.
+
+The conjunction of "somehow" and "it seems quite clear to me" is a tell.
 
 
 ## An Analogy to Reinforcement Learning From Human Feedback
+
+[TODO: you can't "just not" do RLHF and still have a competitive AI in the current paradigm, but you can try to be aware of problems with supervision; it's better if the CEO says, "Yes, we thought of that, too; we think it's fine because of these-and-such mitigations." If the CEO says, "Well, _I_ think our raters are great. Are you insulting our raters?", that does not inspire confidence
+]
