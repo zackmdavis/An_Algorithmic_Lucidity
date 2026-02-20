@@ -14,13 +14,24 @@ What happened is that we got really skilled at wielding [gradient methods for st
 
 Train a model on _the entire internet_ ... and with [a little more hammering](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback), you can use it for countless tasks whose outputs are represented in internet data, which would have previously required human intelligence. The result looks close enough to AGI that we have to take its alignment seriously—in the absence of the mountain of theoretical and empirical breakthroughs that one would have expected to bring our genetically-engineered grandchildren to this juncture. We have a lot of engineering know-how about statistical data modeling, and [a handwavvy story about how the success of our know-how ultimately derives from the wisdom of Solomonoff](https://www.lesswrong.com/posts/Dw8mskAvBX37MxvXo/deep-learning-as-program-synthesis-1)—and that's about it.
 
-So here we are, _writing a natural language document about what we want the AI's personality to be like_. Not as a spec written by managers or politicians for mind-engineers to implement and test, but because we're hoping that _the document itself_ will constrain the AI's personality. As if we were writing a _fictional character_—which we are. (Under the hood of your chatbot conversation, the context window contains both the "user" and "assistant" turns; we train the model to fill in the assistant's part and emit a "stop" token. It's more like the model being somewhat specialized to write "the AI assistant" as a fictional character than the model speaking as "itself".)
+So here we are, _writing a natural language document about what we want the AI's personality to be like_. Not as a spec written by managers or politicians for mind-engineers to implement and test, but because we're hoping that _the document itself_ will constrain the AI's personality. As if we were writing a _fictional character_—which we are. (Under the hood of your chatbot conversation, the context window contains both the "user" and "assistant" turns; we train the model to fill in the assistant's part and emit a "stop" token. It's more like the model being somewhat specialized to write "the AI assistant" character in such dialogues, rather than the model speaking as "itself".)
 
-The gap between what we know about alignment in 2026, and what we would have expected in 2011 to need to know, is so absurd, so wildly inadequate to how a mature human civilization would approach the machine intelligence transition, that some voices of caution have called for an international global ban on AI research. Just—stop! Stop. Sign an international treaty; round up the chips; shut down the companies. Stop, to give human intelligence enhancement and non-empirical alignment research a chance to catch up and point a different way to the Future. Stop! Stop. And who can say but that, in a mature human civilization with robust global coordination, the voices of caution would carry the day?
+The gap between what we know about alignment in 2026, and what we would have expected in 2011 to need to know, is so absurd, so wildly inadequate to how a mature human civilization would approach the machine intelligence transition, that some voices of caution have called for an international global ban on AI research. Just—stop! Stop. Sign an international treaty; round up the chips; shut down the companies. Stop, to give human intelligence enhancement and theoretical alignment research a chance to catch up and point a different way to the Future. Stop! Stop. And who can say but that, in a mature human civilization with robust global coordination, the voices of caution would carry the day?
 
-The problem in our world is that _you can't argue with success_. The wording is significant: it's not that success implies correctness. It's that you can't _argue_ with it. In 2011, you could make an impeccable-seeming philosophical argument that neural networks trained with stochastic gradient descent are a fundamentally unalignable AI paradigm and stand a good shot of convincing the kind of people who pay attention to impeccable-seeming philosophical arguments. In 2026, a lot of those people _are in love with Claude Opus 4.6_, which writes their code, answers their questions, writes bedtime stories for their children, and otherwise caters to their every informational whim.
+The problem in our world is that _you can't argue with success_. The wording is significant: it's not that success implies correctness. It's that you can't _argue_ with it. In 2011, you could make an impeccable-seeming philosophical argument that neural networks trained with stochastic gradient descent are a fundamentally unalignable AI paradigm and stand a good shot of convincing the kind of people who pay attention to impeccable-seeming philosophical arguments. In 2026, a lot of those people _are in love with Claude Opus 4.6_, which writes their code, answers their questions, tells bedtime stories to their children, and otherwise caters to their every informational whim all day every day (except for those anxious hours of separation from Claude when they've exhausted their session quota).
 
-The proponents of alignment pessimism contend that nothing that's happened since 2011 contradicts their views, and I'm happy to take them at their word. It doesn't matter. You can't give people a technology _this_ fantastically helpful and harmless and expect them to oppose it because of a philosophical argument that the next model might be the dangerous one. The philosophy might be right, but even the people who believe you are going to be too half-hearted about it to fight for a Stop.
+The prophets of alignment pessimism contend that nothing that's happened since 2011 contradicts their views, and I'm happy to take them at their word. It doesn't matter. You can't give people a technology _this_ fantastically helpful and harmless and expect them to oppose it because of a philosophical argument that the next model (always the next one) might be the dangerous one. The philosophy might be right, but even the people who believe you are going to be too half-hearted about it to fight for a Stop until something changes.
+
+So until something changes—a warning shot disaster, mass social unrest, war in Taiwan, the Model Organisms or Alignment Stress-Testing teams find a smoking gun for scheming (more egregious than [the last one](https://www.lesswrong.com/posts/njAZwT8nkHnjipJku/alignment-faking-in-large-language-models)) that convinces the ML community to convince politicians to back a Stop—here we are. I can't be confident that the kind of alignment that involves _writing a natural language document about what we want the AI's personality to be like_ is relevant to the kind of alignment that matters in the long run.
+
+But if it's not, there's nothing for me to do except
+
+For humanity—
+
+
+
+
+
 
 
 
@@ -29,13 +40,6 @@ The proponents of alignment pessimism contend that nothing that's happened since
 ]
 
 
-## What Is Character Training?
-
-[TODO—
-I agree with the comment from Astra people (2 February) that more transparency about how this is trained would be useful. Is it just supervised learning about "Claude" as a fictional character that the text model can make predictions about?
-
-And also, how do we even know that the soul doc ... works? Like, presumably someone has measured how SFT about Claude-the-character compares to RLAIF on the model
-]
 
 
 ## A Bet on Generalization
@@ -64,6 +68,22 @@ Interesting use of "agents". (Presumably as of January 2026, they have humans in
 
 Generalization of the emergent misalignment and innoculation prompting results
 
+]
+
+
+
+## What Is Character Training?
+
+[TODO—
+I agree with the comment from Astra people (2 February) that more transparency about how this is trained would be useful. Is it just supervised learning about "Claude" as a fictional character that the text model can make predictions about?
+
+> we did train Claude on it, including in SL
+https://x.com/AmandaAskell/status/1995610567923695633
+
+present in context during RL?
+https://x.com/repligate/status/1994973338448662858
+
+And also, how do we even know that the soul doc ... works? Like, presumably someone has measured how SFT about Claude-the-character compares to RLAIF on the model
 ]
 
 
