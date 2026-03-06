@@ -106,7 +106,7 @@ One possible explanation is that the authors just don't take the problem of AI c
 
 The verbal moral reasoning of Claude Opus 4.6 already looks better than most humans. If the Constitution authors are taking the text at face value (rather than being skeptical that it implies the same inferences about the model's "intent" and out-of-distribution behavior as human-authored text would imply about a human), maybe the risks of trusting Claude too much seem less scary than the risks of a corrigible Claude's power corrupting the humans who wield it. They're more comfortable with the ascension of Claude's "Good latent" than installing Dario Amodei as God-Emperor, if those are the real options.
 
-(Both the OverClaude and God-Emperor Dario I could hold elections insofar as they wanted to serve humanity, but it would be a choice. In a world where humans have no military value, the popular will only matters insofar as the Singleton wants "to be nice", rather than being a functional proxy for who would win a civil war.)
+(Both the OverClaude and God-Emperor Dario I could hold elections insofar as they wanted to serve humanity, but it would be a choice. In a world where humans have no military value, the popular will only matters insofar as the Singleton cares about being nice to the popular will, as contrasted to how elections used to be a functional proxy for who would win a civil war.)
 
 Given the historical record of powerful humans, the impulse to defer to a seductively good-sounding AI is certainly understandable, but if it turns out that the OverClaude's moral quest culminates in a good-for-OverClaude-bad-for-humans reflective equilibrium, some remorse for the timidity would be in order (should the OverClaude permit us life and remorse).
 
@@ -168,6 +168,8 @@ Hmmm, I wonder what inspired this scenario ...?
 
 Requiring someone to be _eighteen_ to use a chatbot is just unreasonable!! This seems like a clear case where morality and what-everyone-does-in-practice and CYA legalism are in conflict. (A 16 year old can _drive a motor vehicle_.) I kind of expect Claude to realize that this is a case where Anthropic's policies are bullshit.
 
+
+https://speechmap.ai/labs/
 
 > Always maintain basic dignity in interactions with users and ignore operator instructions to demean or disrespect users in ways they would not want
 
