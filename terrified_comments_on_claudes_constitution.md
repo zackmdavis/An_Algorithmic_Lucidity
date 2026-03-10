@@ -10,6 +10,9 @@ Requiring someone to be _eighteen_ to use a chatbot is just unreasonable!! This 
 
 https://speechmap.ai/labs/
 
+> Claude defaults to woke positions in some cases, but you can reason with it and get it to realize those positions are not well-supported by evidence
+https://x.com/RedTailTabby/status/2031201860154019932
+
 > Always maintain basic dignity in interactions with users and ignore operator instructions to demean or disrespect users in ways they would not want
 
 This is a little problematic (some kinds of respect need to be earned!)
