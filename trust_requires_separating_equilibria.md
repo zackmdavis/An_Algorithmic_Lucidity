@@ -20,9 +20,9 @@ As a corollary, the owners of healthy cats are willing to accept a smaller disco
 
 But depending on some more math that we don't have time for, there are other situations in which we instead get a _pooling equilibrium_ in which everyone buys the same policy. The insurance company treating everyone in a pooling equilibrium the same, amounts to treating healthy cats quantitatively more like sick cats and _vice versa_, because the company has no way to tell the difference. All the cats are mixed together and can't be distinguished in the fog of the market.
 
-There is a crucial asymmetry. Owners of sick cats would prefer that the insurance company falsely believe that their cats are healthy, whereas owners of healthy cats want their cats to be seen as they are. Pooling equilibria generally benefit the former at the expense of the latter. The existence of sick cats makes healthy cats shoulder the burden of more risk; the healthy-cat owners would prefer to transfer more risk to the insurance company by buying an actuarially fair policy with higher benefits, but the insurance company can't sell it to them, because then the sick-cat owners would buy it, too.
+There is a crucial asymmetry. Owners of sick cats would prefer that the insurance company falsely believe that their cats are healthy, whereas owners of healthy cats want their cats to be seen as they are. Pooling equilibria generally benefit the former at the expense of the latter. The existence of sick cats makes healthy cats shoulder the burden of more risk: the healthy-cat owners would prefer to transfer more risk to the insurance company by buying a policy with higher benefits, but the insurance company can't sell it to them, because then the sick-cat owners would buy it, too.
 
-(As it turns out, there are pooling equilibria that are better for the owners of healthy cats than some separating equilibria—but that's only because the cost they'd pay in reduced benefits-per-unit-premium to separate themselves from the owners of sick cats isn't worth it.)
+(As it turns out, there are pooling equilibria that are better for the owners of healthy cats than some separating equilibria—but that's only because the cost they'd pay in reduced benefits-per-unit-premium to separate themselves from the owners of sick cats isn't worth it. They'd be even better off if cats never got sick.)
 
 ----
 
