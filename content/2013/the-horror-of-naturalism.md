@@ -1,0 +1,12 @@
+Title: The Horror of Naturalism
+Date: 2013-04-06 13:10
+Status: published
+Category: philosophy
+Tags: morality, rationality
+Slug: the-horror-of-naturalism
+
+There's this deeply uncomfortable tension between being an animal physiologically incapable of caring about anything other than what happens to _me_ in the near future, and the knowledge of the terrifying symmetry that cannot be unseen: that my own suffering can't _literally_ be more important, just because it's mine. You do some philosophy and decide that your sphere of moral concern should properly extend to all sentient life—whatever _sentient_ turns out to mean—but _life_ is built to survive at the expense of other life.
+
+I want to say, "Why can't everyone just get along and be nice?"—but those are just English words that only make sense to other humans from my native culture, who share the cognitive machinery that generated them. The _real_ world is made out of physics and game theory; my entire _concept_ of "getting along and being nice" is the _extremely_ specific, contingent result of the pattern of cooperation and conflict in my causal past: the billions of corpses on the way to _Homo sapiens_, the thousands of years of culture on the way to the early twenty-first century United States, the nonshared environmental noise on the way to me. Even if another animal would agree that pleasure is better than pain and peace is better than war, the real world has implementation details that we won't agree on, and the implementation details have to be settled somehow.
+
+I console myself with the concept of decision-theoretic irrelevance: insofar as we construe the function of thought as to select actions, being upset about things that you can't affect is a waste of cognition. It doesn't help anyone for me to be upset about all the suffering in the world when _I don't know_ how to alleviate it. Even in the face of moral and ontological uncertainty, there are still plenty of things-worth-doing. I will play positive-sum games, acquire skills, acquire resources, and use the resources to protect some of the things I care about, making the world slightly less terrible with me than without me. And if I'm left with the lingering intuition that there was supposed to be something else, some grand ideal more important than friendship and Pareto improvements ... I don't remember it anymore.

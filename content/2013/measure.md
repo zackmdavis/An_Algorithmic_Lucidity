@@ -1,0 +1,9 @@
+Title: Measure
+Date: 2013-08-29 05:00
+Status: published
+Category: philosophy
+Slug: measure
+
+In a sufficiently large universe, everything that _can_ happen happens _somewhere_, but it's clearly not an even distribution. Flip a quantum coin a hundred times, and there have to be _some_ versions of you who see a hundred [heads](http://zackmdavis.net/blog/2013/08/plurals-of-coinflip-outcomes/), but they're so vastly outnumbered by versions of you who see a properly random-looking sequence of heads and tails that it's not worth thinking about: it _mostly_ doesn't happen.
+When you write a computer program, or build a bridge, or just _think_ something, we might prefer to take the viewpoint that you're not _creating_ anything so much as you are _instantiating that pattern locally_, thereby increasing its measure in the multiverse: there might be other ways for that program, that bridge, that thought to come about somewhere, but it's getting some of its support from you.
+_Decisionmaking_ is about exerting some control over the distribution of measure over patterns in the multiverse: agent-like patterns select actions so as to allocate measure to their preferred patterns. Maybe there are _some_ versions of me with an ice-cream cone that form by chance, or are deliberately created by alien civilizations investigating how humans respond to ice-cream, but if I get an ice-cream cone, it's _mostly_ because humans evolved and then developed cultures which domesticated dairy cows and cultivated sugar and so on and so forth until eventually I was born and grew up and put effort into acquiring ice-cream. When you decide, you help determine the distribution of what happens to the sections of the multiverse that depend on copies of your decision—[choose carefully](http://zackmdavis.net/blog/2012/12/actually-personal-responsibility/).
