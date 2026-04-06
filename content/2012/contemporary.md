@@ -1,0 +1,15 @@
+Title: Contemporary
+Date: 2012-08-07 00:23
+Status: published
+Category: Uncategorized
+Slug: contemporary
+
+I've been taking a summer course at a university which I won't name, because whenever I do, I'm always tempted to replace one of the words with an obscenity that starts with the same letter, which is _probably_ a bad habit. The topic is contemporary sexuality, which seemed like a fine choice for knocking out one of my remaining so-called "general education" requirements, and maybe even learning something relevant to my interests.
+
+The class ends on Thursday the ninth, and I had intended to make a lot of progress today (the sixth) filling out the workbook (worth half a letter grade) due then. I didn't get very far. The task shouldn't be difficult; my goal is only to reduce the probability of my receiving a _C_ in the class by means of circling the appropriate letters for the multiple-choice prompts (for which the answers are conveniently provided) and scribbling responses to the short-answer questions, glancing at the reading as necessary. There was once a time when I would have regarded this behavior as sinful: of course what you're _supposed_ to do is carefully do the corresponding reading by the assigned date before thoughtfully filling out each workbook section, only using the multiple-choice answers to check your work. But if I've abandoned my moral scruples sometime in the past five years, then I also throw far fewer crying fits, and I don't think these changes are unrelated.
+
+But when you don't respect the work, even doing a lazy job takes a certain amount of self-command. One of the workbook questions asks, "How do you define 'virginity' and what behaviors do you believe cause one to 'lose' his or her virginity?" I wrote, "It's pointless to argue about the definitions of words; once you know what behavior someone has engaged in, then calling it 'virginity' or 'non-virginity' doesn't give you more information". Snarky passive-aggression? Maybe, but when you ask a retarded question, what do you expect?
+
+My patience broke when I got to the article arguing that we shouldn't use baseball metaphors to talk about sex (because those are sexist and oppositional) but should instead use pizza metaphors. Except it doesn't say _metaphors_, it says _conceptual models_.
+
+In the evening, I received an email from the University. "Be prepared for Graduate School" says the subject line, although I don't understand the motivation for capitalizing _Graduate School_ but not _prepared_. Morally, I expect such an email to say something like, "Make sure you've chosen a valuable or exciting topic on which to advance the frontiers of human knowledge, as is the function and sacred duty of scholars!" But of course it's just telling me that "[t]test preparation workshops for the GRE, GMAT, LSAT, CBEST, and RICA are starting soon."

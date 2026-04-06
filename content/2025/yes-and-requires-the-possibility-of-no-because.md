@@ -1,0 +1,40 @@
+Title: "Yes, and—" Requires the Possibility of "No, Because—"
+Date: 2025-10-09 10:35
+Status: published
+Category: social science
+Tags: discourse
+Slug: yes-and-requires-the-possibility-of-no-because
+
+Scott Garrabrant [gives a number of examples to illustrate that “Yes Requires the Possibility of No”](https://www.lesswrong.com/posts/G5TwJ9BGxcgh5DsmQ/yes-requires-the-possibility-of-no). We can understand the principle in terms of information theory. Consider the answer to a yes-or-no question as a binary random variable. The “amount of information” associated with a random variable is quantified by the [entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)), the expected value of the negative logarithm of the probability of the outcome. If we know in advance of asking that the answer to the question will always be Yes, then the entropy is −P(Yes)·log(P(Yes)) − P(No)·log(P(No)) = −1·log(1) − 0·log(0) = 0.[1](#fn1) If you already knew what the answer would be, then the answer contains no information; you didn’t learn anything new by asking.
+
+---
+
+In the art of [improvisational theater](https://en.wikipedia.org/wiki/Improvisational_theatre) (“improv” for short), actors perform scenes that they make up as they go along. Without a script, each actor’s choices of what to say and do amount to implied assertions about the fictional reality being portrayed, which have implications for how the other actors should behave. A choice that establishes facts or gives direction to the scene is called an [_offer_](https://improwiki.com/en/wiki/improv/offer). If an actor opens a scene by asking their partner, “Is it serious, Doc?”, that’s an offer that the first actor is playing a patient awaiting diagnosis, and the second actor is playing a doctor.
+
+[A key principle of improv is often known as “Yes, and”](https://www.backstage.com/magazine/article/yes-and-improv-rule-77269/) after [an exercise](https://www.dramanotebook.com/drama-games/yes-and/) [that involves](https://www.hooplaimpro.com/yes-and-new-ways-to-play-exercise/.html) starting replies with those words verbatim, but the principle is broader and doesn’t depend on the particular words used: actors should [“accept” offers](https://willhines.substack.com/p/accepting-offers) (“Yes”), and respond with their own complementary offers (“and”). The practice of “Yes, and” is important for maintaining momentum while building out the reality of the scene.
+
+Rejecting an offer is called [_blocking_](https://www.thewayofimprovisation.com/posts/2013/06/a-bit-about-blocking.php), and is frowned upon. If one actor opens the scene with, “Surrender, Agent Stone, or I’ll shoot these hostages!”—establishing a scene in which they’re playing an armed villain being confronted by an Agent Stone—it wouldn’t do for their partner to block by replying, “That’s not my name, you don’t have a gun, and there are no hostages.” That would halt the momentum and confuse the audience. Better for the second actor to say, “Go ahead and shoot, Dr. Skull! You’ll find that my double agent on your team has stolen your bullets”—accepting the premise (“Yes”), then adding new elements to the scene (“and”, the villain’s name and the double agent).
+
+Notice a subtlety: the Agent Stone _character_ isn’t “Yes, and”-ing the Dr. Skull _character’s_ demand to surrender. Rather, the second actor is “Yes, and”-ing the first actor’s worldbuilding offers (where the offer happens to involve their characters being in conflict). Novice improvisers are sometimes tempted to block to try to control the scene when they don’t like their partner’s offers, but it’s almost always a mistake. Persistently blocking your partner’s offers kills the vibe, and with it, the scene. No one wants to watch two people [arguing back-and-forth about what reality is](https://www.lesswrong.com/posts/yr4pSJweTnF6QDHHC/comment-on-four-layers-of-intellectual-conversation).
+
+---
+
+Proponents of [collaborative truthseeking](https://www.lesswrong.com/posts/ckwzjbfHTCdPs2Y4J/collaborative-truth-seeking) think that many discussions benefit from a more “open” or “interpretive” mode in which participants prioritize constructive contributions that build on each other’s work rather than tearing each other down.
+
+The analogy to improv’s “Yes, and” doctrine writes itself, right down to the subtlety that collaborative truthseeking does not discourage disagreement as such—any more than the characters in an improv sketch aren’t allowed to be in conflict. What’s discouraged is the persistent blocking of offers, refusing to cooperate with the “scene” of discourse your partner is trying to build. Partial disagreement with polite elaboration (“I see what you’re getting at, but have you considered …”) is typically part of the offer—that we’re “playing” reasonable people having a cooperative intellectual discussion. Only wholesale negation (“That’s not a thing”) is blocking—by rejecting the offer that we’re both playing reasonable people.
+
+Whatever you might privately think of your interlocutor’s contribution, it’s not hard to respond in a constructive manner [without lying](https://www.lesswrong.com/posts/MN4NRkMw7ggt9587K/firming-up-not-lying-around-its-edge-cases-is-less-broadly). Like a good improv actor, you can accept their contribution to the scene/discourse (“Yes”), then add your own contribution (“and”). If nothing else, you can write about how their comment reminded you of something else you’ve read, and your thoughts about that.
+
+Reading over a discussion conducted under such norms, it’s easy to not see a problem. People are building on each other’s contributions; information is being exchanged. That’s good, right?
+
+The problem is that while the individual comments might (or might not) make sense when read individually, the harmonious social exchange of mutually building on each other’s contributions isn’t really a conversation unless the replies connect to each other in a less superficial way that risks blocking.
+
+What happens when someone says something wrong or confusing or unclear? If their interlocutor prioritizes correctness and clarity, the natural behavior is to say, “No, that’s wrong, because …” or “No, I didn’t understand that”—and not only that, but _to maintain that “No” until clarity is forthcoming_. That’s blocking. It feels much more cooperative to let it pass in order to keep the scene going—with the result that falsehood, confusion, and unclarity accumulate as the interaction goes on.
+
+There’s a reason improv is almost synonymous with improv _comedy_. Comedy thrives on absurdity: much of the thrill and joy of improv comedy is in appreciating what lengths of cleverness the actors will go to maintain the energy of a scene that has long since lost any semblance of coherence or plausibility. The rules that work for improv comedy don’t even work for (non-improvised, dramatic) fiction; it certainly won’t work for philosophy.
+
+Per Garrabrant’s principle, the only way an author could reliably expect discussion of their work to illuminate what they’re trying to communicate is if they knew they were saying something the audence already believed. If you’re thinking carefully about what the other person said, you’re often going to end up saying “No” or “I don’t understand”, not just “Yes, and”: if you’re committed to validating your interlocutor’s contribution to the scene before providing your own, you’re not really talking to _each other_.
+
+---
+
+1. I’m glossing over a technical subtlety here by assuming—pretending?—that 0·log(0) = 0, when log(0) is actually undefined. But it’s the correct thing to pretend, because the linear factor _p_ goes to zero faster than log _p_ can go to negative infinity. Formally: $$\lim\_{p \to 0^+} p \log(p) = \lim\_{p \to 0^+} \frac{\log(p)}{1/p} = \lim\_{p \to 0^+} \frac{1/p}{-1/p^2} = 0$$

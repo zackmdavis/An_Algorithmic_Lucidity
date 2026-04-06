@@ -1,0 +1,10 @@
+Title: Some Excuse for 2017 Year in Reverse
+Date: 2018-01-01 20:28
+Status: published
+Category: meta
+Tags: new year
+Slug: some-excuse-for-2017-year-in-reverse
+
+([Previously](http://zackmdavis.net/blog/2017/01/2016-year-in-reverse/), [previously](http://zackmdavis.net/blog/2015/12/2015-year-in-reverse/), [previously](http://zackmdavis.net/blog/2015/01/2014-year-in-reverse/), [previously](http://zackmdavis.net/blog/2013/12/2013-year-in-reverse/).)
+
+Did you know that 2017 is prime?? This blog saw _33_ posts and _27_ comments last year (down a lot from the year before because of reasons). Here are some posts I liked perhaps somewhat more than the others: [18](http://zackmdavis.net/blog/2017/11/a-desperate-fervent-wish-for-star-trek-discovery/) [17](http://zackmdavis.net/blog/2017/11/courtship-gift/) [16](http://zackmdavis.net/blog/2017/11/happy-armistice-day-from-an-algorithmic-lucidity/) [15](http://zackmdavis.net/blog/2017/11/cranberry-bliss/) [14](http://zackmdavis.net/blog/2017/10/lipschitz/) [13](http://zackmdavis.net/blog/2017/10/some-excuse-for-a-rustconf-2017-travelogue/) [12](http://zackmdavis.net/blog/2017/07/trade-secret/) [11](http://zackmdavis.net/blog/2017/07/i-meant-to-do-that/) [10](http://zackmdavis.net/blog/2017/06/means-ends/) [9](http://zackmdavis.net/blog/2017/05/gems-will-be-gems/) [8](http://zackmdavis.net/blog/2017/05/making-sense/) [7](http://zackmdavis.net/blog/2017/05/blood-and-ice/) [6](http://zackmdavis.net/blog/2017/03/an-intuition-on-the-bayes-structural-justification-for-free-speech-norms/) [5](http://zackmdavis.net/blog/2017/03/dreaming-of-political-bayescraft/) [4](http://zackmdavis.net/blog/2017/02/cognitive-bayesian-therapy-i/) [3](http://zackmdavis.net/blog/2017/02/the-bayes-structure-in-the-form-of-a-riddle/) [2](http://zackmdavis.net/blog/2017/02/sworn-to-the-word/) [1](http://zackmdavis.net/blog/2017/02/a-common-misunderstanding/)
