@@ -18,7 +18,7 @@ In ["The Financial Ledger Theory of Apologies"](https://www.lesswrong.com/posts/
 
 ## Genuine Regret Implies Policy Updates
 
-Pace [writes](https://www.lesswrong.com/posts/xhePNvxamTKPcobhB/the-financial-ledger-theory-of-apologies):
+Pace writes:
 
 > If I'm running around because I have somewhere important to do and quickly, and I bump into someone, my response isn't "I understand that I imposed a cost on you but I'm not going to be changing my policy of moving quickly when things are important and time-sensitive." I say "Oh I'm sorry!". The policy I'm running isn't to externalize the costs, it's to internalize them. This makes people not have to worry about me being around them.
 
@@ -45,7 +45,7 @@ Pace oddly doesn't seem to consider the possibility of apologies not being accep
 
 But the invitation to _think of you_ as owing something is only meaningful if the thought is true—if you'll actually pay out.
 
-When someone wrongs me, it seems like the _smallest_ ask I could reasonably make in exchange for my forgiveness is that they not do that again. Not to ask to be "made whole"—[for the past cannot be changed](http://unremediatedgender.space/2020/Dec/liability/)—but simply that they do better in the future, which can.
+When someone wrongs me, it seems like the _smallest_ ask I could reasonably make in exchange for my forgiveness is that they not do that again (or more generally, update their policy such that they're less likely to do it again). Not to ask to be "made whole"—[for the past cannot be changed](http://unremediatedgender.space/2020/Dec/liability/)—but simply that they do better in the future, which can.
 
 If they refuse, saying, "That's sad, but I will not stop doing the thing that hurt you. Yet I will take this cost on _my_ ledger. I'm sorry. That's on me. Think of me as owing you a small something you can cash out another time," I have to admit I'm skeptical. If I can't ask _not to be hurt again_, what can I ask for? Money? Chocolate? Their car?
 
@@ -54,7 +54,7 @@ I think if I asked for their car, they would rightly refuse—"What? No, I don't
 
 ## Limited Liability Is Not a Gift From Debtors to Creditors
 
-Pace characterizes himself as "a limited-liability-jokester", and characterizes his stance as "allow[ing] [him] to take risks while assuring people that—in expectation—they won't be worse off for interacting with me." The metaphor mixes a partly-correct understanding of [limited liability](https://en.wikipedia.org/wiki/Limited_liability) with a deep misconception.
+Pace calls himself as "a limited-liability-jokester", and characterizes his stance as "allow[ing] [him] to take risks while assuring people that—in expectation—they won't be worse off for interacting with me." The metaphor mixes a partly-correct understanding of [limited liability](https://en.wikipedia.org/wiki/Limited_liability) with a deep misconception.
 
 The part about enabling risk-taking is right. When a limited liability company gets sued, only the assets of the company are at stake, not the personal wealth (not invested in the business) of the founders or shareholders. Limited liability status is judged to benefit Society by allowing entrepreneurs to take risks that they couldn't afford under [unlimited liability](https://en.wikipedia.org/wiki/Unlimited_company).
 
