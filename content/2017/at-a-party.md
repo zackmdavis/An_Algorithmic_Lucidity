@@ -1,7 +1,7 @@
 Title: At a Party
 Date: 2017-08-24 05:00
 Status: published
-Category: Uncategorized
+Category: psychology
 Slug: at-a-party
 
 At a party! A party with the empirical cluster in personspace! I used to treasure these nights, which seemed then to sparkle with the promise of another world, back during the golden age. The atmosphere [feels different](https://thezvi.wordpress.com/2017/08/12/what-is-rationalist-berkleys-community-culture/) now. The same scene, with much of the same people and operating at what should be the same frequency, but I _can't_ help but feel that what was once the promise of a grander mode of existence has decayed, in a decade, into the familiar rhythms of the human.

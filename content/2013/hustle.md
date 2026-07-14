@@ -1,7 +1,7 @@
 Title: Hustle
 Date: 2013-01-02 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: hustle
 
 "I'm entertaining this daydream of standing in a coffeeshop with a sign saying, 'BUSINESSPEOPLE: TELL ME ABOUT YOUR PROBLEMS; I WILL BUY YOU COFFEE' in the hopes that some of their pain points could be easily solved in software for money. I don't know if this would actually work."

@@ -1,7 +1,7 @@
 Title: And You Take Me the Way I Am
 Date: 2020-12-30 21:39
 Status: published
-Category: Uncategorized
+Category: philosophy
 Slug: and-you-take-me-the-way-i-am
 
 Mark Twain [wrote that](https://www.goodreads.com/quotes/9131-if-you-tell-the-truth-you-don-t-have-to-remember) honesty means you don't have to remember anything. But it also means you don't have to worry about making mistakes.

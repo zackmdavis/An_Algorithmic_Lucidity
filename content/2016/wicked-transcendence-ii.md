@@ -1,7 +1,7 @@
 Title: Wicked Transcendence II
 Date: 2016-09-27 22:55
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: sex & gender
 Slug: wicked-transcendence-ii
 

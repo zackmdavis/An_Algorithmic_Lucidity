@@ -1,7 +1,7 @@
 Title: Forgive or Forget ("Or", Not "And"): A Trade-Off in Wellness Engineering
 Date: 2019-05-11 18:03
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: morality, theme week
 Slug: forgive-or-forget-a-trade-off-in-wellness-engineering
 

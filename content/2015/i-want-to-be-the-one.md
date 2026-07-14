@@ -1,8 +1,8 @@
 Title: I Want to Be the One
 Date: 2015-12-07 05:00
 Status: published
-Category: Uncategorized
-Tags: intelligence explosion, lyrics
+Category: verse
+Tags: intelligence explosion
 Slug: i-want-to-be-the-one
 
 _This life is not to last and it awaits apotheosis  

@@ -1,7 +1,7 @@
 Title: TODO I
 Date: 2016-01-09 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Rust
 Slug: todo-i
 

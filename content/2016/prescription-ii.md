@@ -1,7 +1,7 @@
 Title: Prescription II
 Date: 2016-12-02 05:00
 Status: published
-Category: Uncategorized
+Category: social science
 Tags: politics
 Slug: prescription-ii
 

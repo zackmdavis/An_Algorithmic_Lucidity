@@ -1,7 +1,7 @@
 Title: Missing Words IV
 Date: 2013-10-15 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: missing words
 Slug: missing-words-iv
 

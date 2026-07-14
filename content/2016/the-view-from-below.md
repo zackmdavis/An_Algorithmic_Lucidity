@@ -1,7 +1,7 @@
 Title: The View From Below
 Date: 2016-06-01 23:03
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: intelligence
 Slug: the-view-from-below
 

@@ -1,7 +1,7 @@
 Title: Means-Ends
 Date: 2017-06-21 13:07
 Status: published
-Category: Uncategorized
+Category: philosophy
 Slug: means-ends
 
 Ayn Rand said that a Spanish proverb said that God said, "Take what you want, and pay for it."

@@ -1,7 +1,7 @@
 Title: Inconsiderate
 Date: 2019-06-27 02:19
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: inconsiderate
 
 "The sink is full and it's your turn to do the dishes! Ugh, why are you so inconsiderate of others?!"

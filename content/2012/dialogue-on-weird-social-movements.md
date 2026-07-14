@@ -1,7 +1,7 @@
 Title: Dialogue on Weird Social Movements
 Date: 2012-12-14 19:55
 Status: published
-Category: Uncategorized
+Category: social science
 Slug: dialogue-on-weird-social-movements
 
 "Some of my Facebook 'friends'—that is, distant acquaintances—are political radicals: here's a picture of the words 'KILL COPS' spraypainted on the ground, with five 'Likes.' It would be psychologically interesting to know what that feels like."

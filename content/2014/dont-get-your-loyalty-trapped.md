@@ -1,8 +1,7 @@
 Title: Don't Get Your Loyalty Trapped
 Date: 2014-07-06 10:59
 Status: published
-Category: Uncategorized
-Tags: lyrics
+Category: verse
 Slug: dont-get-your-loyalty-trapped
 
 _Opportunity  

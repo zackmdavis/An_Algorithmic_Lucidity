@@ -1,7 +1,7 @@
 Title: The Sliding False Dichotomy of Idealism and Cynicism
 Date: 2012-10-06 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: cynicism, Less Wrong
 Slug: the-sliding-false-dichotomhy-of-idealism-and-cynicism
 

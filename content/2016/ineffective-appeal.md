@@ -1,8 +1,7 @@
 Title: Ineffective Appeal
 Date: 2016-05-23 19:53
 Status: published
-Category: Uncategorized
-Tags: poetry
+Category: verse
 Slug: ineffective-appeal
 
 "We've always had to be together;  

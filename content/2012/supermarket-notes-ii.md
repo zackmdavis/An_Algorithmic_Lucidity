@@ -1,7 +1,7 @@
 Title: Supermarket Notes II
 Date: 2012-09-22 20:56
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: shopping, Star Trek
 Slug: supermarket-notes-ii
 

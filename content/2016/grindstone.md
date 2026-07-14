@@ -1,8 +1,7 @@
 Title: Grindstone
 Date: 2016-06-08 20:19
 Status: published
-Category: Uncategorized
-Tags: poetry
+Category: verse
 Slug: grindstone
 
 Sing a song of Purpose for the coder's missing nerve,  

@@ -1,7 +1,7 @@
 Title: Missing Words III
 Date: 2012-12-27 00:04
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: missing words
 Slug: missing-words-iii
 

@@ -1,7 +1,7 @@
 Title: Humans Are Mysterious
 Date: 2013-01-11 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Slug: humans-are-mysterious
 
 "You are mysterious."

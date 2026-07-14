@@ -1,7 +1,7 @@
 Title: Pumpkin Spice!
 Date: 2014-09-11 23:36
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: anecdotal, Friendship Is Magic
 Slug: pumpkin-spice
 

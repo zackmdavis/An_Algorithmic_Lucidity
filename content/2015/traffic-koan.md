@@ -1,7 +1,7 @@
 Title: Traffic Koan
 Date: 2015-11-09 09:07
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: trains
 Slug: traffic-koan
 

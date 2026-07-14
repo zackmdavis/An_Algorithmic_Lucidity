@@ -1,7 +1,7 @@
 Title: The Right to Life, Conjugated
 Date: 2018-10-03 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: concerns
 Slug: the-right-to-life-conjugated
 

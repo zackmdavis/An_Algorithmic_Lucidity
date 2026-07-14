@@ -1,8 +1,7 @@
 Title: Failed Pretense
 Date: 2016-03-08 20:09
 Status: published
-Category: Uncategorized
-Tags: poetry
+Category: verse
 Slug: failed-pretense
 
 Evidence is how we rule  

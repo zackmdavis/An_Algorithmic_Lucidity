@@ -1,7 +1,7 @@
 Title: Cute
 Date: 2014-01-12 13:34
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: cute
 
 "... so, what do you think?"

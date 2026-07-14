@@ -1,7 +1,7 @@
 Title: Book Recommendations I
 Date: 2016-09-18 23:55
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: sex & gender
 Slug: book-recommendations-i
 

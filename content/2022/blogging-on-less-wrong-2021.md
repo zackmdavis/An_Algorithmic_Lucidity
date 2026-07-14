@@ -1,7 +1,7 @@
 Title: Blogging on <em>Less Wrong</em> 2021
 Date: 2022-01-02 15:11
 Status: published
-Category: Uncategorized
+Category: meta
 Tags: elsewhere
 Slug: blogging-on-less-wrong-2021
 

@@ -1,7 +1,7 @@
 Title: Dice
 Date: 2012-10-23 16:14
 Status: published
-Category: Uncategorized
+Category: mathematics
 Tags: polytopes
 Slug: dice
 

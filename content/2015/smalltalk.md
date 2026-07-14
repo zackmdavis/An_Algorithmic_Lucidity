@@ -1,7 +1,7 @@
 Title: Smalltalk
 Date: 2015-05-11 20:44
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: compilers
 Slug: smalltalk
 

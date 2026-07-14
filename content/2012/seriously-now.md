@@ -1,7 +1,7 @@
 Title: Seriously Now
 Date: 2012-12-09 16:27
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: morality
 Slug: seriously-now
 

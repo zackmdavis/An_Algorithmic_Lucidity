@@ -1,7 +1,7 @@
 Title: Missing Words V
 Date: 2014-03-30 16:19
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: missing words
 Slug: missing-words-v
 

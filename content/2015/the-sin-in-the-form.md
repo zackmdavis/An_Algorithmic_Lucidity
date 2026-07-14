@@ -1,8 +1,7 @@
 Title: The Sin in the Form
 Date: 2015-10-20 05:00
 Status: published
-Category: Uncategorized
-Tags: poetry
+Category: verse
 Slug: the-sin-in-the-form
 
 Would you like to hang out on the weekend some time  

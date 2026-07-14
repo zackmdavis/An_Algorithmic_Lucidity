@@ -1,7 +1,7 @@
 Title: A Philosophy of Education
 Date: 2012-12-03 20:03
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: schooling
 Slug: a-philosophy-of-education
 

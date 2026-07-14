@@ -1,7 +1,7 @@
 Title: Last Friday Night
 Date: 2014-11-01 12:04
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Git, Python
 Slug: last-friday-night
 

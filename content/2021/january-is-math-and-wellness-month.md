@@ -1,7 +1,7 @@
 Title: January Is Math and Wellness Month
 Date: 2021-01-13 19:52
 Status: published
-Category: Uncategorized
+Category: psychology
 Slug: january-is-math-and-wellness-month
 
 [(Previously)](http://zackmdavis.net/blog/2019/05/may-is-math-and-wellness-month/)

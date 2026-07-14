@@ -1,7 +1,7 @@
 Title: The History of the Universe
 Date: 2013-08-06 21:38
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: intelligence explosion
 Slug: the-history-of-the-universe
 

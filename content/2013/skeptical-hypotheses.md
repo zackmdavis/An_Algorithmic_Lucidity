@@ -1,7 +1,7 @@
 Title: Skeptical Hypotheses
 Date: 2013-04-30 20:41
 Status: published
-Category: Uncategorized
+Category: philosophy
 Slug: skeptical-hypotheses
 
 "I think Popper said something about the power of scientific reasoning: that our hypotheses can die instead of us."

@@ -1,7 +1,7 @@
 Title: Concerning Frame Control Via Salient Scenarios
 Date: 2018-10-01 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: concerns
 Slug: concerning-frame-control-via-salient-scenarios
 

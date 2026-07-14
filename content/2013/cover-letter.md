@@ -1,8 +1,7 @@
 Title: Cover Letter
 Date: 2013-12-14 05:00
 Status: published
-Category: Uncategorized
-Tags: poetry
+Category: verse
 Slug: cover-letter
 
 Beset by nights of torment,  

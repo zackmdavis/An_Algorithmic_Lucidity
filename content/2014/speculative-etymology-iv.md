@@ -1,7 +1,7 @@
 Title: Speculative Etymology IV
 Date: 2014-11-16 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: speculative etymology
 Slug: speculative-etymology-iv
 

@@ -1,7 +1,7 @@
 Title: Prodrome
 Date: 2013-04-01 13:57
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: madness
 Slug: prodrome
 

@@ -1,7 +1,7 @@
 Title: I Just Want Outrage Season to Be Over Already
 Date: 2012-11-05 05:00
 Status: published
-Category: Uncategorized
+Category: social science
 Tags: politics
 Slug: i-just-want-outrage-season-to-be-over-already
 

@@ -1,7 +1,7 @@
 Title: Optimal Last Words Before the Intelligence Explosion
 Date: 2013-09-04 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: intelligence explosion
 Slug: optimal-last-words-before-the-intelligence-explosion
 

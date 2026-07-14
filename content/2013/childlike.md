@@ -1,7 +1,7 @@
 Title: Childlike
 Date: 2013-03-03 21:00
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: madness
 Slug: childlike
 

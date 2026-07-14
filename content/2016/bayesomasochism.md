@@ -1,7 +1,7 @@
 Title: Bayesomasochism
 Date: 2016-09-22 23:58
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: rationality
 Slug: bayesomasochism
 

@@ -1,7 +1,7 @@
 Title: Some Shuffling Required
 Date: 2018-01-07 19:37
 Status: published
-Category: Uncategorized
+Category: mathematics
 Tags: probability
 Slug: some-shuffling-required
 

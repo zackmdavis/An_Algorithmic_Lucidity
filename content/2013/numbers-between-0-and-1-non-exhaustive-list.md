@@ -1,7 +1,7 @@
 Title: Numbers Between 0 and 1 (Non-exhaustive List)
 Date: 2013-12-11 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: lists
 Slug: numbers-between-0-and-1-non-exhaustive-list
 

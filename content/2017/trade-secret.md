@@ -1,7 +1,7 @@
 Title: Trade Secret
 Date: 2017-07-10 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: trade-secret
 
 "The key to retail success is low prices."

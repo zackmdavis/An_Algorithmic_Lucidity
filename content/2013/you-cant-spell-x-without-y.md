@@ -1,7 +1,7 @@
 Title: You Can't Spell X Without Y
 Date: 2013-11-16 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: lists
 Slug: you-cant-spell-x-without-y
 

@@ -1,7 +1,7 @@
 Title: The Bayes-Structure in the Form of a Riddle
 Date: 2017-02-26 10:35
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: Bayes-structure of the universe
 Slug: the-bayes-structure-in-the-form-of-a-riddle
 

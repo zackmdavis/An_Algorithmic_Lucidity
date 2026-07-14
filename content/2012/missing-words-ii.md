@@ -1,7 +1,7 @@
 Title: Missing Words II
 Date: 2012-12-15 01:10
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: missing words
 Slug: missing-words-ii
 

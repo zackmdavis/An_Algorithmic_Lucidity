@@ -1,7 +1,7 @@
 Title: A "Knock, Knock" Joke
 Date: 2012-07-03 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: humor, morality
 Slug: a-knock-knock-joke
 

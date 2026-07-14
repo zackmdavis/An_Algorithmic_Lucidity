@@ -1,7 +1,7 @@
 Title: Actually Trying
 Date: 2013-03-17 18:01
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: madness
 Slug: actually-trying
 

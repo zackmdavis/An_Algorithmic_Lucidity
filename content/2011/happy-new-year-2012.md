@@ -1,7 +1,7 @@
 Title: Days Gone By
 Date: 2011-12-31 06:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: new year
 Slug: happy-new-year-2012
 

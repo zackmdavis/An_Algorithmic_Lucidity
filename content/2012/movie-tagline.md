@@ -1,7 +1,7 @@
 Title: Movie Tagline
 Date: 2012-12-06 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: intelligence explosion
 Slug: movie-tagline
 

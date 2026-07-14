@@ -1,7 +1,7 @@
 Title: Concerning Motives for Cooperation
 Date: 2018-10-02 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: concerns
 Slug: concerning-motives-for-cooperation
 

@@ -1,7 +1,7 @@
 Title: Native Tongue
 Date: 2014-11-28 10:28
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Python
 Slug: native-tongue
 

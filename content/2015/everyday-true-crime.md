@@ -1,7 +1,7 @@
 Title: Everyday True Crime
 Date: 2015-10-10 15:06
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: akrasia
 Slug: everyday-true-crime
 

@@ -1,8 +1,7 @@
 Title: October Eleventh
 Date: 2015-10-11 23:45
 Status: published
-Category: Uncategorized
-Tags: lyrics
+Category: verse
 Slug: october-eleventh
 
 _October eleventh  

@@ -1,7 +1,7 @@
 Title: Serenity
 Date: 2013-10-08 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: serenity
 
 "I shall seek the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference."

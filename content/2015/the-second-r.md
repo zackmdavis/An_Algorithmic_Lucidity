@@ -1,7 +1,7 @@
 Title: The Second <em>R</em>
 Date: 2015-06-30 21:33
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: akrasia
 Slug: the-second-r
 

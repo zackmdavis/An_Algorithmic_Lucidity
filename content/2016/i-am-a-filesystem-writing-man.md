@@ -1,8 +1,7 @@
 Title: I Am a Filesystem-Writing Man
 Date: 2016-10-04 11:46
 Status: published
-Category: Uncategorized
-Tags: poetry
+Category: verse
 Slug: i-am-a-filesystem-writing-man
 
 [(Previously, elsewhere.)](http://lesswrong.com/lw/8o6/the_gift_we_give_tomorrow_spoken_word_finished/5d9f?context=1#comments)

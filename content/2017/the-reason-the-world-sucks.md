@@ -1,7 +1,7 @@
 Title: The Reason the World Sucks
 Date: 2017-02-23 18:22
 Status: published
-Category: Uncategorized
+Category: philosophy
 Slug: the-reason-the-world-sucks
 
 "I think we should perform action A to optimize value V. The reason I think this is because of evidence X, Y, and Z, and prior information I."

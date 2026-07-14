@@ -1,7 +1,7 @@
 Title: An Exercise for the Writer-Pretendant
 Date: 2014-11-15 21:16
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: akrasia
 Slug: an-exercise-for-the-writer-pretendant
 

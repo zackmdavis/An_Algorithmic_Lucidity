@@ -1,7 +1,7 @@
 Title: Proper Outlook
 Date: 2014-03-16 12:44
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: improvement, morality
 Slug: proper-outlook
 

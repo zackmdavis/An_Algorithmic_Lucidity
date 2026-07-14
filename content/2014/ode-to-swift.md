@@ -1,8 +1,8 @@
 Title: Ode to Swift
 Date: 2014-04-06 15:54
 Status: published
-Category: Uncategorized
-Tags: OpenStack Swift, poetry
+Category: verse
+Tags: OpenStack Swift
 Slug: ode-to-swift
 
 Our users have a need although  

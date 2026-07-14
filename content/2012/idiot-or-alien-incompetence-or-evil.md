@@ -1,7 +1,7 @@
 Title: Idiot or Alien? Incompetence or Evil?
 Date: 2012-10-02 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: rationality
 Slug: idiot-or-alien-incompetence-or-evil
 

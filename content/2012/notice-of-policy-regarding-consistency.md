@@ -1,7 +1,7 @@
 Title: Notice of Policy Regarding Consistency
 Date: 2012-07-16 13:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: improvement, rationality
 Slug: notice-of-policy-regarding-consistency
 

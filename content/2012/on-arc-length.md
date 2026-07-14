@@ -1,8 +1,8 @@
 Title: On Arc Length
 Date: 2012-08-11 05:00
 Status: published
-Category: Uncategorized
-Tags: calculus, poetry
+Category: verse
+Tags: calculus
 Slug: on-arc-length
 
 Zeno knew, but did not know enough; a minute is divided

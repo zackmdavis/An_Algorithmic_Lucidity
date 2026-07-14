@@ -1,8 +1,8 @@
 Title: Haiku for Euler's Number
 Date: 2013-03-03 20:21
 Status: published
-Category: Uncategorized
-Tags: calculus, poetry
+Category: verse
+Tags: calculus
 Slug: haiku-for-eulers-number
 
 Two point seven one

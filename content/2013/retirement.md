@@ -1,7 +1,7 @@
 Title: Retirement
 Date: 2013-05-16 20:18
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: madness
 Slug: retirement
 

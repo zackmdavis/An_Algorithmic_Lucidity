@@ -1,7 +1,7 @@
 Title: The Year of the Em Dash, Not
 Date: 2014-12-01 21:44
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Unicode
 Slug: the-year-of-the-em-dash-not
 

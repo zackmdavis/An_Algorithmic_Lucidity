@@ -1,7 +1,7 @@
 Title: __pycache__/shibboleth.cpython-34.pyc
 Date: 2015-06-22 22:18
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Python
 Slug: __pycache__shibboleth-cpython-34-pyc
 

@@ -1,7 +1,7 @@
 Title: Company Loyalty
 Date: 2015-10-18 13:07
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: company-loyalty
 
 "My lord. You took a chance on me when I was unknown and unproven, rescued me from the continued degradation of 'college' that the emperor's men would have us believe is the source of life itself. In return for your generosity, I will do everything in my power to make it _not_ have been generosity.

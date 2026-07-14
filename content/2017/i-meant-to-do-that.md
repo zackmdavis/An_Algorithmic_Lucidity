@@ -1,7 +1,7 @@
 Title: I Meant to Do That
 Date: 2017-07-05 22:53
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: akrasia
 Slug: i-meant-to-do-that
 

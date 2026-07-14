@@ -1,7 +1,7 @@
 Title: True Inclusiveness
 Date: 2013-09-08 14:40
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: morality
 Slug: true-inclusiveness
 

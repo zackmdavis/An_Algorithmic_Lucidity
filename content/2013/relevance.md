@@ -1,7 +1,7 @@
 Title: Relevance
 Date: 2013-05-15 13:01
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: madness
 Slug: relevance
 

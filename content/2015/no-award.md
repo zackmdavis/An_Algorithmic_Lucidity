@@ -1,7 +1,7 @@
 Title: No Award
 Date: 2015-08-23 22:54
 Status: published
-Category: Uncategorized
+Category: psychology
 Slug: no-award
 
 Nothing should dilute or adulterate the exalted joy of watching the chess engine you've toiled over for the better part of three weekends start to suggest moves (from a basic 3-ply negamax search with a simple [point](https://en.wikipedia.org/wiki/Chess_piece_relative_value)-counting position evaluation heuristic), unless it's the slight(ly overdetermined?) suspicion that you're overcompensating for something, that you've proved your point by now, that bringing yet another moderately-sophisticated side project in a [not-the-most-popular](http://www.paulgraham.com/pypar.html) programming language over the threshold of "really cool-looking proof-of-concept" isn't going to show Everyone that you are Smart and should be Respected any _more_ than the last seven already did. Some people actually _use_ software for something other than a trophy, to automate some aspect of the world that otherwise would have been done more poorly. So you've heard. If one were to hypothesize, for the sake of argument (but perhaps not _only_ for the sake of argument) that there can exist diminishing marginal returns to some games, that Respect from Everyone is not a real thing that can be won, that there are treasures and masteries you'd never imagine while chasing GitHub stars, much like how _you_ know there are treasures and masteries that you'd never imagine while chasing school marks—what strategies would that imply, now that you know there is such a thing as being strategic? And how would you tell the difference?

@@ -1,7 +1,7 @@
 Title: On Schedule
 Date: 2014-09-27 08:00
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: on-schedule
 
 gonna get ready for my d8

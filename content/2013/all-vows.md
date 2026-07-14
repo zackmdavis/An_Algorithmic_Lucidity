@@ -1,7 +1,7 @@
 Title: All Vows
 Date: 2013-09-14 11:56
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: morality
 Slug: all-vows
 

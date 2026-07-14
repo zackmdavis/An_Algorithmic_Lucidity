@@ -1,7 +1,7 @@
 Title: December 2019 Blogging on <em>Less Wrong</em>
 Date: 2020-01-01 11:16
 Status: published
-Category: Uncategorized
+Category: meta
 Tags: elsewhere
 Slug: december-2019-blogging-on-less-wrong
 

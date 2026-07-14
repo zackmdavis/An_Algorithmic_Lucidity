@@ -1,7 +1,7 @@
 Title: Missing Words VII
 Date: 2016-01-08 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: missing words
 Slug: missing-words-vii
 

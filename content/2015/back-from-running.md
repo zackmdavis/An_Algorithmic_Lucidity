@@ -1,7 +1,7 @@
 Title: Back from Running
 Date: 2015-10-14 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: akrasia
 Slug: back-from-running
 

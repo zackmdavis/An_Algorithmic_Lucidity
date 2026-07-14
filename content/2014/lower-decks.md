@@ -1,7 +1,7 @@
 Title: Lower Decks
 Date: 2014-06-13 21:39
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Star Trek
 Slug: lower-decks
 

@@ -1,7 +1,7 @@
 Title: Missing Words VI
 Date: 2014-11-18 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: missing words
 Slug: missing-words-vi
 

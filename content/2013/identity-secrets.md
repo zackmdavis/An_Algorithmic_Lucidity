@@ -1,7 +1,7 @@
 Title: Identity Secrets
 Date: 2013-01-17 22:22
 Status: published
-Category: Uncategorized
+Category: philosophy
 Slug: identity-secrets
 
 "You know secrets."

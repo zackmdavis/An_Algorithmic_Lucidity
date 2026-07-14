@@ -1,7 +1,7 @@
 Title: Pose
 Date: 2016-06-04 09:29
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: Rust
 Slug: pose
 

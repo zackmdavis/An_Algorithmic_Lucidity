@@ -1,7 +1,7 @@
 Title: Getting a Contribution Through the OpenStack Review Process
 Date: 2015-10-06 21:40
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: OpenStack Swift
 Slug: getting-a-contribution-through-the-openstack-review-process
 

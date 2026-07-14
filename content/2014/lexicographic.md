@@ -1,7 +1,7 @@
 Title: Lexicographic
 Date: 2014-06-17 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: sex & gender
 Slug: lexicographic
 

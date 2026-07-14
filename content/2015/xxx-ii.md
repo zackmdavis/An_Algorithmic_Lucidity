@@ -1,7 +1,7 @@
 Title: XXX II
 Date: 2015-03-21 23:07
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Rust
 Slug: xxx-ii
 

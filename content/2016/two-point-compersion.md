@@ -1,7 +1,7 @@
 Title: Two-Point Compersion
 Date: 2016-01-24 15:40
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: gridiron football
 Slug: two-point-compersion
 

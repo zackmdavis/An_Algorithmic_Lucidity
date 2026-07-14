@@ -1,7 +1,7 @@
 Title: Epistolary
 Date: 2015-04-14 22:41
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: epistolary
 
 [(Previously.)](http://zackmdavis.net/blog/2014/05/a-short-story/)

@@ -1,7 +1,7 @@
 Title: Seasonal Drink
 Date: 2012-12-25 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Less Wrong
 Slug: seasonal-drink
 

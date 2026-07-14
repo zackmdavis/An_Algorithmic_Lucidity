@@ -1,7 +1,7 @@
 Title: Quotations II
 Date: 2013-09-02 05:00
 Status: published
-Category: Uncategorized
+Category: arts & culture
 Tags: quotations
 Slug: quotations-ii
 

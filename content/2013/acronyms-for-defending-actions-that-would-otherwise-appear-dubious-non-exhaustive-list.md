@@ -1,7 +1,7 @@
 Title: Acronyms for Defending Actions that Would Otherwise Appear Dubious (Non-exhaustive List)
 Date: 2013-09-11 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: lists
 Slug: acronyms-for-defending-actions-that-would-otherwise-appear-dubious-non-exhaustive-list
 

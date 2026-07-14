@@ -1,7 +1,7 @@
 Title: Courtship Gift
 Date: 2017-11-12 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: romance
 Slug: courtship-gift
 

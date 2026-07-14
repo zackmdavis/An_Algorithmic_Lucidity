@@ -1,8 +1,8 @@
 Title: On an Image Macro
 Date: 2012-11-04 05:00
 Status: published
-Category: Uncategorized
-Tags: Friendship Is Magic, poetry
+Category: verse
+Tags: Friendship Is Magic
 Slug: on-an-image-macro
 
 For the haters are going to hate,

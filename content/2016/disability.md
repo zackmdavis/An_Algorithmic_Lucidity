@@ -1,7 +1,7 @@
 Title: Disability
 Date: 2016-01-05 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: sex & gender
 Slug: disability
 

@@ -1,7 +1,7 @@
 Title: Permalink or It Didn't Happen
 Date: 2015-02-28 09:33
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: akrasia
 Slug: permalink-or-it-didnt-happen
 

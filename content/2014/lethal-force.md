@@ -1,7 +1,7 @@
 Title: Lethal --force
 Date: 2014-03-17 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Git
 Slug: lethal-force
 

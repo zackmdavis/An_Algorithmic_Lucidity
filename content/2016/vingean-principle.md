@@ -1,7 +1,7 @@
 Title: Vingean Principle
 Date: 2016-07-02 08:43
 Status: published
-Category: Uncategorized
+Category: philosophy
 Slug: vingean-principle
 
 "I miss you."

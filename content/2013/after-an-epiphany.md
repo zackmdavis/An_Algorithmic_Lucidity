@@ -1,7 +1,7 @@
 Title: After an Epiphany
 Date: 2013-01-09 19:18
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: improvement
 Slug: after-an-epiphany
 

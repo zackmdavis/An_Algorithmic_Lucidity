@@ -1,7 +1,7 @@
 Title: Some Excuse for a RustConf 2017 Travelogue
 Date: 2017-10-03 23:12
 Status: published
-Category: Uncategorized
+Category: computing
 Tags: akrasia, Rust, timely Special Event
 Slug: some-excuse-for-a-rustconf-2017-travelogue
 

@@ -1,7 +1,7 @@
 Title: Feature Reduction
 Date: 2019-09-02 14:56
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: feature-reduction
 
 _(looking at baby/toddler photos a year apart)_ "How does he look so different and yet so the same at the same time?"

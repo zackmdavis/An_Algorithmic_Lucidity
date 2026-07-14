@@ -1,7 +1,7 @@
 Title: Highball
 Date: 2013-12-12 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: highball
 
 "Now remember: when you're negotiating salary and they press you for a number, do _not_ reveal your BATNA. Give them an unrealistically high estimate and make them negotiate down. Now practice on me."

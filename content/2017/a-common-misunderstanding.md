@@ -1,7 +1,7 @@
 Title: A Common Misunderstanding
 Date: 2017-02-09 14:00
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: a-common-misunderstanding
 
 _In a series of papers published in the late 1980s and early 1990s, Dr. Ray Blanchard proposed that there are two fundamentally different types of rationalists with unrelated etiologies: instrumental rationalists, and epistemic rationalists ..._

@@ -1,7 +1,7 @@
 Title: Don't Resent That No One Cares
 Date: 2012-10-08 05:00
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: improvement
 Slug: dont-resent-that-no-one-cares
 

@@ -1,7 +1,7 @@
 Title: Cached Reply Upon Being Told That I'm an Idiot
 Date: 2012-09-11 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: cached speech
 Slug: cached-reply-upon-being-told-that-im-an-idiot
 

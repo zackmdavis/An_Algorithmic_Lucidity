@@ -1,7 +1,7 @@
 Title: Tradition
 Date: 2013-03-08 14:41
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: gridiron football, madness
 Slug: tradition
 

@@ -1,7 +1,7 @@
 Title: Blogging on <em>Less Wrong</em> 2020 (Lower Half)
 Date: 2021-01-08 13:29
 Status: published
-Category: Uncategorized
+Category: meta
 Tags: elsewhere
 Slug: blogging-on-less-wrong-2020-lower-half
 

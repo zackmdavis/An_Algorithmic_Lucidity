@@ -1,7 +1,7 @@
 Title: Friday Night Lies
 Date: 2014-10-03 19:47
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Friendship Is Magic
 Slug: friday-night-lies
 

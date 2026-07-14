@@ -1,7 +1,7 @@
 Title: Remembering
 Date: 2013-06-06 11:36
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: madness
 Slug: remembering
 

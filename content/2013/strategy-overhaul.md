@@ -1,7 +1,7 @@
 Title: Strategy Overhaul
 Date: 2013-03-28 22:08
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: madness, schooling
 Slug: strategy-overhaul
 

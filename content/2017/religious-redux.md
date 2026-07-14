@@ -1,7 +1,7 @@
 Title: Religious, Redux
 Date: 2017-03-11 02:47
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: madness
 Slug: religious-redux
 

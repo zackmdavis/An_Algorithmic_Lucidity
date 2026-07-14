@@ -1,7 +1,7 @@
 Title: Lipschitz
 Date: 2017-10-23 18:20
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: akrasia, analysis, Bayes-structure of the universe
 Slug: lipschitz
 

@@ -1,7 +1,7 @@
 Title: Insight Porn
 Date: 2013-03-16 15:04
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: madness
 Slug: insight-porn
 

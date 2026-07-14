@@ -1,7 +1,7 @@
 Title: An Education News Bulletin
 Date: 2014-02-01 05:00
 Status: published
-Category: Uncategorized
+Category: social science
 Tags: politics, schooling
 Slug: an-education-news-bulletin
 

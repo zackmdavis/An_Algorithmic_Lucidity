@@ -1,8 +1,7 @@
 Title: Post-Ingress
 Date: 2015-04-21 21:57
 Status: published
-Category: Uncategorized
-Tags: poetry
+Category: verse
 Slug: post-ingress
 
 Her tense reaction was contorted,  

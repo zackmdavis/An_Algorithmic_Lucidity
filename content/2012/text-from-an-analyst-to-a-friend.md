@@ -1,7 +1,7 @@
 Title: Text From an Analyst to a Friend
 Date: 2012-12-07 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: analysis
 Slug: text-from-an-analyst-to-a-friend
 

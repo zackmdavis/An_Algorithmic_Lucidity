@@ -1,7 +1,7 @@
 Title: College Was Not That Terrible Now That I'm Not That Crazy
 Date: 2026-01-01 15:00
 Status: published
-Category: Uncategorized
+Category: social science
 Tags: schooling
 Slug: college-was-not-that-terrible-now-that-im-not-that-crazy
 

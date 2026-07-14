@@ -1,7 +1,7 @@
 Title: Thinking About Writing
 Date: 2013-12-13 05:00
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: akrasia
 Slug: thinking-about-writing
 

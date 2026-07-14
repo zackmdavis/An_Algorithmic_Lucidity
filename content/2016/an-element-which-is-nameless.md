@@ -1,7 +1,7 @@
 Title: An Element Which Is Nameless
 Date: 2016-12-28 20:17
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Friendship Is Magic, rationality
 Slug: an-element-which-is-nameless
 

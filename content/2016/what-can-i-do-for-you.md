@@ -1,7 +1,7 @@
 Title: "What Can I Do For You?"
 Date: 2016-07-23 12:34
 Status: published
-Category: Uncategorized
+Category: philosophy
 Slug: what-can-i-do-for-you
 
 "I think we should set aside some time to discuss how I could provide more value to you."

@@ -1,7 +1,7 @@
 Title: Compensation
 Date: 2013-07-07 18:34
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: cryonics
 Slug: compensation
 

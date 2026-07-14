@@ -1,7 +1,7 @@
 Title: Cryonics as Memoir
 Date: 2013-08-19 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: cryonics
 Slug: cryonics-as-memoir
 

@@ -1,8 +1,7 @@
 Title: Virtual Router Redundancy Poem
 Date: 2016-02-24 21:53
 Status: published
-Category: Uncategorized
-Tags: poetry
+Category: verse
 Slug: virtual-router-redundancy-poem
 
 From despair and that eternal sleep revive me,  

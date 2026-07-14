@@ -1,7 +1,7 @@
 Title: Islands
 Date: 2016-03-28 23:43
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: islands
 
 _(an office on the someteenth floor)_

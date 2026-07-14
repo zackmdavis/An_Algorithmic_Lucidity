@@ -1,7 +1,7 @@
 Title: Creature Manipulation
 Date: 2015-10-19 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: creature-manipulation
 
 _(marching into the room confidently, carrying copies of Carnegie, Cialdini, and Patterson Grenny_ et al._)_ "I'm going to acquire creature-manipulation technology!"

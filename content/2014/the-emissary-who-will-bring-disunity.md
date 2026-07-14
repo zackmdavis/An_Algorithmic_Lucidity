@@ -1,8 +1,7 @@
 Title: The Emissary Who Will Bring Disunity
 Date: 2014-06-15 20:34
 Status: published
-Category: Uncategorized
-Tags: lyrics
+Category: verse
 Slug: the-emissary-who-will-bring-disunity
 
 _It's like everyone thinks they belong  

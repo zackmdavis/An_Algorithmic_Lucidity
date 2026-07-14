@@ -1,7 +1,7 @@
 Title: Plurals of Coinflip Outcomes
 Date: 2013-08-28 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: grammar
 Slug: plurals-of-coinflip-outcomes
 

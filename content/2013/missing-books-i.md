@@ -1,7 +1,7 @@
 Title: Missing Books I
 Date: 2013-01-13 05:00
 Status: published
-Category: Uncategorized
+Category: arts & culture
 Tags: analysis, missing books
 Slug: missing-books-i
 

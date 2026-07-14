@@ -1,7 +1,7 @@
 Title: Worth
 Date: 2014-09-07 13:07
 Status: published
-Category: Uncategorized
+Category: philosophy
 Slug: worth
 
 "I still feel bad about being the [worst person at my job](http://zackmdavis.net/blog/2014/06/lower-decks/)."

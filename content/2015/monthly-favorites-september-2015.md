@@ -1,7 +1,7 @@
 Title: Monthly Favorites, September 2015
 Date: 2015-09-30 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Friendship Is Magic, Python, Rust
 Slug: monthly-favorites-september-2015
 

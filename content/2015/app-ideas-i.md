@@ -1,7 +1,7 @@
 Title: App Ideas I
 Date: 2015-10-13 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: baseball, notation
 Slug: app-ideas-i
 

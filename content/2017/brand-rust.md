@@ -1,7 +1,7 @@
 Title: Brand Rust
 Date: 2017-03-26 11:34
 Status: published
-Category: Uncategorized
+Category: social science
 Tags: politics
 Slug: brand-rust
 

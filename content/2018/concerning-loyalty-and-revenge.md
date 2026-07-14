@@ -1,7 +1,7 @@
 Title: Concerning Loyalty and Revenge
 Date: 2018-10-04 05:00
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: concerns
 Slug: concerning-loyalty-and-revenge
 

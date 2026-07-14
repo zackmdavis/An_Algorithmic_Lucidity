@@ -1,7 +1,7 @@
 Title: It's Not Whether You Win or Lose
 Date: 2012-09-21 00:19
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: morality
 Slug: its-not-whether-you-win-or-lose
 

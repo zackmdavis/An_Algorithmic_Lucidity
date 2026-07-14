@@ -1,7 +1,7 @@
 Title: Untitled
 Date: 2012-06-21 20:06
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: akrasia
 Slug: untitled
 

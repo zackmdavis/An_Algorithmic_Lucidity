@@ -1,7 +1,7 @@
 Title: The Chocolate Caramel Sea-Salt Betrayal
 Date: 2014-01-13 20:13
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: ice-cream
 Slug: the-chocolate-caramel-sea-salt-betrayal
 

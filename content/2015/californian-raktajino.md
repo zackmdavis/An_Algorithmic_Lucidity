@@ -1,7 +1,7 @@
 Title: Californian Raktajino
 Date: 2015-12-02 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: recipes
 Slug: californian-raktajino
 

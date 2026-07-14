@@ -1,8 +1,7 @@
 Title: Coffee Is for Coders
 Date: 2020-08-06 19:29
 Status: published
-Category: Uncategorized
-Tags: poetry
+Category: verse
 Slug: coffee-is-for-coders
 
 No one cares if you're in pain;

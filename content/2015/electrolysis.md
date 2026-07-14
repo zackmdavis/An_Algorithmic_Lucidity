@@ -1,7 +1,7 @@
 Title: Electrolysis
 Date: 2015-07-03 11:14
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: sex & gender
 Slug: electrolysis
 

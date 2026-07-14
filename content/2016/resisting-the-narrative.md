@@ -1,7 +1,7 @@
 Title: Resisting the Narrative
 Date: 2016-12-04 05:00
 Status: published
-Category: Uncategorized
+Category: social science
 Slug: resisting-the-narrative
 
 Culture wars are a subtle thing to wage, because they determine everything without being _about_ anything. Explicitly political contests are at least _ostensibly_ about some particular concrete thing: you're fighting for or against a specific law or a specific candidate. But how do you fight a _narrative_, when your enemy is less of a regime and more of a meme? How do you explain to anyone what you're trying to accomplish when you're not trying to get anyone to _do_ anything different in particular, but to renounce their distorted way of thinking and speaking, after which you expect them to make better decisions, even if you can't say in advance what those decisions will be?

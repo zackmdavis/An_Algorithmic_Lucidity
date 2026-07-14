@@ -1,7 +1,7 @@
 Title: Cranberry Bliss!
 Date: 2017-11-10 20:51
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: akrasia
 Slug: cranberry-bliss
 

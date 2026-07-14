@@ -1,7 +1,7 @@
 Title: Concerns II
 Date: 2016-09-29 11:03
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: concerns-ii
 
 [(Previously.)](http://zackmdavis.net/blog/2016/07/concerns/)

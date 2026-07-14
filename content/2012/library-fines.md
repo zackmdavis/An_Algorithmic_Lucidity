@@ -1,7 +1,7 @@
 Title: Library Fines
 Date: 2012-11-03 05:00
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: akrasia
 Slug: library-fines
 

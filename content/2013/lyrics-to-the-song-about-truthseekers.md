@@ -1,8 +1,7 @@
 Title: Lyrics to the Song About Truthseekers
 Date: 2013-08-18 07:50
 Status: published
-Category: Uncategorized
-Tags: lyrics
+Category: verse
 Slug: lyrics-to-the-song-about-truthseekers
 
 _Yesterday my sister won the Nobel prize  

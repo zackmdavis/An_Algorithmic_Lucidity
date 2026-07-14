@@ -1,7 +1,7 @@
 Title: Supermarket Notes I
 Date: 2012-09-10 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Friendship Is Magic, shopping
 Slug: supermarket-notes-i
 

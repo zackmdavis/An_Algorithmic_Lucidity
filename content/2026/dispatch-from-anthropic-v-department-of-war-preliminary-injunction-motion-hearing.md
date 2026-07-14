@@ -1,7 +1,7 @@
 Title: Dispatch from Anthropic v. Department of War Preliminary Injunction Motion Hearing
 Date: 2026-03-25 19:54
 Status: published
-Category: Uncategorized
+Category: social science
 Slug: dispatch-from-anthropic-v-department-of-war-preliminary-injunction-motion-hearing
 
 Dateline SAN FRANCISCO, Ca., 24 March 2026— A hearing was held on a motion for a preliminary injunction in the case of _Anthropic PBC v. U.S. Department of War et al._ in Courtroom 12 on the 19th floor of the Phillip Burton Federal Building, the Hon. Judge Rita F. Lin presiding. About 35 spectators in the gallery (journalists and other members of the public, including the present writer) looked on as Michael Mongan of WilmerHale (lead counsel for the plaintiff) and Deputy Assistant Attorney General Eric Hamilton (lead counsel for the defendant) argued before the judge. (The defendant also had another lawyer at their counsel table on the left, and the plaintiff had six more at theirs on the right, but none of those people said anything.)

@@ -1,7 +1,7 @@
 Title: On the Usefulness of Boats
 Date: 2012-09-02 11:51
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: boats
 Slug: on-the-usefulness-of-boats
 

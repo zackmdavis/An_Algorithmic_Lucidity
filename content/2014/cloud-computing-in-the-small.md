@@ -1,7 +1,7 @@
 Title: Cloud Computing in the Small
 Date: 2014-10-13 20:44
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: trains
 Slug: cloud-computing-in-the-small
 

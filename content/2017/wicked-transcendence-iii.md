@@ -1,7 +1,7 @@
 Title: Wicked Transcendence III
 Date: 2017-03-15 14:49
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: sex & gender
 Slug: wicked-transcendence-iii
 

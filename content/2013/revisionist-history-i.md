@@ -1,7 +1,7 @@
 Title: Revisionist History I
 Date: 2013-06-22 19:09
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: cryonics
 Slug: revisionist-history-i
 

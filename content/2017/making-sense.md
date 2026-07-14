@@ -1,7 +1,7 @@
 Title: Making Sense
 Date: 2017-05-22 17:31
 Status: published
-Category: Uncategorized
+Category: mathematics
 Tags: probability
 Slug: making-sense
 

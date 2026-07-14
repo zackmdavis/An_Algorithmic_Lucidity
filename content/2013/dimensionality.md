@@ -1,7 +1,7 @@
 Title: Dimensionality
 Date: 2013-05-06 11:34
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: humor
 Slug: dimensionality
 

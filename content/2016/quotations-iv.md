@@ -1,7 +1,7 @@
 Title: Quotations IV
 Date: 2016-02-02 22:51
 Status: published
-Category: Uncategorized
+Category: arts & culture
 Tags: quotations
 Slug: quotations-iv
 

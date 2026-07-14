@@ -1,8 +1,7 @@
 Title: Lyrics to the Song About Matt Reeves
 Date: 2013-05-22 15:58
 Status: published
-Category: Uncategorized
-Tags: lyrics
+Category: verse
 Slug: lyrics-to-the-song-about-matt-reeves
 
 _Dead kid gets a bench  

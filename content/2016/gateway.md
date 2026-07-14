@@ -1,7 +1,7 @@
 Title: Gateway
 Date: 2016-06-09 18:45
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Star Trek
 Slug: gateway
 

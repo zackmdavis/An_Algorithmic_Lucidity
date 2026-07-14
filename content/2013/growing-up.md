@@ -1,7 +1,7 @@
 Title: Growing Up
 Date: 2013-02-14 19:50
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: growing-up
 
 "I miss being a human."

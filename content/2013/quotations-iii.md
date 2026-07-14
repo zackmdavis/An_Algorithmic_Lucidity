@@ -1,7 +1,7 @@
 Title: Quotations III
 Date: 2013-11-18 05:00
 Status: published
-Category: Uncategorized
+Category: arts & culture
 Tags: quotations
 Slug: quotations-iii
 

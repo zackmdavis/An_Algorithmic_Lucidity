@@ -1,7 +1,7 @@
 Title: Lock Contention
 Date: 2019-07-21 14:13
 Status: published
-Category: Uncategorized
+Category: asides
 Slug: lock-contention
 
 "We really need another bookcase."

@@ -1,7 +1,7 @@
 Title: More Running
 Date: 2016-05-02 20:49
 Status: published
-Category: Uncategorized
+Category: philosophy
 Tags: transhumanism
 Slug: more-running
 

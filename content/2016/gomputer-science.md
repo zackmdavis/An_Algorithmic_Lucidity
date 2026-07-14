@@ -1,7 +1,7 @@
 Title: Gomputer Science
 Date: 2016-03-18 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Go
 Slug: gomputer-science
 

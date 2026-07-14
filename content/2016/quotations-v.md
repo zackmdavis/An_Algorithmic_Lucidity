@@ -1,7 +1,7 @@
 Title: Quotations V
 Date: 2016-08-06 17:40
 Status: published
-Category: Uncategorized
+Category: arts & culture
 Tags: quotations
 Slug: quotations-v
 

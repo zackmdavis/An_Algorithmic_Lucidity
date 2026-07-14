@@ -1,7 +1,7 @@
 Title: Quotations I
 Date: 2013-07-21 11:17
 Status: published
-Category: Uncategorized
+Category: arts & culture
 Tags: quotations
 Slug: quotations-i
 

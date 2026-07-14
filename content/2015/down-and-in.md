@@ -1,8 +1,7 @@
 Title: Down and In
 Date: 2015-10-22 22:38
 Status: published
-Category: Uncategorized
-Tags: poetry
+Category: verse
 Slug: down-and-in
 
 With pity towards those who have fall'n off the wagon  

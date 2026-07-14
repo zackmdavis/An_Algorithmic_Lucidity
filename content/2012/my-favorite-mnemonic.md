@@ -1,7 +1,7 @@
 Title: My Favorite Mnemonic
 Date: 2012-10-10 22:28
 Status: published
-Category: Uncategorized
+Category: mathematics
 Tags: calculus
 Slug: my-favorite-mnemonic
 

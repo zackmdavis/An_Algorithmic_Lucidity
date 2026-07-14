@@ -1,7 +1,7 @@
 Title: Don't Try to Be Clever
 Date: 2013-01-18 11:45
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: rationality
 Slug: dont-try-to-be-clever
 

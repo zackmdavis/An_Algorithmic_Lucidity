@@ -1,7 +1,7 @@
 Title: Guns
 Date: 2013-07-05 11:22
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: madness
 Slug: guns
 

@@ -1,7 +1,7 @@
 Title: May Is Math and Wellness Month
 Date: 2019-05-01 02:56
 Status: published
-Category: Uncategorized
+Category: psychology
 Slug: may-is-math-and-wellness-month
 
 ([Previously](http://zackmdavis.net/blog/2018/04/april-is-separability-month/), [previously](http://zackmdavis.net/blog/2012/12/role-tension/).)

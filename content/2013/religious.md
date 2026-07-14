@@ -1,7 +1,7 @@
 Title: Religious
 Date: 2013-03-04 21:46
 Status: published
-Category: Uncategorized
+Category: psychology
 Tags: Less Wrong, madness
 Slug: religious
 

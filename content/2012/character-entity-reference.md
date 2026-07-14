@@ -1,7 +1,7 @@
 Title: Character Entity Reference
 Date: 2012-09-25 05:00
 Status: published
-Category: Uncategorized
+Category: asides
 Tags: Friendship Is Magic
 Slug: character-entity-reference
 
