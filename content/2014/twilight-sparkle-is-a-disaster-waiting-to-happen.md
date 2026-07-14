@@ -1,7 +1,7 @@
 Title: Twilight Sparkle Is a Disaster Waiting to Happen
 Date: 2014-03-02 23:06
 Status: published
-Category: arts &amp; culture
+Category: arts & culture
 Tags: Friendship Is Magic
 Slug: twilight-sparkle-is-a-disaster-waiting-to-happen
 

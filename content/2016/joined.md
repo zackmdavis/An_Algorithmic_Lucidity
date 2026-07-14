@@ -1,7 +1,7 @@
 Title: Joined
 Date: 2016-12-19 22:17
 Status: published
-Category: arts &amp; culture
+Category: arts & culture
 Tags: cosplay, Star Trek, timely Special Event
 Slug: joined
 

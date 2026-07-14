@@ -1,7 +1,7 @@
 Title: Another Desperate, Fervent Wish for <em>Star Trek: Discovery</em>
 Date: 2018-11-17 15:57
 Status: published
-Category: arts &amp; culture
+Category: arts & culture
 Tags: Star Trek
 Slug: another-desperate-fervent-wish-for-star-trek-discovery
 

@@ -1,8 +1,8 @@
 Title: Is There Affirmative Action for Incompetent Crossplay?
 Date: 2016-09-05 10:32
 Status: published
-Category: arts &amp; culture
-Tags: cosplay, sex &amp; gender, Steven Universe, timely Special Event
+Category: arts & culture
+Tags: cosplay, sex & gender, Steven Universe, timely Special Event
 Slug: is-there-affirmative-action-for-incompetent-crossplay
 
 So I was at [San Francisco Comic Con](http://sanfrancomiccon.com/) the other day. I don't think I find conventions themselves to be as fun as a lot of other people seem to (I didn't even last all of Saturday at [BABSCon 'fourteen and 'fifteen](http://zackmdavis.net/blog/2016/01/ideas-have-expirations/#babscon) before getting ponied out and BARTing home, and didn't even bother attending this year), but I had never cosplayed before, and had been thinking lately that I have exactly the right body type to play [Pearl](http://steven-universe.wikia.com/wiki/Pearl) from _Obnoxious Bad Decision Chil_—I mean, _Steven Universe_, on account of being my being tall, thin, white, and having a big nose. (She's even pretty flat-chested!) So I ordered [the Pearl dress from Hot Topic](http://www.hottopic.com/product/cartoon-network-steven-universe-pearl-dress/10619954.html) (I maybe should've gotten the XXXL instead of merely the XXL), a pink (really should be more peach, but close enough) wig, yellow gym shorts, and pink socks; improvised a gem from medical tape and the bowl of a plastic spoon; and set off Saturday morning to catch the train to the city and a short walk to the San Francisco Marriot Marquis.

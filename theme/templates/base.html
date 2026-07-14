@@ -32,8 +32,9 @@
         <aside class="sidebar">
             <div class="widget">
                 <h3>Archives</h3>
+                {% set archive_dates = all_articles if all_articles is defined else dates %}
                 <ul>
-                {% for year, year_articles in dates|groupby('date.year')|reverse %}
+                {% for year, year_articles in archive_dates|groupby('date.year')|reverse %}
                     <li><strong>{{ year }}</strong>
                         <ul>
                         {% for month_num, month_articles in year_articles|groupby('date.month')|reverse %}
@@ -66,9 +67,9 @@
                 {% set min_count = counts|min %}
                 <div class="tagcloud">
                 {% for tag, articles in tags|sort %}
-                    {% set c = articles|count %}
-                    {% set size = 10 + ((c - min_count) / ((max_count - min_count) or 1)) * 10 %}
-                    <a href="{{ SITEURL }}/{{ tag.url }}" style="font-size: {{ size|round(1) }}px;" title="{{ c }} posts">{{ tag }}</a>
+                    {% set count = articles|count %}
+                    {% set size = 10 + ((count - min_count) / ((max_count - min_count) or 1)) * 16 %}
+                    <a href="{{ SITEURL }}/{{ tag.url }}" style="font-size: {{ size|round(1) }}px;" title="{{ count }} posts">{{ tag }}</a>
                 {% endfor %}
                 </div>
             </div>

@@ -1,7 +1,7 @@
 Title: Yet Another Idle Wish for a Future <em>Star Trek</em> Series
 Date: 2014-11-17 05:00
 Status: published
-Category: arts &amp; culture
+Category: arts & culture
 Tags: Star Trek
 Slug: yet-another-idle-wish-for-a-future-star-trek-series
 

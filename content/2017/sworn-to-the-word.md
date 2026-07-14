@@ -1,7 +1,7 @@
 Title: Sworn to the Word
 Date: 2017-02-25 15:11
 Status: published
-Category: arts &amp; culture
+Category: arts & culture
 Tags: Steven Universe
 Slug: sworn-to-the-word
 

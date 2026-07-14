@@ -2,7 +2,7 @@ Title: Wicked Transcendence II
 Date: 2016-09-27 22:55
 Status: published
 Category: Uncategorized
-Tags: sex &amp; gender
+Tags: sex & gender
 Slug: wicked-transcendence-ii
 
 went to the genderqueer support/discussion group at the Pacific Center [again](http://zackmdavis.net/blog/2016/07/wicked-transcendence/); showed up early to change into my Pearl dress (it would be a waste to only wear it [once](http://zackmdavis.net/blog/2016/09/is-there-affirmative-action-for-incompetent-crossplay/)) and surreptitiously slip a [copy of Anne Lawrence](http://zackmdavis.net/blog/2016/09/book-recommendations-i/) into the library

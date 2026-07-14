@@ -1,7 +1,7 @@
 Title: Another Idle Wish for a Future <em>Star Trek</em> Series
 Date: 2013-11-17 17:54
 Status: published
-Category: arts &amp; culture
+Category: arts & culture
 Tags: Friendship Is Magic, Star Trek
 Slug: another-idle-wish-for-a-future-star-trek-series
 

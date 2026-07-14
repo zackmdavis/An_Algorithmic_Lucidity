@@ -1,7 +1,7 @@
 Title: Bayesian Gem
 Date: 2016-05-12 05:00
 Status: published
-Category: arts &amp; culture
+Category: arts & culture
 Tags: fanfiction, Steven Universe
 Slug: bayesian-gem
 

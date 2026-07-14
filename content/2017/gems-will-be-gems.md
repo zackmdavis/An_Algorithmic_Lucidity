@@ -1,7 +1,7 @@
 Title: Gems Will Be Gems
 Date: 2017-05-28 14:08
 Status: published
-Category: arts &amp; culture
+Category: arts & culture
 Tags: cosplay, Steven Universe
 Slug: gems-will-be-gems
 

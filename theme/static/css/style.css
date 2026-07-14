@@ -215,12 +215,21 @@ header h1 a:hover {
 }
 
 .widget h3 {
-    font-size: 14px;
+    background: linear-gradient(#8b8e96, #66686e);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
     font-weight: bold;
-    margin-bottom: 10px;
-    color: #222;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
+    text-shadow: 0 -1px 0 #555;
+    margin: 0 -15px 10px -15px;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.sidebar .widget:first-child h3 {
+    margin-top: -15px;
+    border-radius: 4px 4px 0 0;
 }
 
 .widget ul {
@@ -235,7 +244,13 @@ header h1 a:hover {
 
 .widget li {
     margin-bottom: 3px;
+    padding-bottom: 3px;
     line-height: 1.4;
+    border-bottom: 1px solid #eee;
+}
+
+.widget li:last-child {
+    border-bottom: none;
 }
 
 .widget li strong {
@@ -246,15 +261,22 @@ header h1 a:hover {
 .widget a {
     color: #58388c;
     font-size: 12px;
+    font-weight: bold;
 }
 
 .tagcloud {
-    line-height: 2.2;
+    line-height: 1.15;
 }
 
 .tagcloud a {
     display: inline-block;
-    margin-right: 8px;
+    font-weight: normal;
+    margin: 0 3px 0 0;
+}
+
+.widget-more {
+    margin-top: 8px;
+    font-size: 12px;
 }
 
 .archive-title {
