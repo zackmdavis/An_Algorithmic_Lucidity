@@ -6,7 +6,7 @@ Slug: the-parity-decomposition-trick
 
 Earlier this year, Robert Hasner showed me something that I assume everyone else ("everyone else") already knows, but which _I_ didn't know: every function on ℝ can be decomposed into the sum of an even function and an odd function—
 
-$$!f(x) = \frac{f(x)+f(-x)}{2} + \frac{f(x)-f(-x)}{2}$$
+$$f(x) = \frac{f(x)+f(-x)}{2} + \frac{f(x)-f(-x)}{2}$$
 
 (In fact, as I later read elsewhere, there's nothing essentially _twoful_ about this idea (at least, if you don't care about restricting yourself to ℝ): you can split a function into a sum of _n_ functions _fj_ for _j_ ∈ {0, ..., _n_–1} such that _fj_(ω_z_) = ω_j__fj_(_z_) where ω is an _n_th root of unity.)
 

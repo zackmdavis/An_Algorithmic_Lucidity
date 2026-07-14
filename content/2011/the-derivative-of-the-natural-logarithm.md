@@ -28,9 +28,9 @@ So if we understand the complex logarithm multifunction as that-which-inverts th
 
 But now we are ready to resolve the mystery that we set out to explain, of why the reciprocal function is the derivative of the natural logarithm even though no real number is the logarithm of a negative number, for now it is plain to see that the logarithm of a negative number is complex, but the _derivative_ of the logarithm is real, because the imaginary part is a constant that drops out when we take the derivative:
 
-$$! f'(-x\_0) = \lim\_{h \to 0} \frac{f(-x\_0+h)-f(x\_0)}{h} = \lim\_{h \to 0} \frac{(\ln{(x\_0 - h)} + (2n+1)\pi i) - (\ln{x\_0} + (2n+1)\pi i)}{h}$$
+$$ f'(-x\_0) = \lim\_{h \to 0} \frac{f(-x\_0+h)-f(x\_0)}{h} = \lim\_{h \to 0} \frac{(\ln{(x\_0 - h)} + (2n+1)\pi i) - (\ln{x\_0} + (2n+1)\pi i)}{h}$$
 
-$$! = \lim\_{h \to 0} \frac{\ln{(x\_0 - h)} - \ln{x\_0}}{h}$$
+$$ = \lim\_{h \to 0} \frac{\ln{(x\_0 - h)} - \ln{x\_0}}{h}$$
 
 —which turns out to be -1/_x0_, as expected.
 

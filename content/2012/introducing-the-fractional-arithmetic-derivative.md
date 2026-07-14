@@ -10,24 +10,24 @@ _Wikipedia_ [informs us of](http://en.wikipedia.org/wiki/Arithmetic_derivative) 
 
 For prime powers, the product rule degenerates into a _power rule_:
 
-$$!(p^a)' = \sum\_{j:=1}^{a} 1 \cdot p^{a-1} = ap^{a-1}$$
+$$(p^a)' = \sum\_{j:=1}^{a} 1 \cdot p^{a-1} = ap^{a-1}$$
 
 And this in turn makes it easy to compute the arithmetic derivative in general. Say that _n_∈ℕ has the prime factorization Πi _p__i__a__i_. Then—
 
-$$!n' = \sum\_{i} a\_{i}p\_{i}^{a\_{i}-1} \prod\_{j:\neq i} p\_{j}^{a\_{j}} = \sum\_{i} a\_{i}\frac{n}{p\_{i}} = n \sum\_{i} \frac{a\_{i}}{p\_{i}}$$
+$$n' = \sum\_{i} a\_{i}p\_{i}^{a\_{i}-1} \prod\_{j:\neq i} p\_{j}^{a\_{j}} = \sum\_{i} a\_{i}\frac{n}{p\_{i}} = n \sum\_{i} \frac{a\_{i}}{p\_{i}}$$
 
 Arithmetic derivatives for small natural numbers are given as [sequence A003415](http://oeis.org/A003415) in the _Online Encyclopedia of Integer Sequences_.
 
 Some generalizations of this arithmetic derivative idea are discussed online (_e.g._, they say you can extend it to rational numbers using the familiar _quotient rule_), but (to my surprise) I didn't see any mentions of the obviously compelling idea of a _fractional arithmetic derivative_ (in analogy to the [fractional calculus](http://en.wikipedia.org/wiki/Fractional_calculus)). ~~Repeated applications of the power rule for a prime power give us~~
 
-$$!(p^{a})^{(k)} = \frac{a!}{(a-k)!}p^{a-k}$$
+$$(p^{a})^{(k)} = \frac{a!}{(a-k)!}p^{a-k}$$
 
 ~~where the superscript parenthetical _k_ indicates the _k_th arithmetic derivative for natural number _k_. But then if we just swap out those factorials for their gamma-function equivalents, we should have a _q_th power rule for real _q_—~~
 
-$$!(p^{a})^{(q)} = \frac{\Gamma(a+1)}{\Gamma(a-q+1)}p^{a-q}$$
+$$(p^{a})^{(q)} = \frac{\Gamma(a+1)}{\Gamma(a-q+1)}p^{a-q}$$
 
 ~~which in turn should give us a "fractional" _q_th arithmetic derivative for natural numbers:~~
 
-$$!n^{(q)} = \sum\_{i} \frac{\Gamma(a\_{i}+1)}{\Gamma(a\_i-q+1)} \frac{n}{p\_{i}^{q}}$$
+$$n^{(q)} = \sum\_{i} \frac{\Gamma(a\_{i}+1)}{\Gamma(a\_i-q+1)} \frac{n}{p\_{i}^{q}}$$
 
 ~~So this is a cute definition that seems to work, but what can we _do_ with it? At time of writing I can only demur that further research is needed.~~

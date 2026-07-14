@@ -1,4 +1,8 @@
-# Contra Pace on When to Apologize
+Title: Contra Pace on When to Apologize
+Date: 2026-06-18 09:43
+Status: published
+Category: philosophy
+Slug: contra-pace-on-when-to-apologize
 
 > BOJACK: Hey, I wanted to talk to you about—you know—I feel bad about what happened.  
 > HERB: So, you're apologizing.  
