@@ -9,7 +9,7 @@ Dear reader, have you ever dreamed of solving instances of the maximum flow prob
 
 It turns out that there's a conceptually straightforward algorithm for solving the maximum flow problem, known as the Ford-Fulkerson method, which we'll implement in Ruby. But first, we'll want to pin down exactly how the flow network will be represented. Let's define an `Edge` class, each instance of which will be initialized with the names of the nodes at its head and tail, and the edge's maximum capacity:
 
-```
+```ruby
 class Edge
   attr_accessor :tail
   attr_accessor :head
@@ -25,7 +25,7 @@ end
 
 And let's also make a `FlowNetwork` class, defined by the names of its source and sink nodes, and a hash which maps `Edge`s to the amount of flow currently assigned to that `Edge`:
 
-```
+```ruby
 class FlowNetwork
   attr_accessor :source
   attr_accessor :sink
@@ -45,7 +45,7 @@ class FlowNetwork
 
 So how _do_ we solve the maximum-flow problem? It's pretty simple! We start with the "zero flow." (In our code above, this is already done when we initialize an instance of `FlowNetwork`.) We then find an _augmenting path_ from the source to the sink (possibly including edges traversed backwards) such that all the forward-traversed edges along the path have not been assigned their maximum capacity, and all the backward-traversed edges have a nonzero amount of flow. This is path along which we can _push_ more flow from the source to the sink, by increasing the amount of flow along the forward-traversed edges, and decreasing the amount of flow along the backward-traversed edges. (Convince yourself that pushing flow through an edge _backwards_ amounts to decreasing the amount of flow along that edge.) Once we've found such an augmenting path, we push as much flow as we can along it. Then we look for another augmenting path and do the same, until no more augmenting paths can be found. It turns out that the resulting flow assignment solves our problem. So that's the Ford-Fulkerson method:
 
-```
+```ruby
   def ford_fulkerson
     path = augmenting_path
     while path
@@ -57,7 +57,7 @@ So how _do_ we solve the maximum-flow problem? It's pretty simple! We start with
 
 Of course, we need to specify exactly how to _find_ these augmenting paths. This is a little bit more involved. It amounts to doing walking through the graph starting at the source, "labeling" nodes that could be part of an augmenting path, and scanning neighbors of labeled nodes looking for more labelable nodes, until we reach the sink (in which case we have found a path) or until we run out of nodes to scan (in which case there are no augmenting paths left). Sort of like this:
 
-```
+```ruby
   def augmenting_path
     labeled = {@source=>nil} # keys are labeled nodes; values, parents thereof
     scanned = {}
@@ -100,7 +100,7 @@ Of course, we need to specify exactly how to _find_ these augmenting paths. This
 
 And of course, we also need code to actually augment the flow along the path found—
 
-```
+```ruby
   def flow_augmentation(path)
     flow = +1.0/0 # positive infinity
     edges = []
@@ -134,7 +134,7 @@ And of course, we also need code to actually augment the flow along the path fou
 
 Then throw in a reporting method so we have some way of actually inspecting our network and its completed flow assignment, close the `FlowNetwork` class definition (at long last) ...
 
-```
+```ruby
   def report
     print "Source: ", @source, "\n"
     print "Sink: ", @sink, "\n"
@@ -153,7 +153,7 @@ end
 
 We can then (admittedly with some typing) call for a solution like so:
 
-```
+```ruby
 my_edges = [Edge.new('A', 'B', 12), Edge.new('A', 'E', 15),
   Edge.new('A', 'G', 13), Edge.new('B', 'C', 9), Edge.new('E', 'C', 11),
   Edge.new('G', 'E', 7), Edge.new('C', 'D', 18), Edge.new('C', 'F', 10),
@@ -167,7 +167,7 @@ my_network.report
 
 And receive it like so:
 
-```
+```text
 Source: A
 Sink: I
 A -> B; capacity: 12, flow: 9

@@ -9,7 +9,7 @@ Dear reader, Ruby is a pretty okay programming language, but I have to say I fee
 
 Or _maybe_ ... _not_-so-scandalous. For two or three _characters_ need not imply two or three _keystrokes_; one need only configure one's editor with convenient bindings for the insertion of `do` and `end`. For example, pasting the following code into one's Emacs init file assigns `M-[` (respectively `M-]`) to insert the text `do` (respectively `end`), much as one would type `Shift-[` (respectively `Shift-]`) for an open- (respectively close-) brace, except with Alt ("Meta" in Emacs parlance) instead of Shift—
 
-```
+```elisp
 (fset 'block-do
    "do")
 (global-set-key (kbd "M-[") 'block-do)

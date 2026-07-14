@@ -19,7 +19,7 @@ Consider the process of decoding a prefix-free code: we read bits from the start
 
 First, we'll need a data structure to represent the nodes of the tree. Actually, we'll use a structure that represents a node _and_ all of its children, which we'll call `Subtree`. Each instance of `Subtree` will have fields for a _character_ and _frequency_ associated with a node, and the node's left and right children if any (which are also instances of `Subtree`).
 
-```
+```python
 class Subtree:
     def __init__(self, char, freq, left, right):
         self.char = char
@@ -32,14 +32,14 @@ The leaf nodes of our tree will have the character field set to a character in o
 
 We'll also want nodes to be comparable by their frequencies:
 
-```
+```python
     def __gt__(self, othernode):
         return self.freq > othernode.freq
 ```
 
 When all is said and done, Huffman's algorithm will give us an instance of `Subtree` representing our tree, but it would really be more convenient to have the decoding information embodied by the tree in the form of Python dictionary mapping bitstrings to the characters they encode. We can get this by doing a standard recursive tree walk:
 
-```
+```python
     def codebook(self):
         codes = {}
         def traversal(item, code):
@@ -54,7 +54,7 @@ When all is said and done, Huffman's algorithm will give us an instance of `Subt
 
 We're also going to need a _min-priority queue_, a dynamic set from which we can insert items and retrieve the "smallest":
 
-```
+```python
 class MinPriorityQueue:
     def __init__(self):
         self.queue = []
@@ -69,7 +69,7 @@ class MinPriorityQueue:
 
 Now that we have the appropriate data structures, we're ready for Huffman's algorithm. Suppose our character/frequency data are given to us in a Python dictionary `C`. For each character, we create an instance of `Subtree` to be the corresponding leaf node in our tree, and put them all in a min-priority queue. Then we build our tree from the bottom up by selecting the two lowest-frequency nodes in the queue, making them the children of a new node whose frequency is the sum of their frequencies, putting the new node back in the priority queue, and again until we've built the entire tree:
 
-```
+```python
 def Huffman(C):
     Q = MinPriorityQueue()
     leaves = {Subtree(k, C[k], None, None) for k in C}
@@ -85,7 +85,7 @@ def Huffman(C):
 
 And that's Huffman's algorithm. Of course, we'll also want functions for encoding and decoding a message:
 
-```
+```python
 def code(plaintext, codebook):
     return ''.join(codebook[c] for c in plaintext)
 
@@ -103,7 +103,7 @@ def decode(ciphertext, codebook):
 
 So, suppose you want to send your friends in a nearby alternate universe the eighty-two character message, "I USED TO WONDER WHAT FRIENDSHIP COULD BE, UNTIL YOU ALL SHARED ITS MAGIC WITH ME." If you used seven-bit ASCII, you'd have to pay the cost of transmitting 82\*7 = 574 bits. But if you use a Huffman code informed by knowledge of [English letter frequencies](http://en.wikipedia.org/wiki/Letter_frequency#Relative_frequencies_of_letters_in_the_English_language) ...
 
-```
+```python
 eng_freqs = {'A' : 8167, 'B' : 1492, 'C' : 2782, 'D' : 4253, 'E' : 12702,
 'F' : 2228, 'G' : 2015, 'H' : 6094, 'I' : 6966, 'J' : 153, 'K' : 772,
 'L' : 4025, 'M' : 2406, 'N' : 6749, 'O' : 7507, 'P' : 1929, 'Q' : 95,
@@ -116,7 +116,7 @@ cipher = code(plain, eng_codebook)
 
 You can send _this_ instead:
 
-```
+```text
 0111010111100000100111001010110110010101110101001011011001001111110101110100
 0001010110101011100111111011100101101100100010000011110000101011110110011111
 0010110110010101000000011100001011110001101101011110110010100010100111110001

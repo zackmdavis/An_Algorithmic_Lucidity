@@ -9,7 +9,7 @@ It [looks like](https://github.com/swiftstack/Chesswork/commit/681085b3) the opp
 
 Real chess aficionados (chessters? chessies?) will laugh at me, but it actually took me a while to understand why Ng3 was in that principal variation (I might even have invoked the engine again to help). The position after Ng3 looks like
 
-```
+```text
     a b c d e f g h
  8 ♜       ♜   ♚   
  7 ♟ ♟ ♟     ♟ ♟ ♟ 

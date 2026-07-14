@@ -5,7 +5,7 @@ Category: Uncategorized
 Tags: akrasia
 Slug: back-from-running
 
-```
+```irc
 [16:03:37] <alice>  I'm back from literally running, metaphorically from
                     figurative demons
 [16:03:50] <alice>  including the celebrity demon-prince Rateirs-Blak

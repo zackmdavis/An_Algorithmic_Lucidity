@@ -9,7 +9,7 @@ Dear reader, I have got to tell you, fandom is _intense_. One day last October _
 
 So, this gift having been provided to us courtesy of [Karol S.](https://github.com/KarolS) and the brony community, let's _do_ something with it! More specifically, how about we implement quicksort?—that is a _classic_. What's quicksort? Well, we want to sort a list, right? So—bear with me—we define this partitioning procedure that, given indices into an array, partitions the subarray between those indices into a subsubarray of elements less-than-or-equal-to a given element dubbed the _pivot_, then the pivot itself, then a subsubarray of elements greater than the pivot. How do we do that? Well, let's designate the last element in our subarray as the pivot. Then we're going to scan through all the other elements, and if any of them are less-than-or-equal-to the pivot, we swap it into our first subsubarray and increment a variable keeping track of where the first subsubarray ends. Then, we swap the pivot into place and return its index. In Ruby—
 
-```
+```ruby
 def partition(array, p, r)
   i = p-1
   for j in p..(r-1) do
@@ -25,7 +25,7 @@ end
 
 Then we can sort an entire array with a bunch of recursive calls to our partitioning procedure:
 
-```
+```ruby
 def quicksort(array, p, r)
   if p < r
     q = partition(array, p, r)
@@ -42,7 +42,7 @@ print my_array # => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 So that's quicksort. With a little more effort, we can do the same thing in FIM++:
 
-```
+```text
 Dear Princess Celestia: Letter about Quicksort:
 
 I learned about exchange with Applejack, Rainbow Dash, and Rarity.

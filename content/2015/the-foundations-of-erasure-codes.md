@@ -39,7 +39,7 @@ But don't take _my_ word for it! Mere verbal arguments can be deceptive, but [co
 
 So suppose we want to save some textual data; say, the string, "THE FUNDAMENTAL PROBLEM OF COMMUNICATION IS THAT OF REPRODUCING AT ONE POINT EITHER EXACTLY OR APPROXIMATELY A MESSAGE SELECTED AT ANOTHER POINT". Now, this data is made out of letters and spaces, not polynomials, but we can process it into a form that will make it easier to make-believe that it is. Say, we split the text into chunks of a fixed size (padding the end with extra spaces if necessary so that our chunk size evenly divides it), and convert the characters into integers from 0 to 26 (space is 0, _A_ is 1, _B_ is 2, _&c._). Here are some functions to help with that—
 
-```
+```python
 from string import ascii_uppercase
 
 ALPHABET = " "+ascii_uppercase
@@ -61,7 +61,7 @@ After turning our text into converted chunks (lists of integers), we can interpr
 
 (It's actually better if you use polynomials over the _finite field_ 𝔽_q_ of the integers modulo _q_ for some _q_ which is a prime raised to the power of something, but let's not worry about that.)
 
-```
+```python
 def evaluate_polynomial(coefficients, x):
     return sum(c * x**i for i, c in enumerate(coefficients))
 
@@ -77,7 +77,7 @@ def erasure_code(text, chunk_size, encoded_chunk_size):
 
 Then, with a choice for the original chunk size (which you'll recall will also be the number of terms each in the polynomials used to encode each chunk) and the size of the resulting encoded chunk (that is, the number of points we'll sample from the polynomials), we can encode our text.
 
-```
+```text
 $ python3
 >>> from reed_solomon import *
 >>> text = "THE FUNDAMENTAL PROBLEM OF COMMUNICATION IS THAT OF
@@ -96,7 +96,7 @@ At this point, our text has been transformed into a Python list, whose elements 
 
 Let's simulate distributing that encoded information across several storage nodes by writing points with different _x_-values to different files. We'll make-believe that each file is a different storage node. We'll write another function for that.
 
-```
+```python
 import json
 
 def disperse(encoded_chunks):
@@ -108,7 +108,7 @@ def disperse(encoded_chunks):
 
 And try it out—
 
-```
+```text
 >>> disperse(encoded)
 >>>
 $ ls
@@ -125,7 +125,7 @@ In conclusion, that's how you use Reed–Solomon coding to turn comprehensible E
 
 What's that you say, dear reader? Demonstrating how to encode something is useless unless you also demonstrate how to decode it? Well, I suppose you may have a point. Never fear—we can do that, too! But first, we'll need some functions for manipulating polynomials (in the "list of coefficients in order of ascending power" form that we've been using).
 
-```
+```python
 def get_coefficient(P, i):
     if 0 <= i < len(P):
         return P[i]
@@ -170,7 +170,7 @@ _y_1 ((_x_1 – _x_2)(_x_1 – _x_3)(_x_1 – _x_4)) / ((_x_1 – _x_2)(_x_1 –
 
 So by design, our interpolated polynomial takes value _y_1 at _x_1, _y_2 at _x_2, and so forth. In Python, the whole process looks like this—
 
-```
+```python
 def lagrange_basis_denominator(xs, i):
     denominator = 1
     for j, x in enumerate(xs):
@@ -203,7 +203,7 @@ def interpolate(points):
 
 With this technique, we now have all the tools we need to recover our text from a subset of the data we wrote to our various "nodes" earlier. What we need to do is this: for each chunk, arbitrarily select a number of stored points equal to our chunk size, _interpolate_ the polynomial from them, _deconvert_ the numbers which are the coefficients of that polynomial back into their character equivalents, _unchunkify_ the chunks into a unified whole, and _unpad_ any whitespace we added to the end when we began.
 
-```
+```python
 def deconvert(sequence):
     return ''.join(INT_TO_CHAR[i] for i in sequence)
 
@@ -221,14 +221,14 @@ def erasure_decode(encoded_chunks, chunk_size, encoded_chunk_size):
 
 But _about_ that data that we wrote out earlier.
 
-```
+```console
 $ ls
 node0  node1  node2  node3  node4  node5  node6  node7
 ```
 
 It would hardly be a compelling test of our erasure-coding skills if there were any suspicion that we actually needed _all_ of those files—we really only need as many as our chunk size. So let's suppose that three of our nodes die in a fire—
 
-```
+```console
 $ rm node1 node3 node6
 $ ls
 node0  node2  node4  node5  node7
@@ -236,7 +236,7 @@ node0  node2  node4  node5  node7
 
 Could this the end of our data? With a full three-eighths of our encoding having been utterly destroyed, is it delusional to hold out hope that our text might yet be faithfully recovered? No! No, it is not! We only need one more function to retrieve the encoded chunks—
 
-```
+```python
 def retrieve(*nodes):
     responses = []
     for node in nodes:
@@ -248,7 +248,7 @@ def retrieve(*nodes):
 
 —and then—
 
-```
+```text
 $ python3
 >>> from reed_solomon import *
 >>> node_data = retrieve("node0", "node2", "node4", "node5", "node7")
@@ -256,7 +256,7 @@ $ python3
 
 —successfully decode them!
 
-```
+```pycon
 >>> erasure_decode(node_data, 5, 8)
 'THE FUNDAMENTAL PROBLEM OF COMMUNICATION IS THAT OF REPRODUCING AT
  ONE POINT EITHER EXACTLY OR APPROXIMATELY A MESSAGE SELECTED AT AN

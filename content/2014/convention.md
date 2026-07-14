@@ -5,7 +5,7 @@ Category: computing
 Tags: Clojure
 Slug: convention
 
-```
+```console
 $ lein new 3lg2048
 Project names must be valid Clojure symbols.
 $ lein new Thirty-Three

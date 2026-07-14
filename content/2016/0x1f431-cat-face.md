@@ -5,7 +5,7 @@ Category: computing
 Tags: Git, Unicode
 Slug: 0x1f431-cat-face
 
-```
+```diff
 diff --git a/.bash_aliases b/.bash_aliases
 index 648287f..e00dbc9 100644
 --- a/.bash_aliases

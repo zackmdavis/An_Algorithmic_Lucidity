@@ -15,7 +15,7 @@ $$\mathcal{P}(S\cup\{e\})=\mathcal{P}(S)\cup\{t\cup\{e\}\}\_{t\in\mathcal{P}(S)}
 
 So in Clojure we might say
 
-```
+```clojure
 (require 'clojure.set)
 
 (defn include-element [collection element]

@@ -5,6 +5,6 @@ Category: Uncategorized
 Tags: Clojure
 Slug: a-line-of-code-i-havent-found-an-excuse-to-use-yet
 
-```
+```clojure
 (defn intentional-mispelling? [sic]
 ```

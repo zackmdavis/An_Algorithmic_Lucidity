@@ -9,7 +9,7 @@ _[it's a blacked-out blur](http://www.youtube.com/watch?v=KlyXNRrsk4A&t=1m19s), 
 
 \* \* \*
 
-```
+```console
 $ heroku create
 Creating howling-nightmare-4505... done, stack is cedar
 http://howling-nightmare-4505.herokuapp.com/ | git@heroku.com:howling-nightmare-4505.git
@@ -20,7 +20,7 @@ Git remote heroku added
 
 \* \* \*
 
-```
+```text
 -----> Python app detected
 -----> Installing runtime (python-2.7.8)
 ```
@@ -29,7 +29,7 @@ Git remote heroku added
 
 \* \* \*
 
-```
+```console
 $ echo "python-3.4.1" > runtime.txt
 $ g a .
 $ gco -m "the month of July 2010 called and wants their programming language back"

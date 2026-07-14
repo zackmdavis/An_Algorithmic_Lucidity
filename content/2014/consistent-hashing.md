@@ -17,7 +17,7 @@ One day, after a particularly painful rearrangement of files, you decide enough 
 
 Anyway, consistent hashing. The essential nature of your problem is that you need a way to split the space of possible filenames into _n_ [partitions](http://en.wikipedia.org/wiki/Partition_of_a_set) in a way that minimizes the number of files that have to change partitions when _n_ changes. So imagine mapping the 128-bit output space of MD5 around a ring. Now pseudorandomly designate _m_ spots on the ring (_m_ being some prudently-chosen natural number) for each of your _n_ storage devices: say, by hashing the device name suffixed with the number _j_ for each _j_ between 0 and _m_–1 inclusive. Internally, you might represent the ring as just an array of hash/device pairs. Like this (in Clojure; here the array and the pairs it contains are actually "vectors")—
 
-```
+```clojure
 (import 'java.security.MessageDigest)
 
 (defn md5 [string]
@@ -47,7 +47,7 @@ Anyway, consistent hashing. The essential nature of your problem is that you nee
 
 Then when your patrons ask you to store a file, you're still going to hash its name, but instead of taking the residue mod _n_ of the hash to decide where the file should live, you're going to locate the hash in your ring, and find the next designated spot on the ring associated with one of your storage devices, and the file will live on that device. In terms of your internal representation of the ring as an array of hash/device pairs, you'll find the first pair whose first item (the hash of the suffixed device name) is greater than the hash of the name of the file to be stored, and the second item of that pair will tell you which storage device to use. (And if the filename hash is greater than all those stored in the (first items of the pairs stored in the) array, then you just use the first pair in the array. It is supposed to represent a _ring_, after all.) Like this—
 
-```
+```clojure
 (defn ring-search [ring key]
   (or (some (fn [pair]
               (if (> (compare (first pair) key) 0)
@@ -61,7 +61,7 @@ Then when your patrons ask you to store a file, you're still going to hash its n
 
 And now—why, _now_ when you gain (respectively lose) a storage device, you can decide the allocation question simply by adding (respectively removing) the appropriate designated spots to (respectively from) your ring—
 
-```
+```clojure
 (defn ring-add [ring device spots]
   (sort (vec (concat ring (ring-kv-pairs device spots)))))
 
@@ -76,7 +76,7 @@ And now—why, _now_ when you gain (respectively lose) a storage device, you can
 
 You decide to run a quick simulation to see if you've gotten this right before saving the edits to your soul. Suppose you had storage devices `device0` through `device5` and your patrons wanted you to store `file0` through `file5999`; how would the files end up distributed across your devices? You choose a prudent-seeming integer for the number of designated spots per device—say, 450?—and write the simulation like this—
 
-```
+```clojure
 (defn filemap [ring files]
   (into {}
         (for [file files
@@ -98,7 +98,7 @@ You decide to run a quick simulation to see if you've gotten this right before s
 
 And the results seem reasonable enough:
 
-```
+```text
 $ clojure consistent_hashing.clj 
 [device0 1020]
 [device1 993]

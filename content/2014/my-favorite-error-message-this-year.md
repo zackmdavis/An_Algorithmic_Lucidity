@@ -5,7 +5,7 @@ Category: computing
 Tags: Git, Python
 Slug: my-favorite-error-message-this-year
 
-```
+```text
 zmd@SuddenHeap:~/Code/Finetooth$ git commit --amend
 Traceback (most recent call last):
   File "./manage.py", line 8, in <module>

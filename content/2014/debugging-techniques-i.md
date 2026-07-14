@@ -5,7 +5,7 @@ Category: computing
 Tags: Python
 Slug: debugging-techniques-i
 
-```
+```python
 #def my_problematic_function(x):
 def my_problematic_function(x, call_count=[]):
     call_count.append(1)

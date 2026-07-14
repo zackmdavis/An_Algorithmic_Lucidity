@@ -11,13 +11,13 @@ ___TURTLE GRAPHICS___
 
 Yes, turtle graphics! In case you had a deprived childhood, I should explain: the idea is that you have a cursor on the screen (the turtle), and you can type, say,
 
-```
+```text
 FORWARD 10
 ```
 
 and then the turtle will move forward ten units, drawing a line as it goes. And then you can say, like,
 
-```
+```text
 RIGHT 60
 ```
 
@@ -45,14 +45,14 @@ That is, we pick a number _c_ in ℂ, iterate _z__n_+1 = _z__n_2 + _c_ starting 
 
 Let's start writing instructions for our turtle. First, we'll summon the turtle. Also, let's tell her to look up instructions on how to compute the argument of a complex number—don't ask me how, but I have a feeling we're going to need that later:
 
-```
+```python
 import turtle
 from cmath import phase
 ```
 
 Now, it turns out (claims _Wikipedia_, and I believe it), that if the absolute value of one of our _z__n_s ever exceeds two, then that sequence will diverge. This seems like a useful fact, so let's tell our turtle how to calculate how many iterations it will take for the sequence associated with a particular _c_ to exceed two, and if it doesn't do so within some given number of iterations, then to tell us that:
 
-```
+```python
 def z_n_escape_time(c, n):
     z = 0
     for i in range(n):
@@ -64,7 +64,7 @@ def z_n_escape_time(c, n):
 
 To approximate the boundary of the Mandelbrot set, we'll tell the turtle to consider a grid of reasonably-finely-spaced points, and to consider a point to be on the boundary if the number of iterations it takes for the sequence for that point to exceed two is in some given range. We'll also tell her to sort those points by their argument, because that seems like a somewhat-reasonable order to visit them in:
 
-```
+```python
 def mandelbrot_edge(resolution, iterations, edge):
     points = []
     x_coordinates = [-2+i*(3/resolution) for i in range(int(resolution*1.5))]
@@ -79,7 +79,7 @@ def mandelbrot_edge(resolution, iterations, edge):
 
 Then (choosing some reasonable-looking numbers as specific parameters for our earlier instructions) we tell our turtle to visit all those points, drawing along the way:
 
-```
+```python
 def draw_boundary(protagonist, boundary_points, speed):
     protagonist.speed(speed)
     protagonist.penup()

@@ -6,7 +6,7 @@ Slug: epistolary
 
 [(Previously.)](http://zackmdavis.net/blog/2014/05/a-short-story/)
 
-```
+```irc
 [19:26:50] <bob>    alice: you still around?
 [19:27:08] <alice>  bob, sort of
 [19:27:20] <bob>    alice: ok. never mind.

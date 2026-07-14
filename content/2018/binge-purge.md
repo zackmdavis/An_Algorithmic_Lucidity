@@ -5,7 +5,7 @@ Category: psychology
 Tags: akrasia
 Slug: binge-purge
 
-```
+```console
 $ history | grep freeciv
   605  freeciv
   606  sudo apt-get install freeciv

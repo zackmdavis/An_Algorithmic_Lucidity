@@ -13,7 +13,7 @@ $$\sum\_{j:=0}^n f(j)$$
 
 —the rationale being that the text under the sigma _isn't_ asserting that _j_ _equals_ zero, but rather that _j_ is _assigned_ zero as the initial index value of what is, in fact, a for loop:
 
-```
+```c
 sum = 0;
 for (int j=0; j<=n; j++)
 {

@@ -11,7 +11,7 @@ I used to think of `$` in regular expressions as matching the end of the string.
 
 Note! The end of the string, _or just before the newline at the end of the string_.
 
-```
+```text
 In [2]: my_regex = re.compile("foo$")
 
 In [3]: my_regex.match("foo")
@@ -31,7 +31,7 @@ All this that I have said about `$` in regexes concerns the Python world. Appare
 
 > [b]y default, the regular expressions `^` and `$` ignore line terminators and only match at the beginning and the end, respectively, of the entire input sequence.
 
-```
+```text
 user=> (re-matches #"foo$" "foo")
 "foo"
 user=> (re-matches #"foo$" "foo\n")

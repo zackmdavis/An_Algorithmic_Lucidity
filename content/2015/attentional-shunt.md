@@ -5,7 +5,7 @@ Category: computing
 Tags: akrasia, Python
 Slug: attentional-shunt
 
-```
+```python
 #!/usr/bin/env python3
 
 # Copyright © 2015 Zack M. Davis

@@ -5,7 +5,7 @@ Category: computing
 Tags: Python
 Slug: clarity-of-intent
 
-```
+```irc
 <bob> and here on line 79---
 <bob>         else:
 <bob>             return None

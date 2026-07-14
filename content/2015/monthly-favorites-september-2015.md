@@ -9,14 +9,14 @@ __Favorite commit message fragment:__ "it turns out that it's `\d` that matches 
 
 __Favorite line of code:__ a tie, between
 
-```
+```rust
     let mut time_radios: Vec<(Commit, mpsc::Receiver<(Option<Commit>, f32)>)> =
         Vec::new();
 ```
 
 and
 
-```
+```python
         for (previous, new), expected in zip(
                 itertools.product(('foo', None), ('bar', None)),
                 ("from foo to bar", "from foo", "to bar", "")):

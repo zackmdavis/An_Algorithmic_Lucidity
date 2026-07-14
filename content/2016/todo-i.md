@@ -5,7 +5,7 @@ Category: Uncategorized
 Tags: Rust
 Slug: todo-i
 
-```
+```rust
     let path = Path::new("/proc/meminfo");
     let proc_meminfo = match File::open(path) {
         Ok(f) => f,

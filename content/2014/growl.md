@@ -11,7 +11,7 @@ _Or you could design a script to make desktop notifications about how much more 
 
 Well, I already made it for you (unless your Linux distribution doesn't use `notify-send` or you're on a Mac or something).
 
-```
+```python
 #!/usr/bin/env python3
 
 import argparse

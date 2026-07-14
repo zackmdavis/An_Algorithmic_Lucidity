@@ -13,7 +13,7 @@ Jurij Kovič's paper "[The Arithmetic Derivative and Antiderivative](https://cs.
 
 Although first, we will need a function to find the prime factorization of a natural number. You can write your own, copy-paste [someone else's](http://glowingpython.blogspot.com/2011/07/prime-factor-decomposition-of-number.html), or (my personal favorite) use the subprocess module to call the system's _/usr/bin/factor_:
 
-```
+```python
 from subprocess import check_output
 
 def factorize(n):
@@ -27,7 +27,7 @@ def factorize(n):
 
 But then coding the definition of the arithmetic derivative itself is easy:
 
-```
+```python
 def D(n):
     result = 0
     factorization = factorize(n)

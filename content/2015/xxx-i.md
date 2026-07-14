@@ -5,7 +5,7 @@ Category: computing
 Tags: Clojure
 Slug: xxx-i
 
-```
+```clojure
 ;; XXX: adorable
 (defmacro λ [& code]
   `(fn ~@code))

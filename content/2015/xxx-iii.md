@@ -5,7 +5,7 @@ Category: computing
 Tags: Rust
 Slug: xxx-iii
 
-```
+```rust
 const PSEUDO_DIGITS: [char; 7] = ['M', 'D', 'C', 'L', 'X', 'V', 'I'];
 const PSEUDO_PLACE_VALUES: [usize; 7] = [1000, 500, 100, 50, 10, 5, 1];
 

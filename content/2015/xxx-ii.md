@@ -5,7 +5,7 @@ Category: Uncategorized
 Tags: Rust
 Slug: xxx-ii
 
-```
+```rust
 // XXX: old_io is probably facing deprecation if names mean anything
 #![feature(old_io)]
 use std::old_io;
