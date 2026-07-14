@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% import "includes/post_card.html" as post_card %}
+
+{% block title %}{{ SITENAME }} - {{ period|reverse|join(' ') }} archives{% endblock %}
+
+{% block content %}
+    <h2 class="archive-title">{{ period|reverse|join(' ') }}</h2>
+    {% for article in dates %}
+        {{ post_card.render_post(article) }}
+    {% endfor %}
+{% endblock %}

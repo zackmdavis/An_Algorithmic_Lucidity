@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/pygments.css">
+    {% if FEED_ALL_ATOM %}
+    <link rel="alternate" type="application/atom+xml" title="{{ SITENAME }} Full Atom Feed" href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}">
+    {% endif %}
+    <script>
+    MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['$$', '$$']] } };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
     <header>
         <div class="container">
             <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+            {% if SITESUBTITLE %}<p class="site-description">{{ SITESUBTITLE }}</p>{% endif %}
         </div>
     </header>
 
@@ -23,12 +32,12 @@
             <div class="widget">
                 <h3>Archives</h3>
                 <ul>
-                {% for year, articles in dates|groupby('date.year')|reverse %}
+                {% for year, year_articles in dates|groupby('date.year')|reverse %}
                     <li><strong>{{ year }}</strong>
                         <ul>
-                        {% for month_num, month_articles in articles|groupby('date.month')|reverse %}
+                        {% for month_num, month_articles in year_articles|groupby('date.month')|reverse %}
                             <li>
-                                <a href="{{ SITEURL }}/{{ month_articles[0].date.strftime('%Y/%m') }}/">
+                                <a href="{{ SITEURL }}/{{ month_articles[0].date.strftime('%Y/%b') }}/">
                                     {{ month_articles[0].date.strftime('%B %Y') }}
                                 </a>
                                 ({{ month_articles|length }})
@@ -39,6 +48,40 @@
                 {% endfor %}
                 </ul>
             </div>
+
+            <div class="widget">
+                <h3>Categories</h3>
+                <ul>
+                {% for category, articles in categories %}
+                    <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ articles|count }})</li>
+                {% endfor %}
+                </ul>
+            </div>
+
+            <div class="widget">
+                <h3>Tags</h3>
+                {% set counts = tags|map('last')|map('length')|list %}
+                {% set max_count = counts|max %}
+                {% set min_count = counts|min %}
+                <div class="tagcloud">
+                {% for tag, articles in tags|sort %}
+                    {% set c = articles|count %}
+                    {% set size = 10 + ((c - min_count) / ((max_count - min_count) or 1)) * 10 %}
+                    <a href="{{ SITEURL }}/{{ tag.url }}" style="font-size: {{ size|round(1) }}px;" title="{{ c }} posts">{{ tag }}</a>
+                {% endfor %}
+                </div>
+            </div>
+
+            {% if LINKS %}
+            <div class="widget">
+                <h3>Blogroll</h3>
+                <ul>
+                {% for name, link in LINKS %}
+                    <li><a href="{{ link }}">{{ name }}</a></li>
+                {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
         </aside>
     </div>
 
