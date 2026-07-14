@@ -6,7 +6,16 @@ Tags: Python
 Slug: beauty-is-truthiness-truthiness-beauty
 
 Imagine reviewing Python code that looks something like this.
-\_\_\_PRE\_BLOCK\_0\_\_\_
+
+```python
+has_items = items is not None and len(items) > 0
+if has_items:
+    ...
+
+...
+do_stuff(has_items=has_items)
+```
+
 You might look at the conditional, and disapprove: `None` and empty collections are both falsey, so there's no reason to define that `has_items` variable; you could just say `if items:`.
 
 But, wouldn't it be weird for `do_stuff`'s `has_items` kwarg to take a collection rather than a boolean? I think it would be weird: even if the function's internals can _probably_ rely on mere truthiness rather than needing an actual boolean type for some reason, why leave it to chance?

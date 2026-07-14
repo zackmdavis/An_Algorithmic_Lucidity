@@ -34,7 +34,48 @@ I'm only using the states' at-large results and ignoring the thing where Nebrask
 I'm using the convention of giving probabilities in terms of the event of interest being "Biden/Democrat wins" rather than "Trump/Republican wins", because that's what _The Economist_ seems to be giving me, but I appreciate that the _FiveThirtyEight_ spreadsheet has separate `winstate_inc` (incumbent), `winstate_chal` (challenger), and `winstate_3rd` (thirty-party) columns. (Although the `winstate_3rd` column is blank!!) Using "incumbent wins" as the event actually seems like a more natural Schelling-point convention to me?—but it doesn't matter.
 
 I wrote a Python script to calculate the scores. The main function looks like this:
-\_\_\_PRE\_BLOCK\_0\_\_\_
+
+```python
+def score():
+    scores = {"fivethirtyeight": 0, "economist": 0, "predictit": 0}
+    swinglike_only_scores = {
+        "fivethirtyeight": 0,
+        "economist": 0,
+        "predictit": 0,
+    }
+    losses = {}
+
+    swinglikes = [sr for sr in state_results if is_swinglike(sr)]
+    print(
+        "{} states ({}) are swinglike".format(
+            len(swinglikes),
+            ','.join(sr.state for sr in swinglikes)
+        )
+    )
+
+    for state_result in state_results:
+        if state_result.actual is None:
+            continue
+
+        for predictor in scores.keys():
+
+            if state_result.actual:  # Biden win
+                probability = getattr(state_result, predictor)
+            else:
+                probability = 1 - getattr(state_result, predictor)
+
+            subscore = log2(probability)
+
+            scores[predictor] += subscore
+
+            if is_swinglike(state_result):
+                swinglike_only_scores[predictor] += subscore
+
+            losses[(predictor, state_result.state)] = subscore
+
+    return scores, swinglike_only_scores, losses
+```
+
 [(Full source code, including inline data.)](https://gist.github.com/zackmdavis/623e15a3cdab66d3eaecf2a6f8b6169a)
 
 Getting the numbers from both spreadsheets and the browser line graphs into my script involved a lot of copy-pasting/Emacs-keyboard-macros/typing, and I didn't exhaustively double-check everything, so __it's possible I made some mistakes, but I hope that I didn't, because that would be embarrassing.__
