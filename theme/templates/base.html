@@ -9,6 +9,7 @@
     {% if FEED_ALL_ATOM %}
     <link rel="alternate" type="application/atom+xml" title="{{ SITENAME }} Full Atom Feed" href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}">
     {% endif %}
+    {% block extra_head %}{% endblock %}
     <script>
     MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['$$', '$$']] } };
     </script>
@@ -87,7 +88,8 @@
 
     <footer>
         <div class="container">
-            <p>&copy; {{ SITENAME }}</p>
+            <p class="license">This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+            <p>&copy; {{ AUTHOR }}</p>
         </div>
     </footer>
 </body>

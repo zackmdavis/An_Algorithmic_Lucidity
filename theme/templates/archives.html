@@ -3,6 +3,7 @@
 {% block title %}{{ SITENAME }} - Archives{% endblock %}
 
 {% block content %}
+    <div class="content-box">
     <h2 class="archive-title">Archives</h2>
     {% for year, year_articles in dates|groupby('date.year')|reverse %}
         <h3 class="archive-year">{{ year }}</h3>
@@ -15,4 +16,5 @@
             {% endfor %}
         </ul>
     {% endfor %}
+    </div>
 {% endblock %}

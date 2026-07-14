@@ -1,0 +1,23 @@
+{% macro render_pagination(page, paginator) %}
+{% if paginator.num_pages > 1 %}
+<nav class="pagination">
+    <span class="page-count">Page {{ page.number }} of {{ paginator.num_pages }}</span>
+    {% if page.number > 1 %}
+        <a href="{{ SITEURL }}/{{ paginator.page(1).url }}">&laquo; First</a>
+        <a href="{{ SITEURL }}/{{ paginator.page(page.number - 1).url }}">&lsaquo; Prev</a>
+    {% endif %}
+    {% set window = 3 %}
+    {% for n in range([1, page.number - window]|max, [paginator.num_pages, page.number + window]|min + 1) %}
+        {% if n == page.number %}
+            <span class="current">{{ n }}</span>
+        {% else %}
+            <a href="{{ SITEURL }}/{{ paginator.page(n).url }}">{{ n }}</a>
+        {% endif %}
+    {% endfor %}
+    {% if page.number < paginator.num_pages %}
+        <a href="{{ SITEURL }}/{{ paginator.page(page.number + 1).url }}">Next &rsaquo;</a>
+        <a href="{{ SITEURL }}/{{ paginator.page(paginator.num_pages).url }}">Last &raquo;</a>
+    {% endif %}
+</nav>
+{% endif %}
+{% endmacro %}

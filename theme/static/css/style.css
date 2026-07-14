@@ -60,7 +60,7 @@ header h1 a:hover {
 
 .main {
     display: flex;
-    gap: 30px;
+    gap: 15px;
     align-items: flex-start;
     margin-top: 10px;
 }
@@ -69,14 +69,21 @@ header h1 a:hover {
 .content {
     flex: 1;
     min-width: 0;
+}
+
+/* A plain box for non-post content listings (archives, tags, categories) */
+.content-box {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.25);
 }
 
-/* Posts */
+/* Posts: each one is its own box, sitting on the page's gray background */
 .post {
-    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
 }
 
 .post:last-child {
@@ -278,11 +285,30 @@ header h1 a:hover {
 
 /* Pagination */
 .pagination {
-    margin-top: 30px;
-    padding-top: 15px;
-    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 15px 20px;
+    background-color: #fff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.pagination .page-count {
+    color: #999;
+    margin-right: 10px;
+}
+
+.pagination a {
+    padding: 2px 4px;
+}
+
+.pagination .current {
+    font-weight: bold;
+    color: #222;
+    padding: 2px 4px;
 }
 
 /* Footer */
@@ -293,6 +319,19 @@ footer {
     text-align: center;
     color: #999;
     font-size: 12px;
+}
+
+footer p {
+    margin-bottom: 6px;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+footer a {
+    color: #999;
+    text-decoration: underline;
 }
 
 /* Responsive */

@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% import "includes/post_card.html" as post_card %}
+{% import "includes/pagination.html" as pagination %}
 
 {% block content %}
     {% block content_title %}{% endblock %}
@@ -8,16 +9,5 @@
         {{ post_card.render_post(article) }}
     {% endfor %}
 
-    {% if articles_page.has_previous() or articles_page.has_next() %}
-    <nav class="pagination">
-        {% if articles_page.has_previous() %}
-            <a href="{{ SITEURL }}/{{ articles_previous_page.url }}">&larr; Newer</a>
-        {% else %}
-            <span></span>
-        {% endif %}
-        {% if articles_page.has_next() %}
-            <a href="{{ SITEURL }}/{{ articles_next_page.url }}">Older &rarr;</a>
-        {% endif %}
-    </nav>
-    {% endif %}
+    {{ pagination.render_pagination(articles_page, articles_paginator) }}
 {% endblock %}

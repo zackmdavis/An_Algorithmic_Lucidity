@@ -3,6 +3,10 @@
 
 {% block title %}{{ article.title }} - {{ SITENAME }}{% endblock %}
 
+{% block extra_head %}
+<link rel="alternate" type="text/markdown" title="Markdown version" href="{{ SITEURL }}/{{ article.markdown_url }}">
+{% endblock %}
+
 {% block content %}
     {{ post_card.render_post(article) }}
 {% endblock %}
