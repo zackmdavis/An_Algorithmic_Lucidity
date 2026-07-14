@@ -86,3 +86,79 @@ MARKDOWN = {
 
 # Don't use relative URLs in production - using False for proper absolute URLs
 RELATIVE_URLS = False
+
+# Serve robots.txt (with a Content-Signal line permitting AI training/input use)
+# at the site root instead of under /extra/
+STATIC_PATHS = ['extra/robots.txt']
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+}
+
+# --- Markdown mirrors + llms.txt, for LLM/agent legibility ---
+# Writes a plain .md sibling next to each article's HTML (e.g. 2026/Jun/slug/
+# -> 2026/Jun/slug.md) and an llms.txt index at the site root linking to them.
+import os as _os
+from pelican import signals as _signals
+
+_markdown_mirror_state = {'output_path': None, 'articles': []}
+
+
+def _prepare_markdown_mirrors(generator):
+    _markdown_mirror_state['output_path'] = generator.output_path
+    for article in generator.articles:
+        article.markdown_url = _os.path.dirname(article.save_as) + '.md'
+        _markdown_mirror_state['articles'].append(article)
+
+
+def _canonical_url(path):
+    return (SITEURL + '/' if SITEURL else '/') + path
+
+
+def _write_markdown_mirrors(pelican_obj):
+    output_path = _markdown_mirror_state['output_path']
+    if not output_path:
+        return
+    for article in _markdown_mirror_state['articles']:
+        with open(article.source_path, encoding='utf-8') as f:
+            source = f.read()
+        _, _, body = source.partition('\n\n')
+        md_abspath = _os.path.join(output_path, article.markdown_url)
+        _os.makedirs(_os.path.dirname(md_abspath), exist_ok=True)
+        header = (
+            f"# {article.title}\n\n"
+            f"Originally published: {article.date.strftime('%Y-%m-%d')}\n"
+            f"Canonical URL: {_canonical_url(article.url)}\n\n"
+        )
+        with open(md_abspath, 'w', encoding='utf-8') as f:
+            f.write(header)
+            f.write(body.strip())
+            f.write('\n')
+
+
+def _write_llms_txt(pelican_obj):
+    output_path = _markdown_mirror_state['output_path']
+    if not output_path:
+        return
+    articles = sorted(_markdown_mirror_state['articles'], key=lambda a: a.date, reverse=True)
+    lines = [
+        "# " + SITENAME,
+        "",
+        "> Zack M. Davis's blog: computing, mathematics, psychology, "
+        "philosophy, social science, arts & culture, fiction. Clean "
+        "Markdown versions of every post are linked below.",
+        "",
+        "## Posts",
+        "",
+    ]
+    for article in articles:
+        lines.append(
+            f"- [{article.title}]({_canonical_url(article.markdown_url)}) "
+            f"({article.date.strftime('%Y-%m-%d')})"
+        )
+    with open(_os.path.join(output_path, 'llms.txt'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines) + '\n')
+
+
+_signals.article_generator_finalized.connect(_prepare_markdown_mirrors)
+_signals.finalized.connect(_write_markdown_mirrors)
+_signals.finalized.connect(_write_llms_txt)
