@@ -22,13 +22,13 @@ Slug: quotations-v
 
 —_Modern Compiler Design_ by Dick Grune, Henri E. Bal, Ceriel J. H. Jacobs, and Koen G. Langendoen (2000)
 
-> If, even as the price to be paid for a fifth vote, I ever joined an opinion for the Court that began: “The Constitution promises liberty to all within its reach, a liberty that includes certain specific rights that allow persons, within a lawful realm, to define and express their identity,” I would hide my head in a bag. The Supreme Court of the United States has descended from the disciplined legal reasoning of John Marshall and Joseph Story to the mystical aphorisms of the fortune cookie.
+> If, even as the price to be paid for a fifth vote, I ever joined an opinion for the Court that began: "The Constitution promises liberty to all within its reach, a liberty that includes certain specific rights that allow persons, within a lawful realm, to define and express their identity," I would hide my head in a bag. The Supreme Court of the United States has descended from the disciplined legal reasoning of John Marshall and Joseph Story to the mystical aphorisms of the fortune cookie.
 
 —Antoin Scalia; _Obergefell v. Hodges_ dissent, footnote 22
 
 > PEARL: Oh, Steven. Humans just lead short, boring, insignificant lives, so they make up stories to feel like they're a part of something bigger. They want to blame all the world's problems on some single enemy they can fight, instead of a complex network of interrelated forces beyond anyone's control.
 >
-> AMETHYST: It’s sad. And funny.
+> AMETHYST: It's sad. And funny.
 >
 > PEARL: Don't feel bad about it, okay?
 

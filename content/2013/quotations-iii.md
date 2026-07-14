@@ -8,15 +8,13 @@ Slug: quotations-iii
 > I am convinced, from many experiments, I could not study, to any degree of perfection, either mathematics, arithmetic, or algebra, without being a Deist, if not an Atheist.
 
 —John Wesley
-
   
 > Selfishness and altruism are positively correlated within individuals, for the obvious reason.
 
 —[@InstanceOfClass](https://twitter.com/InstanceOfClass/status/355050621147152386)
 
-  
 
-> There is only one book: the world book. And all books are volumes of this one book. And all pages are pages of this world book. [...] You’re already skimming. You’re already skipping over. You’re already not reading all the pages of the book.
+> There is only one book: the world book. And all books are volumes of this one book. And all pages are pages of this world book. [...] You’re already skimming. You're already skipping over. You’re already not reading all the pages of the book.
 
 —Khatzumoto, "[All Reading Is Skimming](http://www.alljapaneseallthetime.com/blog/reading-is-skimming)"
 

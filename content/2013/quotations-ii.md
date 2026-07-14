@@ -15,7 +15,7 @@ Slug: quotations-ii
 > And I don't need you  
 > And guess what  
 > I'm having more fun  
-> And now that we’re done  
+> And now that we're done  
 > I'm gonna show you tonight  
 > I'm alright  
 > I'm just fine
