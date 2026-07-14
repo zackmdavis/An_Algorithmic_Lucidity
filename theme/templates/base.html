@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+        </div>
+    </header>
+
+    <div class="container main">
+        <div class="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+
+        <aside class="sidebar">
+            <div class="widget">
+                <h3>Archives</h3>
+                <ul>
+                {% for year, articles in dates|groupby('date.year')|reverse %}
+                    <li><strong>{{ year }}</strong>
+                        <ul>
+                        {% for month_num, month_articles in articles|groupby('date.month')|reverse %}
+                            <li>
+                                <a href="{{ SITEURL }}/{{ month_articles[0].date.strftime('%Y/%m') }}/">
+                                    {{ month_articles[0].date.strftime('%B %Y') }}
+                                </a>
+                                ({{ month_articles|length }})
+                            </li>
+                        {% endfor %}
+                        </ul>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; {{ SITENAME }}</p>
+        </div>
+    </footer>
+</body>
+</html>
