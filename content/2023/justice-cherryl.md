@@ -2,13 +2,13 @@ Title: “Justice, Cherryl.”
 Date: 2023-07-23 09:16
 Status: published
 Category: philosophy
-Tags: morality
+Tags: discourse
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/vfjptEJ2oahLqRyZz/justice-cherryl)
 
 > Selfishness and altruism are positively correlated within individuals, for the obvious reason.
 >
-> —[\@InstanceOfClass](https://twitter.com/InstanceOfClass/status/355050621147152386)
+> —[@InstanceOfClass](https://twitter.com/InstanceOfClass/status/355050621147152386)
 
 ## I.
 
