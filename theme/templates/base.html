@@ -31,18 +31,14 @@
                 {% set archive_dates = all_articles if all_articles is defined else dates %}
                 <ul>
                 {% for year, year_articles in archive_dates|groupby('date.year')|reverse %}
-                    <li><strong>{{ year }}</strong>
-                        <ul>
-                        {% for month_num, month_articles in year_articles|groupby('date.month')|reverse %}
-                            <li>
-                                <a href="{{ SITEURL }}/{{ month_articles[0].date.strftime('%Y/%b') }}/">
-                                    {{ month_articles[0].date.strftime('%B %Y') }}
-                                </a>
-                                ({{ month_articles|length }})
-                            </li>
-                        {% endfor %}
-                        </ul>
-                    </li>
+                    {% for month_num, month_articles in year_articles|groupby('date.month')|reverse %}
+                        <li>
+                            <a href="{{ SITEURL }}/{{ month_articles[0].date.strftime('%Y/%b') }}/">
+                                {{ month_articles[0].date.strftime('%B %Y') }}
+                            </a>
+                            ({{ month_articles|length }})
+                        </li>
+                    {% endfor %}
                 {% endfor %}
                 </ul>
             </div>
