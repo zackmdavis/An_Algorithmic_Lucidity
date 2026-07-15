@@ -57,9 +57,9 @@ def convert(string):
     return [CHAR_TO_INT[c] for c in string]
 ```
 
-After turning our text into converted chunks (lists of integers), we can interpret each chunk as representing the coefficients of a polynomial function: say, in order of increasing degree, so that, _e.g._, the list [1, 2, 3] represents the function 1 + 2_x_ + 3_x_2. Then we can take points on that polynomial at _n_ different values of the independent variable _x_ for some _n_ greater than the chunk size to get a properly redundant encoding.
+After turning our text into converted chunks (lists of integers), we can interpret each chunk as representing the coefficients of a polynomial function: say, in order of increasing degree, so that, _e.g._, the list [1, 2, 3] represents the function $1 + 2x + 3x^2$. Then we can take points on that polynomial at $n$ different values of the independent variable $x$ for some $n$ greater than the chunk size to get a properly redundant encoding.
 
-(It's actually better if you use polynomials over the _finite field_ 𝔽_q_ of the integers modulo _q_ for some _q_ which is a prime raised to the power of something, but let's not worry about that.)
+(It's actually better if you use polynomials over the _finite field_ $\mathbb{F}_q$ of the integers modulo $q$ for some $q$ which is a prime raised to the power of something, but let's not worry about that.)
 
 ```python
 def evaluate_polynomial(coefficients, x):
@@ -150,25 +150,25 @@ def multiply_polynomials(P, Q):
 
 Once we can do arithmetic with polynomials, we can write functions to reconstruct the polynomial representing a chunk of our text given our saved points, which is probably the most intricate part of this entire endeavor. We'll use a technical trick called _Lagrange interpolation_, after the great mathematician-astronomer [Joseph-Louis Lagrange](http://en.wikipedia.org/wiki/Joseph-Louis_Lagrange).
 
-Suppose we want to reconstruct a cubic polynomial from the four points (_x1_, _y1_), (_x2_, _y2_), (_x3_, _y3_), and (_x4_, _y4_). It turns out that a formula for the polynomial is
+Suppose we want to reconstruct a cubic polynomial from the four points $(x_1, y_1)$, $(x_2, y_2)$, $(x_3, y_3)$, and $(x_4, y_4)$. It turns out that a formula for the polynomial is
 
-_y1_ℓ1(_x_) + _y2_ℓ2(_x_) + _y3_ℓ3(_x_) + _y4_ℓ4(_x_)
+$$y_1\ell_1(x) + y_2\ell_2(x) + y_3\ell_3(x) + y_4\ell_4(x)$$
 
-where ℓ1(_x_) (the _first Lagrange basis element_) stands for
+where $\ell_1(x)$ (the _first Lagrange basis element_) stands for
 
-((_x_ – _x_2)(_x_ – _x_3)(_x_ – _x_4)) / ((_x_1 – _x_2)(_x_1 – _x_3)(_x_1 – _x_4))
+$$\frac{(x - x_2)(x - x_3)(x - x_4)}{(x_1 - x_2)(x_1 - x_3)(x_1 - x_4)}$$
 
-and so on—for each _i_ between 1 and the number of points we have, the numerator of the _i_th Lagrange basis element is the product of (_x_ – _x__j_) for all _j_ from 1 up to the number of points we have but not equal to _i_, and the denominator follows a similar pattern but with _x__i_ instead of _x_. (Note that we're using letters with subscripts, like _x__i_, to represent specific constants, whereas _x_ without a subscript is a function's independent variable.)
+and so on—for each $i$ between 1 and the number of points we have, the numerator of the $i$th Lagrange basis element is the product of $(x - x_j)$ for all $j$ from 1 up to the number of points we have but not equal to $i$, and the denominator follows a similar pattern but with $x_i$ instead of $x$. (Note that we're using letters with subscripts, like $x_i$, to represent specific constants, whereas $x$ without a subscript is a function's independent variable.)
 
-I hear you ask, "But why _this particular_ arbitrary-looking formula out of the space of all possible arbitrary-looking formulae?" But the grace and beauty of this formula is exactly that it's engineered specifically to pass through our points. Consider what happens when we choose _x_ equal to _x_1. The second through fourth terms _y_2ℓ2(_x_1) through _y_4ℓ4(_x_1) all contain a factor of (_x_1 – _x_1) and are thus zero, but the first term becomes
+I hear you ask, "But why _this particular_ arbitrary-looking formula out of the space of all possible arbitrary-looking formulae?" But the grace and beauty of this formula is exactly that it's engineered specifically to pass through our points. Consider what happens when we choose $x$ equal to $x_1$. The second through fourth terms $y_2\ell_2(x_1)$ through $y_4\ell_4(x_1)$ all contain a factor of $(x_1 - x_1)$ and are thus zero, but the first term becomes
 
-_y_1 ((_x_1 – _x_2)(_x_1 – _x_3)(_x_1 – _x_4)) / ((_x_1 – _x_2)(_x_1 – _x_3)(_x_1 – _x_4))
+$$y_1\frac{(x_1 - x_2)(x_1 - x_3)(x_1 - x_4)}{(x_1 - x_2)(x_1 - x_3)(x_1 - x_4)}$$
 
-= _y_1(1)
+$$= y_1(1)$$
 
-= _y_1.
+$$= y_1$$
 
-So by design, our interpolated polynomial takes value _y_1 at _x_1, _y_2 at _x_2, and so forth. In Python, the whole process looks like this—
+So by design, our interpolated polynomial takes value $y_1$ at $x_1$, $y_2$ at $x_2$, and so forth. In Python, the whole process looks like this—
 
 ```python
 def lagrange_basis_denominator(xs, i):

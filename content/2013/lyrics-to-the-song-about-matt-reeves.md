@@ -7,26 +7,26 @@ Slug: lyrics-to-the-song-about-matt-reeves
 _Dead kid gets a bench  
 Dead kid gets a memorial bench  
 So now we all know his name  
-Though we don't know who he is  
-  
-Class of nineteen ninety two  
+Though we don't know who he is_
+
+_Class of nineteen ninety two  
 Though he died in 'ninety one  
 Was he a better friend than you?  
 And what'd he do for fun?  
 What were his opinions on the issues of the day?  
-And what exactly took his breath away?  
-  
-Now he's still and in the grave  
+And what exactly took his breath away?_
+
+_Now he's still and in the grave  
 And since the dead seem all the same  
 No one really cares to wonder what he was  
-Forgotten as we're staring at his name  
-  
-Dead kid gets a bench  
+Forgotten as we're staring at his name_
+
+_Dead kid gets a bench  
 Dead kid gets a memorial bench  
 So now we all know his name  
-Though we don't care who he is  
-  
-Dead kid gets a bench  
+Though we don't care who he is_
+
+_Dead kid gets a bench  
 And the inscription just screams "Rust this"  
 No inscription can do justice  
 Though we don't know who he is  

@@ -41,7 +41,7 @@ Now we should be ready to proceed, except ... well, we've all seen the famous [p
 > Close to cee and never trend away,
 > That point is in the Mandelbrot set.
 
-That is, we pick a number _c_ in ℂ, iterate _z__n_+1 = _z__n_2 + _c_ starting from zero, and if the _z__n_ diverge off to infinity, then that particular _c_ is not in the Mandelbrot set.
+That is, we pick a number $c$ in ℂ, iterate $z_{n+1} = z_n^2 + c$ starting from zero, and if the $z_n$ diverge off to infinity, then that particular $c$ is not in the Mandelbrot set.
 
 Let's start writing instructions for our turtle. First, we'll summon the turtle. Also, let's tell her to look up instructions on how to compute the argument of a complex number—don't ask me how, but I have a feeling we're going to need that later:
 
@@ -50,7 +50,7 @@ import turtle
 from cmath import phase
 ```
 
-Now, it turns out (claims _Wikipedia_, and I believe it), that if the absolute value of one of our _z__n_s ever exceeds two, then that sequence will diverge. This seems like a useful fact, so let's tell our turtle how to calculate how many iterations it will take for the sequence associated with a particular _c_ to exceed two, and if it doesn't do so within some given number of iterations, then to tell us that:
+Now, it turns out (claims _Wikipedia_, and I believe it), that if the absolute value of one of our $z_n$'s ever exceeds two, then that sequence will diverge. This seems like a useful fact, so let's tell our turtle how to calculate how many iterations it will take for the sequence associated with a particular _c_ to exceed two, and if it doesn't do so within some given number of iterations, then to tell us that:
 
 ```python
 def z_n_escape_time(c, n):

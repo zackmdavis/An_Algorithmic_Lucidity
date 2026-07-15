@@ -9,7 +9,7 @@ Sometimes I think it's sad that the most popular programming languages use "=" f
 
 I'd like to see the colon-equals assignment symbol more often in math, too. For example, shouldn't we be writing lower indices of summation like this?—
 
-$$\sum\_{j:=0}^n f(j)$$
+$$\sum_{j:=0}^n f(j)$$
 
 —the rationale being that the text under the sigma _isn't_ asserting that _j_ _equals_ zero, but rather that _j_ is _assigned_ zero as the initial index value of what is, in fact, a for loop:
 

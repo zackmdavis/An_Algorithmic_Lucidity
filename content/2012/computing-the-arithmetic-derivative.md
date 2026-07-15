@@ -5,7 +5,7 @@ Category: computing
 Tags: Python
 Slug: computing-the-arithmetic-derivative
 
-Jurij Kovič's paper "[The Arithmetic Derivative and Antiderivative](https://cs.uwaterloo.ca/journals/JIS/VOL15/Kovic/kovic4.html)" contains a curious remark in Section 1.2. Having just stated the definition of the _logarithmic arithmetic derivative_ (_L_(_n_) = _n_′/_n_ = Σj _a__j_/_p__j_ where the prime mark indicates the arithmetic derivative, and Πi_p__i__a__i_ is the prime factorization of _n_), Kovič writes:
+Jurij Kovič's paper "[The Arithmetic Derivative and Antiderivative](https://cs.uwaterloo.ca/journals/JIS/VOL15/Kovic/kovic4.html)" contains a curious remark in Section 1.2. Having just stated the definition of the _logarithmic arithmetic derivative_ ($L(n) = n'/n = \sum_j a_j/p_j$ where the prime mark indicates the arithmetic derivative, and $\prod_i p_i^{a_i}$ is the prime factorization of $n$), Kovič writes:
 
 > The logarithmic derivative is an additive function _L_(_xy_) = _L_(_x_) + _L_(_y_) for any _x_, _y_ ∈ ℚ. Consequently, using a table of values _L_(_p_) = 1/_p_ (computed to sufficient decimal places!) and the formula _D_(_x_) = _L_(_x_)·_x_, it is easy to find _D_(_n_) for _n_ ∈ ℕ having all its prime factors in the table.
 

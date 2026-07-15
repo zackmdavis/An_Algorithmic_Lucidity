@@ -19,7 +19,7 @@ Slug: quotations-iv
 
 —_My Life as a Teenage Robot_, "Mist Opportunities"
 
-> A second way of interpreting the effort level _eMIN_ is to consider that the principal and the agent do not have completely conflicting objectives. It is possible that the agent gets some utility from his work, but only up to a certain effort level. We assume that the level that the agent is willing to spontaneously offer is _eMIN_. The agency problem turns up in this case since the principal would like the agent to offer an effort greater than his spontaneous level.
+> A second way of interpreting the effort level $e^{MIN}$ is to consider that the principal and the agent do not have completely conflicting objectives. It is possible that the agent gets some utility from his work, but only up to a certain effort level. We assume that the level that the agent is willing to spontaneously offer is $e^{MIN}$. The agency problem turns up in this case since the principal would like the agent to offer an effort greater than his spontaneous level.
 
 —Inés Macho-Stadler and J. Davis Pérez-Castrillo, _An Introduction to the Economics of Information_
 

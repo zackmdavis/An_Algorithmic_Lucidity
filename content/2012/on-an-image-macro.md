@@ -5,7 +5,7 @@ Category: verse
 Tags: Friendship Is Magic
 Slug: on-an-image-macro
 
-For the haters are going to hate,
-And the ponies are going to pwn,
-As for me, I will bear all the burden and weight
+For the haters are going to hate,  
+And the ponies are going to pwn,  
+As for me, I will bear all the burden and weight  
 And uncertainty of the alone.

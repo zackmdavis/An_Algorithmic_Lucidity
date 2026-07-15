@@ -5,6 +5,6 @@ Category: verse
 Tags: calculus
 Slug: haiku-for-eulers-number
 
-Two point seven one
-Eight two eight one eight two eight
+Two point seven one  
+Eight two eight one eight two eight  
 Four five nine almost.
