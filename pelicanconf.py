@@ -108,10 +108,11 @@ MARKDOWN = {
 RELATIVE_URLS = False
 
 # Serve robots.txt (with a Content-Signal line permitting AI training/input use)
-# at the site root instead of under /extra/
-STATIC_PATHS = ['extra/robots.txt']
+# and favicon.ico at the site root instead of under /extra/
+STATIC_PATHS = ['extra/robots.txt', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
 }
 
 # --- Markdown mirrors + llms.txt, for LLM/agent legibility ---
