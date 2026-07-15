@@ -47,8 +47,8 @@ header h1 a:hover {
 .site-description {
     color: #ffdbff;
     font-style: italic;
-    margin-top: 3px;
-    font-size: 14px;
+    margin-top: 0;
+    font-size: 17px;
 }
 
 /* Container */
@@ -378,20 +378,16 @@ footer {
     padding: 15px 0;
     border-top: 1px solid #ddd;
     text-align: center;
-    color: #999;
+    color: #666;
     font-size: 12px;
 }
 
 footer p {
-    margin-bottom: 6px;
-}
-
-footer p:last-child {
     margin-bottom: 0;
 }
 
 footer a {
-    color: #999;
+    color: #666;
     text-decoration: underline;
 }
 
