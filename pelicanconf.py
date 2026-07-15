@@ -9,6 +9,8 @@ SITEURL = ''
 PATH = 'content'
 THEME = 'theme'
 
+PLUGINS = ['render_math']
+
 TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'

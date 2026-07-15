@@ -1,0 +1,5 @@
+pelican==4.12.0
+markdown==3.10.2
+pelican-render-math==1.0.5
+pygments==2.19.2
+typogrify==2.1.0
