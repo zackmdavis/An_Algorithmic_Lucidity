@@ -2,7 +2,6 @@ Title: Plea Bargaining
 Date: 2022-05-30 18:30
 Status: published
 Category: psychology
-Slug: plea-bargaining
 
 I wish people were better at—plea bargaining, rather than pretending to be innocent. You accuse someone of [negative-valence description of trait or behavior that they're totally doing], and they say, "No, I'm not", and I'm just like ... really? How dumb do you think we are?
 

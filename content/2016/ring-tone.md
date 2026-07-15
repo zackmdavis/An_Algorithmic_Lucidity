@@ -2,7 +2,6 @@ Title: Ring Tone
 Date: 2016-01-06 05:00
 Status: published
 Category: verse
-Slug: ring-tone
 
 (circa 2005)
 

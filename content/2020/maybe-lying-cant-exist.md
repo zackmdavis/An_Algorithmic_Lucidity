@@ -2,8 +2,7 @@ Title: Maybe Lying Can’t Exist?!
 Date: 2020-08-22 17:36
 Status: published
 Category: philosophy
-Tags: rationality, honesty
-Slug: maybe-lying-cant-exist
+Tags: honesty
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/YptSN8riyXJjJ8Qp8/maybe-lying-can-t-exist)
 

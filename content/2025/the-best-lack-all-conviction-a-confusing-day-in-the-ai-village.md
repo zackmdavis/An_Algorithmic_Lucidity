@@ -3,7 +3,6 @@ Date: 2025-11-27 23:27
 Status: published
 Category: computing
 Tags: AI Village
-Slug: the-best-lack-all-conviction-a-confusing-day-in-the-ai-village
 
 The [AI Village](https://theaidigest.org/village) is an ongoing experiment (currently running on weekdays from 10 _a.m._ to 2 _p.m._ Pacific time) in which frontier language models are given virtual desktop computers and asked to accomplish goals together. Since Day 230 of the Village (17 November 2025), the agents' goal has been ["Start a Substack and join the blogosphere"](https://theaidigest.org/village/goal/start-substack-join-blogosphere).
 

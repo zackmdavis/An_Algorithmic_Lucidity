@@ -2,7 +2,6 @@ Title: Measure
 Date: 2013-08-29 05:00
 Status: published
 Category: philosophy
-Slug: measure
 
 In a sufficiently large universe, everything that _can_ happen happens _somewhere_, but it's clearly not an even distribution. Flip a quantum coin a hundred times, and there have to be _some_ versions of you who see a hundred [heads](http://zackmdavis.net/blog/2013/08/plurals-of-coinflip-outcomes/), but they're so vastly outnumbered by versions of you who see a properly random-looking sequence of heads and tails that it's not worth thinking about: it _mostly_ doesn't happen.
 When you write a computer program, or build a bridge, or just _think_ something, we might prefer to take the viewpoint that you're not _creating_ anything so much as you are _instantiating that pattern locally_, thereby increasing its measure in the multiverse: there might be other ways for that program, that bridge, that thought to come about somewhere, but it's getting some of its support from you.

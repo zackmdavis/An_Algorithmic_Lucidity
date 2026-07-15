@@ -3,7 +3,6 @@ Date: 2012-09-18 14:25
 Status: published
 Category: mathematics
 Tags: algebra
-Slug: the-true-secret-about-conjugate-roots-and-field-automorphisms
 
 In the study of the elementary algebra, one occasionally hears of the conjugate roots theorem, which says that if $z_0$ is a root of a polynomial with real coefficients, then its complex conjugate is also a root. Or if you prefer, nonreal roots come in conjugate pairs. It also works in the other direction: if nonreal roots of a polynomial come in conjugate pairs, then the polynomial has real coefficients, because the purely imaginary parts cancel when you do the algebra: $(x - (a + bi))(x - (a - bi)) = x^2 - x(a + bi) - x(a - bi) + (a^2 - (bi)^2) = x^2 - 2ax + a^2 + b^2$.
 

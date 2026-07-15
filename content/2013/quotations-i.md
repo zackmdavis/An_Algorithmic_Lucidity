@@ -3,7 +3,6 @@ Date: 2013-07-21 11:17
 Status: published
 Category: arts & culture
 Tags: quotations
-Slug: quotations-i
 
 > "As far as anyone knows, there's never been an animal population that was stable in the absence of predation, famine, or disease."
 >

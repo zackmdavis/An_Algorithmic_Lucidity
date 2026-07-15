@@ -3,7 +3,6 @@ Date: 2015-11-09 09:07
 Status: published
 Category: asides
 Tags: trains
-Slug: traffic-koan
 
 "I'm behind schedule this Monday morning," said the engineer, "but it'll be OK as long as the train isn't late."
 

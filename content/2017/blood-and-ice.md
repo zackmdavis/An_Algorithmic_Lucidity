@@ -2,7 +2,6 @@ Title: Blood and Ice
 Date: 2017-05-06 12:28
 Status: published
 Category: asides
-Slug: blood-and-ice
 
 "Are you eating ice because you're autistic, or because you have an iron deficiency?"
 

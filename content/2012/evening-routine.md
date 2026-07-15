@@ -2,7 +2,6 @@ Title: Evening Routine
 Date: 2012-12-01 05:00
 Status: published
 Category: asides
-Slug: evening-routine
 
 "Gee, Brain, what do you want to do tonight?"
 

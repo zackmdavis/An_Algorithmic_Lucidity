@@ -3,7 +3,6 @@ Date: 2016-08-08 22:48
 Status: published
 Category: asides
 Tags: sex & gender
-Slug: falself
 
 _(somewhere in the Tumblrverse)_
 

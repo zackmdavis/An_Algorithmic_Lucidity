@@ -2,8 +2,7 @@ Title: Algorithms of Deception!
 Date: 2019-10-19 11:06
 Status: published
 Category: philosophy
-Tags: rationality, honesty, Python
-Slug: algorithms-of-deception
+Tags: honesty, Python
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/fmA2GJwZzYtkrAKYJ/algorithms-of-deception)
 

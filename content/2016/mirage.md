@@ -3,7 +3,6 @@ Date: 2016-02-08 23:59
 Status: published
 Category: social science
 Tags: genetics, gridiron football, timely Special Event
-Slug: mirage
 
 _(just some quick notes, [hopefully in the spirit](http://www.xkcd.com/1640/) of [delightfully quirky symmetry-breaking](http://zackmdavis.net/blog/2013/03/tradition/))_
 

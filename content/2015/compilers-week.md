@@ -3,7 +3,6 @@ Date: 2015-06-08 18:50
 Status: published
 Category: meta
 Tags: compilers, theme week
-Slug: compilers-week
 
 It's Compilers Week here at _An Algorithmic Lucidity_!
 

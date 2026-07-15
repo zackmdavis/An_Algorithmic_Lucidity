@@ -3,7 +3,6 @@ Date: 2018-01-06 01:02
 Status: published
 Category: psychology
 Tags: akrasia
-Slug: give-anything
 
 As a freshman on my high school's cross country team, our captain told me that to be a good runner, you needed to love pain.
 

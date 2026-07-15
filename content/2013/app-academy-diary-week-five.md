@@ -2,7 +2,6 @@ Title: App Academy Diary, Week Five
 Date: 2013-10-14 23:52
 Status: published
 Category: computing
-Slug: app-academy-diary-week-five
 
 [!["Getting Down to Business"](http://zackmdavis.net/blog/wp-content/uploads/2013/10/starlight_music-getting_down-203x300.png)](http://zackmdavis.net/blog/wp-content/uploads/2013/10/starlight_music-getting_down.png){: .alignleft }
 

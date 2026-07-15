@@ -3,7 +3,6 @@ Date: 2014-12-01 21:44
 Status: published
 Category: asides
 Tags: Unicode
-Slug: the-year-of-the-em-dash-not
 
 "2014 is the [Unicodepoint for the _em dash_](http://www.fileformat.info/info/unicode/char/2014/index.htm)! Isn't that the greatest thing _ever_? How did I not _know_ this before _December_ of this glorious year?"
 

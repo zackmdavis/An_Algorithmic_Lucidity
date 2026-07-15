@@ -3,7 +3,6 @@ Date: 2017-03-15 14:49
 Status: published
 Category: psychology
 Tags: sex & gender
-Slug: wicked-transcendence-iii
 
 ([Previously](http://zackmdavis.net/blog/2016/09/wicked-transcendence-ii/), [previously](http://zackmdavis.net/blog/2016/07/wicked-transcendence/).)
 

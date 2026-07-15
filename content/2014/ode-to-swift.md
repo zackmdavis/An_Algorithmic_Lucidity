@@ -3,7 +3,6 @@ Date: 2014-04-06 15:54
 Status: published
 Category: verse
 Tags: OpenStack Swift
-Slug: ode-to-swift
 
 Our users have a need although  
 Our budget's rather ...  

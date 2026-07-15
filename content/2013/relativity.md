@@ -3,7 +3,6 @@ Date: 2013-05-11 16:59
 Status: published
 Category: philosophy
 Tags: madness, population ethics
-Slug: relativity
 
 "Empathy _hurts_.
 

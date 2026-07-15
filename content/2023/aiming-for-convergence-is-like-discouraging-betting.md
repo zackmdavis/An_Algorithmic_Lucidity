@@ -2,8 +2,7 @@ Title: Aiming for Convergence Is Like Discouraging Betting
 Date: 2023-01-31 16:03
 Status: published
 Category: philosophy
-Tags: rationality, epistemology
-Slug: aiming-for-convergence-is-like-discouraging-betting
+Tags: epistemology
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/iThwqe3yPog56ytyq/aiming-for-convergence-is-like-discouraging-betting)
 

@@ -2,7 +2,6 @@ Title: Forgetting to Take an Average
 Date: 2012-09-20 18:04
 Status: published
 Category: psychology
-Slug: forgetting-to-take-an-average
 
 It seems as if my outlook on life varies drastically with mood. In the moments when I feel brave and ambitious, I rarely seem to remember that _it won't last_: that in a week or a day, the moment will be gone and I'll feel weak and scared again—and of course it goes conversely, too.
 

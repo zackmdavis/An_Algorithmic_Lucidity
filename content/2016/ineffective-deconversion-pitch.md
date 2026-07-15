@@ -2,8 +2,7 @@ Title: Ineffective Deconversion Pitch
 Date: 2016-08-07 11:27
 Status: published
 Category: psychology
-Tags: rationality
-Slug: ineffective-deconversion-pitch
+Tags: honesty
 
 Growing up in an ostensibly reform-Jewish household that didn't even take _that_ seriously, atheism was easy for me, so I don't know how hard deconversion is, how much it hurts, or how much of one's entire conception of self is trashed in the process and can't be recovered.
 

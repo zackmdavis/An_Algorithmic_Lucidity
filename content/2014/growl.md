@@ -3,7 +3,6 @@ Date: 2014-07-20 21:30
 Status: published
 Category: psychology
 Tags: akrasia, cynicism, Python
-Slug: growl
 
 Dear reader, imagine you have an idea for a work of prose that you want to have finished by Election Day for reasons which will become clear later, and you're not sure how long it should end up being, but you think maybe around twelve thousand words. When considering what you can do to ensure that this feat will actually be accomplished, it occurs to you that you could start writing now. _Or_—
 

@@ -3,7 +3,6 @@ Date: 2012-09-09 05:00
 Status: published
 Category: mathematics
 Tags: combinatorics
-Slug: inclusion-exclusion
 
 In this modern day and age, it simply cannot be doubted that it is of the very utmost importance that we find the size of the union of some sets. One might try just adding the sizes of all the sets, but that's not correct, because then one would be double-counting the elements that appear in more than one set. But it's a good start. One might then think that one could _begin_ by adding the sizes of the sets, but then _subtract_ the sizes of the intersections of each pair of sets, in order to correct for the double-counting. But this is also incorrect, because then what about the elements that appear in _three_ sets and had thus initially been triple-counted?—after subtracting the pairwise intersections, these elements haven't been included in the count at all! So one realizes that one must then _add_ the sizes of the triplewise intersections ...
 

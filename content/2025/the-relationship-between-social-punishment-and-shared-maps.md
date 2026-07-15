@@ -2,7 +2,6 @@ Title: The Relationship Between Social Punishment and Shared Maps
 Date: 2025-10-08 11:26
 Status: published
 Category: social science
-Slug: the-relationship-between-social-punishment-and-shared-maps
 
 A _punishment_ is when one agent (the punisher) imposes costs on another (the punished) in order to affect the punished's behavior. In a Society where thieves are predictably imprisoned and lashed, people will predictably steal less than they otherwise would, for fear of being imprisoned and lashed.
 

@@ -3,6 +3,5 @@ Date: 2018-10-03 05:00
 Status: published
 Category: philosophy
 Tags: concerns
-Slug: the-right-to-life-conjugated
 
 She's a ward of the state; you have an inalienable right to live; I'm literally more useful alive rather than dead with respect to the values of powerful coalitions.

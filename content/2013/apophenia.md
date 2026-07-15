@@ -2,7 +2,6 @@ Title: Apophenia
 Date: 2013-03-26 16:37
 Status: published
 Category: psychology
-Slug: apophenia
 
 It's well-known that it shouldn't actually be that shocking to occasionally encounter seemingly shocking coincidences: the time your friend calls you just as you were about to call them might seem like compelling evidence for psychic powers, but only because you don't remember all the other occasions when an equally improbable coincidence _could_ have happened, but didn't. We tend to see patterns even where none exist, and neglect that million-to-one events happen seven times a day in New York.
 

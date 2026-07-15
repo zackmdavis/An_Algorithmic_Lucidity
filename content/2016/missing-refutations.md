@@ -3,7 +3,6 @@ Date: 2016-02-17 00:21
 Status: published
 Category: social science
 Tags: chess, politics
-Slug: missing-refutations
 
 It [looks like](https://github.com/swiftstack/Chesswork/commit/681085b3) the opposing all-human team is winning the exhibition game of me and [my it's-not-chess engine](http://zackmdavis.net/blog/2016/01/ideas-have-expirations/) (as White) _versus_ everyone in the office who (unlike me) actually knows something about chess (as Black). I mean, naïvely, my team is up a bishop right now, but our king is pretty exposed, and the [principal variation](https://en.wikipedia.org/w/index.php?title=Variation_%28game_tree%29&oldid=545070873#Principal_variation) that generated one of our recent moves (16. Bxb4 Bf5 17. Kd1 Qxd4+ 18. Kc1 Ng3 19. Qxc7 Nxh1) looks _dreadful_.
 

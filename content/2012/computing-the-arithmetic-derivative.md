@@ -3,7 +3,6 @@ Date: 2012-10-24 05:00
 Status: published
 Category: computing
 Tags: Python
-Slug: computing-the-arithmetic-derivative
 
 Jurij Kovič's paper "[The Arithmetic Derivative and Antiderivative](https://cs.uwaterloo.ca/journals/JIS/VOL15/Kovic/kovic4.html)" contains a curious remark in Section 1.2. Having just stated the definition of the _logarithmic arithmetic derivative_ ($L(n) = n'/n = \sum_j a_j/p_j$ where the prime mark indicates the arithmetic derivative, and $\prod_i p_i^{a_i}$ is the prime factorization of $n$), Kovič writes:
 

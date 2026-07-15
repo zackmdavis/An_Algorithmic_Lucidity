@@ -3,7 +3,6 @@ Date: 2018-01-18 21:42
 Status: published
 Category: psychology
 Tags: akrasia
-Slug: binge-purge
 
 ```console
 $ history | grep freeciv

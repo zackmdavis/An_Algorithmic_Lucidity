@@ -2,7 +2,6 @@ Title: An Unauthorized Use of Ms. Gunnison's Secret Time Machine
 Date: 2013-12-09 13:29
 Status: published
 Category: verse
-Slug: an-unauthorized-use-of-ms-gunnisons-secret-time-machine
 
 Gunni told her not to touch it;  
 Common sense would say as much in  

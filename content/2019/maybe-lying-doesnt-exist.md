@@ -2,8 +2,7 @@ Title: Maybe Lying Doesn't Exist
 Date: 2019-10-14 00:04
 Status: published
 Category: philosophy
-Tags: rationality, honesty, philosophy of language
-Slug: maybe-lying-doesnt-exist
+Tags: honesty, philosophy of language
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/bSmgPNS6MTJsunTzS/maybe-lying-doesn-t-exist)
 

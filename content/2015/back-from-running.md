@@ -3,7 +3,6 @@ Date: 2015-10-14 05:00
 Status: published
 Category: asides
 Tags: akrasia
-Slug: back-from-running
 
 ```
 [16:03:37] <alice>  I'm back from literally running, metaphorically from

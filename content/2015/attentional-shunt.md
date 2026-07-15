@@ -3,7 +3,6 @@ Date: 2015-12-08 05:00
 Status: published
 Category: computing
 Tags: akrasia, Python
-Slug: attentional-shunt
 
 ```python
 #!/usr/bin/env python3

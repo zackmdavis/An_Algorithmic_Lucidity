@@ -2,8 +2,7 @@ Title: Counterfactual Social Thought
 Date: 2012-12-28 05:00
 Status: published
 Category: psychology
-Tags: politics, rationality
-Slug: counterfactual-social-thought
+Tags: politics, epistemology
 
 I keep feeling like I need to study Bayes nets in order to clarify my thinking about society. (This is _probably_ not standard advice given to aspiring young sociologists, but I'm trying not to care about that.) Ordinary political speech is full of claims about causality ("Policy X causes Y, which is bad!" "Of course Y is bad, but don't you see?—the _real_ cause of Y is Z, and if you hadn't been brainwashed by the System, you'd see that!"), but human intuitions about causality are probably confused (and would be clarified by [Pearl](http://en.wikipedia.org/wiki/Judea_Pearl)) much like our intuitions about evidence are confused (and are clarified by [Bayes](http://en.wikipedia.org/wiki/Bayesian_inference)).
 

@@ -2,7 +2,6 @@ Title: World's Best
 Date: 2013-11-14 05:00
 Status: published
 Category: asides
-Slug: worlds-best
 
 "We need some sort of slogan to go on our advertisements. Any ideas?"
 

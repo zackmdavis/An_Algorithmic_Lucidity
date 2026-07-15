@@ -2,7 +2,6 @@ Title: From the Top
 Date: 2015-09-28 22:44
 Status: published
 Category: mathematics
-Slug: from-the-top
 
 ___Theorem.___ The product of the additive inverse of the multiplicative identity with itself is equal to the multiplicative identity.
 

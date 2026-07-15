@@ -2,7 +2,6 @@ Title: <em><strong>[RETRACTED]</strong></em> Introducing the Fractional Arithmet
 Date: 2012-10-03 12:30
 Status: published
 Category: mathematics
-Slug: introducing-the-fractional-arithmetic-derivative
 
 [__NOTICE__: _The conclusion of this post is hereby **retracted**_ because it turns out that the proposed definition of a "fractional arithmetic derivative" doesn't actually make sense. It fails to meet the basic decideratum of corresponding with an iterated [arithmetic derivative](http://en.wikipedia.org/wiki/Arithmetic_derivative). _E.g._, consider that 225″ = (225′)′ = ((32·52)′)′ = (2·3·52 + 32·2·5)′ = (150 + 90)′ = 240′ = (24·3·5)′ = 4·23·3·5 + 24·5 + 24·3 = 480 + 80 + 48 = 608. Whereas, under the proposed definition we would _allegedly_ equivalently have 225(2) = (2!·30·52 + 32·2!·50) = 50 + 18 = 68. I apologize to anyone who read the original post (??) who was thereby misled. The original post follows (with the erroneous section struck through).]
 

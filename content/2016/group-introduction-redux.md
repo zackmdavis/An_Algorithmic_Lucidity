@@ -2,7 +2,6 @@ Title: Group Introduction Redux
 Date: 2016-04-03 00:31
 Status: published
 Category: asides
-Slug: group-introduction-redux
 
 [_(Previously.)_](http://zackmdavis.net/blog/2013/01/group-introduction/)
 

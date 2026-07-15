@@ -3,7 +3,6 @@ Date: 2012-10-05 05:00
 Status: published
 Category: computing
 Tags: notation
-Slug: colon-equals
 
 Sometimes I think it's sad that the most popular programming languages use "=" for assignment rather than ":=" (like Pascal). Equality is a symmetrical relationship: "_a_ equals _b_" means that _a_ and _b_ are the same thing or have the same value, and this is clearly the same as saying that "_b_ equals _a_". Assignment isn't like that: putting the value _b_ in a box named _a_ isn't the same as putting the value _a_ in a box named _b_!—surely an asymmetrical operation deserves an asymmetrical notation? Okay, so it is an extra character, but any decent editor can be configured to save you the keystroke.
 

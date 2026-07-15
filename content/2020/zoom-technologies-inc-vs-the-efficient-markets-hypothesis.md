@@ -3,7 +3,6 @@ Date: 2020-05-10 23:00
 Status: published
 Category: social science
 Tags: economics
-Slug: zoom-technologies-inc-vs-the-efficient-markets-hypothesis
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/tonKatiDTzTP8LrEk/zoom-technologies-inc-vs-the-efficient-markets-hypothesis)
 

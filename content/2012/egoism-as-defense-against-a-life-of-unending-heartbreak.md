@@ -3,7 +3,6 @@ Date: 2012-11-22 19:13
 Status: published
 Category: psychology
 Tags: improvement, politics
-Slug: egoism-as-defense-against-a-life-of-unending-heartbreak
 
 > Then the Dean understood what had puzzled him in Roark's manner.
 >

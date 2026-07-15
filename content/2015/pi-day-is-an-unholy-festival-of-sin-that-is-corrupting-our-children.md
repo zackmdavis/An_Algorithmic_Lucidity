@@ -2,7 +2,6 @@ Title: "Pi Day" Is an Unholy Festival of Sin That Is Corrupting Our Children
 Date: 2015-03-14 03:14
 Status: published
 Category: arts & culture
-Slug: pi-day-is-an-unholy-festival-of-sin-that-is-corrupting-our-children
 
 Dear reader, it's the fourteenth day of the third month of the year, and if you're reading this blog, some charlatans or overenthusiastic youth (the subject of whose enthusiasm is not what they think it is) have probably tried to convince you to celebrate it as "Pi Day." You see (these quacks implored you) π is around 3.14, and March fourteenth is 3/14. And _furthermore_ (they may have put to you) furthermore _this_ year's Pi Day is special, because it's 3/14/15, which is like 3.1415! Why (an especially impudent few might have continued to venture), we should plan some grand spectacle on 9:26 a.m. on the day, which is like 3.1415926! With (and this is the part that is most inevitable and offensive) pie! Get it, because it sounds like _pi_ and is shaped like a circle?
 

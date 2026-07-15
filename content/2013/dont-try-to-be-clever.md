@@ -2,8 +2,7 @@ Title: Don't Try to Be Clever
 Date: 2013-01-18 11:45
 Status: published
 Category: asides
-Tags: rationality
-Slug: dont-try-to-be-clever
+Tags: epistemology
 
 The great Brian Kernighan wrote, "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?"
 

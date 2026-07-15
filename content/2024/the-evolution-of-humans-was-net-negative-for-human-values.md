@@ -3,7 +3,6 @@ Date: 2024-04-01 09:01
 Status: published
 Category: philosophy
 Tags: artificial intelligence, evolution
-Slug: the-evolution-of-humans-was-net-negative-for-human-values
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/cwiufyabZaAttivvk/the-evolution-of-humans-was-net-negative-for-human-values)
 

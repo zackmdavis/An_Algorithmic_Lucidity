@@ -3,7 +3,6 @@ Date: 2012-12-09 16:27
 Status: published
 Category: philosophy
 Tags: morality
-Slug: seriously-now
 
 "But it's kind of funny how my current idea of morality is so different and so much improved from what I picked up in childhood."
 

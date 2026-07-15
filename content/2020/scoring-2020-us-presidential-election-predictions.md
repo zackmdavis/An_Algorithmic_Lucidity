@@ -3,7 +3,6 @@ Date: 2020-11-07 18:23
 Status: published
 Category: social science
 Tags: politics
-Slug: scoring-2020-us-presidential-election-predictions
 
 I was curious to see how various prognosticators—specifically, [_FiveThirtyEight_](https://projects.fivethirtyeight.com/2020-election-forecast/) and [_The Economist_](https://projects.economist.com/us-2020-forecast/president)'s models, and the [PredictIt prediction markets](https://www.predictit.org/markets/13/Prez-Election)—did on predicting the state-by-state [(plus the District of Columbia)](https://twitter.com/zackmdavis/status/1323492262198718464) results of the recent U.S. presidential election.
 

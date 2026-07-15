@@ -2,7 +2,6 @@ Title: Group Introduction
 Date: 2013-01-31 00:47
 Status: published
 Category: asides
-Slug: group-introduction
 
 "Hey, I'm Kevin. I'm a junior majoring in marketing. I live in San Leandro, and my favorite teacher was my high school English teacher Mr. Wheeler."
 

@@ -3,7 +3,6 @@ Date: 2015-05-11 20:44
 Status: published
 Category: asides
 Tags: compilers
-Slug: smalltalk
 
 _(8:5x_ a.m._, an office on the someteenth floor of the twenty-somethingth tallest building in San Francisco)_
 

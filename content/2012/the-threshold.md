@@ -3,7 +3,6 @@ Date: 2012-09-23 05:00
 Status: published
 Category: psychology
 Tags: akrasia
-Slug: the-threshold
 
 Supposedly the method of pomodoros is a great technology for overcoming procrastination: you work in twenty- or twenty-five-minute timed blocks, each of which are _atomic_, indivisible: you have to work through the block, and if you let yourself wander away to something else, then it doesn't count. Katja Grace [explains why this is a good idea](http://www.overcomingbias.com/2012/08/on-the-goodness-of-beeminder.html):
 

@@ -3,7 +3,6 @@ Date: 2023-02-11 21:30
 Status: published
 Category: social science
 Tags: politics, game theory
-Slug: conflict-theory-of-bounded-distrust
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/DpTexwqYtarRLRBYi/conflict-theory-of-bounded-distrust)
 

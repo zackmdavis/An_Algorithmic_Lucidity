@@ -2,7 +2,6 @@ Title: The Parable of the Scorpion and the Fox
 Date: 2020-07-26 22:12
 Status: published
 Category: fiction
-Slug: the-parable-of-the-scorpion-and-the-fox
 
 In the days of auld lang syne on Earth-that-was, a scorpion was creepy-crawling along a riverbank, wondering how to get to the other side. It came across an animal that could swim: some versions of the tale say it was a fox, others report a [quokka](https://twitter.com/0x49fa98/status/1276138522123161600). I'm going to assume it was a fox.
 

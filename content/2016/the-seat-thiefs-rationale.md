@@ -2,7 +2,6 @@ Title: The Seat Thief's Rationale
 Date: 2016-01-19 22:50
 Status: published
 Category: asides
-Slug: the-seat-thiefs-rationale
 
 What is even the _motivation_ for stealing a bicycle seat? How much can you hock it for?
 

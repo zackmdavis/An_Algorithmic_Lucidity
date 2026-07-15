@@ -2,7 +2,6 @@ Title: October Eleventh
 Date: 2015-10-11 23:45
 Status: published
 Category: verse
-Slug: october-eleventh
 
 _October eleventh  
 It fell on a weekend  

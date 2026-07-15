@@ -3,7 +3,6 @@ Date: 2012-07-01 23:07
 Status: published
 Category: computing
 Tags: Python, turtle graphics
-Slug: training-your-very-own-turtle-to-draw
 
 Dear reader, I don't think I've ever told you how much I love the Python standard library, but I do. When they say "[Batteries included](http://www.python.org/about/)," they may not mean it [in the sense of](http://en.wiktionary.org/wiki/battery) "a device that produces electricity by a chemical reaction between two substances," but they _do_ mean it in the sense of "an array of similar things," where the similar things are _great libraries_. If you need a CSV reader, [it's there](http://docs.python.org/release/3.0.1/library/csv.html). If you need fixed-point decimal arithmetic, [it's there](http://docs.python.org/release/3.1.5/library/decimal.html). But although perhaps it should not have surprised me, never has my joy and appreciation been greater than the fateful moment when I learned that the standard library itself contains a module for
 

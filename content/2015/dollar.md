@@ -3,7 +3,6 @@ Date: 2015-07-19 22:45
 Status: published
 Category: computing
 Tags: Clojure, Python, Ruby
-Slug: dollar
 
 I used to think of `$` in regular expressions as matching the end of the string. I was wrong! It actually might do something more subtle than that, depending on what regex engine you're using. In my [native](http://zackmdavis.net/blog/2014/11/native-tongue/) Python's [`re` module, `$`](https://docs.python.org/3/library/re.html)
 

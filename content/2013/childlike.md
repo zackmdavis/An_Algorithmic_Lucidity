@@ -3,7 +3,6 @@ Date: 2013-03-03 21:00
 Status: published
 Category: psychology
 Tags: madness
-Slug: childlike
 
 "I think the best term to describe how I feel is _childlike_. That also explains the delusions I was having: children can't tell the difference between fantasy and reality as adults judge such things, and neither can people having or immediately recovering from a psychotic episode."
 

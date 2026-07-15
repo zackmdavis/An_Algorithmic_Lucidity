@@ -3,7 +3,6 @@ Date: 2021-04-20 22:55
 Status: published
 Category: computing
 Tags: Python
-Slug: beauty-is-truthiness-truthiness-beauty
 
 Imagine reviewing Python code that looks something like this.
 

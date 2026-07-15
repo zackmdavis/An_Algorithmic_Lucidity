@@ -2,8 +2,7 @@ Title: Relevance Norms; Or, Gricean Implicature Queers the Decoupling/Contextual
 Date: 2019-11-21 22:18
 Status: published
 Category: philosophy
-Tags: rationality, philosophy of language
-Slug: relevance-norms-or-gricean-implicature-queers-the-decoupling-contextualizing-binary
+Tags: philosophy of language
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/GSz8SrKFfW7fJK2wN/relevance-norms-or-gricean-implicature-queers-the-decoupling)
 

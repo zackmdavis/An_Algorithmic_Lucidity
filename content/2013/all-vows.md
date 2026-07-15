@@ -3,7 +3,6 @@ Date: 2013-09-14 11:56
 Status: published
 Category: philosophy
 Tags: morality
-Slug: all-vows
 
 "_Avinu Malkeinu_, we have sinned against you! _Avinu Malkeinu_, forgive us, bless us, grant us atonement!"
 

@@ -3,7 +3,6 @@ Date: 2016-01-09 05:00
 Status: published
 Category: asides
 Tags: Rust
-Slug: todo-i
 
 ```rust
     let path = Path::new("/proc/meminfo");

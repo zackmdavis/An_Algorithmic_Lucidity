@@ -3,7 +3,6 @@ Date: 2012-09-08 09:46
 Status: published
 Category: mathematics
 Tags: combinatorics
-Slug: summing-the-multinomial-coefficients
 
 The sum of binomial coefficients $$\sum_{j=0}^n {n \choose j}$$ equals $2^n$, because $${n \choose j}$$ is the number of ways to pick _j_ elements from a set of size _n_, and $2^n$ is the size of the powerset, the set of all subsets, of a set of size _n_: the sum, over all subset sizes, of the number of ways to choose subsets of a given size, is equal to the number of subsets. You can also see this using the binomial theorem itself:
 

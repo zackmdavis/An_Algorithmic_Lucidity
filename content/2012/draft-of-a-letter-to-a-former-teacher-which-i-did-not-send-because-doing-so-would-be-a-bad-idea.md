@@ -3,7 +3,6 @@ Date: 2012-12-03 18:23
 Status: published
 Category: social science
 Tags: schooling
-Slug: draft-of-a-letter-to-a-former-teacher-which-i-did-not-send-because-doing-so-would-be-a-bad-idea
 
 Dear [_name redacted_]:
 

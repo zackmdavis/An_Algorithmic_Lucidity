@@ -2,7 +2,6 @@ Title: Fortune
 Date: 2013-12-15 05:00
 Status: published
 Category: asides
-Slug: fortune
 
 "They're going to pay you _X_ dollars a year? But that's fantastic! You're rich!"
 

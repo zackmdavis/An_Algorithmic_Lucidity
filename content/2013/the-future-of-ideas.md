@@ -2,7 +2,6 @@ Title: The Future of Ideas
 Date: 2013-08-28 12:31
 Status: published
 Category: social science
-Slug: the-future-of-ideas
 
 William Gibson famously said, "The future is already here—it's just not very evenly distributed." It's easy to imagine a science-fictional fantasy world where everything is made of diamond and plastic, and literally everyone has their own brigade of robots, spacepacks, and jetcars to do their bidding, but as Gibson points out, the real world doesn't actually work like this: there's nothing _contradictory_ about the high technology allowing you to read this post existing in the same world where millions of others are starving, thirsty, and illiterate. The Earth is just a very big place compared to what we know how to imagine personally; the wealth and wonders that exist in some places, don't exist everywhere. As long as this is true, we should expect _variance_ in wealth to increase, as new toys for the rich get invented faster than the basics can be provisioned for everyone; Carlos Slim can purchase extravagances that hadn't been invented in the days of Cornelius Vanderbilt, but dying of malaria is the same as it's ever been.
 

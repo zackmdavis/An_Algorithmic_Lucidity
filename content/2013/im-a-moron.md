@@ -2,7 +2,6 @@ Title: I'm a Moron
 Date: 2013-08-30 05:00
 Status: published
 Category: psychology
-Slug: im-a-moron
 
 It's always tempting to make excuses for our past selves, to tell a story about how, despite the appearance of continual failure and waste, we were actually in the right all along.
 

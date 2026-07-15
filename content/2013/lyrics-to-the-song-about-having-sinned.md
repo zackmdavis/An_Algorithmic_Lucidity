@@ -2,7 +2,6 @@ Title: Lyrics to the Song About Having Sinned
 Date: 2013-09-01 05:00
 Status: published
 Category: verse
-Slug: lyrics-to-the-song-about-having-sinned
 
 _I'm going to do it the dark way  
 I'm going to do it in my way  

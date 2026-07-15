@@ -2,7 +2,6 @@ Title: App Academy Diary, Week Seven
 Date: 2013-10-28 23:43
 Status: published
 Category: computing
-Slug: app-academy-diary-week-seven
 
 _Monday 28 October 2013—_ The governor of Delaware was supposed to visit us today, but he totally stood us up!—supposedly because of a late airplane or something, if you even believe that. Today's assessment (on elementary JavaScript, binding of `this`, and the module pattern) was really straightforward, but I found the day's project (in collaboration with _Irene Ngyuen_) on client-side MVC quite challenging at times; I fear that we were only the second-best [Irene](http://zackmdavis.net/blog/2013/10/app-academy-diary-week-six/#thursday)–[Zach](http://zackmdavis.net/blog/2013/10/app-academy-diary-week-five/#sunday) team today. I'm sleeping over at the office again tonight, which seems like a good thing to do twice a week maybe?—when I stay, I can fit in some quality solo hacking time until sleep or distraction takes me, whereas I am not inclined to do so after a train and bike ride home. Case in point: I got a crude form of authentication working in Wires today! So many feels!
 

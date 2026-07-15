@@ -3,7 +3,6 @@ Date: 2018-04-01 05:00
 Status: published
 Category: mathematics
 Tags: analysis
-Slug: april-is-separability-month
 
 It is now April! Did you know that April is one of the months in which every compact metric space is separable?
 

@@ -2,7 +2,6 @@ Title: Clearness
 Date: 2013-01-03 05:00
 Status: published
 Category: philosophy
-Slug: clearness
 
 "I somehow feel less bitter today."
 

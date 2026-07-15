@@ -3,7 +3,6 @@ Date: 2012-12-04 05:00
 Status: published
 Category: philosophy
 Tags: missing words
-Slug: missing-words-i
 
 There are a lot of really important concepts that aren't easy to talk about, because we don't have standard words for them.
 

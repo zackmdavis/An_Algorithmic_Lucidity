@@ -2,7 +2,6 @@ Title: Strategy
 Date: 2013-09-03 05:00
 Status: published
 Category: psychology
-Slug: strategy
 
 "Oh, I'm so nervous! What if I ... ? What if _they_ ... ? Oh, what ever shall I do?"
 

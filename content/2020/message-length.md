@@ -2,8 +2,7 @@ Title: Message Length
 Date: 2020-10-19 22:52
 Status: published
 Category: philosophy
-Tags: rationality, information theory, Rust
-Slug: message-length
+Tags: information theory, Rust
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/mB95aqTSJLNR9YyjH/message-length)
 

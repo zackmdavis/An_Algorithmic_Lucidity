@@ -3,7 +3,6 @@ Date: 2012-08-11 05:00
 Status: published
 Category: verse
 Tags: calculus
-Slug: on-arc-length
 
 Zeno knew, but did not know enough; a minute is divided  
 Into fragments, and each fragment sees, for points it o'er presided:  

@@ -3,7 +3,6 @@ Date: 2019-05-18 15:07
 Status: published
 Category: mathematics
 Tags: algebra, theme week
-Slug: group-theory-for-wellness-i
 
 (Part of [Math and Wellness Month](http://zackmdavis.net/blog/2019/05/may-is-math-and-wellness-month/).)
 

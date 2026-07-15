@@ -2,8 +2,7 @@ Title: Stupidity and Dishonesty Explain Each Other Away
 Date: 2019-12-28 11:21
 Status: published
 Category: philosophy
-Tags: rationality, honesty
-Slug: stupidity-and-dishonesty-explain-each-other-away
+Tags: honesty
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/y4bkJTtG3s5d6v36k/stupidity-and-dishonesty-explain-each-other-away)
 

@@ -3,7 +3,6 @@ Date: 2014-07-18 11:04
 Status: published
 Category: asides
 Tags: Clojure
-Slug: a-line-of-code-i-havent-found-an-excuse-to-use-yet
 
 ```clojure
 (defn intentional-mispelling? [sic]

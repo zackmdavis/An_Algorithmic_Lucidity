@@ -2,7 +2,6 @@ Title: Best Alternative to a Negotiated Ontology
 Date: 2018-01-22 18:23
 Status: published
 Category: psychology
-Slug: best-alternative-to-a-negotiated-ontology
 
 "I can't stand being apart any longer. You win. Whatever your demands are, I'll meet them."
 

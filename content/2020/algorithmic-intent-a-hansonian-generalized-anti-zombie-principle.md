@@ -2,8 +2,7 @@ Title: Algorithmic Intent: A Hansonian Generalized Anti-Zombie Principle
 Date: 2020-07-13 23:03
 Status: published
 Category: philosophy
-Tags: rationality, philosophy of language
-Slug: algorithmic-intent-a-hansonian-generalized-anti-zombie-principle
+Tags: philosophy of language
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/sXHQ9R5tahiaXEZhR/algorithmic-intent-a-hansonian-generalized-anti-zombie)
 

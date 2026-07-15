@@ -2,7 +2,6 @@ Title: Dismal Science
 Date: 2016-01-02 05:00
 Status: published
 Category: social science
-Slug: dismal-science
 
 There's something that feels viscerally distasteful and fundamentally morally dubious about _looking_ for a job or a significant other. _Search_ and _comparison_ are for crass, commonplace, material things: we might say that this brand of soap smells nice, but is expensive, or that this car gets poor mileage, but is cheap, and while we may err in our judgment of any particular product, the general procedure must be regarded as legitimate: there's nothing problematic about going out to shop for _some_ soap or _a_ car and purchasing the best that happens to be available on one's budget, even if there's no sense of destiny and perfection about the match. Rather, we want to be clean, and we want to go places, and we took action to make these things come to pass.
 

@@ -3,7 +3,6 @@ Date: 2017-01-02 13:52
 Status: published
 Category: meta
 Tags: new year
-Slug: 2016-year-in-reverse
 
 ([Previously](http://zackmdavis.net/blog/2015/12/2015-year-in-reverse/), [previously](http://zackmdavis.net/blog/2015/01/2014-year-in-reverse/), [previously](http://zackmdavis.net/blog/2013/12/2013-year-in-reverse/).)
 

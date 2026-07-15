@@ -2,7 +2,6 @@ Title: Cascading Stable Strategies
 Date: 2013-11-12 05:00
 Status: published
 Category: asides
-Slug: cascading-stable-strategies
 
 "What do you think of my website's new look? I designed it with ESS."
 

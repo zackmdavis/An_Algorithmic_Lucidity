@@ -2,7 +2,6 @@ Title: Relationship Outcomes Are Not Particularly Sensitive to Small Variations 
 Date: 2020-02-08 16:28
 Status: published
 Category: psychology
-Slug: relationship-outcomes-are-not-particularly-sensitive-to-small-variations-in-verbal-ability
 
 After a friendship-ending fight, you feel an impulse to push through the pain to do an exhaustive postmortem of everything you did wrong in that last, fatal argument—you could have phrased that more eloquently, could have anticipated that objection, could have not left so much "surface area" open to that class of rhetorical counterattack, could have been more empathetic on that one point, could have chosen a more-fitting epigraph, could have taken more time to compose your reply and squeeze in another pass's worth of optimizations—as if searching for some combination of variables that would have changed the outcome, some nearby possible world where the two of you are still together.
 

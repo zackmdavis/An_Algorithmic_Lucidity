@@ -3,7 +3,6 @@ Date: 2013-03-04 21:46
 Status: published
 Category: psychology
 Tags: Less Wrong, madness
-Slug: religious
 
 "Childlike ... or maybe _religious_. I've been part of this subculture where people spend a lot of time speculating about future machine superintelligences, and give credence to the idea that we're [already living in a simulation](http://www.simulation-argument.com/). During my recent psychotic episode ... I don't want to go into the details of what I was thinking, but it was as if those ideas started hitting the God-shaped hole in my psychology really hard, a hole that I had previously managed to leave blissfully empty."
 

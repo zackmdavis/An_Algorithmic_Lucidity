@@ -2,8 +2,7 @@ Title: Comment on “Deception as Cooperation”
 Date: 2021-11-26 20:04
 Status: published
 Category: philosophy
-Tags: rationality, honesty, game theory, philosophy of language
-Slug: comment-on-deception-as-cooperation
+Tags: honesty, game theory, philosophy of language
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/dJjRSjmH7NNLJDb6v/comment-on-deception-as-cooperation)
 

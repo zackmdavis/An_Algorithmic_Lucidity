@@ -2,7 +2,6 @@ Title: Patches Welcome
 Date: 2018-05-22 21:07
 Status: published
 Category: computing
-Slug: patches-welcome
 
 "You look happy. Good day at work?"
 

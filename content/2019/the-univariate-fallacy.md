@@ -2,8 +2,7 @@ Title: The Univariate Fallacy
 Date: 2019-06-15 14:43
 Status: published
 Category: mathematics
-Tags: statistics, rationality
-Slug: the-univariate-fallacy
+Tags: statistics
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/cu7YY7WdgJBs3DpmJ/the-univariate-fallacy-1)
 

@@ -2,8 +2,7 @@ Title: Don’t Double-Crux With Suicide Rock
 Date: 2020-01-01 11:02
 Status: published
 Category: philosophy
-Tags: rationality, discourse
-Slug: dont-double-crux-with-suicide-rock
+Tags: discourse
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/jrLkMFd88b4FRMwC6/don-t-double-crux-with-suicide-rock)
 

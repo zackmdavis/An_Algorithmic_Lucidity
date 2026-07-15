@@ -2,8 +2,7 @@ Title: Just Make a New Rule!
 Date: 2025-07-20 22:54
 Status: published
 Category: philosophy
-Tags: rationality
-Slug: just-make-a-new-rule
+Tags: game theory
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/6tmirPEdHPJm26MSk/just-make-a-new-rule)
 

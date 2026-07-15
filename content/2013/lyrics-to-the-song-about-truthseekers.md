@@ -2,7 +2,6 @@ Title: Lyrics to the Song About Truthseekers
 Date: 2013-08-18 07:50
 Status: published
 Category: verse
-Slug: lyrics-to-the-song-about-truthseekers
 
 _Yesterday my sister won the Nobel prize  
 Her work will be a benefit to all of humankind  

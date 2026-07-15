@@ -2,8 +2,7 @@ Title: Speaking of Addiction
 Date: 2012-11-25 05:00
 Status: published
 Category: psychology
-Tags: improvement, rationality
-Slug: speaking-of-addiction
+Tags: improvement
 
 [_Speaking_ of addiction](http://zackmdavis.net/blog/2012/11/things-that-are-hard-to-quit-non-exhaustive-list/), I suspect that relinquishing ideologically-induced moral outrage is actually harder than getting over many chemical dependencies (although I don't have any experience with the latter). At least with a drug, it's simple enough to draw a bright line around actions you're not supposed to do anymore; you can try pouring the contents of the liquor cabinet down the drain, or signing a [commitment contract](http://www.stickk.com/) to not buy or borrow any more cigarettes.
 

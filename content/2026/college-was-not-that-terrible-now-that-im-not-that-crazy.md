@@ -3,7 +3,6 @@ Date: 2026-01-01 15:00
 Status: published
 Category: social science
 Tags: schooling
-Slug: college-was-not-that-terrible-now-that-im-not-that-crazy
 
 Previously, [I wrote about how I was considering going back to San Francisco State University for two semesters](http://zackmdavis.net/blog/2024/05/should-i-finish-my-bachelors-degree/) to finish up my Bachelor's degree in math.
 

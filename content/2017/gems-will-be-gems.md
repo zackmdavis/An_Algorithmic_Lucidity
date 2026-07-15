@@ -3,7 +3,6 @@ Date: 2017-05-28 14:08
 Status: published
 Category: arts & culture
 Tags: cosplay, Steven Universe
-Slug: gems-will-be-gems
 
 _In the gaming hall at [FanimeCon](https://www.fanime.com/) in a nearby alternate universe in which my analogue was smart enough to come up with the punchline in real time [(Pearl cosplay previously on _An Algorithmic Lucidity_)](http://zackmdavis.net/blog/2016/09/is-there-affirmative-action-for-incompetent-crossplay/)_
 

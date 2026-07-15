@@ -3,7 +3,6 @@ Date: 2026-03-16 00:36
 Status: published
 Category: computing
 Tags: AI, corrigibility
-Slug: terrified-comments-on-corrigibility-in-claudes-constitution
 
 (Previously: [Prologue](http://zackmdavis.net/blog/2026/03/prologue-to-terrified-comments-on-claudes-constitution/).)
 

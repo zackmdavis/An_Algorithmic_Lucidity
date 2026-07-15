@@ -3,7 +3,6 @@ Date: 2020-06-07 00:52
 Status: published
 Category: philosophy
 Tags: philosophy of language, evolution, Rust
-Slug: philosophy-in-the-darkest-timeline-basics-of-the-evolution-of-meaning
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/4hLcbXaqudM9wSeor/philosophy-in-the-darkest-timeline-basics-of-the-evolution)
 

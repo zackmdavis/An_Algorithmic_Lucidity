@@ -2,8 +2,7 @@ Title: Blood Is Thicker Than Water 🐬
 Date: 2021-09-27 20:21
 Status: published
 Category: philosophy
-Tags: rationality, philosophy of language
-Slug: blood-is-thicker-than-water
+Tags: philosophy of language
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/vhp2sW6iBhNJwqcwP/blood-is-thicker-than-water)
 

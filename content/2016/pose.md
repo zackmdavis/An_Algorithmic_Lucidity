@@ -3,7 +3,6 @@ Date: 2016-06-04 09:29
 Status: published
 Category: philosophy
 Tags: Rust
-Slug: pose
 
 [![stable_features_version_lint_before_and_after](http://zackmdavis.net/blog/wp-content/uploads/2016/06/stable_features_version_lint_before_and_after-300x151.png)](http://zackmdavis.net/blog/wp-content/uploads/2016/06/stable_features_version_lint_before_and_after.png)
 

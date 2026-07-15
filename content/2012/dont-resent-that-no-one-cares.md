@@ -3,7 +3,6 @@ Date: 2012-10-08 05:00
 Status: published
 Category: psychology
 Tags: improvement
-Slug: dont-resent-that-no-one-cares
 
 It's tempting to be resentful that other people don't value your time the way you do. You complain at every opportunity: "Why, why, _why_ do I get socially rewarded for working on this-and-such random chore that doesn't even _help_ anyone, when _obviously_ my great masterpiece (in progress, _in potentia_, coming soon) on such-and-this is so much more valuable?!"
 

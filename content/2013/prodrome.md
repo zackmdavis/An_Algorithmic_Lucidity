@@ -3,7 +3,6 @@ Date: 2013-04-01 13:57
 Status: published
 Category: psychology
 Tags: madness
-Slug: prodrome
 
 "I'm okay—I've been through this—it's just the sort of prodrome that _could_ develop into paranoid schizophrenia, but _won't_, because _I've been trained not to believe my own thoughts!_
 

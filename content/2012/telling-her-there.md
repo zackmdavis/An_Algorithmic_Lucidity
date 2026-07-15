@@ -2,7 +2,6 @@ Title: Telling Her There
 Date: 2012-10-17 05:00
 Status: published
 Category: fiction
-Slug: telling-her-there
 
 "And so," said Synthia, "if you feel too self-conscious to write an email, if you don't know what to say or are afraid of saying the Wrong Thing, it might help to lower your quality standard and just start typing as if it were realtime communication, and edit later. It's less tempting to procrastinate replying in a realtime medium like instant messaging, and hardly tempting at all in meatspace, so you can try to import that same mindset to start your email."
 

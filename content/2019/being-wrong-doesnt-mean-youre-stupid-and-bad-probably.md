@@ -2,8 +2,7 @@ Title: "Being Wrong Doesn't Mean You're Stupid and Bad (Probably)"
 Date: 2019-06-29 16:58
 Status: published
 Category: philosophy
-Tags: rationality, Bayes-structure of the universe
-Slug: being-wrong-doesnt-mean-youre-stupid-and-bad-probably
+Tags: Bayes-structure of the universe
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/6dmKBjc7XarcQMRYW/being-wrong-doesn-t-mean-you-re-stupid-and-bad-probably)
 

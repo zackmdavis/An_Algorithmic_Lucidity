@@ -2,7 +2,6 @@ Title: Naughty List
 Date: 2015-12-24 05:00
 Status: published
 Category: fiction
-Slug: naughty-list
 
 _(examining a Christmas card and enclosed document, frowning)_ "I think my Uncle Benny is mad at me."
 

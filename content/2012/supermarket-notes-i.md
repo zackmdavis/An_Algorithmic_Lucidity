@@ -3,7 +3,6 @@ Date: 2012-09-10 05:00
 Status: published
 Category: asides
 Tags: Friendship Is Magic, shopping
-Slug: supermarket-notes-i
 
 I think I like the store-brand "sparkling water beverages"; they fill a similar niche as soda (which I never buy at the store, but have been known to occasionally consume at parties or restaurants), but seem like they ought to be less deadly.
 

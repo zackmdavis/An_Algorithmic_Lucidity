@@ -3,7 +3,6 @@ Date: 2012-10-10 22:28
 Status: published
 Category: mathematics
 Tags: calculus
-Slug: my-favorite-mnemonic
 
 (From Leonard Gillman and Robert H. McDowell's calculus text.)
 

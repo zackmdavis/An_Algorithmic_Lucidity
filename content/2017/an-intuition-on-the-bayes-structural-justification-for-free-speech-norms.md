@@ -3,7 +3,6 @@ Date: 2017-03-08 18:59
 Status: published
 Category: philosophy
 Tags: Bayes-structure of the universe, politics
-Slug: an-intuition-on-the-bayes-structural-justification-for-free-speech-norms
 
 We can metaphorically (but like, hopefully it's a good metaphor) think of speech as being [the sum of](http://zackmdavis.net/blog/2012/09/the-parity-decomposition-trick/) a positive-sum information-conveying component and a zero-sum social-control/memetic-warfare component. Coalitions of agents that allow their members to convey information amongst themselves will tend to outcompete coalitions that don't, because it's better for the coalition to be able to use _all_ of the information it has.
 

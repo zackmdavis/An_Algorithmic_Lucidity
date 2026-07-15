@@ -2,7 +2,6 @@ Title: Fighting Game Ideas I
 Date: 2016-12-06 19:05
 Status: published
 Category: asides
-Slug: fighting-game-ideas-i
 
 Évariste Galois _vs._ Aaron Burr
 

@@ -3,7 +3,6 @@ Date: 2012-09-22 20:56
 Status: published
 Category: asides
 Tags: shopping, Star Trek
-Slug: supermarket-notes-ii
 
 I bought cookie dough, on the thought that maybe I should bake cookies and offer them to people at the University; if they were to ask what the occasion was, I could say, "It seemed like a whimsical thing to do, and I'm a whimsical person." But I'm not sure I'll actually do it.
 

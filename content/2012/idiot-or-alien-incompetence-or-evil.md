@@ -2,8 +2,7 @@ Title: Idiot or Alien? Incompetence or Evil?
 Date: 2012-10-02 05:00
 Status: published
 Category: philosophy
-Tags: rationality
-Slug: idiot-or-alien-incompetence-or-evil
+Tags: discourse
 
 When you encounter someone who expresses a political or social opinion that you find absolutely abhorrent, it is instructive to consider the extent to which this person is making a _mistake_, and the extent to which they simply have different values from you. Is this opinion something that they would immediately relinquish, if only they knew they knew the true facts of which they are now ignorant?—or is it reflective of some quality essential to their agency, a basic motive far too sacred to be destroyed by the truth?
 

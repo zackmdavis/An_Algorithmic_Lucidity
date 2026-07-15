@@ -2,8 +2,7 @@ Title: Assume Bad Faith
 Date: 2023-08-25 10:36
 Status: published
 Category: philosophy
-Tags: rationality, discourse
-Slug: assume-bad-faith
+Tags: discourse
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/e4GBj6jxRZcsHFSvP/assume-bad-faith)
 

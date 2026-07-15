@@ -3,7 +3,6 @@ Date: 2016-06-09 18:45
 Status: published
 Category: asides
 Tags: Star Trek
-Slug: gateway
 
 "Me? I like songs with words. I don't care for, like, _classical_ music."
 

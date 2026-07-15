@@ -3,7 +3,6 @@ Date: 2017-07-05 22:53
 Status: published
 Category: psychology
 Tags: akrasia
-Slug: i-meant-to-do-that
 
 I quit my dayjob a few months ago. I said I was taking a sabbatical from my programming career to work on my own projects: there's a lot of math that I've been wanting to learn properly for a long time (game theory, [Bayesian networks/structual causal models](http://zackmdavis.net/blog/2012/12/counterfactual-social-thought/), [analysis](http://zackmdavis.net/blog/2012/10/bounded-but-not-totally-bounded-redux/)), and there's a lot of writing that I fear I must do (although for branding and market-segmentation purposes, I'm pretending that's [someone else's story](http://unremediatedgender.space/about/)).
 

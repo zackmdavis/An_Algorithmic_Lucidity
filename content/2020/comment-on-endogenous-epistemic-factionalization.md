@@ -3,7 +3,6 @@ Date: 2020-05-20 11:04
 Status: published
 Category: social science
 Tags: politics, game theory, Python
-Slug: comment-on-endogenous-epistemic-factionalization
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/8cWMX6L8St8k9pPRC/comment-on-endogenous-epistemic-factionalization)
 

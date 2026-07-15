@@ -2,7 +2,6 @@ Title: Can't Break Clean
 Date: 2012-12-09 15:49
 Status: published
 Category: psychology
-Slug: cant-break-clean
 
 For five years I've known that at some point I need to stop shouting, "the Authorities _lied_ to me; _why why why why did they lie to me?!_" and start saying, "Okay, so extant social institutions are flawed in knowable ways, and my parents and teachers didn't tell me. Given my current state of information, this shouldn't actually be surprising, so let's stop crying about it and get on with the whole world optimization thing."
 

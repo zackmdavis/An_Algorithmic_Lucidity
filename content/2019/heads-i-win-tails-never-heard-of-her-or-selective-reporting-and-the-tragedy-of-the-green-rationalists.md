@@ -2,8 +2,7 @@ Title: Heads I Win, Tails?—Never Heard of Her; Or, Selective Reporting and the
 Date: 2019-09-23 21:16
 Status: published
 Category: philosophy
-Tags: rationality, epistemology, politics
-Slug: heads-i-win-tails-never-heard-of-her-or-selective-reporting-and-the-tragedy-of-the-green-rationalists
+Tags: epistemology, politics
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/DoPo4PDjgSySquHX8/heads-i-win-tails-never-heard-of-her-or-selective-reporting)
 

@@ -2,7 +2,6 @@ Title: Apt-Get
 Date: 2015-11-30 05:00
 Status: published
 Category: verse
-Slug: apt-get
 
 Some packages could not be installed.  
 Unable to correct problems; you have held broken packages of ideas.  

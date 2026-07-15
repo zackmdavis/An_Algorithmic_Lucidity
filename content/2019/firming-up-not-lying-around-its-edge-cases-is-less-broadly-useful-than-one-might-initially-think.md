@@ -2,8 +2,7 @@ Title: Firming Up Not-Lying Around Its Edge-Cases Is Less Broadly Useful Than On
 Date: 2019-12-26 21:09
 Status: published
 Category: philosophy
-Tags: rationality, honesty
-Slug: firming-up-not-lying-around-its-edge-cases-is-less-broadly-useful-than-one-might-initially-think
+Tags: honesty
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/MN4NRkMw7ggt9587K/firming-up-not-lying-around-its-edge-cases-is-less-broadly)
 

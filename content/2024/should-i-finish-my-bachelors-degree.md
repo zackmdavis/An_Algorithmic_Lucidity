@@ -2,7 +2,6 @@ Title: Should I Finish My Bachelor's Degree?
 Date: 2024-05-10 22:14
 Status: published
 Category: social science
-Slug: should-i-finish-my-bachelors-degree
 
 To some, it might seem like a strange question. If you think of _being college-educated_ as a marker of class (or personhood), the fact that I don't have a degree at age of thirty-six (!!) probably looks like a scandalous anomaly, which it would be only natural for me to want to remediate at the earliest opportunity.
 

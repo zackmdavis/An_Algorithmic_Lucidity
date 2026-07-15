@@ -3,7 +3,6 @@ Date: 2015-04-23 05:00
 Status: published
 Category: computing
 Tags: OpenStack Swift, Python
-Slug: the-foundations-of-erasure-codes
 
 [(cross-posted from the _SwiftStack Blog_)](https://swiftstack.com/blog/2015/04/20/the-foundations-of-erasure-codes/)
 

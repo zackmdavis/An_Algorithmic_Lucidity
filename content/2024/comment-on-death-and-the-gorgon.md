@@ -3,7 +3,6 @@ Date: 2024-12-31 21:47
 Status: published
 Category: arts & culture
 Tags: fiction review
-Slug: comment-on-death-and-the-gorgon
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/hx5EkHFH5hGzngZDs/comment-on-death-and-the-gorgon)
 

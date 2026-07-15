@@ -2,7 +2,6 @@ Title: Cover Letter
 Date: 2013-12-14 05:00
 Status: published
 Category: verse
-Slug: cover-letter
 
 Beset by nights of torment,  
 Bent to keep your site performant,  

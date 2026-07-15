@@ -2,7 +2,6 @@ Title: Talking Too Much
 Date: 2013-08-18 07:52
 Status: published
 Category: asides
-Slug: talking-too-much
 
 "Sorry, have I been dominating our conversations too much?"
 

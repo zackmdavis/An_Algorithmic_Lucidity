@@ -3,7 +3,6 @@ Date: 2012-07-04 00:15
 Status: published
 Category: fiction
 Tags: morality
-Slug: the-morality-of-ringing-a-bell
 
 "Synthia, I want your opinion on something," said Quiana.
 

@@ -3,7 +3,6 @@ Date: 2013-07-09 18:49
 Status: published
 Category: computing
 Tags: algorithms, Friendship Is Magic, Ruby
-Slug: quicksort-in-fim
 
 Dear reader, I have got to tell you, fandom is _intense_. One day last October _Equestria Daily_ (internet clearinghouse for fans of the animated series _My Little Pony: Friendship Is Magic_) [posts a joke proposal](http://www.equestriadaily.com/2012/10/editorial-fim-pony-programming-language.html) for a programming language (FIM++) based on the show, and [within the week](https://github.com/KarolS/fimpp/commits/master) there's a working interpreter for it. What does it mean to model a _programming language_ after a _cartoon_, you ask? Well, in the show, episodes typically end with our heroine Twilight Sparkle (or after Season Two, Episode Three "Lesson Zero", one of her friends) writing a letter about what she's learned about the magic of friendship to her mentor (and God-Empress of the sun) Princess Celestia. So, then, why not have an esoteric programming langauge where the source code reads like a letter to Princess Celestia? Adorable, right?
 

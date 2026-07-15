@@ -3,7 +3,6 @@ Date: 2013-06-06 11:36
 Status: published
 Category: psychology
 Tags: madness
-Slug: remembering
 
 "I remember feeling like a person, and feeling like people were ontologically distinct from animals, and I don't know how it's possible to pick up the pieces after that illusion has gone.
 

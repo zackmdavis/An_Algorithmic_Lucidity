@@ -2,7 +2,6 @@ Title: Friendship Deficits
 Date: 2012-10-19 05:00
 Status: published
 Category: psychology
-Slug: friendship-deficits
 
 I'm not sure, but I _suspect_ that I'm running a friendship deficit—that I need my friends more than they need me.
 

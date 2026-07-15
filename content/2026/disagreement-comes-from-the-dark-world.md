@@ -2,8 +2,7 @@ Title: Disagreement Comes From the Dark World
 Date: 2026-01-27 07:17
 Status: published
 Category: philosophy
-Tags: discourse, rationality
-Slug: disagreement-comes-from-the-dark-world
+Tags: discourse
 
 In ["Truth or Dare"](https://homosabiens.substack.com/p/truth-or-dare), Duncan Sabien articulates a phenomenon in which expectations of good or bad behavior can become self-fulfilling: people who expect to be exploited and feel the need to put up defenses both elicit and get sorted into a Dark World where exploitation is likely and defenses are necessary, whereas people who expect beneficence tend to attract beneficence in turn.
 

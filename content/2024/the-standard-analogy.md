@@ -2,8 +2,7 @@ Title: The Standard Analogy
 Date: 2024-06-03 10:15
 Status: published
 Category: philosophy
-Tags: artificial intelligence, rationality
-Slug: the-standard-analogy
+Tags: artificial intelligence
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/sGEJi9wFT3Gdqg2nM/the-standard-analogy)
 

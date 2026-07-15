@@ -3,7 +3,6 @@ Date: 2013-05-28 11:33
 Status: published
 Category: philosophy
 Tags: population ethics
-Slug: rankings
 
 "Hey, you know what's fun? Ranking people according to some criterion, and then making an ordered list!"
 

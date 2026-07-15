@@ -3,7 +3,6 @@ Date: 2014-02-17 13:50
 Status: published
 Category: psychology
 Tags: akrasia, cynicism
-Slug: motivation
 
 The blog has been silent for two weeks plus and, dear reader—that is, if there are any of you still remaining—dear reader, the thought occurs to me that maybe I should keep my drafts in a Git repository with a remote on GitHub, not because I need the full power of version control (I do not), but because then I would be rewarded for writing with those contemptible green contribution squares.
 

@@ -3,7 +3,6 @@ Date: 2019-05-05 16:57
 Status: published
 Category: mathematics
 Tags: information theory
-Slug: the-typical-set
 
 (Part of [Math and Wellness Month](http://zackmdavis.net/blog/2019/05/may-is-math-and-wellness-month/).)
 

@@ -3,7 +3,6 @@ Date: 2015-01-04 14:04
 Status: published
 Category: meta
 Tags: new year
-Slug: 2014-year-in-reverse
 
 [(Previously.)](http://zackmdavis.net/blog/2013/12/2013-year-in-reverse/)
 

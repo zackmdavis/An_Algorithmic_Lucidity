@@ -3,7 +3,6 @@ Date: 2017-11-10 20:51
 Status: published
 Category: psychology
 Tags: akrasia
-Slug: cranberry-bliss
 
 [(Previously.)](http://zackmdavis.net/blog/2014/09/pumpkin-spice/)
 

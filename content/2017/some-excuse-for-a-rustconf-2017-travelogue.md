@@ -3,7 +3,6 @@ Date: 2017-10-03 23:12
 Status: published
 Category: computing
 Tags: akrasia, Rust, timely Special Event
-Slug: some-excuse-for-a-rustconf-2017-travelogue
 
 ([Previously](http://zackmdavis.net/blog/2016/09/rustconf-2016-travelogue/), [previously](http://zackmdavis.net/blog/2015/08/rustcamp-reminiscences/) on _An Algorithmic Lucidity_.)
 

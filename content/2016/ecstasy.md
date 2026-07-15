@@ -2,7 +2,6 @@ Title: Ecstasy
 Date: 2016-12-29 05:00
 Status: published
 Category: asides
-Slug: ecstasy
 
 [(Previously.)](http://zackmdavis.net/blog/2016/12/alpha-gamma-phi/)
 

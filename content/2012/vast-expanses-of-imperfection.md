@@ -2,7 +2,6 @@ Title: Vast Expanses of Imperfection
 Date: 2012-12-09 05:00
 Status: published
 Category: philosophy
-Slug: vast-expanses-of-imperfection
 
 _Hard Truths from Soft Cats_ [opines that](http://hardtruthsfromsoftcats.tumblr.com/post/31974112077)
 

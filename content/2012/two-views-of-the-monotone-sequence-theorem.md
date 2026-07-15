@@ -3,7 +3,6 @@ Date: 2012-11-05 21:51
 Status: published
 Category: mathematics
 Tags: analysis
-Slug: two-views-of-the-monotone-sequence-theorem
 
 If a sequence of real numbers $(a_n)$ is _bounded_ and _monotone_ (and I'm actually going to say _nondecreasing_, without loss of generality), then it _converges_. I'm going to tell you _why_ and I'm going to tell you _twice_.
 

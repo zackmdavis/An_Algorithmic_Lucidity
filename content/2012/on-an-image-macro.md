@@ -3,7 +3,6 @@ Date: 2012-11-04 05:00
 Status: published
 Category: verse
 Tags: Friendship Is Magic
-Slug: on-an-image-macro
 
 For the haters are going to hate,  
 And the ponies are going to pwn,  

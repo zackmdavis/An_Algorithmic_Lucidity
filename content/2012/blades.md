@@ -3,7 +3,6 @@ Date: 2012-09-29 18:17
 Status: published
 Category: mathematics
 Tags: geometric algebra
-Slug: blades
 
 What is a _vector_ in Euclidean space? Some might say it's an entity characterized by possessing a _magnitude_ and a _direction_. But scholars of the geometric algebra (such as [Eric Chisolm](http://arxiv.org/abs/1205.5935) and [Dorst _et al._](http://www.geometricalgebra.net/)) tell us that it's better to decompose the idea of _direction_ into the two ideas of subspace _attitude_ (our vector's quality of living in a particular line) and _orientation_ (its quality of pointing in a particular direction in that line, and not the other). On this view, a vector is an _attitudinal oriented length element_. But having done this, it becomes inevitable that we should want to talk about attitudinal oriented _area_ (volume, 4-hypervolume, _&c._) elements. To this end we introduce the _outer_ or wedge product ∧ on vectors. It is _bilinear_, it is _anticommutative_ (swapping the order of arguments swaps the sign, so $\vec{a}\wedge\vec{b} = -\vec{b}\wedge\vec{a}$), and that's all you need to know.
 

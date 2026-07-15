@@ -3,7 +3,6 @@ Date: 2015-03-21 23:07
 Status: published
 Category: asides
 Tags: Rust
-Slug: xxx-ii
 
 ```rust
 // XXX: old_io is probably facing deprecation if names mean anything

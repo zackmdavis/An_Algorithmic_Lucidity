@@ -2,7 +2,6 @@ Title: Dialogue Concerning Birthdays
 Date: 2011-12-28 16:08
 Status: published
 Category: fiction
-Slug: dialogue-concerning-birthdays
 
 "Happy birthday, Synthia!"
 

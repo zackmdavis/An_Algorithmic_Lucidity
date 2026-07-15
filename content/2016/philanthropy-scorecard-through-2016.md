@@ -2,7 +2,6 @@ Title: Philanthropy Scorecard Through 2016
 Date: 2016-12-26 14:40
 Status: published
 Category: social science
-Slug: philanthropy-scorecard-through-2016
 
 (In accordance with ["To Inspire People to Give, Be Public About Your Giving"](http://lesswrong.com/lw/hgj/to_inspire_people_to_give_be_public_about_your/).)
 

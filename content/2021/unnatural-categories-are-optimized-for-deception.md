@@ -2,8 +2,7 @@ Title: Unnatural Categories Are Optimized for Deception
 Date: 2021-01-08 12:54
 Status: published
 Category: philosophy
-Tags: rationality, honesty, philosophy of language
-Slug: unnatural-categories-are-optimized-for-deception
+Tags: honesty, philosophy of language
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/onwgTH6n8wxRSo2BJ/unnatural-categories-are-optimized-for-deception)
 

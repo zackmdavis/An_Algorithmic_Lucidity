@@ -3,7 +3,6 @@ Date: 2011-12-25 16:22
 Status: published
 Category: mathematics
 Tags: calculus
-Slug: the-derivative-of-the-natural-logarithm
 
 Most people learn during their study of the differential and integral calculus that the derivative of the natural logarithm ln _x_ is the reciprocal function 1/_x_. Indeed, sometimes the natural logarithm is _defined_ as $$ \int_1^x \frac{1}{t}\,dt$$. However, on observing the graphs of ln _x_ and 1/_x_, the inquisitive seeker of knowledge can hardly fail to notice a disturbing anomaly:
 

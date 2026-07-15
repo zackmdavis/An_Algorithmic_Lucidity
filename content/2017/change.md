@@ -2,7 +2,6 @@ Title: Change
 Date: 2017-05-06 13:30
 Status: published
 Category: psychology
-Slug: change
 
 _Adventures in recalibrating my models of social reality ... Portland edition! [(Previous adventures in Portland.)](http://zackmdavis.net/blog/2016/09/rustconf-2016-travelogue/)_
 

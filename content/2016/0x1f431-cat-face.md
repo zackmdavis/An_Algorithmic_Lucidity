@@ -3,7 +3,6 @@ Date: 2016-07-03 05:00
 Status: published
 Category: computing
 Tags: Git, Unicode
-Slug: 0x1f431-cat-face
 
 ```diff
 diff --git a/.bash_aliases b/.bash_aliases

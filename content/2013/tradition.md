@@ -3,7 +3,6 @@ Date: 2013-03-08 14:41
 Status: published
 Category: psychology
 Tags: gridiron football, madness
-Slug: tradition
 
 "It's really too bad—while I was in the psych ward, I missed out on my annual Super Bowl Sunday tradition."
 

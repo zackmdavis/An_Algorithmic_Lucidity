@@ -2,8 +2,7 @@ Title: Hazards of Selection Effects on Approved Information
 Date: 2026-02-13 10:02
 Status: published
 Category: social science
-Tags: discourse, rationality
-Slug: hazards-of-selection-effects-on-approved-information
+Tags: discourse
 
 In a busy, busy world, there's so much to read that no one could possibly keep up with it all. You can't _not_ prioritize what you pay attention to and (even more so) what you respond to. Everyone and her dog tells herself a story that she wants to pay attention to "good" (true, useful) information and ignore "bad" (false, useless) information.
 

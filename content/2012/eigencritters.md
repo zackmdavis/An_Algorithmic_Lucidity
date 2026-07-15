@@ -3,7 +3,6 @@ Date: 2012-12-03 05:00
 Status: published
 Category: mathematics
 Tags: linear algebra
-Slug: eigencritters
 
 Say we have a linear transformation $A$ and some nonzero vector $\vec{v}$, and suppose that $A\vec{v} = \lambda\vec{v}$ for some scalar λ. This is a very special situation; we say that λ is an _eigenvalue_ of A corresponding to the _eigenvector_ $\vec{v}$.
 

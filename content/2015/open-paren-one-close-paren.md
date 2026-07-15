@@ -2,7 +2,6 @@ Title: (1)
 Date: 2015-10-12 05:00
 Status: published
 Category: asides
-Slug: open-paren-one-close-paren
 
 "Could it be? That parenthesized numeral one in the other tab can only mean that a _human_ has sent me _mail_! I wonder what it could be—why, the mind staggers at the sheer number of possibilities! Could it be an old friend writing to regale me with true tales of adventure and mystery on the high seas? A professional acquaintance looking to make a business deal? Or the first of many missives to come from my destined _one true love?_ ...
 

@@ -3,7 +3,6 @@ Date: 2014-03-17 05:00
 Status: published
 Category: asides
 Tags: Git
-Slug: lethal-force
 
 Dear reader, if you're like me—and if you're not, why are you reading this stupid blog about random shit that no one who's anyone could possibly care about?—close the tab and go do something worthwhile instead. No, I mean it. I'll wait ...
 

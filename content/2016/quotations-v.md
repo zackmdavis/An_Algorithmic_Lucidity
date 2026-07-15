@@ -3,7 +3,6 @@ Date: 2016-08-06 17:40
 Status: published
 Category: arts & culture
 Tags: quotations
-Slug: quotations-v
 
 > MINUETTE: So, uh, what are you studying these days?  
 > MOON DANCER: Science, magic, history, economics, pottery. Things like that.  

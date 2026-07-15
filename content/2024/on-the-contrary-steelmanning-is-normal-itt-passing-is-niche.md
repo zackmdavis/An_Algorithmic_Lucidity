@@ -2,8 +2,7 @@ Title: On the Contrary, Steelmanning Is Normal; ITT-Passing Is Niche
 Date: 2024-01-09 15:12
 Status: published
 Category: philosophy
-Tags: rationality, discourse
-Slug: on-the-contrary-steelmanning-is-normal-itt-passing-is-niche
+Tags: discourse
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/jo5Fhkb7escrYE9cC/on-the-contrary-steelmanning-is-normal-itt-passing-is-niche)
 

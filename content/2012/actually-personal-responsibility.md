@@ -2,8 +2,7 @@ Title: Actually Personal Responsibility
 Date: 2012-12-29 05:00
 Status: published
 Category: philosophy
-Tags: morality, rationality
-Slug: actually-personal-responsibility
+Tags: morality
 
 Dear reader, you occasionally hear people with conservative tendencies complain that the problem with Society today is that people lack _personal responsibility_: that the young and the poor need to take charge of themselves and stop mooching off their parents or the government: to shut up, do their homework, and get a job. I lack any sort of conservative tendency and would never say that sort of thing, but I would endorse a related-but-quite-distinct concept that I want to refer to using the same phrase _personal responsibility_, as long as it's clear from context that I don't mean it in the traditional, conservative way.
 

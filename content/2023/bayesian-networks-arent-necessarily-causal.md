@@ -3,7 +3,6 @@ Date: 2023-05-13 18:42
 Status: published
 Category: mathematics
 Tags: statistics, Bayes-structure of the universe
-Slug: bayesian-networks-arent-necessarily-causal
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/qPrPNakJBq23muf4n/bayesian-networks-aren-t-necessarily-causal)
 

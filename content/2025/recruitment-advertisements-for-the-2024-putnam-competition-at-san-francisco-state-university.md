@@ -3,7 +3,6 @@ Date: 2025-01-09 13:36
 Status: published
 Category: mathematics
 Tags: schooling
-Slug: recruitment-advertisements-for-the-2024-putnam-competition-at-san-francisco-state-university
 
 **From**: Zack M Davis <_zmd@sfsu.edu_>  
 **Sent**: Wednesday, September 11, 2024 5:02 PM  

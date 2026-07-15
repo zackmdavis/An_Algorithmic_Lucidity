@@ -3,7 +3,6 @@ Date: 2013-05-15 13:01
 Status: published
 Category: psychology
 Tags: madness
-Slug: relevance
 
 "Utilitarianism is slowly driving me mad."
 

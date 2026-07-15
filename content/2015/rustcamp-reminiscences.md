@@ -3,7 +3,6 @@ Date: 2015-08-03 00:14
 Status: published
 Category: computing
 Tags: Python, Rust, timely Special Event
-Slug: rustcamp-reminiscences
 
 On Saturday the first, I attended [RustCamp](http://rustcamp.com/), the first conference dedicated to the newish (in development for fiveish years, but having just hit version 1.0.0 this May, with all the stability guarantees that implies under the benevolent iron fist of [semantic versioning](http://semver.org/spec/v2.0.0.html)) programming language [Rust](http://www.rust-lang.org/)!
 

@@ -2,7 +2,6 @@ Title: Confection
 Date: 2015-05-24 00:01
 Status: published
 Category: asides
-Slug: confection
 
 ([Previously](http://zackmdavis.net/blog/2014/01/the-chocolate-caramel-sea-salt-betrayal/) on _An Algorithmic Lucidity_.)
 

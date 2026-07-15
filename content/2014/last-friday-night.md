@@ -3,7 +3,6 @@ Date: 2014-11-01 12:04
 Status: published
 Category: asides
 Tags: Git, Python
-Slug: last-friday-night
 
 _[it's a blacked-out blur](http://www.youtube.com/watch?v=KlyXNRrsk4A&t=1m19s), but I'm pretty sure_
 

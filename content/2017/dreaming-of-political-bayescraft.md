@@ -3,7 +3,6 @@ Date: 2017-03-03 10:29
 Status: published
 Category: social science
 Tags: Bayes-structure of the universe, politics
-Slug: dreaming-of-political-bayescraft
 
 __My old political philosophy__: "Socially liberal, fiscally confused; I don't know how to run a goddamned country (and neither do you)."
 

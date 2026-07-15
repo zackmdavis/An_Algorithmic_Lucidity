@@ -2,7 +2,6 @@ Title: Three Problems With Unsolicited Advice
 Date: 2013-01-21 16:54
 Status: published
 Category: psychology
-Slug: three-problems-with-unsolicited-advice
 
 First, it's _patronizing_. The natural reaction of the one being advised is to feel indignant: how _arrogant_ of someone to think that _they_ know better than _me_ how to run my own life! And so, whether the advice is good or not, the resentment of being talked down to is often enough to ensure that the advice will be ignored. Which isn't so bad, really, because—
 

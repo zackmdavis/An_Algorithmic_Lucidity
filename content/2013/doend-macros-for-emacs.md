@@ -3,7 +3,6 @@ Date: 2013-08-30 14:43
 Status: published
 Category: computing
 Tags: Emacs, Ruby
-Slug: doend-macros-for-emacs
 
 Dear reader, Ruby is a pretty okay programming language, but I have to say I feel ambivalent about the use of `do` and `end` as block delimiters. (Contrast to braces in C/Java/_&c._ or indentation in Python.) _Three_ keystrokes just to close a block?! Scandalous!
 

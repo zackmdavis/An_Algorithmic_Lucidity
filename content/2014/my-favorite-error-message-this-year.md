@@ -3,7 +3,6 @@ Date: 2014-10-28 21:55
 Status: published
 Category: computing
 Tags: Git, Python
-Slug: my-favorite-error-message-this-year
 
 ```text
 zmd@SuddenHeap:~/Code/Finetooth$ git commit --amend

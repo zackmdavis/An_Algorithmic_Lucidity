@@ -3,7 +3,6 @@ Date: 2013-09-30 21:37
 Status: published
 Category: computing
 Tags: Ruby
-Slug: app-academy-diary-week-three
 
 _Monday 30 September 2013—_ Today's assessment was implementing [Crazy Eights](http://en.wikipedia.org/wiki/Crazy_Eights) in accordance with the given RSpec tests. In the afternoon, I worked with [_Dan Quan_](http://quan.io/) on exercises from the [SQL Zoo](http://sqlzoo.net/wiki/Main_Page), which varied wildly in difficulty.
 

@@ -2,8 +2,7 @@ Title: “But It Doesn’t Matter”
 Date: 2019-05-31 19:06
 Status: published
 Category: philosophy
-Tags: rationality, honesty
-Slug: but-it-doesnt-matter
+Tags: honesty
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/NG4XQEL5PTyguDMff/but-it-doesn-t-matter)
 

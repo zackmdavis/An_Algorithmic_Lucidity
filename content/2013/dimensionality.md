@@ -3,7 +3,6 @@ Date: 2013-05-06 11:34
 Status: published
 Category: asides
 Tags: humor
-Slug: dimensionality
 
 "So, an engineer and a mathematician are leaving a lecture. The engineer says, 'I just don't understand how you can visualize objects in seven-dimensional space.' The mathematician says, 'Oh, that's easy. You just visualize the _n_-dimensional case, and then set _n_ equal to seven.'"
 

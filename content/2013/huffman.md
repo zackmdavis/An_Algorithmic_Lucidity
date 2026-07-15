@@ -3,7 +3,6 @@ Date: 2013-06-08 18:47
 Status: published
 Category: computing
 Tags: algorithms, Python
-Slug: huffman
 
 Dear reader, you know what's _way_ more fun than [feeling](http://zackmdavis.net/blog/2013/04/the-horror-of-naturalism/) [sad](http://zackmdavis.net/blog/2013/05/relativity/) [about](http://zackmdavis.net/blog/2013/05/relevance/) [the](http://zackmdavis.net/blog/2013/05/retirement/) [nature](http://zackmdavis.net/blog/2013/06/remembering/) of the cosmos? _Data compression_, that's what! Suppose you want to send a message to your friends in a nearby alternate universe, but interuniversal communication bandwidth is _very expensive_ (different universes can't _physically_ interact, so we and our alternate-universe analogues can only communicate by mutually _inferring_ what the other party must be saying, which takes monstrous amounts of computing power and is not cheap), so you need to make your message as brief as possible. Note that 'brief' doesn't just have to do with how long your message is in natural language, it also has to do with how that message is _represented_ over the transuniveral communication channel: indeed, the more efficient the encoding, the more you can afford to say on a fixed budget.
 

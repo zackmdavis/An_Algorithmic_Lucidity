@@ -3,7 +3,6 @@ Date: 2013-04-01 18:23
 Status: published
 Category: philosophy
 Tags: population ethics
-Slug: continuum-utilitarianism
 
 You hear people talk about positive (maximize pleasure) versus negative (minimize pain) utilitarianism, or average versus total utilitarianism, none of which seem very satisfactory. For example, average utilitarianism taken literally would suggest killing everyone but the happiest person, and total utilitarianism implies what Derek Parfit called the repugnant conclusion: that for any possible world with lots of happy people, the total utilitarian must prefer another possible world with many more people whose lives are just barely worth living.
 

@@ -2,8 +2,7 @@ Title: Critic Contributions Are Logically Irrelevant
 Date: 2025-07-14 18:03
 Status: published
 Category: philosophy
-Tags: rationality, epistemology
-Slug: critic-contributions-are-logically-irrelevant
+Tags: epistemology
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/bsKHthyhB7DNBxERQ/critic-contributions-are-logically-irrelevant)
 

@@ -2,7 +2,6 @@ Title: Contemporary
 Date: 2012-08-07 00:23
 Status: published
 Category: asides
-Slug: contemporary
 
 I've been taking a summer course at a university which I won't name, because whenever I do, I'm always tempted to replace one of the words with an obscenity that starts with the same letter, which is _probably_ a bad habit. The topic is contemporary sexuality, which seemed like a fine choice for knocking out one of my remaining so-called "general education" requirements, and maybe even learning something relevant to my interests.
 

@@ -3,7 +3,6 @@ Date: 2016-01-04 00:03
 Status: published
 Category: meta
 Tags: akrasia, chess, Friendship Is Magic, Rust, timely Special Event
-Slug: ideas-have-expirations
 
 One often-overlooked aspect of the [crime of not-writing](http://zackmdavis.net/blog/2015/10/everyday-true-crime/) is that the harm isn't just about the things that deserve to be said that you never get around to saying because you don't put in the time and effort. It's also about the things that you _can't_ say anymore even if you suddenly had the will, because the opportunity to say it was bound to a particular time, and trying to recapitulate the thoughts months or years after the fact would be irrelevant, or impossible.
 

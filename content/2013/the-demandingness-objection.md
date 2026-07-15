@@ -3,7 +3,6 @@ Date: 2013-06-30 18:18
 Status: published
 Category: philosophy
 Tags: madness, morality
-Slug: the-demandingness-objection
 
 "Well, I'm not giving up dairy, but I can probably give up meat, and milk is at the very bottom of Brian's [table](http://www.utilitarian-essays.com/suffering-per-kg.html) of suffering per kilogram demanded, so I'd be contributing to much _less_ evil than I was before. That's _good_, right?
 

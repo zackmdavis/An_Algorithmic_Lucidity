@@ -3,7 +3,6 @@ Date: 2014-09-11 23:36
 Status: published
 Category: psychology
 Tags: anecdotal, Friendship Is Magic
-Slug: pumpkin-spice
 
 It's September in the first year of my life (that I feel comfortable admitting to), and I feel _great_—the mounting success or arguably-not-yet-failure of my professional, intellectual, and—other goals is complemented splendidly by a muted but nonetheless genuine appreciation of the subset of nature's cyclic harmonies that I'm capable of perceiving: the air is getting slightly less warm, the sun is setting slightly earlier, and the hacks by which the retailers separate us from our money have changed completely.
 

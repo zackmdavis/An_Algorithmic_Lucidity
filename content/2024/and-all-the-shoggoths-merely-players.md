@@ -2,8 +2,7 @@ Title: And All the Shoggoths Merely Players
 Date: 2024-02-10 11:56
 Status: published
 Category: philosophy
-Tags: artificial intelligence, rationality
-Slug: and-all-the-shoggoths-merely-players
+Tags: artificial intelligence
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/8yCXeafJo67tYe5L4/and-all-the-shoggoths-merely-players)
 

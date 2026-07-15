@@ -2,8 +2,7 @@ Title: Where to Draw the Boundaries?
 Date: 2019-04-13 14:34
 Status: published
 Category: philosophy
-Tags: rationality, philosophy of language
-Slug: where-to-draw-the-boundaries
+Tags: philosophy of language
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/esRZaPXSHgWzyB2NL/where-to-draw-the-boundaries)
 

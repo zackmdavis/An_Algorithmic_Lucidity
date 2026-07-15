@@ -2,8 +2,7 @@ Title: The Horror of Naturalism
 Date: 2013-04-06 13:10
 Status: published
 Category: philosophy
-Tags: morality, rationality
-Slug: the-horror-of-naturalism
+Tags: morality
 
 There's this deeply uncomfortable tension between being an animal physiologically incapable of caring about anything other than what happens to _me_ in the near future, and the knowledge of the terrifying symmetry that cannot be unseen: that my own suffering can't _literally_ be more important, just because it's mine. You do some philosophy and decide that your sphere of moral concern should properly extend to all sentient life—whatever _sentient_ turns out to mean—but _life_ is built to survive at the expense of other life.
 

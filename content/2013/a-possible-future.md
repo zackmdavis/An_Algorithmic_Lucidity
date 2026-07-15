@@ -2,7 +2,6 @@ Title: A Possible Future
 Date: 2013-03-04 13:58
 Status: published
 Category: verse
-Slug: a-possible-future
 
 I just saw a film first conceived near the kiln  
 At the school by a woman called Nora,  

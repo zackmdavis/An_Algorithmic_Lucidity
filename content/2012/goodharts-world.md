@@ -3,7 +3,6 @@ Date: 2012-11-23 05:00
 Status: published
 Category: social science
 Tags: intelligence explosion, missing books
-Slug: goodharts-world
 
 Someone needs to write a history of the entire world in terms of [incentive systems and agents' attempts to game them](http://lesswrong.com/lw/1ws/the_importance_of_goodharts_law/). We have money to incentivize the production of useful goods and services, but we all know that there are lots of ways to make money that don't actually help anyone. Even in jobs that are actually useful, people spend a lot of their effort on trying to _look_ like they're doing good work, rather than _actually_ doing good work. And don't get me started about what passes for "education." (Seriously, don't.)
 

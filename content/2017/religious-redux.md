@@ -3,7 +3,6 @@ Date: 2017-03-11 02:47
 Status: published
 Category: psychology
 Tags: madness
-Slug: religious-redux
 
 "Shit! _Shit!_ Remember how, the last time this happened to me, I described it as [feeling religious](http://zackmdavis.net/blog/2013/03/religious/)?"
 

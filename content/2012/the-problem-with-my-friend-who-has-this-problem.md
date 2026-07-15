@@ -3,7 +3,6 @@ Date: 2012-07-03 21:38
 Status: published
 Category: psychology
 Tags: akrasia
-Slug: the-problem-with-my-friend-who-has-this-problem
 
 Dear reader, I have this ... friend, who has this problem, and I wanted to ask—
 

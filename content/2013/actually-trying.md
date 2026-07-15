@@ -3,7 +3,6 @@ Date: 2013-03-17 18:01
 Status: published
 Category: psychology
 Tags: madness
-Slug: actually-trying
 
 "I'm alright—I'll get through it—I've been through this before. This fear and anxiety—it's a fact about _me_, not about the world. In early 2007, I spent weeks being terrified of either [accidentally](http://en.wikipedia.org/wiki/Cryptomnesia) commiting plagiarism or being accused thereof. In late 2009, I spent weeks being upset about which form of my name to use in which contexts. In late 2010, I spent some time being deeply upset about having violated copyright law by writing fanfiction. All of those episodes, and the others that I haven't mentioned, seem so silly in retrospect ... so maybe now I'm sufficiently self-aware to pick up the pattern: that my brain just arbitrarily latches onto ideas to feel threatened by, but that this process isn't actually useful, and there are probably learnable techniques to dampen it."
 

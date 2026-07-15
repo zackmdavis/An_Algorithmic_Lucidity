@@ -3,7 +3,6 @@ Date: 2019-05-11 18:03
 Status: published
 Category: psychology
 Tags: morality, theme week
-Slug: forgive-or-forget-a-trade-off-in-wellness-engineering
 
 Forgiveness is an important input into Wellness, but contrary to popular belief, Forgiveness is _incompatible_ with Forgetting. You can't just Forgive _in general_, you have to Forgive some _specific_ sin in particular—but a _vague_ description of a particular sin still corresponds to a vast space of possible sins matching that vague description.
 

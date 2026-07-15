@@ -2,7 +2,6 @@ Title: Coffee Names
 Date: 2014-11-23 18:24
 Status: published
 Category: fiction
-Slug: coffee-names
 
 "Hi, could I have a grande vanilla iced-coffee?"
 

@@ -3,7 +3,6 @@ Date: 2018-01-01 20:28
 Status: published
 Category: meta
 Tags: new year
-Slug: some-excuse-for-2017-year-in-reverse
 
 ([Previously](http://zackmdavis.net/blog/2017/01/2016-year-in-reverse/), [previously](http://zackmdavis.net/blog/2015/12/2015-year-in-reverse/), [previously](http://zackmdavis.net/blog/2015/01/2014-year-in-reverse/), [previously](http://zackmdavis.net/blog/2013/12/2013-year-in-reverse/).)
 

@@ -3,7 +3,6 @@ Date: 2012-07-03 05:00
 Status: published
 Category: asides
 Tags: humor, morality
-Slug: a-knock-knock-joke
 
 This one is a classic that I love to repeat; stop me if you've heard it before. Knock, knock.
 

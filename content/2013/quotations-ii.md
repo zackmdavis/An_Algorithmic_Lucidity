@@ -3,7 +3,6 @@ Date: 2013-09-02 05:00
 Status: published
 Category: arts & culture
 Tags: quotations
-Slug: quotations-ii
 
 > Just keep telling yourself: if they haven't started questioning what society tells them yet, then maybe they are not the one for you.
 

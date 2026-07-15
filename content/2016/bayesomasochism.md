@@ -2,8 +2,7 @@ Title: Bayesomasochism
 Date: 2016-09-22 23:58
 Status: published
 Category: philosophy
-Tags: rationality
-Slug: bayesomasochism
+Tags: epistemology
 
 _Physical_ pain is the worst thing in the world, and the work of effective altruists will not be done until the last nociceptor falls silent and not a single moment of suffering remains to be computed across our entire future light cone.
 

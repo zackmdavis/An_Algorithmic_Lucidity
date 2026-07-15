@@ -3,7 +3,6 @@ Date: 2015-06-30 21:33
 Status: published
 Category: psychology
 Tags: akrasia
-Slug: the-second-r
 
 I want to code all of the things, but I also want to write at least _some_ of the things, but sometimes putting things in words—simple things, things I _know_—can be _hard_. Every other day I dream of getting in some writing in the night after I return from the code mines across the bay, but the box where the [writing tool](http://www.gnu.org/software/emacs/) lives is the _same_ as the box where you can read everything that anyone else has ever written, and you can guess what I really do then, when it's _easier_ to read than to farm, to eat than to write.
 

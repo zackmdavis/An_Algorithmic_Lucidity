@@ -2,8 +2,7 @@ Title: Comment on “Four Layers of Intellectual Conversation”
 Date: 2025-07-16 20:53
 Status: published
 Category: philosophy
-Tags: rationality, discourse
-Slug: comment-on-four-layers-of-intellectual-conversation
+Tags: discourse
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/yr4pSJweTnF6QDHHC/comment-on-four-layers-of-intellectual-conversation)
 

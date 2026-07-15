@@ -3,7 +3,6 @@ Date: 2013-01-15 05:00
 Status: published
 Category: mathematics
 Tags: linear algebra
-Slug: epiphenomenal-coordinates
 
 In the study of elementary linear algebra, unwary novices are often inclined to think of a vector as an ordered list of real numbers; to them, linear algebra is then conceived of as the study of multiplying matrices with column vectors. But this is a horribly impoverished perspective; we can do so much better for ourselves with a bit of abstraction and generality.
 

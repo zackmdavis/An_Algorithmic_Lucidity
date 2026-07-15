@@ -2,8 +2,7 @@ Title: “You’ll Never Persuade People Like That”
 Date: 2023-03-11 21:38
 Status: published
 Category: philosophy
-Tags: rationality, discourse
-Slug: youll-never-persuade-people-like-that
+Tags: discourse
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/67NrgoFKCWmnG3afd/you-ll-never-persuade-people-like-that)
 

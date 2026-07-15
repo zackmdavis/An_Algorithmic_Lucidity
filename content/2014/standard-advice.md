@@ -2,7 +2,6 @@ Title: Standard Advice
 Date: 2014-06-16 05:00
 Status: published
 Category: asides
-Slug: standard-advice
 
 "So? What do _you_ think I should do?"
 

@@ -3,7 +3,6 @@ Date: 2013-12-31 17:07
 Status: published
 Category: meta
 Tags: new year
-Slug: 2013-year-in-reverse
 
 Dear reader, as another year comes to a close, it is perhaps wise that we should take a few moments to reflect on what we learned here at _An Algorithmic Lucidity_ in 2013—the year that was!
 

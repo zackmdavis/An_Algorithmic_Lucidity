@@ -2,7 +2,6 @@ Title: "Deep Learning" Is Function Approximation
 Date: 2024-03-21 10:13
 Status: published
 Category: computing
-Slug: deep-learning-is-function-approximation
 
 ### A Surprising Development in the Study of Multi-layer Parameterized Graphical Function Approximators
 

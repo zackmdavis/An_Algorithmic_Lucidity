@@ -2,8 +2,7 @@ Title: Alignment Implications of LLM Successes: a Debate in One Act
 Date: 2023-10-21 08:22
 Status: published
 Category: philosophy
-Tags: artificial intelligence, rationality
-Slug: alignment-implications-of-llm-successes-a-debate-in-one-act
+Tags: artificial intelligence
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/pYWA7hYJmXnuyby33/alignment-implications-of-llm-successes-a-debate-in-one-act)
 

@@ -3,7 +3,6 @@ Date: 2015-04-12 09:19
 Status: published
 Category: computing
 Tags: Rust
-Slug: xxx-iii
 
 ```rust
 const PSEUDO_DIGITS: [char; 7] = ['M', 'D', 'C', 'L', 'X', 'V', 'I'];

@@ -2,7 +2,6 @@ Title: Scoop Me Out of the Bargain Bin
 Date: 2016-02-22 05:00
 Status: published
 Category: verse
-Slug: scoop-me-out-of-the-bargain-bin
 
 _If you're on a shoestring budget, look for factory rejects  
 You get the greatest models, just with one or two defects  

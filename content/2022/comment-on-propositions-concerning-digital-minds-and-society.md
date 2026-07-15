@@ -3,7 +3,6 @@ Date: 2022-07-09 22:48
 Status: published
 Category: philosophy
 Tags: artificial intelligence
-Slug: comment-on-propositions-concerning-digital-minds-and-society
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/nqXcgsqQBw2doAnXu/comment-on-propositions-concerning-digital-minds-and-society)
 

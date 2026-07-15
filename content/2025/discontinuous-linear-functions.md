@@ -3,7 +3,6 @@ Date: 2025-06-05 16:46
 Status: published
 Category: mathematics
 Tags: analysis
-Slug: discontinuous-linear-functions
 
 We know what linear functions are. A function _f_ is linear iff it satisfies _additivity_ _f_(_x_ + _y_) = _f_(_x_) + _f_(_y_) and _homogeneity_ _f_(_ax_) = _af_(_x_).
 

@@ -3,7 +3,6 @@ Date: 2017-02-25 15:11
 Status: published
 Category: arts & culture
 Tags: Steven Universe
-Slug: sworn-to-the-word
 
 Ideology Makes You Stupid
 

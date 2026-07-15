@@ -2,7 +2,6 @@ Title: Odds I
 Date: 2016-08-09 23:26
 Status: published
 Category: asides
-Slug: odds-i
 
 | __FAVORITE__ | __point spread__ | __UNDERDOG__ |
 | --- | --- | --- |

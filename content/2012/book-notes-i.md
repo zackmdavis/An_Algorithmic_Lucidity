@@ -2,7 +2,6 @@ Title: Book Notes I
 Date: 2012-10-03 05:00
 Status: published
 Category: arts & culture
-Slug: book-notes-i
 
 Did you know that putting [adorable foxes on the cover of your book](http://www.amazon.com/Lectures-Game-Theory-Computer-Scientists/dp/0521198666) will make it sell more copies??
 

@@ -2,8 +2,7 @@ Title: “Is There Anything That’s Worth More”
 Date: 2023-08-01 20:28
 Status: published
 Category: philosophy
-Tags: rationality
-Slug: is-there-anything-thats-worth-more
+Tags: morality
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/bqZwWQCai6iAjy4Xq/is-there-anything-that-s-worth-more)
 

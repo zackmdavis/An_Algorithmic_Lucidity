@@ -3,7 +3,6 @@ Date: 2013-11-08 00:34
 Status: published
 Category: computing
 Tags: Ruby
-Slug: app-academy-diary-week-eight
 
 _Tuesday 5 Novembmer 2013—_ Yesterday was our last pair-programming project; I worked with _Ben Watts_ on a little chat server in Node using WebSockets. I felt like perhaps there was something regrettable about shoving so much functionality into a big callback, but maybe that's just the nature of JavaScript, and not really regrettable at all? On Sunday I started my RSS-aggregator capstone project, now called Superscription.
 

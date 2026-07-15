@@ -3,7 +3,6 @@ Date: 2016-12-19 22:17
 Status: published
 Category: arts & culture
 Tags: cosplay, Star Trek, timely Special Event
-Slug: joined
 
 ([Previously](http://zackmdavis.net/blog/2016/09/is-there-affirmative-action-for-incompetent-crossplay/) on _Star Trek: An Algorithmic Lucidity_.)
 

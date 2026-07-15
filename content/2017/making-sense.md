@@ -3,7 +3,6 @@ Date: 2017-05-22 17:31
 Status: published
 Category: mathematics
 Tags: probability
-Slug: making-sense
 
 "... and when we want to look at just a subset of the variables in a joint distribution, we have to sum over all the other variables: the probability that _X_ is blue, is equal to the probability that both _X_ is blue and _Y_ is blue, _plus_ the probability that _X_ is blue and _Y_ is red, _plus_ ... and so on for all the values _Y_ could take. We call this _marginalizing over_ _Y_ to get the _marginal distribution_ for _X_. Note that you can think about this as taking an expected value. Does that make sense?"
 

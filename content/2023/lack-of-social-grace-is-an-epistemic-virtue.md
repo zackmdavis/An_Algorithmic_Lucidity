@@ -2,8 +2,7 @@ Title: Lack of Social Grace Is an Epistemic Virtue
 Date: 2023-07-31 09:38
 Status: published
 Category: philosophy
-Tags: rationality
-Slug: lack-of-social-grace-is-an-epistemic-virtue
+Tags: discourse
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/h2Hk2c2Gp5sY4abQh/lack-of-social-grace-is-an-epistemic-virtue)
 

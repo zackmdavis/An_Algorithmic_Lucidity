@@ -3,7 +3,6 @@ Date: 2016-02-02 22:51
 Status: published
 Category: arts & culture
 Tags: quotations
-Slug: quotations-iv
 
 > MISTY: You know, I usually burn incense when I meditate, but the smell of a burning city can be just as relaxing.  
 > JENNY: People are in danger! Why don't you do something?!  

@@ -2,8 +2,7 @@ Title: “Justice, Cherryl.”
 Date: 2023-07-23 09:16
 Status: published
 Category: philosophy
-Tags: rationality
-Slug: justice-cherryl
+Tags: morality
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/vfjptEJ2oahLqRyZz/justice-cherryl)
 

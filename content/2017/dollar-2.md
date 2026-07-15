@@ -2,7 +2,6 @@ Title: Dollar
 Date: 2017-05-20 15:31
 Status: published
 Category: psychology
-Slug: dollar-2
 
 [(Previously.)](http://zackmdavis.net/blog/2017/05/change/)
 

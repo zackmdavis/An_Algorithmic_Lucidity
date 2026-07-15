@@ -3,7 +3,6 @@ Date: 2026-03-08 23:44
 Status: published
 Category: computing
 Tags: AI
-Slug: prologue-to-terrified-comments-on-claudes-constitution
 
 ## What Even Is This Timeline
 

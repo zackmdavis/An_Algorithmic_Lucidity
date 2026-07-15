@@ -2,7 +2,6 @@ Title: Concerns
 Date: 2016-07-10 11:19
 Status: published
 Category: asides
-Slug: concerns
 
 "I'm concerned about the [socially-undesirable](https://en.wikipedia.org/wiki/Social_desirability_bias) implications of a model described by this causal graph."
 

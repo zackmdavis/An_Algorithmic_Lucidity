@@ -3,7 +3,6 @@ Date: 2014-01-05 20:38
 Status: published
 Category: computing
 Tags: algorithms, Clojure, OpenStack Swift
-Slug: consistent-hashing
 
 Dear reader, suppose you're a distibuted data storage system. Your soul (although some pedants would insist on the word _program_) is dispersed across a cluster of several networked computers. From time to time, your human patrons give you files, and your job—more than that, _the very purpose of your existence_—is to store these files for safekeeping and later retrieval.
 

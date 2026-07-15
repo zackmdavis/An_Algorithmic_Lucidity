@@ -3,7 +3,6 @@ Date: 2012-08-16 10:44
 Status: published
 Category: mathematics
 Tags: analysis
-Slug: straight-talk-about-precompactness
 
 So we have this _metric space_, which is this set of points along with a way of defining "distances" between them that behaves in a basically noncrazy way (points that are zero distance away from "each other" are really just the same point, the distance from one to the other is the same as the distance from the other to the one, and something about triangles).
 

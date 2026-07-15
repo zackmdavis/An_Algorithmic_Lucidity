@@ -3,7 +3,6 @@ Date: 2014-03-02 23:06
 Status: published
 Category: arts & culture
 Tags: Friendship Is Magic
-Slug: twilight-sparkle-is-a-disaster-waiting-to-happen
 
 I swear to Celestia, one of these days that mare is going to get somepony killed or worse. I almost suspect it's already happened and Hasbro is just sitting on the footage.
 

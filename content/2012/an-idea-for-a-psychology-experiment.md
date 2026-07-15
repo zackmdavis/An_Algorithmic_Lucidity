@@ -2,7 +2,6 @@ Title: An Idea for a Psychology Experiment
 Date: 2012-07-17 05:00
 Status: published
 Category: psychology
-Slug: an-idea-for-a-psychology-experiment
 
 Let me know if someone's actually done this.
 

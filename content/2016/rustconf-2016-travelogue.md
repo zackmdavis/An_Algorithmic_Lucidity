@@ -3,7 +3,6 @@ Date: 2016-09-19 00:31
 Status: published
 Category: computing
 Tags: Rust, timely Special Event
-Slug: rustconf-2016-travelogue
 
 [(Previously on _An Algorithmic Lucidity_.)](http://zackmdavis.net/blog/2015/08/rustcamp-reminiscences/)
 

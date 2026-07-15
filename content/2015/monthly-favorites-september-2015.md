@@ -3,7 +3,6 @@ Date: 2015-09-30 05:00
 Status: published
 Category: asides
 Tags: Friendship Is Magic, Python, Rust
-Slug: monthly-favorites-september-2015
 
 __Favorite commit message fragment:__ "it turns out that it's `\d` that matches a digit, whereas, counterintuitively, `d` matches the letter 'd'."
 

@@ -3,7 +3,6 @@ Date: 2017-02-26 10:35
 Status: published
 Category: philosophy
 Tags: Bayes-structure of the universe
-Slug: the-bayes-structure-in-the-form-of-a-riddle
 
 Left-wingers say torture is wrong because the victim will say whatever you want to hear.
 

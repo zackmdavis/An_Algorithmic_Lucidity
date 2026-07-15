@@ -2,8 +2,7 @@ Title: Communication Requires Common Interests or Differential Signal Costs
 Date: 2021-03-25 23:41
 Status: published
 Category: philosophy
-Tags: rationality, game theory, honesty, philosophy of language
-Slug: communication-requires-common-interests-or-differential-signal-costs
+Tags: game theory, honesty, philosophy of language
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/ybG3WWLdxeTTL3Gpd/communication-requires-common-interests-or-differential)
 

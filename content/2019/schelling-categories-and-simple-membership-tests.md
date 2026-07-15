@@ -2,8 +2,7 @@ Title: Schelling Categories, and Simple Membership Tests
 Date: 2019-08-25 19:43
 Status: published
 Category: philosophy
-Tags: rationality, philosophy of language, game theory
-Slug: schelling-categories-and-simple-membership-tests
+Tags: philosophy of language, game theory
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/edEXi4SpkXfvaX42j/schelling-categories-and-simple-membership-tests)
 

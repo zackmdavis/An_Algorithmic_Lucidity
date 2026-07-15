@@ -2,7 +2,6 @@ Title: "Living Well Is the Best Revenge"
 Date: 2016-05-13 05:00
 Status: published
 Category: fiction
-Slug: living-well-is-the-best-revenge
 
 My enemies do not deserve to suffer, because _no_ sentient creature deserves to suffer.
 

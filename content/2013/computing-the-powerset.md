@@ -3,7 +3,6 @@ Date: 2013-12-10 05:00
 Status: published
 Category: computing
 Tags: Clojure, combinatorics
-Slug: computing-the-powerset
 
 Suppose we want to find the powerset of a given set, that is, the set of all its subsets. How might we go about it? Well, the powerset of the empty set is the set containing the empty set.
 

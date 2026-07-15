@@ -3,7 +3,6 @@ Date: 2014-07-13 23:11
 Status: published
 Category: computing
 Tags: Clojure
-Slug: convention
 
 ```console
 $ lein new 3lg2048

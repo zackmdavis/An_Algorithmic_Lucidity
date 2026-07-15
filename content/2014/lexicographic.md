@@ -3,7 +3,6 @@ Date: 2014-06-17 05:00
 Status: published
 Category: asides
 Tags: sex & gender
-Slug: lexicographic
 
 "Here's a draft of the new sign-up form."
 

@@ -2,7 +2,6 @@ Title: Personhood
 Date: 2013-08-05 13:16
 Status: published
 Category: philosophy
-Slug: personhood
 
 "Did you hear that India has recognized dolphins as nonhuman persons with rights to life and liberty?"
 

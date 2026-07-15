@@ -3,7 +3,6 @@ Date: 2015-12-02 05:00
 Status: published
 Category: asides
 Tags: recipes
-Slug: californian-raktajino
 
 _Ingredients:_
 

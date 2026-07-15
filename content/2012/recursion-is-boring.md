@@ -3,7 +3,6 @@ Date: 2012-09-13 05:00
 Status: published
 Category: computing
 Tags: Emacs, Git
-Slug: recursion-is-boring
 
 What the utter novice finds brilliant and fascinating, the slightly-more-experienced novice finds obvious and boring.
 

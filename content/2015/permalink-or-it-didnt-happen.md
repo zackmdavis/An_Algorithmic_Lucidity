@@ -3,7 +3,6 @@ Date: 2015-02-28 09:33
 Status: published
 Category: psychology
 Tags: akrasia
-Slug: permalink-or-it-didnt-happen
 
 As far as I can tell, I don't have any kind of synesthesia. You can't be too sure (which means, you can easily be _entirely_ too sure), what with our na(t)ive theories of psychology being so inadequate that _everything_ we believe about other minds is but a filament of noise and conjecture, but your probability distribution about the mapping of sensory inputs to perceptions for _me_ is probably not so different as mine of the same for _you_ (dear reader of whom I know nothing)—roses seem red, violets would seem blue if we spoke a language that didn't already have a word for _violet_—which means that when I tell you that there's a musty, stale odor around a blog that hasn't been updated in a month and change, it's only a trite metaphor and not a perceptual reality of any sort. Still, even if you can't smell it (if your senses are like mine; if your fox, like mine, still hasn't bothered to implement the [HTML5 `<aroma>` element](http://www.sitepoint.com/html5-new-sensory-elements/)), it's an ominous thing, to see a blog hovering near the boundary between life and death, a corpus perhaps on the way to being a corpse. The internet is littered with the latter, monuments to people who reliably had _something to say_, month after month ... until they missed a month, and then it wasn't long before they missed another.
 

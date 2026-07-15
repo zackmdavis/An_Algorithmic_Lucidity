@@ -2,7 +2,6 @@ Title: Type Theory
 Date: 2016-07-24 05:00
 Status: published
 Category: social science
-Slug: type-theory
 
 We never know what people are actually thinking; all we can do is make inferences from their behavior, including inferences about the inferences they're making.
 

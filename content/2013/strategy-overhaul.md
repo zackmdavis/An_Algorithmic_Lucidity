@@ -3,7 +3,6 @@ Date: 2013-03-28 22:08
 Status: published
 Category: psychology
 Tags: madness, schooling
-Slug: strategy-overhaul
 
 "I have drastically, drastically underestimated the social costs of nonconformity—costs I was paying, and quite possibly correctly so under reflection, but which I didn't _notice_ I was paying."
 

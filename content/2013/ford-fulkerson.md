@@ -3,7 +3,6 @@ Date: 2013-08-19 17:26
 Status: published
 Category: computing
 Tags: algorithms, Ruby
-Slug: ford-fulkerson
 
 Dear reader, have you ever dreamed of solving instances of the maximum flow problem? Sure you have! Suppose we have a weighted directed graph, which we might imagine as a network of pipes (represented by the edges) between locations (represented by the nodes), pipes through which some sort of fluid might thereby be transported across the network. One node is designated the _source_, another is called the _sink_, and the weight of the edge (_i_, _j_) represents the maximum capacity of the pipe which transports fluid from the location _i_ to location _j_. The maximum-flow problem is precisely the question of how to transport the maximum possible amount of fluid _from_ the source _to_ the sink (without any fluid leaking or magically appearing at any of the intermediate nodes). That is, we want to assign an amount of fluid _flow_ to each edge, not to exceed that edge's capacity, such that inflow equals outflow for all the intermediate (_i.e._, non-source, non-sink) nodes, and such that the total flow reaching the sink is maximized.
 

@@ -2,7 +2,6 @@ Title: Lies and Delusion
 Date: 2012-07-23 18:43
 Status: published
 Category: fiction
-Slug: lies-and-delusion
 
 One day, two philosophers were dining in a restaurant. "There's no such thing as lying," said the first philosopher to his companion. "Anytime someone speaks falsehood, it must be the case that they are merely deluded, or that part of them is, for the love of truth is so essential to the nature of agency that the very notion of deception is repugnant to it."
 

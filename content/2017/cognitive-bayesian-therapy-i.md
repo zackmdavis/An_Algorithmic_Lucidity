@@ -3,7 +3,6 @@ Date: 2017-02-26 11:31
 Status: published
 Category: psychology
 Tags: Bayes-structure of the universe, madness
-Slug: cognitive-bayesian-therapy-i
 
 __Experience__: I seem to have a lot of energy and time seems to pass slowly.  
 __Hypothesis 1__: I'm in a manic state following a stress- and sleep-deprivation-induced delusional nervous breakdown; this isn't surprising because this tends to happen to me every 2 to 4 years or so.  

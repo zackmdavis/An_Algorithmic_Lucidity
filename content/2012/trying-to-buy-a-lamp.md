@@ -3,7 +3,6 @@ Date: 2012-07-01 19:55
 Status: published
 Category: social science
 Tags: anecdotal, schooling
-Slug: trying-to-buy-a-lamp
 
 Dear reader, I had wanted to tell you an anecdote about a recent incident in which I considered myself to have been outrageously mistreated, but it occurred to me that you probably would not find the story at all worthy of note. In fact, I fear you would be quite likely to think less of me for complaining in such a melodramatic fashion about something which the prevailing norms of our Society consider quite ordinary and proper. And what authority do _I_ have to insist that it's Society that is in the wrong, and not I?
 

@@ -3,7 +3,6 @@ Date: 2012-06-21 20:06
 Status: published
 Category: asides
 Tags: akrasia
-Slug: untitled
 
 "I just got an idea that will make a great blog post ..."
 

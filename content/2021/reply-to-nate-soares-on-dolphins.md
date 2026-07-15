@@ -2,8 +2,7 @@ Title: Reply to Nate Soares on Dolphins
 Date: 2021-06-09 21:53
 Status: published
 Category: philosophy
-Tags: rationality, philosophy of language
-Slug: reply-to-nate-soares-on-dolphins
+Tags: philosophy of language
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/aJnaMv8pFQAfi9jBm/reply-to-nate-soares-on-dolphins)
 

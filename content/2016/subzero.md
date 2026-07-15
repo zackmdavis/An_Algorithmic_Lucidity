@@ -3,7 +3,6 @@ Date: 2016-04-06 22:05
 Status: published
 Category: computing
 Tags: Python
-Slug: subzero
 
 Python has this elegant destructuring-assignment iterable-unpacking syntax that every serious Pythonista and her dog tends to use whereëver possible. So where a novice might write
 

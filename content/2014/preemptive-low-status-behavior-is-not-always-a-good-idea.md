@@ -2,7 +2,6 @@ Title: Preemptive Low-Status Behavior Is Not Always a Good Idea
 Date: 2014-08-08 22:26
 Status: published
 Category: social science
-Slug: preemptive-low-status-behavior-is-not-always-a-good-idea
 
 "... and in conclusion, please don't hit me with a mastodon bone."
 

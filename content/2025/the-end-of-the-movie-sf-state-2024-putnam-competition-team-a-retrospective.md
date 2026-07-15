@@ -3,7 +3,6 @@ Date: 2025-01-12 12:13
 Status: published
 Category: mathematics
 Tags: schooling
-Slug: the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective
 
 **From**: Zack M Davis <_zmd@sfsu.edu_>  
 **Sent**: Sunday, January 12, 2025 11:52 AM  

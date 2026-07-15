@@ -2,7 +2,6 @@ Title: The Parity Decomposition Trick
 Date: 2012-09-30 05:00
 Status: published
 Category: mathematics
-Slug: the-parity-decomposition-trick
 
 Earlier this year, Robert Hasner showed me something that I assume everyone else ("everyone else") already knows, but which _I_ didn't know: every function on ℝ can be decomposed into the sum of an even function and an odd function—
 

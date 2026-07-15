@@ -2,7 +2,6 @@ Title: Periphery Demographic
 Date: 2012-09-12 05:00
 Status: published
 Category: asides
-Slug: periphery-demographic
 
 Judging by the comment moderation queue, this blog is wildly popular among a certain niche audience.
 

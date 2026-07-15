@@ -3,7 +3,6 @@ Date: 2017-03-09 19:00
 Status: published
 Category: social science
 Tags: Bayes-structure of the universe
-Slug: friends-can-change-the-world-or-request-for-social-technology-credit-assignment-rituals
 
 As a human living in a human civilization, it's tempting to think that social reality _mostly_ makes sense. Everyone _allegedly_ knows that institutions are flawed and that our leaders are merely flawed humans. Everyone wants to think that they're sufficiently edgy and cynical, that they've _seen through_ the official lies to the true, gritty reality.
 

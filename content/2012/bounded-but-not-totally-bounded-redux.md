@@ -3,7 +3,6 @@ Date: 2012-10-16 05:00
 Status: published
 Category: mathematics
 Tags: analysis
-Slug: bounded-but-not-totally-bounded-redux
 
 _Theorem_. An open set in real sequence space under the ℓ∞ norm is not totally bounded.
 

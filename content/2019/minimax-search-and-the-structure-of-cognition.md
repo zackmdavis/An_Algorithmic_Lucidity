@@ -2,7 +2,6 @@ Title: Minimax Search and the Structure of Cognition!
 Date: 2019-05-19 22:17
 Status: published
 Category: computing
-Slug: minimax-search-and-the-structure-of-cognition
 
 _(This is a blog post adaptation of [a talk I gave at !!Con West 2019](https://www.youtube.com/watch?v=8EQYVoTcdPk)!)_
 

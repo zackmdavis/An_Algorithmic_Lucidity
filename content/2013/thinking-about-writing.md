@@ -3,7 +3,6 @@ Date: 2013-12-13 05:00
 Status: published
 Category: psychology
 Tags: akrasia
-Slug: thinking-about-writing
 
 "I've been thinking about writing a novel."
 

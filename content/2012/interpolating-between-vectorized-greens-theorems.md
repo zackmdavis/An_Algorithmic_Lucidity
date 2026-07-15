@@ -3,7 +3,6 @@ Date: 2012-06-21 20:09
 Status: published
 Category: mathematics
 Tags: calculus
-Slug: interpolating-between-vectorized-greens-theorems
 
 Green's theorem says that (subject to some very reasonable conditions that we need not concern ourselves with here) the counterclockwise line integral of the vector field __F__ = [P Q] around the boundary of a region is equal to the double intregral of $$\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}$$ over the region itself. It's natural to think of it as a special case of Stokes's theorem in the case of a plane. We can also think of the line integral as the integral of the inner product of the vector field with the unit tangent, leading us to write Green's theorem like this:
 

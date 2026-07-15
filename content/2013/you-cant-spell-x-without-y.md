@@ -3,7 +3,6 @@ Date: 2013-11-16 05:00
 Status: published
 Category: asides
 Tags: lists
-Slug: you-cant-spell-x-without-y
 
 Why is it considered rude to reschedule an event after you've already sent out the invitations? Why do people stubbornly rejecting a compromise tend to do so in a polite and kindly manner? Why did you name your car _Rainbow Dash_? Speculative answers to these and other questions _might_ be found in the following list of observations.
 

@@ -3,7 +3,6 @@ Date: 2014-05-03 18:07
 Status: published
 Category: computing
 Tags: Python
-Slug: clarity-of-intent
 
 ```
 <bob> and here on line 79---

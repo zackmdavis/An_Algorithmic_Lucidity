@@ -3,7 +3,6 @@ Date: 2013-04-28 21:35
 Status: published
 Category: philosophy
 Tags: physics
-Slug: i-dont-understand-time
 
 Our subjective experience would have it that time "moves forward": the past is no longer, and the future is indeterminate and "hasn't happened yet." But it can't _actually_ work that way: special relativity tells us that there's no absolute space of simultaneity; given two spacelike separated events, whether one happened "before" or "after" the other depends on where you are and how fast you're going. This leads us to a "block universe" view: our 3+1 dimensional universe, past, present, and future, simply _exists_, and the subjective arrow of time somehow arises from our perspective embedded within it.
 

@@ -3,7 +3,6 @@ Date: 2014-08-27 22:03
 Status: published
 Category: computing
 Tags: Python
-Slug: debugging-techniques-i
 
 ```python
 #def my_problematic_function(x):

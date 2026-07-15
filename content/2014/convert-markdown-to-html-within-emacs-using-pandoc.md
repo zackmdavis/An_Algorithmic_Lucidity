@@ -3,7 +3,6 @@ Date: 2014-11-24 05:00
 Status: published
 Category: computing
 Tags: Emacs
-Slug: convert-markdown-to-html-within-emacs-using-pandoc
 
 Okay, so there actually is a [pandoc-mode](http://joostkremers.github.io/pandoc-mode/), but I couldn't figure out how to configure and use it, so it was easier to just write the one command that I wanted—
 

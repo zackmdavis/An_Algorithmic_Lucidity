@@ -2,8 +2,7 @@ Title: Feature Selection
 Date: 2021-10-31 17:22
 Status: published
 Category: philosophy
-Tags: rationality, Python
-Slug: feature-selection
+Tags: epistemology, Python
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/dYspinGtiba5oDCcv/feature-selection)
 

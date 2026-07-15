@@ -3,7 +3,6 @@ Date: 2016-01-08 05:00
 Status: published
 Category: philosophy
 Tags: missing words
-Slug: missing-words-vii
 
 We need a word or phrase to refer to intentionally (and usually only slightly) misquoting something for the sake of a perceived æsthetic improvement in the context in which the quoter wants to use the material. Okay, we do have the word _paraphrase_, which is close ("To paraphrase the great fooer Bar Quux ..."), but I don't think that's _quite_ it—the [_Wiktionary_ definition](https://en.wiktionary.org/wiki/paraphrase) mentions "often to clarify meaning" and I'm definitely talking more about petty differences in word choice than actually clarifying meaning.
 

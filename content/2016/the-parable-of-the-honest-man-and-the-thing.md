@@ -2,7 +2,6 @@ Title: The Parable of the Honest Man and the Thing
 Date: 2016-10-05 18:26
 Status: published
 Category: fiction
-Slug: the-parable-of-the-honest-man-and-the-thing
 
 "I really want to do the thing! All of my friends who are _just like me_ are doing the thing, and they look like they're having _so much fun_!"
 

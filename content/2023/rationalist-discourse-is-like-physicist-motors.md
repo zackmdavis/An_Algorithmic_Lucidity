@@ -2,8 +2,7 @@ Title: “Rationalist Discourse” Is Like “Physicist Motors”
 Date: 2023-02-25 21:58
 Status: published
 Category: philosophy
-Tags: rationality, discourse
-Slug: rationalist-discourse-is-like-physicist-motors
+Tags: discourse
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/SX6wQEdGfzz7GKYvp/rationalist-discourse-is-like-physicist-motors)
 

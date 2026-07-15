@@ -3,7 +3,6 @@ Date: 2013-09-10 05:00
 Status: published
 Category: social science
 Tags: cynicism, transhumanism
-Slug: engineering-selection
 
 This whole business of being alive used to seem so much simpler and less morally ambiguous before I realized that the strong do what they can and the weak suffer what they must, that it has always been thus and [could not have been otherwise](http://zackmdavis.net/blog/2013/04/the-horror-of-naturalism/). The other day I was reading Luke Muehlhauser's [interview with Steve Hsu](http://intelligence.org/2013/08/31/stephen-hsu-on-cognitive-genomics/), and Hsu says:
 

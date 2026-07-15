@@ -2,7 +2,6 @@ Title: Morning
 Date: 2016-05-04 05:00
 Status: published
 Category: asides
-Slug: morning
 
 _(the someteenth floor)_
 

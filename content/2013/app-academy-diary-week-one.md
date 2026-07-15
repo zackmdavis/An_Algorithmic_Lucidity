@@ -2,7 +2,6 @@ Title: App Academy Diary, Week One
 Date: 2013-09-16 21:48
 Status: published
 Category: computing
-Slug: app-academy-diary-week-one
 
 _Monday 16 September 2013_— For the next couple months, I'm going to be engrossed in an intensive web development course offered by [App Academy](http://www.appacademy.io/); it's pretty great! Part of the routine is to write end-of-day blogposts describing what we've learned; I guess we were "supposed" to start a Tumblr specifically for these, but that's dumb because I already have a blog, so I think I'll just put my updates here (updating the post throughout the week). Today was the first day! App Academy puts a lot of focus on _pair programming_: you have two people at a workstation; only the "driver" types, while the "navigator" offers direction (and then you switch roles). Today I was paired with [_Chris Evans_](https://github.com/lcevans), who is a nice guy who knows way more math than me! Today our task was a bunch of fairly straightfoward Ruby exercises: monkeypatch the Array class to do this-and-such, make a playable Tower of Hanoi game, that sort of thing. The most challenging one was part 15 of [Test First Ruby](http://testfirst.org/learn_ruby): write a method that accepts integers and returns a string describing the number in words (so _e.g._ 259123 becomes "two hundred fifty nine thousand one hundred twenty three"). Chris and I finished the most important stuff on time and started working on the bonus project about solving mazes, but we didn't get too far with that in the time remaining.
 

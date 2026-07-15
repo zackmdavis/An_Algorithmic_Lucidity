@@ -2,7 +2,6 @@ Title: Online Dating Profile, First Draft
 Date: 2013-08-31 05:00
 Status: published
 Category: psychology
-Slug: online-dating-profile-first-draft
 
 25 / M / Straight / Single
 Walnut Creek, California

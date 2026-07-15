@@ -2,8 +2,7 @@ Title: Ironing Out the Squiggles
 Date: 2024-04-29 09:13
 Status: published
 Category: philosophy
-Tags: artificial intelligence, rationality
-Slug: ironing-out-the-squiggles
+Tags: artificial intelligence
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/H7fkGinsv8SDxgiS2/ironing-out-the-squiggles)
 

@@ -3,7 +3,6 @@ Date: 2020-06-28 19:45
 Status: published
 Category: social science
 Tags: Bayes-structure of the universe, politics
-Slug: optimized-propaganda-with-bayesian-networks-comment-on-articulating-lay-theories-through-graphical-models
 
 [(originally published at _Less Wrong_)](https://www.lesswrong.com/posts/Zvu6ZP47dMLHXMiG3/optimized-propaganda-with-bayesian-networks-comment-on)
 

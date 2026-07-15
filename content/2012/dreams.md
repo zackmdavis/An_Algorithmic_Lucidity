@@ -3,7 +3,6 @@ Date: 2012-10-13 19:23
 Status: published
 Category: psychology
 Tags: akrasia, cynicism
-Slug: dreams
 
 Friend of the blog Alicorn [tweets](https://twitter.com/luminousalicorn/status/256189544515391488):
 

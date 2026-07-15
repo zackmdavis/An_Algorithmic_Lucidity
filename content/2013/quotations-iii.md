@@ -3,7 +3,6 @@ Date: 2013-11-18 05:00
 Status: published
 Category: arts & culture
 Tags: quotations
-Slug: quotations-iii
 
 > I am convinced, from many experiments, I could not study, to any degree of perfection, either mathematics, arithmetic, or algebra, without being a Deist, if not an Atheist.
 

@@ -3,7 +3,6 @@ Date: 2013-10-07 22:11
 Status: published
 Category: computing
 Tags: Ruby
-Slug: app-academy-diary-week-four
 
 _Monday 7 October 2013—_ The main part of SedentaryRecord went pretty smoothly. I like my one-liner implementation of the `has_many_through` association better than the instructions' suggestion of writing a whole new query template; the TA Patrick pointed out that my version is inefficient (firing off two queries rather than one), but instead of writing the query-saving long version right away, I decided to try implementing validations first (one of the suggested extension ideas). That didn't go well at _all_; I spent a lot of time ineffectually hacking away at the problem but didn't even come up with anything worth committing!
 
