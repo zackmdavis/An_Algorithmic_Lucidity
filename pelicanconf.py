@@ -125,6 +125,7 @@ _markdown_mirror_state = {'output_path': None, 'articles': []}
 
 def _prepare_markdown_mirrors(generator):
     _markdown_mirror_state['output_path'] = generator.output_path
+    _markdown_mirror_state['articles'] = []
     for article in generator.articles:
         article.markdown_url = _os.path.dirname(article.save_as) + '.md'
         _markdown_mirror_state['articles'].append(article)
