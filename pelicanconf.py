@@ -79,6 +79,7 @@ MARKDOWN = {
         'markdown.extensions.codehilite': {'css_class': 'highlight', 'guess_lang': False},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
+        'pymdownx.tilde': {'subscript': False},
         'markdown.extensions.toc': {
             'title': 'Table of Contents',
         },

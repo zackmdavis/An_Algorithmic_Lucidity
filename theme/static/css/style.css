@@ -175,6 +175,36 @@ header h1 a:hover {
     height: auto;
 }
 
+/* WordPress-style image alignment classes (may land on the <img> or its
+   wrapping <a>, depending on how the source markup attaches them) */
+.post-content .alignleft {
+    float: left;
+    margin: 0.3em 1.5em 1em 0;
+}
+
+.post-content .alignright {
+    float: right;
+    margin: 0.3em 0 1em 1.5em;
+}
+
+.post-content .aligncenter {
+    display: block;
+    margin: 0 auto 1em;
+}
+
+.post-content .alignnone {
+    margin: 0 0 1em;
+}
+
+/* contain any trailing float so the post box doesn't collapse around it,
+   without clearfixing individual paragraphs (which would stop text from
+   wrapping alongside an aligned image the way it's supposed to) */
+.post-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .post-content table {
     border-collapse: collapse;
     margin-bottom: 1em;
