@@ -9,15 +9,15 @@ Her work will be a benefit to all of humankind
 She went and proved some things which no one had surmised  
 Yesterday my sister won the Nobel physics prize_
 
-Yesterday I dreamed I won the Pulitzer prize  
+_Yesterday I dreamed I won the Pulitzer prize  
 I uncovered the scandal, was a President's demise  
 I found the truth and brought it out to people's eyes  
-Yesterday I dreamed I won the Pulitzer journalism prize
+Yesterday I dreamed I won the Pulitzer journalism prize_
 
-And then I woke up  
-And rubbed my eyes
+_And then I woke up  
+And rubbed my eyes_
 
-Yesterday my sister won the Nobel prize  
+_Yesterday my sister won the Nobel prize  
 Her work will be a benefit to all of humankind  
 She went and proved some things which no one had surmised  
-Yesterday my sister won the Nobel physics prize
+Yesterday my sister won the Nobel physics prize_

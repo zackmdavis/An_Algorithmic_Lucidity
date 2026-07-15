@@ -74,6 +74,22 @@ PAGINATION_PATTERNS = (
 )
 
 # Markdown extensions
+import markdown as _markdown
+
+
+class _DisableAutomailExtension(_markdown.Extension):
+    """Deregister core Markdown's automatic email-autolinking of bare <...>.
+
+    It greedily swallows any <foo@bar> as one atomic match, so writing
+    <_zmd@sfsu.edu_> for italicized email addresses in "From:"/"To:"
+    lines got mangled (underscores baked in literally, angle brackets
+    consumed) instead of becoming an <em> as intended.
+    """
+
+    def extendMarkdown(self, md):
+        md.inlinePatterns.deregister('automail')
+
+
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight', 'guess_lang': False},
@@ -84,6 +100,7 @@ MARKDOWN = {
             'title': 'Table of Contents',
         },
     },
+    'extensions': [_DisableAutomailExtension()],
     'output_format': 'html5'
 }
 

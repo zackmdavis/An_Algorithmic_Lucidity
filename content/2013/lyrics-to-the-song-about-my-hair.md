@@ -9,7 +9,7 @@ It really is unfair
 My partner should object  
 Except she really doesn't care_
 
-I stare, in the mirror  
+_I stare, in the mirror  
 Half-paralyzed in fear  
 My partner should object  
-Except she really doesn't care
+Except she really doesn't care_

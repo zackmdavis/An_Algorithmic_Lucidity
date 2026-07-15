@@ -5,9 +5,9 @@ Category: mathematics
 Tags: schooling
 Slug: recruitment-advertisements-for-the-2024-putnam-competition-at-san-francisco-state-university
 
-**From**: Zack M Davis \<_zmd@sfsu.edu_\>  
+**From**: Zack M Davis <_zmd@sfsu.edu_>  
 **Sent**: Wednesday, September 11, 2024 5:02 PM  
-**To**: math_majors@lists.sfsu.edu \<_math_majors@lists.sfsu.edu_\>  
+**To**: math_majors@lists.sfsu.edu <_math_majors@lists.sfsu.edu_>  
 **Subject**: Putnam prep session for eternal mathematical glory, 4 p.m. Thu 19 September  
 
 > One must make a distinction however: when dragged into prominence by half-poets, the result is not poetry, nor till the poets among us can be "literalists of the imagination"—above insolence and triviality and can present for inspection "imaginary gardens with real toads in them", shall we have it. In the meantime, if you demand on the one hand the raw material of poetry in all its rawness, and that which is on the other hand genuine, then you are interested in poetry.
@@ -32,9 +32,9 @@ To get the most out of it, try struggling with some of [the problems from the 20
 
 ----
 
-**From**: Zack M Davis \<_zmd@sfsu.edu_\>  
+**From**: Zack M Davis <_zmd@sfsu.edu_>  
 **Sent**: Sunday, September 29, 2024 11:17 PM  
-**To**: math_majors@lists.sfsu.edu \<_math_majors@lists.sfsu.edu_\>  
+**To**: math_majors@lists.sfsu.edu <_math_majors@lists.sfsu.edu_>  
 **Subject**: Putnam prep session #2 for eternal mathematical glory ... and donuts, 2 p.m. Fri 4 October  
  
 "Hey, Goofusia," said Gallantina. "Did you see this post on the math_majors list? Someone's trying to organize a team for the [Putnam competition](https://en.wikipedia.org/wiki/William_Lowell_Putnam_Mathematical_Competition)—here, at SFSU! There's going to be **a prep session in Thornton 935 on Friday at 2 p.m.** The organizer sounds really desperate—there should be **free donuts**. Want to come?"

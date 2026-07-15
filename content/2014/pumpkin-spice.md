@@ -11,13 +11,13 @@ In particular, the American coffee hegemon has started offering its "pumpkin spi
 
 So this morning, shortly after I arrive in the office, plans are quickly formed for me and Alexander and our esteemed colleague Tim to go to the outpost.
 
-```` ```
+```
 Sep 10 09:18:04 <acorwin>     zackmdavis: PSL?
 Sep 10 09:18:39 <zackmdavis>  acorwin, I don't know what that is an initialism for
 Sep 10 09:18:43 <zackmdavis>  oh
 Sep 10 09:18:46 <acorwin>     zackmdavis: pump--
 Sep 10 09:18:49 <zackmdavis>  Pumpkin Spice!
-``` ````
+```
 
 We stroll down Brannan street, chatting about the sorts of things San Francisco software engineers talk about when they're not talking about their work, like the code we've been writing not-for-work. Alexander has been making a dice game for the iPhone but has run into trouble that he doesn't know how to debug; I suggest going to an iOS meetup group and enthusiastically mention that I went to an exciting Clojure meetup the previous night (where Zach Tellman, who has more GitHub stars than me by like two and a half orders of magnitude, gave me some tips on how to improve [my 3D 2048 clone](https://github.com/zackmdavis/Thirty-Three/)).
 

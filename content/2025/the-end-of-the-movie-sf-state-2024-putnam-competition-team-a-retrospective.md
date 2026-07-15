@@ -5,9 +5,9 @@ Category: mathematics
 Tags: schooling
 Slug: the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective
 
-**From**: Zack M Davis \<_zmd@sfsu.edu_\>  
+**From**: Zack M Davis <_zmd@sfsu.edu_>  
 **Sent**: Sunday, January 12, 2025 11:52 AM  
-**To**: math_majors@lists.sfsu.edu \<_math_majors@lists.sfsu.edu_\>, math_graduate@lists.sfsu.edu \<_math_graduate@lists.sfsu.edu_\>, math_lecturers@lists.sfsu.edu \<_math_lecturers@lists.sfsu.edu_\>, math_tenure@lists.sfsu.edu \<_math_tenure@lists.sfsu.edu_\>  
+**To**: math_majors@lists.sfsu.edu <_math_majors@lists.sfsu.edu_>, math_graduate@lists.sfsu.edu <_math_graduate@lists.sfsu.edu_>, math_lecturers@lists.sfsu.edu <_math_lecturers@lists.sfsu.edu_>, math_tenure@lists.sfsu.edu <_math_tenure@lists.sfsu.edu_>  
 **Subject**: the end of the movie: SF State's 2024 Putnam Competition team, a retrospective
 
 > Because life is a gradual series of revelations  

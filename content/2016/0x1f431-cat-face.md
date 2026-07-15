@@ -15,7 +15,7 @@ index 648287f..e00dbc9 100644
  alias grports="netstat -tulpn | grep"
  
 +# cat
-+alias ?="cat"
++alias 🐱="cat"
 +
  # Vagrant
  alias v="vagrant"

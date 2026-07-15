@@ -27,7 +27,7 @@ I arrived way too early for check-in, and walked up the road (wearing my black j
 
 A little bit of lipstick rubbed off on the sandwich and the straw.
 
-I waited in the Hyatt lobby for a while, still with the jacket over my uniform, reading the Janet Mock autobiography on my PADD, until it was time to check in. After buying my Sunday wristband ($70), I wandered over to the photo-op/autograph ticketing table and bought a ticket to get a photo with Michael Dorn at 11:10 ($40). (Nana Visitor or Terry Farrell herself would have been my first choices for a celebrity photo, but they weren't there that day.)
+I waited in the Hyatt lobby for a while, still with the jacket over my uniform, reading the Janet Mock autobiography on my PADD, until it was time to check in. After buying my Sunday wristband (&#36;70), I wandered over to the photo-op/autograph ticketing table and bought a ticket to get a photo with Michael Dorn at 11:10 (&#36;40). (Nana Visitor or Terry Farrell herself would have been my first choices for a celebrity photo, but they weren't there that day.)
 
 There was still a lot of time to hang out before the theater opened for the actual convention programming, but that was fine, because actual convention programming is kind of boring; the actual point of conventions is to have an excuse to dress up and wander around and talk to people and get vanity photos of other people who are using the convention as an excuse to dress up.
 
@@ -57,7 +57,7 @@ I sat through some actual convention programming. John de Lancie is almost as en
 
 After de Lancie, there was a discussion with some writer-folk (the schedule _said_ the topic would be the [new series next year](https://en.wikipedia.org/wiki/Star_Trek:_Discovery), but they didn't seem to know anything about it), and soon enough, it was time for my photo op with Michael Dorn.
 
-The photo session was very assembly-line—here (unlike the autograph sessions I witnessed at other conventions) there was no pretense of your $40 giving you the opportunity to actually _meet_ your heroes for even half a minute: this was pose, _click_, and it's over, time for the next fan to get in position. I had time to say to Dorn, "I'm Jadzia," but that was it.
+The photo session was very assembly-line—here (unlike the autograph sessions I witnessed at other conventions) there was no pretense of your &#36;40 giving you the opportunity to actually _meet_ your heroes for even half a minute: this was pose, _click_, and it's over, time for the next fan to get in position. I had time to say to Dorn, "I'm Jadzia," but that was it.
 
 Not that I was disappointed. A woman on the event staff commented on how happy I looked skipping down the room after the photo was taken. "[My future husband!](http://memory-alpha.wikia.com/wiki/You_Are_Cordially_Invited_%28episode%29)" I said.
 
