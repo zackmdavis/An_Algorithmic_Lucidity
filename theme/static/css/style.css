@@ -225,6 +225,15 @@ header h1 a:hover {
     background: #f7f7f7;
 }
 
+/* MathJax v2's linebreak_automatic is off (perf tradeoff upstream), so long
+   display-math expressions need a scroll fallback instead of breaking layout. */
+.post-content div.math,
+.post-content .MathJax_Display,
+.post-content .MathJax {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
 .post-content code {
     font-family: Consolas, Monaco, monospace;
     font-size: 13px;
