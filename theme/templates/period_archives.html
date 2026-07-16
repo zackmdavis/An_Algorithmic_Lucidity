@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% import "includes/post_card.html" as post_card %}
+{% import "includes/post_card.html" as post_card with context %}
 
 {% block title %}{{ SITENAME }} - {{ period|reverse|join(' ') }} archives{% endblock %}
 
