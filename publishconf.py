@@ -9,8 +9,10 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-# If you have a custom domain, set it here
-# SITEURL = 'https://yourdomain.com'
+# The blog lives under /blog on this domain, not at the root (the root is a
+# small standalone landing page, not part of this Pelican site) -- no
+# trailing slash, matching Pelican's own convention for SITEURL.
+SITEURL = 'https://zackmdavis.net/blog'
 
 # RSS (not Atom) to match the existing WordPress feed's format at
 # zackmdavis.net/blog/feed/. The output path is feed/index.xml rather than

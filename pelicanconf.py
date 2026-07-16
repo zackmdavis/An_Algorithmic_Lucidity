@@ -94,11 +94,14 @@ MARKDOWN = {
 # Don't use relative URLs in production - using False for proper absolute URLs
 RELATIVE_URLS = False
 
-# Serve robots.txt (with a Content-Signal line permitting AI training/input use)
-# and favicon.ico at the site root instead of under /extra/
-STATIC_PATHS = ['extra/robots.txt', 'extra/favicon.ico']
+# Serve favicon.ico at the site root instead of under /extra/. robots.txt is
+# NOT generated here on purpose: crawlers only look for robots.txt at the true
+# domain root, but this site is served under /blog, so it's deployed as a
+# standalone file directly to the real webroot instead (see
+# provisioning/robots.txt) -- if Pelican put it in its own output tree, it'd
+# end up at /blog/robots.txt, which crawlers won't find.
+STATIC_PATHS = ['extra/favicon.ico']
 EXTRA_PATH_METADATA = {
-    'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
 }
 
