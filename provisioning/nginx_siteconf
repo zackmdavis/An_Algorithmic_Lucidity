@@ -9,11 +9,33 @@
 # genuinely permanent URL-scheme migration, and better for search engines
 # updating their index) once we're confident and actually going live.
 
+# HTTPS is available (cert obtained via `certbot certonly --nginx`,
+# deliberately certonly rather than letting certbot's installer rewrite this
+# file), but plain HTTP is deliberately NOT redirected to it -- one server
+# block, listening on both ports, serving identical content. HTTPS-only would
+# make the cert a hard dependency for the site being reachable at all: if
+# renewal ever silently breaks (a future nginx edit disrupts the ACME
+# challenge path, the droplet has a bad day, whatever) while nobody's around
+# to notice or fix it, every visitor gets a hard cert error with no fallback.
+# Plain HTTP staying independently live means that failure mode degrades
+# (HTTPS visitors see a warning) instead of going fully dark. The tradeoff
+# being accepted: on-path tampering with plain-HTTP traffic (ISP/hotel-wifi
+# ad injection, compromised routers) is a real but low-probability,
+# untargeted risk for a personal blog with no login/secrets -- judged worse
+# to risk total unreachability against than to risk that.
 server {
         listen 80;
         listen [::]:80;
+        listen 443 ssl;
+        listen [::]:443 ssl;
+        http2 on;
 
         server_name zackmdavis.net www.zackmdavis.net;
+
+        ssl_certificate /etc/letsencrypt/live/zackmdavis.net/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/zackmdavis.net/privkey.pem;
+        include /etc/letsencrypt/options-ssl-nginx.conf;
+        ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 
         expires $expires;
 
