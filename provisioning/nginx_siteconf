@@ -18,8 +18,11 @@ server {
         expires $expires;
 
         # The domain root is a small standalone landing page (plus docs/ and
-        # temporary/ carried over from the old NameCheap hosting) -- not part
-        # of the Pelican blog, which lives under /blog instead.
+        # media/ carried over from the old NameCheap hosting -- PDFs and OGGs
+        # linked from stable blog posts) -- not part of the Pelican blog,
+        # which lives under /blog instead. temporary/ and the old /software
+        # demos deliberately did not make the move: never promised to be
+        # stable the way blog permalinks and their assets are.
         root /home/blogmistress/zackmdavis.net;
         index index.html;
 
@@ -31,7 +34,7 @@ server {
             autoindex on;
         }
 
-        location /temporary {
+        location /media {
             autoindex on;
         }
 

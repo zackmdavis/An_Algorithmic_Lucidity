@@ -100,7 +100,7 @@ RELATIVE_URLS = False
 # standalone file directly to the real webroot instead (see
 # provisioning/robots.txt) -- if Pelican put it in its own output tree, it'd
 # end up at /blog/robots.txt, which crawlers won't find.
-STATIC_PATHS = ['extra/favicon.ico']
+STATIC_PATHS = ['extra/favicon.ico', 'images']
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
 }
