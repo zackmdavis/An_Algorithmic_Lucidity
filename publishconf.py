@@ -20,13 +20,14 @@ from pelicanconf import *
 # things like previewing over plain HTTP before a certificate exists.
 SITEURL = '/blog'
 
-# RSS (not Atom) to match the existing WordPress feed's format at
-# zackmdavis.net/blog/feed/. The output path is feed/index.xml rather than
-# a bare feed/ so it's a real static file; getting the URL down to exactly
-# /feed/ (no filename) needs a webserver directory-index or redirect rule,
-# which depends on whatever we end up hosting on.
-FEED_ALL_RSS = 'feed/index.xml'
-CATEGORY_FEED_RSS = 'category/{slug}/feed/index.xml'
+# Both RSS and Atom, at parallel paths (.../feed/rss/ and .../feed/atom/).
+# RSS keeps the WordPress-era /feed/ as its bare-directory default (an
+# nginx redirect, see provisioning/nginx_siteconf) since that's what
+# existing subscribers' bookmarks expect; Atom is new.
+FEED_ALL_RSS = 'feed/rss/index.xml'
+CATEGORY_FEED_RSS = 'category/{slug}/feed/rss/index.xml'
+FEED_ALL_ATOM = 'feed/atom/index.xml'
+CATEGORY_FEED_ATOM = 'category/{slug}/feed/atom/index.xml'
 
 # Feed readers fetch feed XML out of any page context, so its content
 # ideally wants absolute URLs -- but Pelican only uses FEED_DOMAIN for the
