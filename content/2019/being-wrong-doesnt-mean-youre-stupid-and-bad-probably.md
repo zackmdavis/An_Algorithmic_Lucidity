@@ -1,4 +1,4 @@
-Title: "Being Wrong Doesn't Mean You're Stupid and Bad (Probably)"
+Title: Being Wrong Doesn't Mean You're Stupid and Bad (Probably)
 Date: 2019-06-29 16:58
 Status: published
 Category: philosophy
