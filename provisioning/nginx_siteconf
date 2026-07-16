@@ -1,6 +1,13 @@
 # $expires is defined by nginx_common_expires_map.conf, and $aal_month_abbrev
 # by nginx_aal_month_map.conf, both included once from nginx.conf's http{}
 # block (not here -- see those files for why).
+#
+# All of the redirects below are 302 (not 301) for now, deliberately: we're
+# still actively testing/adjusting this exact redirect logic pre-launch, and
+# a wrong 301 can get stuck in visitors' browser caches for a long time in a
+# way a 302 won't. Flip these to 301 (the semantically correct choice for a
+# genuinely permanent URL-scheme migration, and better for search engines
+# updating their index) once we're confident and actually going live.
 
 server {
         listen 80;
@@ -40,7 +47,7 @@ server {
         # so it needs an explicit default: RSS, matching what /feed/ used to
         # mean. Covers both the site-wide and per-category feeds.
         location ~ "^(.*/feed)/$" {
-            return 301 $1/rss/;
+            return 302 $1/rss/;
         }
 
         # WordPress's permalinks were /blog/YYYY/MM/slug/ (two-digit month);
@@ -49,14 +56,14 @@ server {
         # prefix location below regardless of ordering, so this only needs
         # to exist, not to come first.
         location ~ "^/blog/(\d{4})/(\d{2})/(.*)$" {
-            return 301 /blog/$1/$aal_month_abbrev/$3;
+            return 302 /blog/$1/$aal_month_abbrev/$3;
         }
 
         # location /blog/ below requires the trailing slash to match (it's
         # what makes the alias line up), so the bare /blog on its own would
         # otherwise fall through to location / above and 404.
         location = /blog {
-            return 301 /blog/;
+            return 302 /blog/;
         }
 
         # The Pelican-generated blog itself. alias (not root) strips the
