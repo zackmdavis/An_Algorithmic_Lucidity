@@ -30,6 +30,26 @@
         </div>
 
         <aside class="sidebar">
+            {% if FEED_ALL_RSS or FEED_ALL_ATOM %}
+            <div class="widget">
+                <h3>Feeds</h3>
+                <p class="feed-links">
+                    {% if FEED_ALL_RSS %}
+                    <a href="{{ SITEURL }}/{{ FEED_ALL_RSS }}" class="feed-link" title="{{ SITENAME }} RSS Feed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><rect width="16" height="16" rx="3" fill="#F78422"/><circle cx="4" cy="12" r="1.5" fill="#fff"/><path d="M2.5 6.5a7 7 0 0 1 7 7h-2.5a4.5 4.5 0 0 0-4.5-4.5z" fill="#fff"/><path d="M2.5 2.5a11 11 0 0 1 11 11h-2.5a8.5 8.5 0 0 0-8.5-8.5z" fill="#fff"/></svg>
+                        RSS
+                    </a>
+                    {% endif %}
+                    {% if FEED_ALL_ATOM %}
+                    <a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" class="feed-link" title="{{ SITENAME }} Atom Feed">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><rect width="16" height="16" rx="3" fill="#F78422"/><circle cx="4" cy="12" r="1.5" fill="#fff"/><path d="M2.5 6.5a7 7 0 0 1 7 7h-2.5a4.5 4.5 0 0 0-4.5-4.5z" fill="#fff"/><path d="M2.5 2.5a11 11 0 0 1 11 11h-2.5a8.5 8.5 0 0 0-8.5-8.5z" fill="#fff"/></svg>
+                        Atom
+                    </a>
+                    {% endif %}
+                </p>
+            </div>
+            {% endif %}
+
             <div class="widget">
                 <h3>Archives</h3>
                 {% set archive_dates = all_articles if all_articles is defined else dates %}

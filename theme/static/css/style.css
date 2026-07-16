@@ -318,6 +318,21 @@ header h1 a:hover {
     font-size: 12px;
 }
 
+.feed-links {
+    display: flex;
+    gap: 12px;
+}
+
+.feed-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.feed-link svg {
+    flex-shrink: 0;
+}
+
 .archive-title {
     font-family: "Bitstream Charter", "Charter", Georgia, serif;
     font-size: 22px;
