@@ -95,7 +95,12 @@ server {
             fastcgi_pass  unix:/run/fcgiwrap.socket;
         }
 
-        location /blog/static { # gitweb static files
+        # gitweb's own CSS/JS/logo/favicon. Named gitweb-static (not the
+        # generic-sounding static) so it can't be mistaken for a general
+        # blog static-asset path; gitweb.conf (see provisioning/gitweb.conf)
+        # points @stylesheets/$javascript/$logo/$favicon at this path
+        # absolutely, rather than relying on gitweb's relative default.
+        location /blog/gitweb-static {
             alias /usr/share/gitweb/static/;
             try_files $uri $uri/ =404;
         }
