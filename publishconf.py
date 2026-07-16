@@ -13,12 +13,15 @@ from pelicanconf import *
 # small standalone landing page, not part of this Pelican site) -- no
 # trailing slash, matching Pelican's own convention for SITEURL.
 #
-# Deliberately root-relative (no scheme/host): every template link is built
-# by concatenating SITEURL onto a path, so a bare https://... here would
-# hardcode https into every internal link (CSS, nav, favicon, ...)
-# regardless of what protocol the page itself was loaded over -- breaking
-# things like previewing over plain HTTP before a certificate exists.
-SITEURL = '/blog'
+# Absolute now that DNS is cut over and a real cert is live: was deliberately
+# root-relative during pre-launch testing (see git history), since a bare
+# https://... would have hardcoded https into every internal link regardless
+# of protocol, breaking preview over plain HTTP before a cert existed. Now
+# that both http and https genuinely work in production (see nginx_siteconf
+# -- deliberately no forced https redirect), an absolute SITEURL is correct:
+# it makes feed <link> entries and any other absolute-URL consumer point at
+# the real site regardless of which protocol/page they were generated from.
+SITEURL = 'https://zackmdavis.net/blog'
 
 # Both RSS and Atom, at parallel paths (.../feed/rss/ and .../feed/atom/).
 # RSS keeps the WordPress-era /feed/ as its bare-directory default (an
@@ -30,13 +33,10 @@ FEED_ALL_ATOM = 'feed/atom/index.xml'
 CATEGORY_FEED_ATOM = 'category/{slug}/feed/atom/index.xml'
 
 # Feed readers fetch feed XML out of any page context, so its content
-# ideally wants absolute URLs -- but Pelican only uses FEED_DOMAIN for the
-# feed's own self-referential link (writers.py); each post's own <link> is
-# still built straight from SITEURL, so with SITEURL root-relative those
-# come out as bare /blog/... too. Harmless while nobody's actually
-# subscribed to this pre-launch server; revisit (probably by making
-# SITEURL fully-qualified again) once real DNS + a certificate are live and
-# this feed has real subscribers.
+# ideally wants absolute URLs -- Pelican only uses FEED_DOMAIN for the feed's
+# own self-referential link (writers.py), while each post's own <link> is
+# built straight from SITEURL; now that SITEURL is itself absolute, both
+# come out fully-qualified and agree with each other.
 FEED_DOMAIN = 'https://zackmdavis.net'
 
 DELETE_OUTPUT_DIRECTORY = True
