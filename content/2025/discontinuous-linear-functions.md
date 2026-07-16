@@ -10,7 +10,7 @@ We know what continuity is. A function _f_ is continuous iff for all ε there ex
 
 An equivalent way to think about continuity is the sequence criterion: _f_ is continuous iff a sequence (_x_<sub>_k_</sub>) converging to _x_ implies that (_f_(_x_<sub>_k_</sub>)) converges to _f_(_x_). That is to say, if for all ε there exists an _N_ such that if _k_ ≥ _N_, then |_x_<sub>_k_</sub> − _x_| < ε, then for all ε, there also exists an _M_ such that if _k_ ≥ _M_, then |_f_(_x_<sub>_k_</sub>) − _f_(_x_)| < ε.
 
-Sometimes people talk about discontinuous linear functions. You might think: that's crazy. I've seen many linear functions in my time, and they were definitely all continuous. _f_(_x_): ℝ → ℝ := _ax_ is continuous for any _a_ ∈ ℝ. _T_(**x⃗**): ℝ² → ℝ² := $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \boldsymbol{\vec{v}}$ is continuous no matter what the entries in the matrix are. Stop being crazy!!
+Sometimes people talk about discontinuous linear functions. You might think: that's crazy. I've seen many linear functions in my time, and they were definitely all continuous. _f_(_x_): ℝ → ℝ := _ax_ is continuous for any _a_ ∈ ℝ. _T_(**x⃗**): ℝ² → ℝ² := $\begin&#123;pmatrix&#125; a & b \\ c & d \end&#123;pmatrix&#125; \boldsymbol{\vec{v}}$ is continuous no matter what the entries in the matrix are. Stop being crazy!!
 
 Actually, it's not crazy. It's just that all the discontinuous linear functions live in infinite-dimensional spaces.
 
