@@ -41,6 +41,6 @@ def nag_message():
 subprocess.check_output(["notify-send", "writing progress", nag_message()])
 ```
 
-[![My Wordcount Notification](http://zackmdavis.net/blog/wp-content/uploads/2014/07/wordcount_notification.png)](http://zackmdavis.net/blog/wp-content/uploads/2014/07/wordcount_notification.png)
+[![My Wordcount Notification]({static}/images/wordcount_notification.png)]({static}/images/wordcount_notification.png)
 
 _You're welcome_. Now get back to work.

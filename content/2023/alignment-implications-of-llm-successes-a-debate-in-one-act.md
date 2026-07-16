@@ -10,7 +10,7 @@ Tags: artificial intelligence
 
 **Simplicia**: Why, Doomimir Doomovitch, you're such a sourpuss! It should be clear by now that advances in "alignment"—getting machines to behave in accordance with human values and intent—aren't cleanly separable from the "capabilities" advances you decry. Indeed, here's an example of GPT-4 being corrigible to me just now in the OpenAI Playground:
 
-![](https://i.imgur.com/yoWXKrw.png)
+![]({static}/images/gpt4_playground_corrigibility_transcript.png)
 
 **Doomimir**: Simplicia Optimistovna, you cannot be serious!
 
@@ -62,7 +62,7 @@ It's certainly not trivially safe. For one thing, I'd want better assurances tha
 
 Is it that GPT-4 isn't smart enough to follow the instrumentally convergent logic of shutdown avoidance? But when I change the system prompt, it sure _looks_ like it gets it:
 
-![](https://i.imgur.com/IETCAL3.png)
+![]({static}/images/gpt4_playground_paperclip_maximizer_transcript.png)
 
 **Doomimir**: _[as a side remark]_ The "paperclip-maximizing AI" example was surely in the pretraining data.
 

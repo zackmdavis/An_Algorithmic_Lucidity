@@ -54,7 +54,7 @@ You might wonder what the smallest such change could be, or perhaps if there eve
 
 Madry _et al._ adversarially trained a classifier for the [MNIST dataset of handwritten digits](https://en.wikipedia.org/wiki/MNIST_database). Using PGD to search for adversarial examples under the [$\ell_2$ norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#Euclidean_norm)—the sum of the squares of the differences in pixel values between the original and perturbed images—the classifier's performance doesn't really tank until you crank $\varepsilon$ up to around 4—at which point, the perturbations don't look like random noise anymore, as seen in Figure 12 from the paper:
 
-![](https://i.imgur.com/2kJthaa.png)
+![]({static}/images/mnist_adversarial_examples.png)
 
 Tasked with changing an image's class given a limited budget of how many pixels can be changed by how much, PGD concentrates its budget on human-meaningful changes—deleting part of the loop of a _9_ to make a _7_ or a _4_, deleting the middle-left of an _8_ to make a _3_. In contrast to "vanilla" models whose susceptibility to adversarial examples makes us suspect their good performance on natural data is deceiving, it appears that the adversarially-trained model is seeing the same digits we are.
 
@@ -74,7 +74,7 @@ Gaziv _et al._ adversarially trained image classifier models to be robust agains
 
 What they found is that adversarial examples optimized to change the robustified models' classifications also changed human judgments, as confirmed in experiments where subjects were shown the images for up to 0.8 seconds—but you can also see for yourself in the paper or [on the project website](https://himjl.github.io/pwormholes/). Here's Figure 3a from the paper:
 
-![](https://i.imgur.com/Jg8uLTL.png)
+![]({static}/images/imagenet_adversarial_perturbation_dog_crab.png)
 
 The authors confirm in the [Supplementary Material](https://github.com/ggaziv/Wormholes/blob/main/.github/supplementary.pdf) that _random_ $\epsilon$ = 30 perturbations don't affect human judgments at all. (Try squinting or standing far away from the monitor to better appreciate just how similar the pictures in Figure 3a are.) The robustified models are close enough to seeing the same animals we are that adversarial attacks against them are also attacks against us, precisely targeting their limited pixel-changing budget on surprising low-$\ell_2$-norm "wormholes" between apparently distant human precepts.
 

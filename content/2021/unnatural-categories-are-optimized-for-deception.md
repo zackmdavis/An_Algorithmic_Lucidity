@@ -48,7 +48,7 @@ Another engineer has already written a system that processes camera and sensor d
 
 The feature data consists of the blueness–eggness–vanadium-content joint distribution given by this 128-entry table:
 
-![blueness–eggness–vanadium joint distribution](https://i.imgur.com/zR83zOq.png)
+![blueness–eggness–vanadium joint distribution]({static}/images/blueness_eggness_vanadium_joint_distribution.png)
 
 This seems like ... not the most useful representation? The data is all there, so _in principle_, you could code whatever you needed to do based off the full table, but it seems like it would be an unmaintainable mess: you'd sooner _resign_ than write a 128-case [switch statement](https://en.wikipedia.org/wiki/Switch_statement). Furthermore, when the system is deployed, you hope to typically be able to give the binning robot messages based on _only_ the color and shape observations, because the Sorting Scanner that the vanadium readings come from is expensive to run. You _could_ just do a Bayesian update on the entire joint distribution, of course, but it seems like it should be possible to be more efficient by exploiting regularities in the data, not entirely unlike how your colleague's system has _already_ made your job much simpler by giving you blueness and eggness feature scores rather than raw camera data. Eyeballing the table, you notice it seems to have a lot of redundancy: most of the probability-mass is concentrated in two regions where the blueness and eggness scores are either both high or both low—and vanadium is _only_ found when both blueness and eggness are high.
 
@@ -62,7 +62,7 @@ $$\sum_{\mathrm{category}} P(\mathrm{category}) \cdot P(\mathrm{blueness}|\mathr
 
 We can simplify our representation of our observations by using a [naïve Bayes model](https://en.wikipedia.org/wiki/Naive_Bayes_classifier), a "star-shaped" [Bayesian network](https://www.lesswrong.com/posts/hzuSDMx7pd2uxFc5w/causal-diagrams-and-causal-models) where a central "category" node is posited to underlie all of our observations: we believe that each object either "is a blegg" (and therefore contains vanadium and has high blueness and eggness scores) with probability 0.48, "is a rube" (and therefore has no vanadium and low blueness and eggness scores) with probability 0.48, or belongs to a catch-all "other"/error class with probability 0.04. (Maybe the camera is buggy sometimes, or maybe there are some other random objects mixed in with the rubes and bleggs?)
 
-![factorized object distribution](https://i.imgur.com/zIaDccJ.png)
+![factorized object distribution]({static}/images/factorized_category_distribution_blegg_rube.png)
 
 The full joint distribution had 127 degrees of freedom (a table of $8 \cdot 8 \cdot 2 = 128$ separate probabilities, constrained to add up to 1), whereas the naïve-Bayes representation only needs 57 parameters ($3 \cdot 1$ prior probabilities for the categories, plus $3 \cdot 8 = 24$, $3 \cdot 8 = 24$, and $3 \cdot 2 = 6$-entry _conditional_ probability tables for each of the features). The advantage would be much larger for more complicated problems: the joint distribution table grows exponentially with more features, quickly becoming infeasible to _store and represent_, let alone _learn_.
 
@@ -92,7 +92,7 @@ But this trick of using a signal to correlate the models between different machi
 
 As a human learning math, it's helpful to examine [multiple representations of the same mathematical object](https://en.wikipedia.org/wiki/Multiple_representations_(mathematics_education)). We've already seen our blueness–eggness–vanadium model represented as a table, and factorized into a graphical model. We've done also some algebraic calculations with it. But we can also visualize it: the set of camera observations that the model classifies as a blegg with probability $\ge 0.96$ can be thought of a area with a boundary in two-dimensional blueness–eggness space:
 
-![](https://i.imgur.com/lcapjbb.png)
+![]({static}/images/blegg_region_scatterplot.png)
 
 ("With probability $\ge 0.96$" because our catch-all "other"/error category can also generate examples with high blueness and eggness scores; we can't say things like "Everything inside the boundary in the diagram is a blegg" when we're talking about a formal model where some of the categories generate overlapping observations in whatever subspace the diagram is depicting.)
 
@@ -100,7 +100,7 @@ If you were trying to _teach_ someone about the hidden Bayesian structure of lan
 
 Alaska [isn't even _contiguous_ with](https://en.wikipedia.org/wiki/Contiguous_United_States) the rest of the United States. If _that's_ okay, why can't the borders of bleggness be a little squiggly?
 
-![](https://i.imgur.com/IBKatUG.png)
+![]({static}/images/blegg_star_gerrymandered_region.png)
 
 Because the "national borders" metaphor is [just a metaphor](https://www.lesswrong.com/posts/C4EjbrvG3PvZzizZb/failure-by-analogy). It _immediately_ breaks down as soon as you try to do any calculations.
 
@@ -154,7 +154,7 @@ Then our expected squared error before being told anything about an object is ab
 
 But suppose that, instead of our nice factorized naïve Bayes model, we use a category system based on drawing squiggly "boundaries" in configuration space: everything inside the blegg\* boundary in the diagram is a blegg\*, everything within the rube\* boundary in a rube\*, and anything outside belongs to a catch-all "other\*" category.
 
-![](https://i.imgur.com/KuBZZkO.png)
+![]({static}/images/blegg_rube_star_gerrymandered_regions.png)
 
 On learning whether an object is a blegg\*, rube\*, or other\*, our expected squared error only goes down to about 4.12.[^script]
 

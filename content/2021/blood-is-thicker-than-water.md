@@ -24,7 +24,7 @@ One element of the evolutionary worldview is a "continuity" postulate: all else 
 
 The fact that evolution persists information in the genome creates a regularity in the world that can be exploited by [cognitive algorithms](https://www.lesswrong.com/posts/HcCpvYLoSFP4iAqSz/rationality-appreciating-cognitive-algorithms) that know about phylogeny. In terms of [the formalization of causality with directed acyclic graphs](https://www.lesswrong.com/posts/hzuSDMx7pd2uxFc5w/causal-diagrams-and-causal-models) [pioneered by Judea Pearl and others](https://www.lesswrong.com/posts/jnjjzkH8Fdzg4D6EK/causality-a-chapter-by-chapter-review), an organism's genome is at the [root](https://en.wikipedia.org/wiki/Rooted_graph) of the causal graph underlying all other features of an organism:
 
-![](https://i.imgur.com/7ksShzY.png)
+![]({static}/images/dolphin_dna_to_phenotype_causal_graph.png)
 
 In the language of causal graphs, conditioning on the "dolphin DNA" node in the diagram [d-separates](http://bayes.cs.ucla.edu/BOOK-2K/d-sep.html) the paths between the "blowhole" and "flippers" nodes that run through the "dolphin DNA" node. That means that—assuming there aren't any other paths between "blowhole" and "flippers" that _don't_ go through "dolphin DNA"—"blowhole" and "flippers" become [conditionally independent](https://en.wikipedia.org/wiki/Conditional_independence) given "dolphin DNA": when I see a creature with a blowhole, that makes me more likely to think it's a dolphin, which makes me more likely to think it has flippers, but given that I already know something is a dolphin, learning more about its flippers doesn't change my predictions about its blowhole.
 
@@ -80,7 +80,7 @@ In contrast, when classifying life on Earth, we're _not_ in the position of maki
 
 It shouldn't be that surprising that the distinctions we notice in the natural world are _both_ tied to the evolutionary history, but _also_ don't always correspond to monophyletic clades. The continuity postulate in the evolutionary worldview imposes the desideratum that good categories should at least be a [connected set](https://en.wikipedia.org/wiki/Connected_space) on "phylogenetic space", not that we should never want to talk about "this clade, except for these few sub-clades that picked up a lot of important differences" as a category of interest—_especially_ when talking about present-day creatures. (We talk about "last common ancestors", but no one has _seen_ such creatures that lived millions of years ago; everything but the very leaves of the phylogenetic tree are inferred, not observed.)
 
-![](https://i.imgur.com/Yq4a1we.png)
+![]({static}/images/paraphyletic_fish_polyphyletic_swimmy_animals.png)
 
 The claim that dolphins shouldn't be considered "fish" because the alleged "courage of our convictions" should make us disdain paraphyletic categories only makes sense as an attempted [_reductio ad absurdum_](https://en.wikipedia.org/wiki/Reductio_ad_absurdum), not as a consistent argument on its own terms: putting dolphins and fish together would be [polyphyletic](https://en.wikipedia.org/wiki/Polyphyly)! That's even worse! But as has just been explained, the _reductio_ fails because the alleged principle being allegedly violated was never actually a principle of category formulation.
 

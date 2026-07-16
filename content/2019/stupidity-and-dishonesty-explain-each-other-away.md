@@ -22,6 +22,6 @@ Here's another example: if someone you're arguing with is wrong, it could be eit
 
 [^code]: Thanks to Daniel Kumor for [example $\LaTeX$ code for causal graphs](https://dkumor.com/posts/technical/2018/08/15/causal-tikz/).
 
-![stupidity → wrongness ← dishonesty](https://i.imgur.com/aAblF44.png)
+![stupidity → wrongness ← dishonesty]({static}/images/stupidity_dishonesty_wrongness_dag.png)
 
 Notably, the decomposition still works whether you count subconscious motivated reasoning as "stupidity" or "dishonesty". (Needless to say, it's also symmetrical across persons—if _you're_ wrong, it could be because _you're_ stupid or are being dishonest.)

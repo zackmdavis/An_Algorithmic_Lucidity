@@ -148,7 +148,7 @@ end
 
 —and dear reader, the maximum-flow problem is _solved_! For suppose we are faced with the network depicted in the following diagram:
 
-[![our flow network](http://zackmdavis.net/blog/wp-content/uploads/2013/08/flownetwork-300x174.jpg)](http://zackmdavis.net/blog/wp-content/uploads/2013/08/flownetwork.jpg)
+[![our flow network]({static}/images/flownetwork-300x174.jpg)]({static}/images/flownetwork.jpg)
 
 We can then (admittedly with some typing) call for a solution like so:
 

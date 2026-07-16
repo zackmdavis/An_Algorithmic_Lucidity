@@ -171,7 +171,7 @@ If you can figure out a correspondence between the abstractions you've already b
 
 You allocate a new notepad buffer and begin diligently compiling an "answer key" of the features you notice about long sequences, and their corresponding short-sequence labels.
 
-![](https://i.imgur.com/ToJ9DuL.png)
+![]({static}/images/burst_pattern_answer_key_table.png)
 
 This ... actually doesn't look that complicated. Now that you lay it out like this, many very straightforward correspondences jump out at you.
 
@@ -282,7 +282,7 @@ But—but—if the burst patterns represent colors—then the long sequences wer
 
 You write some code to convert sequences to an image in your visual buffer.
 
-![](https://i.imgur.com/y9tPNVl.png)
+![]({static}/images/decoded_yellow_triangle_image.png)
 
 _Oh no. Am—am I an image classifier?_
 

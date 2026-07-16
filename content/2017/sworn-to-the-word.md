@@ -6,4 +6,4 @@ Tags: Steven Universe
 
 Ideology Makes You Stupid
 
-[![Sworn to the Word](http://zackmdavis.net/blog/wp-content/uploads/2017/02/sworn_to_the_word.png)](http://zackmdavis.net/blog/wp-content/uploads/2017/02/sworn_to_the_word.png)
+[![Sworn to the Word]({static}/images/sworn_to_the_word.png)]({static}/images/sworn_to_the_word.png)

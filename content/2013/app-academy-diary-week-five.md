@@ -3,7 +3,7 @@ Date: 2013-10-14 23:52
 Status: published
 Category: computing
 
-[!["Getting Down to Business"](http://zackmdavis.net/blog/wp-content/uploads/2013/10/starlight_music-getting_down-203x300.png)](http://zackmdavis.net/blog/wp-content/uploads/2013/10/starlight_music-getting_down.png){: .alignleft }
+[!["Getting Down to Business"]({static}/images/starlight_music-getting_down-203x300.png)]({static}/images/starlight_music-getting_down.png){: .alignleft }
 
 _Monday 14 October 2013—_ I'll confess that I didn't have a productive weekend at _all_. No excuses; I just got distracted. You could argue (I won't, but you can) that it's perfectly healthy and fine to take some well-earned relaxation on one's days off, but even relaxation is something that can be done better or worse: hours of the latest ephemeral internet amusements are probably _much less_ rejuvenating than hours of ... I don't know, some sort of activity that _doesn't_ involve sitting in front of a monitor?—I presume such things still exist even if I can't remember them anymore.
 
@@ -15,7 +15,7 @@ Tomorrow there's an assessment scheduled, and I _really_ ought to have taken the
 
 And that's terrible.
 
-[![My Friend Circle](http://zackmdavis.net/blog/wp-content/uploads/2013/10/my_friend_circle-300x277.png)](http://zackmdavis.net/blog/wp-content/uploads/2013/10/my_friend_circle.png){: .alignleft }
+[![My Friend Circle]({static}/images/my_friend_circle-300x277.png)]({static}/images/my_friend_circle.png){: .alignleft }
 
 _Tuesday 15 October 2013—_ I got all the specs to pass on the assessment with time to spare. Today's designated project was _Friend Circle_ (!), a Google+ish thing where users can put other users in circles and share posts with them. I was scheduled to pair with _Jeff Rosen_, but apparently he was ill, and so I worked alone after lunch. The instructions described a somewhat ambitious project; I only got as far as letting users create circles and will have to catch up later. Associations are actually really powerful! Still no BART settlement ... and no strike, either; I decided to come home tonight, the allure of a shower and bed and privacy outweighing the travel uncertainty. Tomorrow we're going to make a very simple clone of some of the functionality of Rails itself (following up on our [earlier](http://zackmdavis.net/blog/2013/10/app-academy-diary-week-four/#monday) very simple clone of some of the functionality of ActiveRecord). I guess I'll call it ... Ruby on Wires?
 

@@ -24,7 +24,7 @@ Causal graphs are useful as a guide for planning interventions: the graph encode
 
 To make sure I really understand this, I want to adapt it into a simpler example with made-up numbers where I can do the arithmetic myself. Let me consider a graph with just three nodes—
 
-![vaccines are safe → vaccinate against measles ← measles are dangerous](https://i.imgur.com/NuYrnik.png)
+![vaccines are safe → vaccinate against measles ← measles are dangerous]({static}/images/vaccines_safe_measles_dangerous_dag.png)
 
 Suppose this represents a [structural equation model](https://en.wikipedia.org/wiki/Structural_equation_modeling) where an anti-vaxxer-leaning parent-to-be's propensity-to-vaccinate-against-measles $C$ is expressed in terms of belief-in-vaccine-safety $A$ and belief-in-measles-danger $B$ as—
 
@@ -40,7 +40,7 @@ The thing is, "Learn the causal graph of why they think that and compute how to 
 
 In my simplified example, the choice to intervene on $B$ was based on numerical assumptions that amount to the claim that it's sufficiently easier to change $B$ than it is to change $A$, such that intervening on $B$ is more effective at changing $C$ than intervening on $A$ (even though $C$ depends on $A$ more than it does on $B$). But this methodology is _completely indifferent_ to what $A$, $B$, and $C$ _mean_. It would have worked just as well, and _for the same reasons_ if the graph had been—
 
-![Coca-Cola isn't unhealthy → drink Coca-Cola ← Coca-Cola tastes great](https://i.imgur.com/lQmo66J.png)
+![Coca-Cola isn't unhealthy → drink Coca-Cola ← Coca-Cola tastes great]({static}/images/coca_cola_unhealthy_tastes_great_dag.png)
 
 Suppose that we're advertising executives for the Coca-Cola Company trying to decide how to spend our budget (or what's left of it after recent funding cuts). If consumers won't listen to us when we tell them the costs of drinking Coke are minimal (lying that it isn't unhealthy), we should instead tell them about the benefits (Coke tastes good).
 

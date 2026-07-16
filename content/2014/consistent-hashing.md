@@ -71,7 +71,7 @@ And now—why, _now_ when you gain (respectively lose) a storage device, you can
 
 —and _most_ files stay on the same device: the only ones that have to move are those with a new nextmost designated spot in the ring!
 
-[![Your Consistent Hashing Ring](http://zackmdavis.net/blog/wp-content/uploads/2014/01/your_consistent_hashing_ring-300x148.png)](http://zackmdavis.net/blog/wp-content/uploads/2014/01/your_consistent_hashing_ring.png)
+[![Your Consistent Hashing Ring]({static}/images/your_consistent_hashing_ring-300x148.png)]({static}/images/your_consistent_hashing_ring.png)
 
 You decide to run a quick simulation to see if you've gotten this right before saving the edits to your soul. Suppose you had storage devices `device0` through `device5` and your patrons wanted you to store `file0` through `file5999`; how would the files end up distributed across your devices? You choose a prudent-seeming integer for the number of designated spots per device—say, 450?—and write the simulation like this—
 

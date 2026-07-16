@@ -6,7 +6,7 @@ Tags: Python, Rust, timely Special Event
 
 On Saturday the first, I attended [RustCamp](http://rustcamp.com/), the first conference dedicated to the newish (in development for fiveish years, but having just hit version 1.0.0 this May, with all the stability guarantees that implies under the benevolent iron fist of [semantic versioning](http://semver.org/spec/v2.0.0.html)) programming language [Rust](http://www.rust-lang.org/)!
 
-[![badge_and_lambda_dragon_shirt](http://zackmdavis.net/blog/wp-content/uploads/2015/08/badge_and_lambda_dragon_shirt-256x300.jpg)](http://zackmdavis.net/blog/wp-content/uploads/2015/08/badge_and_lambda_dragon_shirt.jpg)
+[![badge_and_lambda_dragon_shirt]({static}/images/badge_and_lambda_dragon_shirt-256x300.jpg)]({static}/images/badge_and_lambda_dragon_shirt.jpg)
 
 Why RustCamp? (It's a reasonable rhetorical question with which to begin this paragraph: going to a conference has opportunity costs in time and money; things worth blogging about are occasionally worth justifying—even if no one _actually_ asked me for a justification.) A lot of the answer can be derived from the answer to a more fundamental question, "Why Rust?" And for me, I think a lot of the answer to _that_ has to do with being sick of being a fake programmer living in a fake world that calls itself Python.
 

@@ -7,11 +7,11 @@ _Monday 23 September 2013_— I rewrote most of the tic-tac-toe game yesterday; 
 
 _Wednesday 25 September 2013_— Yesterday and today I wrote chess with _Nathan Holland_! Also, it turns out that the criminal scum who steal entire bicycles are not above stealing individual wheels, either.
 
-[![Our Chess](http://zackmdavis.net/blog/wp-content/uploads/2013/09/our_chess.png)](http://zackmdavis.net/blog/wp-content/uploads/2013/09/our_chess.png)
+[![Our Chess]({static}/images/our_chess.png)]({static}/images/our_chess.png)
 
 _Thursday 26 September 2013_— Today's exercise was to write checkers, alone (contrast to the pair programming methodology of previous days). I ... used [structs](http://www.ruby-doc.org/core-2.0.0/Struct.html) to represent the checkers and moves? I like structs?
 
-[![My Checkers](http://zackmdavis.net/blog/wp-content/uploads/2013/09/my_checkers-275x300.png)](http://zackmdavis.net/blog/wp-content/uploads/2013/09/my_checkers.png)
+[![My Checkers]({static}/images/my_checkers-275x300.png)]({static}/images/my_checkers.png)
 
 _Saturday 28 September 2013_— Yesterday was about _testing_. Novice programmers test their programs by running them and seeing if they give the expected results, which might be okay when your program is small and no one actually uses it, but then what happens when you wake up one day and you're in charge of maintaining a twenty-thousand-line application that people really depend on?
 

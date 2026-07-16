@@ -8,7 +8,7 @@ Tags: statistics
 
 There's this statistical phenomenon where it's possible for two multivariate distributions to overlap along any one variable, but be cleanly separable when you look at the entire [configuration space](https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace) at once. This is perhaps easiest to see with an illustrative diagram—
 
-![](https://i.imgur.com/Q5Gzfp3.png)
+![]({static}/images/univariate_fallacy_3d_separability.png)
 
 The denial of this possibility (in arguments of the form, "the distributions overlap along this variable, therefore you can't say that they're different") is sometimes called the "univariate fallacy." (Eliezer Yudkowsky [proposes "covariance denial fallacy" or "cluster erasure fallacy"](https://twitter.com/ESYudkowsky/status/1124757043997372416) as potential alternative names.)
 

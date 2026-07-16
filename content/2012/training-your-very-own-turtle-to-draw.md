@@ -103,6 +103,6 @@ if __name__ == "__main__":
 
 And we get this:
 
-[![our heroine's valiant attempt to draw the boundary of the mandelbrot set](http://zackmdavis.net/blog/wp-content/uploads/2012/07/mandelbrot_turtle-300x263.png "Our Heroine's Valiant Attempt to Draw the Boundary of the Mandelbrot Set")](http://zackmdavis.net/blog/wp-content/uploads/2012/07/mandelbrot_turtle.png)
+[![our heroine's valiant attempt to draw the boundary of the mandelbrot set]({static}/images/mandelbrot_turtle-300x263.png "Our Heroine's Valiant Attempt to Draw the Boundary of the Mandelbrot Set")]({static}/images/mandelbrot_turtle.png)
 
 Okay, so it's not perfect. But give the turtle a little credit, maybe? She tried. _We_ tried. And if that's not good enough—and, well, I guess it clearly is _not_ good enough—then I can only beg for forbearance on the part of any powers that could save us from our imminent self-destruction, we wretched and miserable creatures that are good enough to try but not good enough to succeed.

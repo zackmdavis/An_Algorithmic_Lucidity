@@ -16,7 +16,7 @@ Your best bet for an advance weather report is the [pneumatic tube](https://en.w
 
 You're in luck. Minutes later, the tube comes back. Inside is a new piece of paper:
 
-![](https://i.imgur.com/P12Zbkf.jpg)
+![]({static}/images/hand_drawn_hot_sign.jpg)
 
 You groan; you would have prefered the Cold. The nanoblock you wear when it's Hot smells terrible and makes your skin itch for days, but it—just barely—beats the alternative. You take twenty minutes to apply the nanoblock and put on your sunsuit, goggles, and mask. You will yourself to drag your wagon up the staircase from your bunker to the outside world, and heave open the door, dreading the sweltering two-mile walk to the marketplace (downhill, meaning it will be uphill on the way back with your full wagon)—
 
