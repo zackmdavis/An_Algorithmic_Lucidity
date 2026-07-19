@@ -116,7 +116,7 @@ Simplicia, I was willing to give this a shot, but I truly despair of leading you
 
 **Simplicia**: Would it, though? I think aliens looking at humans in the environment of evolutionary adaptedness and asking how the humans would behave when they attained to technology would have been able to predict that civilized humans would care about sex and sugar and fun rather than allele frequencies. That's a factual question that doesn't seem too hard to get right.
 
-**Doomimir**: _Sane_ aliens would. Unlike you, they'd also be able to predict that RLHF'd language models would care about <untranslatable-1>, <untranslatable-2>, and <untranslatable-3>, rather than being helpful, harmless, and honest.
+**Doomimir**: _Sane_ aliens would. Unlike you, they'd also be able to predict that RLHF'd language models would care about &lt;untranslatable-1&gt;, &lt;untranslatable-2&gt;, and &lt;untranslatable-3&gt;, rather than being helpful, harmless, and honest.
 
 **Simplicia**: I understand that it's possible for things to superficially look good in a brittle way. We see this with adversarial examples in image classification: classifiers that perform well on natural images can give nonsense answers on images constructed to fool them, which is worrying, because it indicates that the machines aren't really seeing the same images we are. That sounds like the sort of risk story you're worried about: that a full-fledged AGI might seem to be aligned in the narrow circumstances you trained it on, while it was actually pursuing alien goals all along.
 
