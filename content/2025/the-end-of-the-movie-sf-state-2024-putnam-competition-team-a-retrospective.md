@@ -61,7 +61,7 @@ Luck seemed to deliver. On a skim, B1, B2, and B4 looked potentially tractable. 
 
 > **B2.** Two convex quadrilaterals are called _partners_ if they have three vertices in common and they can be labeled ABCD and ABCE so that E is the reflection of D across the perpendicular bisector of the diagonal AC. Is there an infinite sequence of convex quadrilaterals such that each quadrilateral is a partner of its successor and no two elements of the sequence are congruent?
 
-![]({static}/images/partner_quadrilaterals_putnam_2024_b2.jpeg)
+![diagram of two partner quadrilaterals sharing vertices A, B, C, labeled ABCD and ABCE, with D and E reflected across the perpendicular bisector of diagonal AC]({static}/images/partner_quadrilaterals_putnam_2024_b2.jpeg)
 
 I imagined rotating the figure such that AC was the vertical axis and its bisector was the horizontal axis, and tried to imagine some way to perturb D and E to get a sequence of quadrilaterals that wouldn't be congruent (because the angles ∠CDA and ∠CEA were changing), but for which we could alternately take ABCD and ABCE so that successive shapes in the sequence would be partners. I couldn't see a way to make it work. Then I thought, what if perturb B instead?
 

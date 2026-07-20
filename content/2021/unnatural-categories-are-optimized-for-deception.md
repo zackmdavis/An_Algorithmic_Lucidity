@@ -92,7 +92,7 @@ But this trick of using a signal to correlate the models between different machi
 
 As a human learning math, it's helpful to examine [multiple representations of the same mathematical object](https://en.wikipedia.org/wiki/Multiple_representations_(mathematics_education)). We've already seen our blueness–eggness–vanadium model represented as a table, and factorized into a graphical model. We've done also some algebraic calculations with it. But we can also visualize it: the set of camera observations that the model classifies as a blegg with probability $\ge 0.96$ can be thought of a area with a boundary in two-dimensional blueness–eggness space:
 
-![]({static}/images/blegg_region_scatterplot.png)
+![blueness–eggness scatterplot with a compact square "bleggs (probably)" region in the upper-right corner]({static}/images/blegg_region_scatterplot.png)
 
 ("With probability $\ge 0.96$" because our catch-all "other"/error category can also generate examples with high blueness and eggness scores; we can't say things like "Everything inside the boundary in the diagram is a blegg" when we're talking about a formal model where some of the categories generate overlapping observations in whatever subspace the diagram is depicting.)
 
@@ -100,7 +100,7 @@ If you were trying to _teach_ someone about the hidden Bayesian structure of lan
 
 Alaska [isn't even _contiguous_ with](https://en.wikipedia.org/wiki/Contiguous_United_States) the rest of the United States. If _that's_ okay, why can't the borders of bleggness be a little squiggly?
 
-![]({static}/images/blegg_star_gerrymandered_region.png)
+![the same scatterplot with a squiggly, gerrymandered "blegg*s" region tracing the same upper-right corner]({static}/images/blegg_star_gerrymandered_region.png)
 
 Because the "national borders" metaphor is [just a metaphor](https://www.lesswrong.com/posts/C4EjbrvG3PvZzizZb/failure-by-analogy). It _immediately_ breaks down as soon as you try to do any calculations.
 
@@ -154,7 +154,7 @@ Then our expected squared error before being told anything about an object is ab
 
 But suppose that, instead of our nice factorized naïve Bayes model, we use a category system based on drawing squiggly "boundaries" in configuration space: everything inside the blegg\* boundary in the diagram is a blegg\*, everything within the rube\* boundary in a rube\*, and anything outside belongs to a catch-all "other\*" category.
 
-![]({static}/images/blegg_rube_star_gerrymandered_regions.png)
+![the same scatterplot with both a squiggly "blegg*s" region and a squiggly "rube*s" region in the lower-left, leaving an unclassified "??" gap between them]({static}/images/blegg_rube_star_gerrymandered_regions.png)
 
 On learning whether an object is a blegg\*, rube\*, or other\*, our expected squared error only goes down to about 4.12.[^script]
 

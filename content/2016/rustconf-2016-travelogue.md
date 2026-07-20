@@ -6,7 +6,7 @@ Tags: Rust, timely Special Event
 
 [(Previously on _An Algorithmic Lucidity_.)](http://zackmdavis.net/blog/2015/08/rustcamp-reminiscences/)
 
-[![sfo_reflections]({static}/images/sfo_reflections-243x300.jpg)]({static}/images/sfo_reflections.jpg){: .alignright }
+[![self-portrait reflected in a gate window at SFO, with a United jet parked beyond the glass]({static}/images/sfo_reflections-243x300.jpg)]({static}/images/sfo_reflections.jpg){: .alignright }
 
 The other weekend, excited to learn more and connect with people about what's going on at the forefront of expressive, performant, data-race-free computing—and eager for a healthy diversion from the last two months of agonizing delirium induced by the world-shattering insight about how everything I've cared about for the past fourteen years turns out to be related in unexpected and terrifying ways that I can't talk about for reasons that I also can't talk about—I took Friday off from my dayjob and caught a Thursday night flight out of SFO to exotic Portland (... I, um, don't travel much) for [RustConf](http://rustconf.com/)!
 
@@ -14,7 +14,7 @@ The conference itself was on Saturday, but Friday featured special training sess
 
 Every reference (I kind of want to say _ampersand_) in Rust code has an associated _lifetime_, the region of the program that that reference is valid for. Lifetime annotations (appearing in angle brackets like generics and starting with an apostrophe; by convention, usually named consecutively from the start of the lowercase Latin alphabet: `'a`, `'b`, _&c._) in function signatures are used to distinguish between the lifetimes of different reference arguments, but the compiler has _lifetime ellision rules_ that cover the 90% use-cases, so you can actually write pretty substantial Rust programs without actually understanding the theory, which is both practically useful and _eternally shameful_ (for a programmer who is _satisfied_ with _not understanding_ something is not long for this world). Hence the training. [(Exercises from the training sessions are available online.)](http://rust-tutorials.com/RustConf16/)
 
-[![rustconf_swag]({static}/images/rustconf_swag-236x300.jpg)]({static}/images/rustconf_swag.jpg){: .alignleft }
+[![RustConf 2016 swag laid out on a t-shirt: a lanyard, name badge, Rust-logo socks, and stickers]({static}/images/rustconf_swag-236x300.jpg)]({static}/images/rustconf_swag.jpg){: .alignleft }
 
 The point of lifetime analysis is to ensure that all references point somewhere valid; you can't (_can't_, the compiler won't let you) have a reference to a thing that outlives the thing itself. When you return a reference from a function, you can't be referencing something created by that function, because any such thing would die at the end of the function as it goes out of scope: a reference in the return type has to be a reference to something owned by the caller that was passed as an argument, but if there was more than one reference argument, it's ambiguous _which_ of the reference arguments has to be outlived by the returned reference, which is why you sometimes need explicit lifetime annotations ...
 
@@ -32,7 +32,7 @@ Matsakis and Aaron Turon gave the opening keynote on the remarkable year Rust ha
 
 There were some technical difficulties getting the projectors hooked up to the laptop for the next talk. Steve Klabnik said that the break was brought to us by Apple, who is not sponsoring us, but really wants us to have a long break between talks. "They should have written it in Rust!" I shouted (as if _someone_ had to say it); Steve shrugged.
 
-[![compiler_says_no]({static}/images/compiler_says_no-300x244.jpg)]({static}/images/compiler_says_no.jpg){: .alignright }
+[![conference talk slide of a cartoon compiler character in a referee jersey shouting "NO!" with a raised fist]({static}/images/compiler_says_no-300x244.jpg)]({static}/images/compiler_says_no.jpg){: .alignright }
 
 The projector issue got fixed and Liz Baille, developer at [Tilde](http://www.tilde.io/) and graphic-novelist, gave a really funny talk in the form of an "illustrated adventure guide" to Rust ("You might have noticed how clean and beautiful Rustlandia is, and you might have also noticed that there are no garbage cans anywhere").
 

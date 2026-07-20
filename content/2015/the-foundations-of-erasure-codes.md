@@ -28,7 +28,7 @@ Given any two distinct points on a plane, there is one and exactly one line that
 
 But suppose we were to remember _three_ points. Then we could still reconstruct the line from any two of them, which means that the information about our line hasn't been lost even if we forget one of the points.
 
-[![polynomial]({static}/images/polynomial.png)]({static}/images/polynomial.png)
+[![graph of a cubic polynomial curve passing through four marked points]({static}/images/polynomial.png)]({static}/images/polynomial.png)
 
 Similarly, three points make a parabola, four points make a cubic curve, and in full generality, _m_+1 points make a degree-_m_ polynomial. Given _n_ points on a polynomial curve where _n_ is greater than _m_+1, _any_ _m_+1 of them suffice to reconstruct the polynomial.
 

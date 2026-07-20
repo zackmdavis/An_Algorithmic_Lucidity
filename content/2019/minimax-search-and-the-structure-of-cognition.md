@@ -15,19 +15,19 @@ Consider a two-player board game like chess—or tic-tac-toe, Reversi, or indeed
 
 Because only one player can win the game, what's good for one player is equally bad for the other: so if we add up all the piece values for one player, and _subtract_ all the piece values for the other, we get a "score" for the board position that the first player is trying to maximize, and the second player is trying to minimize.
 
-[![]({static}/images/choice_pseudocode-300x123.png)]({static}/images/choice_pseudocode.png)
+[![pseudocode for a naive choose() function that picks the legal move with the highest immediate score]({static}/images/choice_pseudocode-300x123.png)]({static}/images/choice_pseudocode.png)
 
 So consider a player pondering her move. For every possible legal move she could make, she knows what the board position will look like after that move, and can calculate the value of that position. So you might think she should choose the move that results in the best value: for example, if she can capture the opponent's queen, that would make the subsequent board position be worth 9 more points.
 
 The problem with that is that it's short-sighted. If capturing the opponent's queen would just result in the opponent capturing the first player's queen back, then what looked like a 9 point gain after one turn, ends up being a wash after both players have taken their turn.
 
-[![]({static}/images/game_tree-300x224.png)]({static}/images/game_tree.png)
+[![a game tree diagram three plies deep, with chess-board positions at each node and the root's score computed as the max over its children's min-scores]({static}/images/game_tree-300x224.png)]({static}/images/game_tree.png)
 
 To take this into account, the first player should consider not just the immediate outcome of her move, but what the other player is likely to do after that. And the way the first player can compute what she predicts the second player will do is by asking, well, what would _I_ do if I were in that position, except trying to minimize the score rather than maximizing it?
 
 ... and so on recursively. So instead of just choosing the move with the best _immediate_ consequences, we want to look at the entire "game tree" of "my best move, _given_ her best move, _given_ my best move, _given_ her best move"—down to some given depth at which we give up, take the point count at face value, and propagate that information back up the call stack.
 
-[![]({static}/images/negamax_pseudocode-300x160.png)]({static}/images/negamax_pseudocode.png)
+[![pseudocode for minimax_score(), recursively calling itself on each legal move down to a fixed remaining_depth]({static}/images/negamax_pseudocode-300x160.png)]({static}/images/negamax_pseudocode.png)
 
 So, that's how you play chess. I want to tell you about two more philosophical insights I learned from this endeavor.
 
@@ -49,19 +49,19 @@ On the other hand, maybe you _would_ bother loading a gun even if you didn't int
 
 This position came up in a game with my coworkers [as part of the engine's planning](http://zackmdavis.net/blog/2016/02/missing-refutations/) in a scenario where Black's previous move was moving her bishop to f5—
 
-[![]({static}/images/scenario_pt1-300x300.png)]({static}/images/scenario_pt1.png)
+[![chess position]({static}/images/scenario_pt1-300x300.png)]({static}/images/scenario_pt1.png)
 
 Here, the engine's predicted move for Black is knight to g3. At a first glance, this looked crazy to me: why would you move the knight to be diagonally in front of those pawns that could capture it?
 
-[![]({static}/images/scenario_pt2-300x300.png)]({static}/images/scenario_pt2.png)
+[![chess position]({static}/images/scenario_pt2-300x300.png)]({static}/images/scenario_pt2.png)
 
 And of course, what's actually happening is that moving the knight reveals a discovered attack of the black bishop on f5 against the white queen on c2.
 
-[![]({static}/images/scenario_pt3-300x300.png)]({static}/images/scenario_pt3.png)
+[![chess position with arrows indicating discovered attack]({static}/images/scenario_pt3-300x300.png)]({static}/images/scenario_pt3.png)
 
 Saving the queen is more important to White than capturing the black knight, allowing Black to use _her_ next turn to capture the white rook on h1.
 
-[![]({static}/images/scenario_pt4-300x300.png)]({static}/images/scenario_pt4.png)
+[![chess position]({static}/images/scenario_pt4-300x300.png)]({static}/images/scenario_pt4.png)
 
 But this is pretty weird, right? The algorithm has gone to all this trouble to set up a discovered attack on the white queen—in order to capture the white _rook_, not the queen!
 

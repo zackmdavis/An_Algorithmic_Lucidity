@@ -6,4 +6,4 @@ Tags: Steven Universe
 
 Ideology Makes You Stupid
 
-[![Sworn to the Word]({static}/images/sworn_to_the_word.png)]({static}/images/sworn_to_the_word.png)
+[![three-panel Steven Universe screenshot story: Pearl tells Connie predictions don't matter, Connie repeats it back unskeptically, then Steven insists predictions do matter]({static}/images/sworn_to_the_word.png)]({static}/images/sworn_to_the_word.png)

@@ -26,7 +26,7 @@ $$\begin{matrix} X_1=\mathrm{False},\: X_2=\mathrm{True},\: X_3=\mathrm{True},\:
 
 Now, how do you go about building a Bayesian network? As a casual formal epistemology fan, you are proud to own a copy of [the book by Daphne Koller and the other guy](https://mitpress.mit.edu/9780262013192/probabilistic-graphical-models/), which explains how to do this in—you leaf through the pages—probably §3.4, "From Distributions to Graphs"?—looks like ... _here_, in Algorithm 3.2. It says to start with an empty graph, and it talks about random variables, and setting directed edges in the graph, and you know from chapter 2 that the ⟂ and | characters are used to indicate conditional independence. That has to be it.
 
-![]({static}/images/koller_friedman_minimal_imap_algorithm.jpg)
+![textbook page showing "Algorithm 3.2: Procedure to build a minimal I-map given an ordering" pseudocode]({static}/images/koller_friedman_minimal_imap_algorithm.jpg)
 
 (As a casual formal epistemology fan, you haven't actually _read_ chapter 3 up through §3.4, but you don't see why that would be necessary, since this Algorithm 3.2 pseudocode is telling you what you need to do.)
 
@@ -36,27 +36,27 @@ That seems complicated when you say it abstractly, but you have faith that it wi
 
 First, you allocate a graph node for $X_1$. It doesn't have any parents, so the associated conditional ("conditional") probability distribution, is really just the marginal distribution for $X_1$.
 
-![]({static}/images/wet_node_marginal_table.png)
+![node X₁ with its marginal probability table: P(X₁=True)=8/25, P(X₁=False)=17/25]({static}/images/wet_node_marginal_table.png)
 
 Then you allocate a node for $X_2$. $X_2$ is not independent of $X_1$. (Because $P(X_1 \land X_2)$ = 169/1400, which isn't the same as $P(X_1) \cdot P(X_2)$ = 8/25 · 1/7 = 8/175.) So you make $X_1$ a parent of $X_2$, and your conditional probability table for $X_2$ separately specifies the probabilities of $X_2$ being true or false, depending on whether $X_1$ is true or false.
 
-![]({static}/images/wet_sprinkler_bayesnet_step.png)
+![graph with an arrow from node X₁ to node X₂, alongside X₁'s marginal table and X₂'s conditional probability table given X₁]({static}/images/wet_sprinkler_bayesnet_step.png)
 
 Next is $X_3$. Now that you have two possible parents, you need to check whether conditioning on either of $X_1$ and $X_2$ would render $X_3$ conditionally independent of the other. If not, then both $X_1$ and $X_2$ will be parents of $X_3$; if so, then the variable you conditioned on will be the sole parent. (You assume that the case where $X_3$ is just independent from both $X_1$ and $X_2$ does not pertain; if that were true, $X_3$ wouldn't be connected to the rest of the graph at all.)
 
 It turns out that $X_3$ and $X_2$ are conditionally independent given $X_1$. That is, $P(X_3 \land X_2 \mid X_1) = P(X_3 \mid X_1) \cdot P(X_2 \mid X_1)$. (Because the left-hand side is $\frac{P(X_3 \land X_2 \land X_1)}{P(X_1)} = \frac{507}{1792}$, and the right-hand side is $\frac{3}{4} \cdot \frac{169}{448} = \frac{507}{1792}$.) So $X_1$ is a parent of $X_3$, and $X_2$ isn't; you draw an arrow from $X_1$ (and only $X_1$) to $X_3$, and compile the corresponding conditional probability table.
 
-![]({static}/images/wet_sprinkler_slippery_bayesnet_step.png)
+![graph with X₁ as parent of both X₂ and X₃, alongside conditional probability tables for X₂ and X₃ given X₁]({static}/images/wet_sprinkler_slippery_bayesnet_step.png)
 
 Finally, you have $X_4$. The chore of finding the parents is starting to feel more intuitive now. Out of the $2^3 = 8$ possible subsets of the preceding variables, you need to find the smallest subset, such that conditioning on that subset renders $X_4$ (conditionally) independent of the variables not in that subset. After some calculations that the authors of expository blog posts have sometimes been known to callously leave as an exercise to the reader, you determine that $X_1$ and $X_2$ are the parents of $X_4$.
 
 And with one more conditional probability table, your Bayesian network is complete!
 
-![]({static}/images/wet_sprinkler_slippery_rain_bayesnet_xlabels.png)
+![completed four-node graph: X₁ points to X₂ and X₃, and X₁ together with X₂ point to X₄, alongside all four conditional probability tables]({static}/images/wet_sprinkler_slippery_rain_bayesnet_xlabels.png)
 
 Eager to interpret the meaning of this structure regarding the philosophy of causality, you translate the $X_i$ variable labels back to English:
 
-![]({static}/images/wet_sprinkler_slippery_rain_bayesnet_named.png)
+![same four-node graph with variables relabeled by their English names: "wet" points to "sprinkler" and "slippery", and "wet" together with "sprinkler" point to "rain"]({static}/images/wet_sprinkler_slippery_rain_bayesnet_named.png)
 
 ...
 
@@ -70,7 +70,7 @@ After some thought, it becomes clear that it wasn't just a calculation error: th
 
 You try carrying out the algorithm with the ordering "rain", "sprinkler", "wet", "slippery" (or $X_4$, $X_2$, $X_1$, $X_3$ using your $X_i$ labels from before), and get this network:
 
-![]({static}/images/alternate_ordering_bayesnet_rain_sprinkler_wet_slippery.png)
+![alternate Bayesian network built using the ordering rain, sprinkler, wet, slippery: "rain" and "sprinkler" both point to "wet", which points to "slippery"]({static}/images/alternate_ordering_bayesnet_rain_sprinkler_wet_slippery.png)
 
 —for which giving the arrows a causal interpretation seems much more reasonable.
 

@@ -8,7 +8,7 @@ Previously, [I wrote about how I was considering going back to San Francisco Sta
 
 So, I did that. I think it was a good decision! I got more out of it than I expected.
 
-![]({static}/images/party_propaganda.jpg){: width="300" .alignright }
+![SF State banner ad on a lamppost: "SF State is where my vision became reality. What's your story? Tell it at SF State."]({static}/images/party_propaganda.jpg){: width="300" .alignright }
 
 To be clear, "better than I expected" is not an endorsement of college. SF State is still the same communist dystopia I remember from a dozen years ago—a bureaucratic command economy dripping in propaganda about how indispensible and humanitarian it is, whose subjects' souls have withered to the point where, even if they don't quite believe the propaganda, they can't conceive of life and work outside the system.
 
@@ -26,7 +26,7 @@ My psychiatric impairment that semester was particularly disappointing because I
 
 Coming back eleven years later, I was eager to make up for that disappointment by picking up where I left off in "Real Analysis II" with the same Prof. Schuster. On the first day on instruction, I wore a collared shirt and tie (and mask, having contracted COVID-19 while traveling the previous week) and came to classroom early to make a point of marking my territory, using the whiteboard to write out the first part of a proof of the multivariate chain rule that I was working through in Bernd S. W. Schröder's _Mathematical Analysis: A Concise Introduction_—my favorite analysis textbook, which I had discovered in the SFSU library in 2012 and subsequently bought my own copy. (I would soon check up on the withdrawal stamp sheet in the front of the library's copy. No one had checked it out in the intervening twelve years.)
 
-![]({static}/images/chain_rule.jpg)
+![whiteboard covered in a handwritten proof of the multivariate chain rule]({static}/images/chain_rule.jpg)
 
 The University Bulletin officially titled the course "Real Analysis II: Several Variables", so you'd expect that getting a leg up on the multidimensional chain rule would be studying ahead for the course, but it turned out that the Bulletin was lying relative to the syllabus that Prof. Schuster had emailed out the week before: we would be covering series, series of functions, and metric space topology. Fine. (I was already pretty familiar with metric space topology, but even my "non-epsilon" calculus-level knowledge of series was weak; to me, the topic stunk of school.)
 
@@ -161,7 +161,7 @@ The course covered the basics of group theory, with a little bit about rings at 
 
 I mostly treated the algebra coursework as an afterthought to the analysis courses I was devoting most of my focus to. I tried to maintain a lead on the weekly algebra assignments (five problems hand-picked by Prof. Ross, not from Gallian), submitting them an average of 5.9 days early—in the spirit of getting it out of the way. [On](http://zackmdavis.net/docs/davis-algebra-assignment02.pdf) [a](http://zackmdavis.net/docs/davis-algebra-assignment05.pdf) [few](http://zackmdavis.net/docs/davis-algebra-assignment07.pdf) [assignments](http://zackmdavis.net/docs/davis-algebra-assignment07.pdf), I wrote some Python to compute orders of elements or cosets of permutation groups in preference to doing it by hand. One week [I started working on the prequisite chapter on polynomial rings](http://zackmdavis.net/docs/polynomial_rings_1.pdf) from the algebraic geometry book Prof. Ross had just written with his partner Prof. Emily Clader, but that was just to show off to Prof. Ross at office hours that I had at least looked at his book; I didn't stick with it.
 
-![]({static}/images/loyalty_card.jpg){: width="300" .alignright}
+![a TASC "I ♥ Tutoring" punch card with all nine star spaces stamped]({static}/images/loyalty_card.jpg){: width="300" .alignright}
 
 The Tutoring and Academic Support Center (TASC) offered tutoring for "Modern Algebra I", so I signed up for weekly tutoring sessions with the TA for the class, not because I needed help to do well in the class, but it was nice to work with someone. Sometimes I did the homework, sometimes we talked about some other algebra topic (from Dummit & Foote, or Ross & Clader that one week), one week I tried to explain my struggles with measure theory. TASC gave out loyalty program–style punch cards that bribed students with a choice between two prizes every three tutoring sessions, which is as patronizing as it sounds, but wondering what the next prize options would be was a source of anticipation and mystery; I got a pen and a button and a tote bag over the course of the semester.
 
@@ -252,7 +252,7 @@ It's not just that it would be absurd to get worked up over one measly point of 
 
 It was fine. Prof. Moore "clarified" that the extra credit was viewpoint-neutral. (I was a little embarrassed not to have witnessed the verbal announcement in class on Tuesday, but I had already made plans to [interview the campus machine-shop guy](https://www.peterverdone.com/academia-math-trans-and-a-ton-of-other-stuff/) at that time instead of coming to class.) After having made a fuss, I was obligated to follow through, so I made a "BUDGET CUTS ARE PROBABLY OK!" sign (re-using the other side of the foamboard from [an anti–designated hitter rule sign I had made for a recent National League baseball game](https://x.com/zackmdavis/status/1806179824249225321)) and held it at the rally on Thursday for ten minutes to earn the extra-credit point.
 
-![]({static}/images/budget_cuts_are_probably_ok.jpg)
+![sign reading "BUDGET CUTS ARE PROBABLY OK!" with bullet points about declining enrollment, schooling ≠ learning, and cutting the fat, illustrated with a cartoon alligator holding a money bag and a pair of scissors cutting a dashed line]({static}/images/budget_cuts_are_probably_ok.jpg)
 
 As for the philosophy of animals itself, I was already sufficiently well-versed in naturalist philosophy of mind that I don't feel like I learned much of anything new. I posted [24/25](http://zackmdavis.net/docs/philosophy_of_animals-test1.pdf) (plus a 2 point "curve" because SFSU students are illiterate), [21.5/25](http://zackmdavis.net/docs/philosophy_of_animals-test2.pdf) (plus 4), and 22/25 (plus 2) on the three tests, and finished the semester at 101.5% for an A.
 

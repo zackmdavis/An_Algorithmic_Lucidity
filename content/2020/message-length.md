@@ -46,7 +46,7 @@ And _that's_ how you can explain mysteriously frequent consecutive runs and alte
 
 A biased coin is just an _n_-th-order Markov chain where _n_ = 0. An _n_-th-order Markov chain where _n_ > 1, is just a first-order Markov chain where each "state" is a tuple of bits, rather than a single bit. 
 
-![]({static}/images/de_bruijn_graph_binary_strings.png)
+![three graphs representing Markov chains of increasing order: single-bit states 0 and 1, two-bit states 00/01/10/11, and three-bit states 000 through 111]({static}/images/de_bruijn_graph_binary_strings.png)
 
 Everything in the universe is a Markov chain!—with respect to the models you've considered so far.
 

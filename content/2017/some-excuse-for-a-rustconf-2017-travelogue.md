@@ -8,7 +8,7 @@ Tags: akrasia, Rust, timely Special Event
 
 Wow, has it already been a year since last RustConf?—give or take the exact date of the event sliding a bit between years—and give a month-and-a-half of procrastination before being truly struck by the mounting realization that my opportunity to blog _something_ about it [before the opportunity expires](http://zackmdavis.net/blog/2016/01/ideas-have-expirations/) has almost—but crucially, not quite—faded into oblivion. And a year-and-a-quarter since [my first contribution](http://zackmdavis.net/blog/2016/06/pose/) to the compiler? I've recently moved into the top hundred contributors by commit count, because GitHub's [contributors graph page](https://github.com/rust-lang/rust/graphs/contributors) only goes down to a hundred and [my life is controlled by what things GitHub happens to provide graphs for](http://zackmdavis.net/blog/2014/02/motivation/).
 
-[![]({static}/images/rustconf_2017_swag-225x300.jpg)]({static}/images/rustconf_2017_swag.jpg){: .alignleft }
+[![RustConf 2017 swag laid out on a t-shirt: two lanyards with name badges, a mug and tote bag with the Rust logo]({static}/images/rustconf_2017_swag-225x300.jpg)]({static}/images/rustconf_2017_swag.jpg){: .alignleft }
 
 So in the evening of Wednesday 15 August, I boarded the Amtrak [Coast Starlight](https://www.amtrak.com/coast-starlight-train) at Jack London Square station in Oakland for the long pilgrimage north to Portland to visit friend of the blog Sophia and attend this year's RustConf.
 

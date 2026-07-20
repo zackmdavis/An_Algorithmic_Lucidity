@@ -65,7 +65,7 @@ Except in order to study the emergence of clustering among multiple beliefs, we 
 
 If all the agents update on the experimental results published by the agents who do B, they quickly learn that B is better for all three questions. If we make a pretty 3D scatterplot where [each dimension represents](https://www.lesswrong.com/posts/WBw8dDkAWohFjWQSk/the-cluster-structure-of-thingspace) the probability that B is better for one of the dilemmas, then the points converge over time to the [1.0, 1.0, 1.0] "corner of Truth", even though they started out uniformly distributed all over the space.
 
-![]({static}/images/bayes_convergence_scatterplot.png)
+![two 3D scatterplots: agents' beliefs starting uniformly scattered on the left, converging tightly to the [1,1,1] "corner of Truth" on the right]({static}/images/bayes_convergence_scatterplot.png)
 
 But suppose the agents don't trust each other's reports. ("Sure, she _says_ she performed $B_2$ 50 times and observed 26 successes, but she _also_ believes that $B_1$ is better than $A_1$, which is _crazy_. Are we sure she didn't just make up those 50 trials of $B_2$?") Specifically, our agents assign a probability that a report is made-up (and therefore should not be updated on) in proportion to their distance from the reporter in our three-dimensional beliefspace, and a "mistrust factor" (a parameter to the simulation).
 
@@ -138,7 +138,7 @@ def simulation(
 
 Depending on the exact parameters, we're likely to get a result that "looks like" this `agent_count=200, round_count=20, question_count=3, trial_count=50, mistrust=2` run—
 
-![]({static}/images/epistemic_factions_clustered_scatterplot.png)
+![3D scatterplot of agents' beliefs after 20 rounds, split into color-coded clusters instead of all converging on the red "corner of Truth" point]({static}/images/epistemic_factions_clustered_scatterplot.png)
 
 _Some_ of the agents (depicted in red) have successfully converged on the corner of Truth, but the others have polarized into factions that are all wrong about _something_. (The colors in the pretty 3D scatterplot are a [k-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) for k := 8.) On _average_, evidence pushes our agents towards Truth—note the linearity of the blue and purple points, illustrating convergence on two out of the three problems—but agents who erroneously believe that A is better (due to some combination of a bad initial credence and unlucky experimental results that failed to reveal B's ε "edge" in the sample size allotted) can end up too far away to trust those who are gathering evidence for, and correctly converging on, the superiority of B.
 

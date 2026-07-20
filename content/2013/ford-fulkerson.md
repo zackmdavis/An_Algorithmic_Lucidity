@@ -148,7 +148,7 @@ end
 
 —and dear reader, the maximum-flow problem is _solved_! For suppose we are faced with the network depicted in the following diagram:
 
-[![our flow network]({static}/images/flownetwork-300x174.jpg)]({static}/images/flownetwork.jpg)
+[![hand-drawn directed graph of nine nodes, A through I, connected by numbered-capacity edges, forming the example flow network]({static}/images/flownetwork-300x174.jpg)]({static}/images/flownetwork.jpg)
 
 We can then (admittedly with some typing) call for a solution like so:
 
