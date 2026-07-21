@@ -192,6 +192,22 @@ header h1 a:hover {
     margin: 0 auto 1em;
 }
 
+.post-content figure.alignleft,
+.post-content figure.alignright {
+    margin: 0.3em 1.5em 1em 0;
+}
+
+.post-content figure.alignright {
+    margin: 0.3em 0 1em 1.5em;
+}
+
+.post-content figcaption {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    margin-top: 0.3em;
+}
+
 .post-content .alignnone {
     margin: 0 0 1em;
 }
