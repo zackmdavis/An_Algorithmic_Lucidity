@@ -1,5 +1,5 @@
-# $expires is defined by nginx_common_expires_map.conf, and $aal_month_abbrev
-# by nginx_aal_month_map.conf, both included once from nginx.conf's http{}
+# $expires is defined by conf.d/common_expires_map.conf, and $aal_month_abbrev
+# by conf.d/aal_month_map.conf, both included once from nginx.conf's http{}
 # block (not here -- see those files for why).
 #
 # All of the redirects below are 302 (not 301) for now, deliberately: we're
@@ -104,7 +104,40 @@ server {
         location /blog/ {
             alias /home/blogmistress/An_Algorithmic_Lucidity/output/;
             index index.html index.xml;
-            try_files $uri $uri/ =404;
+
+            # .md isn't in nginx's default mime.types, so it's currently
+            # served as application/octet-stream (forcing a download prompt
+            # instead of an inline view). Fix belongs in mime.types itself
+            # (one line, `text/markdown md;`, inside its existing `types {}`
+            # block) rather than a location-scoped default_type override:
+            # default_type is a last-resort fallback for the whole location,
+            # so overriding it here would silently relabel every OTHER
+            # currently-or-future unrecognized extension served from
+            # /blog/ (e.g. llms.txt, from _write_llms_txt in
+            # pelicanconf.py) as text/markdown too, not just .md files.
+            # mime.types is OS-managed, not part of this repo, so this edit
+            # has to happen directly on the server.
+
+            # See conf.d/markdown_negotiation_map.conf for
+            # $aal_uri_sans_trailing_slash and $aal_wants_markdown_suffix.
+            #
+            # This candidate MUST come before plain $uri, not after: for any
+            # article URL (always directory-shaped, trailing slash and all --
+            # see ARTICLE_URL in pelicanconf.py), $uri checks as an existing
+            # *directory* (try_files treats a trailing slash as "check
+            # directory existence") and that directory always exists, so
+            # $uri would win the match immediately, every time, if tried
+            # first -- and try_files stops at the first match, with no way
+            # to keep looking for something better. Putting the markdown
+            # candidate first is what gives it a chance to fire at all.
+            #
+            # When a client doesn't ask for markdown, this first candidate
+            # has no trailing slash, so it's checked as a *file* instead --
+            # which a directory URL never is, so it harmlessly falls through
+            # to the plain $uri/$uri/ pair below, unchanged from before this
+            # feature existed. (For non-directory URLs, e.g. static assets,
+            # it collapses to a literal duplicate of $uri -- also harmless.)
+            try_files $aal_uri_sans_trailing_slash$aal_wants_markdown_suffix $uri $uri/ =404;
         }
 
         location /blog/source {
