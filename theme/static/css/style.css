@@ -255,6 +255,19 @@ header h1 a:hover {
     font-size: 13px;
 }
 
+.post-source-link {
+    margin-top: 10px;
+    font-size: 11px;
+}
+
+.post-source-link a {
+    color: #999;
+}
+
+.post-source-link a:hover {
+    color: #906ccf;
+}
+
 /* Sidebar */
 .sidebar {
     width: 220px;

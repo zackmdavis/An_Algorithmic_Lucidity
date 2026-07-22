@@ -1,4 +1,4 @@
-{% macro render_post(article, full=True) %}
+{% macro render_post(article, full=True, show_source_link=False) %}
 <article class="post">
     <h2 class="post-title">
         <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
@@ -18,5 +18,8 @@
     <div class="post-content">
         {{ article.content if full else article.summary }}
     </div>
+    {% if show_source_link and article.markdown_url %}
+        <p class="post-source-link"><a href="{{ SITEURL }}/{{ article.markdown_url }}">(Markdown source)</a></p>
+    {% endif %}
 </article>
 {% endmacro %}
