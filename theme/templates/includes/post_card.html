@@ -18,8 +18,16 @@
     <div class="post-content">
         {{ article.content if full else article.summary }}
     </div>
-    {% if show_source_link and article.markdown_url %}
-        <p class="post-source-link"><a href="{{ SITEURL }}/{{ article.markdown_url }}">(Markdown source)</a></p>
+    {% if show_source_link %}
+        <p class="post-source-link">
+            {% if article.markdown_url %}
+                <a href="{{ SITEURL }}/{{ article.markdown_url }}">Markdown source</a>
+            {% endif %}
+            {% if article.relative_source_path %}
+                {% if article.markdown_url %}|{% endif %}
+                <a href="{{ SITEURL }}/source?p=An_Algorithmic_Lucidity.git;a=history;f=content/{{ article.relative_source_path }};hb=HEAD">post revision history</a>
+            {% endif %}
+        </p>
     {% endif %}
 </article>
 {% endmacro %}
