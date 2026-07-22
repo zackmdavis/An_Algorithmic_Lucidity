@@ -111,11 +111,19 @@ EXTRA_PATH_METADATA = {
 import os as _os
 from pelican import signals as _signals
 
-_markdown_mirror_state = {'output_path': None, 'articles': []}
+_markdown_mirror_state = {'output_path': None, 'siteurl': '', 'articles': []}
 
 
 def _prepare_markdown_mirrors(generator):
     _markdown_mirror_state['output_path'] = generator.output_path
+    # generator.settings reflects whatever settings file Pelican was
+    # actually invoked with (e.g. publishconf.py's absolute SITEURL
+    # override) -- unlike the bare module-level SITEURL constant above,
+    # which `from pelicanconf import *` only copies into publishconf.py's
+    # own namespace at import time, leaving this module's own SITEURL
+    # untouched at '' forever. Reading it straight from generator.settings
+    # sidesteps that gotcha entirely.
+    _markdown_mirror_state['siteurl'] = generator.settings.get('SITEURL', '')
     _markdown_mirror_state['articles'] = []
     for article in generator.articles:
         article.markdown_url = _os.path.dirname(article.save_as) + '.md'
@@ -123,7 +131,8 @@ def _prepare_markdown_mirrors(generator):
 
 
 def _canonical_url(path):
-    return (SITEURL + '/' if SITEURL else '/') + path
+    siteurl = _markdown_mirror_state['siteurl']
+    return (siteurl + '/' if siteurl else '/') + path
 
 
 def _write_markdown_mirrors(pelican_obj):
