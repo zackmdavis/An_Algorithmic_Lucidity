@@ -1,5 +1,5 @@
 Title: Blogging Technology Interlude
-Date: 2026-07-17 15:00
+Date: 2026-07-21
 Status: published
 Category: meta
 
