@@ -121,6 +121,25 @@ server {
             # relabel every OTHER currently-or-future unrecognized extension
             # served from /blog/ (e.g. llms.txt, from _write_llms_txt in
             # pelicanconf.py) as text/markdown too, not just .md files.
+            #
+            # mime.types can't carry a charset parameter, though, and without
+            # one a browser handed "Content-Type: text/markdown" falls back to
+            # its own default (typically windows-1252) and renders every em
+            # dash and curly quote in a .md mirror as mojibake -- there's no
+            # <meta charset> for it to recover from, the way there is in HTML.
+            # So declare it here. (Distinct from the gitweb case in
+            # provisioning/gitweb.conf: there CGI.pm attached a *wrong*
+            # charset; here nginx attaches none at all.)
+            #
+            # charset_types REPLACES the default list rather than extending it,
+            # so the stock entries are restated alongside text/markdown; only
+            # text/html is implicit and can be omitted. Since these are static
+            # files that carry no charset of their own, nginx just appends --
+            # no recoding is attempted.
+            charset utf-8;
+            charset_types text/markdown text/xml text/plain
+                          text/vnd.wap.wml application/javascript
+                          application/rss+xml;
 
             # See conf.d/markdown_negotiation_map.conf for
             # $aal_uri_sans_trailing_slash and $aal_wants_markdown_suffix.
