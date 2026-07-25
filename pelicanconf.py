@@ -145,11 +145,25 @@ def _write_markdown_mirrors(pelican_obj):
         _, _, body = source.partition('\n\n')
         md_abspath = _os.path.join(output_path, article.markdown_url)
         _os.makedirs(_os.path.dirname(md_abspath), exist_ok=True)
-        header = (
-            f"# {article.title}\n\n"
-            f"Originally published: {article.date.strftime('%Y-%m-%d')}\n"
-            f"Canonical URL: {_canonical_url(article.url)}\n\n"
-        )
+        # The source file's own metadata block was just stripped off by the
+        # partition() above, so restate it here in a form a reader of the bare
+        # .md can use: these mirrors exist precisely to be read detached from
+        # the site, where category and tags are the only signal of what
+        # neighborhood a post belongs to. Author comes from the AUTHOR setting
+        # (no post sets it per-article), and category is always present, but
+        # both are fetched defensively so an untagged or category-less post
+        # can't break the build.
+        meta = []
+        if getattr(article, 'author', None):
+            meta.append(f"Author: {article.author.name}")
+        meta.append(f"Originally published: {article.date.strftime('%Y-%m-%d')}")
+        if getattr(article, 'category', None):
+            meta.append(f"Category: {article.category.name}")
+        tags = getattr(article, 'tags', None)
+        if tags:
+            meta.append("Tags: " + ", ".join(tag.name for tag in tags))
+        meta.append(f"Canonical URL: {_canonical_url(article.url)}")
+        header = "# {}\n\n{}\n\n".format(article.title, "\n".join(meta))
         with open(md_abspath, 'w', encoding='utf-8') as f:
             f.write(header)
             f.write(body.strip())
