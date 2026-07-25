@@ -45,6 +45,12 @@ gitweb serves raw blobs (`a=blob_plain`) as `text/markdown` — but the charset 
 
 Fixed by wrapping `blob_contenttype` in `provisioning/gitweb.conf` so the type already carries a charset, which makes CGI.pm stand down. That file's comment explains the Perl line by line. It monkey-patches a gitweb internal by name, so a gitweb upgrade that renames `blob_contenttype` would break raw-blob requests loudly — deliberate, since the alternative is silently reverting to mojibake.
 
+### Every deploy 404s the whole site for the length of a build (unfixed)
+
+`publishconf.py` sets `DELETE_OUTPUT_DIRECTORY = True`, so the post-receive hook wipes `output/` and regenerates it from scratch. Until the build finishes, every URL on the blog 404s — confirmed by accident on 2026-07-25, when `.md` mirrors 404'd mid-push and returned 200 a minute later. It hits crawlers as well as people, and some of the 404s in the AI-crawler digests are probably this rather than junk-URL probing.
+
+The fix, when it's worth doing: build into a sibling directory and flip a symlink, so `output/` is always a complete tree — keeping the reason `DELETE_OUTPUT_DIRECTORY` is set (stale files from deleted posts don't linger) without the outage. Touches `SITEGEN_COMMAND` in `provisioning/pelican_scheduler.py`; nginx's `alias` re-resolves symlinks per request, so a flip takes effect immediately with no reload.
+
 ### AI-crawler observability
 
 `provisioning/ai_bot_digest.py` runs daily via systemd and files `<site>-<date>.txt` into `/var/log/ai-bot-digest/`, summarizing which crawlers fetched which posts. Its own docstring covers usage and the second-site story. Two structural limits worth knowing before trusting it: User-Agents are forgeable (it quarantines UAs whose traffic is ≥60% 404s as likely impostors), and Google/Apple AI-training use is invisible in principle, since `Google-Extended`/`Applebot-Extended` are robots.txt tokens that no request carries.
