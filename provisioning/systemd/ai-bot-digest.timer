@@ -1,0 +1,16 @@
+[Unit]
+Description=Run the AI-crawler digest daily
+
+[Timer]
+# 08:00 UTC. The digest's default window is the trailing 24h, so consecutive
+# daily runs tile the timeline with no gap and no overlap.
+OnCalendar=*-*-* 08:00:00
+# If the box was down at 08:00, run at next boot rather than skipping the day
+# -- the nginx logs for that window are still there to be read.
+Persistent=true
+# No RandomizedDelaySec: jitter exists to keep many machines from stampeding a
+# shared service at a round hour, and this is one box running a four-second
+# local job with PrivateNetwork=true. Firing at exactly 08:00 is simpler.
+
+[Install]
+WantedBy=timers.target

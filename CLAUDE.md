@@ -2,6 +2,25 @@
 
 Pelican static-site conversion of a WordPress blog (zackmdavis.net/blog). Content lives in `content/`, one Markdown file per post/page. `analgorithmiclucidity.WordPress.*.xml` is the original WXR export, used as ground truth when cross-checking whether the WordPress→Markdown conversion silently lost or corrupted formatting.
 
+## Deployment
+
+The blog is a DigitalOcean VPS. `provisioning/` holds the server's config, but nothing self-installs. Either `scp` straight to `root@` at the destination path, or `scp` to `blogmistress@zackmdavis.net:~/` and `install` into place on the box — the latter sets the mode explicitly instead of inheriting the repo file's, and leaves a staging copy to diff against what's live before overwriting it.
+
+| repo | server |
+| --- | --- |
+| `nginx_siteconf` | `/etc/nginx/sites-available/an_algorithmic_lucidity` (symlinked from `sites-enabled/`) |
+| `conf.d/*.conf` | `/etc/nginx/conf.d/` (included from `nginx.conf`'s `http{}`; `log_format` and `map` are only valid at that scope) |
+| `gitweb.conf` | `/etc/gitweb.conf` (pinned by `fastcgi_param GITWEB_CONFIG` in `nginx_siteconf`) |
+| `ai_bot_digest.py` | `/usr/local/bin/ai_bot_digest` |
+| `systemd/*` | `/etc/systemd/system/` |
+| `pelican_scheduler.py` | symlinked as the bare repo's `hooks/post-receive` |
+
+After nginx edits, `nginx -t && systemctl reload nginx` — `nginx -t` catches a `conf.d` file that didn't land, since the site config references things defined there. After unit edits, `systemctl daemon-reload` **and** `systemctl restart ai-bot-digest.timer`; a daemon-reload alone leaves an already-scheduled timer on its old schedule.
+
+**Server state not tracked here:** `/etc/mime.types` (OS-managed) has a hand-added `text/markdown md;` line. Without it `.md` serves as `application/octet-stream`, and gitweb's mimetype lookup reads this file too.
+
+The access log uses the `combined_extended` format from `conf.d/common_log_formats.conf` — stock `combined` plus `"$host" "$sent_http_content_type"`. The Content-Type field is what makes a Markdown content negotiation visible at all (`try_files` picks a different file without rewriting `$request`, so the request line is identical either way). `ai_bot_digest.py` parses both formats, treating the extras as optional, so rotated pre-change archives still work.
+
 ## Known gotchas
 
 ### Bare `$` math delimiter collides with currency amounts
@@ -19,3 +38,13 @@ Migration cost if we ever do this: (1) swap the plugin and reimplement the "only
 Python-Markdown's core `automail` inline pattern (priority 110, baked into every `Markdown` instance regardless of extensions) greedily swallows any bare `<foo@bar>` into a `mailto:` autolink as one atomic match — so `<_zmd@sfsu.edu_>` (used in the Putnam posts to mimic italicized "From:"/"To:" email-client headers) got mangled: underscores baked in literally as part of the (broken) address, angle brackets consumed. Backslash-escaping didn't help either, since `<` isn't in Markdown's default escapable-character list (`>` is, `<` isn't), so `\<` just left a literal backslash in the output.
 
 Fixed permanently (rather than patched per-instance) by deregistering the pattern globally: see `_DisableAutomailExtension` in `pelicanconf.py`, wired in via `MARKDOWN['extensions']`. Confirmed this doesn't affect the separate `autolink` pattern (bare `<http://...>` URLs still auto-link fine). As of 2026-07-14, plain `<_email_>` syntax works correctly everywhere in the corpus with no escaping needed.
+
+### gitweb's charset config knobs don't reach `.md` blobs
+
+gitweb serves raw blobs (`a=blob_plain`) as `text/markdown` — but the charset came out `ISO-8859-1`, mojibaking UTF-8 prose for anything honoring the header. Two obvious fixes both fail: gitweb's own `$default_text_plain_charset` is gated on `$type eq 'text/plain'` (exact match, so `text/markdown` never qualifies), and `$CGI::DEFAULT_CHARSET` is captured when CGI.pm constructs its object, which happens before gitweb evaluates the config. The `ISO-8859-1` is CGI.pm's default, appended to any `text/*` response lacking a charset.
+
+Fixed by wrapping `blob_contenttype` in `provisioning/gitweb.conf` so the type already carries a charset, which makes CGI.pm stand down. That file's comment explains the Perl line by line. It monkey-patches a gitweb internal by name, so a gitweb upgrade that renames `blob_contenttype` would break raw-blob requests loudly — deliberate, since the alternative is silently reverting to mojibake.
+
+### AI-crawler observability
+
+`provisioning/ai_bot_digest.py` runs daily via systemd and files `<site>-<date>.txt` into `/var/log/ai-bot-digest/`, summarizing which crawlers fetched which posts. Its own docstring covers usage and the second-site story. Two structural limits worth knowing before trusting it: User-Agents are forgeable (it quarantines UAs whose traffic is ≥60% 404s as likely impostors), and Google/Apple AI-training use is invisible in principle, since `Google-Extended`/`Applebot-Extended` are robots.txt tokens that no request carries.

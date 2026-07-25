@@ -1,0 +1,27 @@
+[Unit]
+Description=Write a digest of AI-crawler activity in the nginx access log
+Documentation=file:///usr/local/bin/ai_bot_digest
+
+[Service]
+Type=oneshot
+# Needs to read /var/log/nginx (root-owned) and write /var/log/ai-bot-digest.
+# Could be an unprivileged user in the adm group instead, given a writable
+# archive dir; root is simpler and this only reads logs and writes a text file.
+User=root
+ExecStart=/usr/local/bin/ai_bot_digest
+
+# No network, no new privileges, no writing outside the archive dir: this job
+# parses local log files, so there's nothing for it to reach out to.
+PrivateNetwork=true
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+
+# Creates /var/log/ai-bot-digest (owned by User=, and implicitly writable
+# despite ProtectSystem=strict) and matches the script's default --archive-dir.
+# Note this must be LogsDirectory, not ReadWritePaths: the latter only *unlocks*
+# an existing path, so with /var/log read-only and the directory not yet created,
+# the mount namespace fails to build and the unit dies at 226/NAMESPACE before
+# ExecStart ever runs.
+LogsDirectory=ai-bot-digest

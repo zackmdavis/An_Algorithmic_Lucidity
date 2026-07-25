@@ -39,6 +39,14 @@ server {
 
         expires $expires;
 
+        # combined, plus the response Content-Type (so a Markdown content
+        # negotiation in the /blog/ block below is distinguishable from an
+        # ordinary HTML fetch of the same URL -- try_files doesn't rewrite
+        # $request, so otherwise the two are identical in the log) and $host
+        # (so lines stay attributable once a second site lives on this box).
+        # Format defined in conf.d/common_log_formats.conf.
+        access_log /var/log/nginx/access.log combined_extended;
+
         # The domain root is a small standalone landing page (plus docs/ and
         # media/ carried over from the old NameCheap hosting -- PDFs and OGGs
         # linked from stable blog posts) -- not part of the Pelican blog,
@@ -105,18 +113,14 @@ server {
             alias /home/blogmistress/An_Algorithmic_Lucidity/output/;
             index index.html index.xml;
 
-            # .md isn't in nginx's default mime.types, so it's currently
-            # served as application/octet-stream (forcing a download prompt
-            # instead of an inline view). Fix belongs in mime.types itself
-            # (one line, `text/markdown md;`, inside its existing `types {}`
-            # block) rather than a location-scoped default_type override:
-            # default_type is a last-resort fallback for the whole location,
-            # so overriding it here would silently relabel every OTHER
-            # currently-or-future unrecognized extension served from
-            # /blog/ (e.g. llms.txt, from _write_llms_txt in
+            # .md is served as text/markdown via a `text/markdown md;` line
+            # added to the OS-managed mime.types on the server (not part of
+            # this repo). It belongs there rather than in a location-scoped
+            # default_type override: default_type is a last-resort fallback
+            # for the whole location, so overriding it here would silently
+            # relabel every OTHER currently-or-future unrecognized extension
+            # served from /blog/ (e.g. llms.txt, from _write_llms_txt in
             # pelicanconf.py) as text/markdown too, not just .md files.
-            # mime.types is OS-managed, not part of this repo, so this edit
-            # has to happen directly on the server.
 
             # See conf.d/markdown_negotiation_map.conf for
             # $aal_uri_sans_trailing_slash and $aal_wants_markdown_suffix.
