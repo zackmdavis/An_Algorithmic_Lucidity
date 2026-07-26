@@ -1,9 +1,16 @@
-{% macro render_post(article, full=True, show_source_link=False) %}
+{# Only article.html passes show_byline: on a single-author blog, repeating the
+   name down an index page is noise. Visible text rather than just the
+   <meta name="author"> in base.html, since extraction pipelines keep the
+   article and drop <head> -- a scraped or quoted post should carry attribution. #}
+{% macro render_post(article, full=True, show_source_link=False, show_byline=False) %}
 <article class="post">
     <h2 class="post-title">
         <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
     </h2>
     <div class="post-meta">
+        {% if show_byline %}
+            <span class="post-author">by {{ article.author }}</span> |
+        {% endif %}
         <time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime('%-d %B %Y') }}</time>
         {% if article.category %}
             | <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
