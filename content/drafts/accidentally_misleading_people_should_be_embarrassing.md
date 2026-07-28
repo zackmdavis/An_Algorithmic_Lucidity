@@ -34,6 +34,4 @@ I still think this episode _looks bad for him_ and that he should have been _emb
 
 -----
 
-And that's why accidentally misleading people should be embarrassing: because the desire to avoid such embarrassment motivates a counterfactual reduction in such incidents of people being misled, notwithstanding that it was an accident and totally unintentional.[^unintentional]
-
-[^unintentional]: Some theorists would question whether the presence of motivations that make accidents more likely calls into question [whether they should be analyzed as truly unintentional](https://www.lesswrong.com/posts/sXHQ9R5tahiaXEZhR/algorithmic-intent-a-hansonian-generalized-anti-zombie), but discussion of such a controversial and speculative view is beyond the scope of this post.
+And that's why accidentally misleading people should be embarrassing: because the desire to avoid such embarrassment motivates a counterfactual reduction in such incidents of people being misled, notwithstanding that it was an accident and totally unintentional.
