@@ -12,13 +12,13 @@ The logic here might be worth explaining in case it's not obvious. One might obj
 
 The problem is that in order to be trusted, it's not enough to be trustworthy; the other needs to _know_ that you're trustworthy. You could try telling them, "Hey, you can trust me," but that doesn't work if a dishonest person could just as easily say the same thing.
 
-A solution, if there is one, has to take the form of [saying something that a dishonest person couldn't just as easily say](https://www.lesswrong.com/posts/ybG3WWLdxeTTL3Gpd/communication-requires-common-interests-or-differential). 
+A solution, if there is one, has to take the form of [saying something that a dishonest person couldn't just as easily say](http://zackmdavis.net/blog/2021/Mar/communication-requires-common-interests-or-differential-signal-costs/).
 
 ----
 
-Economists call the kind of situation in which it's possible for one kind of agent to say something that a different kind couldn't just as easily say a _separating equilibrium_. To understand separating equilibria, imagine two types of owners of spherical cats on a frictionless plane shopping for cat insurance: those with healthy cats, and those with sick cats. Insurance companies on the frictionless plane can't tell the difference between healthy and sick cats, and therefore face an [adverse selection](https://en.wikipedia.org/wiki/Adverse_selection) problem, where the very fact that someone is willing to buy insurance implies that they're less profitable to insure in expectation (because sick cats are in more need of cat insurance).
+Economists call the kind of situation in which it's possible for one type of agent to say something that a different type couldn't just as easily say a _separating equilibrium_. To understand separating equilibria, imagine two types of owners of spherical cats on a frictionless plane shopping for cat insurance: those with healthy cats, and those with sick cats. Insurance companies on the frictionless plane can't tell the difference between healthy and sick cats, and therefore face an [adverse selection](https://en.wikipedia.org/wiki/Adverse_selection) problem, where the very fact that someone is willing to buy insurance implies that they're less profitable to insure in expectation (because sick cats are in more need of cat insurance).
 
-Depending on some math that we don't have time for, there can be situations in which the adverse selection problem is solved by the different types of cat owners having incentives to buy different policies. Sick cats face a greater fraction of possible worlds in which they file a claim than healthy cats, so making those worlds worse for the policyholder by decreasing the policy benefit payout, decreases the expected value of the policy more for sick cats than healthy cats.
+Depending on some math that we don't have time for, there can be situations in which the adverse selection problem is solved by the different types of cat owners having incentives to buy different policies. Sick cats face a greater fraction of possible worlds in which they file a claim than healthy cats, so making those worlds worse for the policyholder by decreasing the policy benefit payout decreases the expected value of the policy more for sick cats than healthy cats.
 
 As a corollary, the owners of healthy cats are willing to accept a smaller discount on premium to take out a smaller-benefit policy rather than a larger-benefit one. We end up in a situation where the healthy-cat owners pay a lower premium for a lower-benefit policy and the sick-cat owners pay a higher premium for a higher-benefit policy. The choice of policy becomes a signal that distinguishes the cats; neither type has an incentive to send the signal of the other. That's our separating equilibrium.
 
@@ -26,13 +26,17 @@ But depending on some more math that we don't have time for, there are other sit
 
 There is a crucial asymmetry. Owners of sick cats would prefer that the insurance company falsely believe that their cats are healthy, whereas owners of healthy cats want their cats to be seen as they are. Pooling equilibria generally benefit the former at the expense of the latter. The existence of sick cats makes healthy cats shoulder the burden of more risk: the healthy-cat owners would prefer to transfer more risk to the insurance company by buying a policy with higher benefits, but the insurance company can't sell it to them, because then the sick-cat owners would buy it, too.
 
-(As it turns out, there are pooling equilibria that are better for the owners of healthy cats than some separating equilibria—but that's only because the cost they'd pay in reduced benefits-per-unit-premium to separate themselves from the owners of sick cats isn't worth it. They'd be even better off if cats never got sick.)
+(As it turns out, there can be pooling equilibria that are better for the owners of healthy cats than some separating equilibria—but that's only because the cost they'd pay in reduced benefits-per-unit-premium to separate themselves from the owners of sick cats isn't worth it. They'd be even better off if cats never got sick.)
 
 ----
 
-Or imagine a woman and a man in a recently-formed romantic relationship.
+
+Imagine a woman and a man early in a romantic relationship. After a few dates, the initial chemistry is starting to wane.
+
 
 [TODO:
+
+https://claude.ai/chat/6be695f5-6ef9-4e95-93e4-66bdb204c6f6
 
 "I learned from a previous relationship not to teach people how to tell me things I want to hear."
 
@@ -45,6 +49,3 @@ Or imagine a woman and a man in a recently-formed romantic relationship.
 And that's why honest people are never touchy about the matter of being trusted.
 
 They know that they have to pay a price to distinguish themselves from dishonest people,
-
-
-

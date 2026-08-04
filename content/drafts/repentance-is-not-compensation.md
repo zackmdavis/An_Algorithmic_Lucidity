@@ -1,4 +1,4 @@
-Title: Repentance vs. Compensation
+Title: Repentance Is Not Compensation
 Date: 2027-01-01
 Status: draft
 Category: philosophy

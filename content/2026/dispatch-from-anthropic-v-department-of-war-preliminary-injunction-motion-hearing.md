@@ -2,8 +2,9 @@ Title: Dispatch from Anthropic v. Department of War Preliminary Injunction Motio
 Date: 2026-03-25 19:54
 Status: published
 Category: social science
+Tags: court reporting
 
-Dateline SAN FRANCISCO, Ca., 24 March 2026— A hearing was held on a motion for a preliminary injunction in the case of _Anthropic PBC v. U.S. Department of War et al._ in Courtroom 12 on the 19th floor of the Phillip Burton Federal Building, the Hon. Judge Rita F. Lin presiding. About 35 spectators in the gallery (journalists and other members of the public, including the present writer) looked on as Michael Mongan of WilmerHale (lead counsel for the plaintiff) and Deputy Assistant Attorney General Eric Hamilton (lead counsel for the defendant) argued before the judge. (The defendant also had another lawyer at their counsel table on the left, and the plaintiff had six more at theirs on the right, but none of those people said anything.)
+Dateline SAN FRANCISCO, 24 March 2026— A hearing was held on a motion for a preliminary injunction in the case of _Anthropic PBC v. U.S. Department of War et al._ in Courtroom 12 on the 19th floor of the Phillip Burton Federal Building, the Hon. Judge Rita F. Lin presiding. About 35 spectators in the gallery (journalists and other members of the public, including the present writer) looked on as Michael Mongan of WilmerHale (lead counsel for the plaintiff) and Deputy Assistant Attorney General Eric Hamilton (lead counsel for the defendant) argued before the judge. (The defendant also had another lawyer at their counsel table on the left, and the plaintiff had six more at theirs on the right, but none of those people said anything.)
 
 For some dumb reason, recording court proceedings is banned and the official transcript won't be available online for three months, so I'm relying on my handwritten live notes to tell you what happened. I'd say that any errors are my responsibility, but actually, it's kind of the government's fault for not letting me just take a recording.
 
@@ -13,7 +14,7 @@ Judge Lin began by describing her understanding of the case. Everyone agrees tha
 
 The previous day, Judge Lin had [assigned homework questions](https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.118.0_2.pdf) for the lawyers to answer during the hearing, which she proceeded to read.
 
-The first question concerned [Secretary Hegseth's 27 February Tweet](https://x.com/secwar/status/2027507717469049070?s=46) declaring that "Effective immediately, no contractor, supplier, or partner that does business with the United States military may conduct any commercial activity with Anthropic", and that "This decision is final." Judge Lin asked the defendant's counsel if they agreed that Secretary Hegseth lacked the authority to issue such a broad directive.
+The first question concerned [Secretary Hegseth's 27 February Tweet](https://x.com/secwar/status/2027507717469049070) declaring that "Effective immediately, no contractor, supplier, or partner that does business with the United States military may conduct any commercial activity with Anthropic", and that "This decision is final." Judge Lin asked the defendant's counsel if they agreed that Secretary Hegseth lacked the authority to issue such a broad directive.
 
 Hamilton replied that the language needed to be read in the context of the previous sentence, that the Secretary was "directing the Department of War to designate Anthropic a Supply-Chain Risk". A social media post announcing the process of making the supply chain risk designation was not itself legally binding, and that's how the post was understood by the Department.
 
