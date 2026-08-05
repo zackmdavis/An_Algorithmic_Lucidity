@@ -16,11 +16,11 @@ A solution, if there is one, has to take the form of [saying something that a di
 
 ----
 
-Economists call the kind of situation in which it's possible for one type of agent to say something that a different type couldn't just as easily say a _separating equilibrium_. To understand separating equilibria, imagine two types of owners of spherical cats on a frictionless plane shopping for cat insurance: those with healthy cats, and those with sick cats. Insurance companies on the frictionless plane can't tell the difference between healthy and sick cats, and therefore face an [adverse selection](https://en.wikipedia.org/wiki/Adverse_selection) problem, where the very fact that someone is willing to buy insurance implies that they're less profitable to insure in expectation (because sick cats are in more need of cat insurance).
+Economists call the kind of situation in which it's possible for one type of agent to say something that a different type couldn't just as easily say a _separating equilibrium_. To understand separating equilibria, imagine two types of owners of spherical cats shopping for cat insurance on a frictionless plane: those with healthy cats, and those with sick cats. Insurance companies on the frictionless plane can't tell the difference between healthy and sick cats, and therefore face an [adverse selection](https://en.wikipedia.org/wiki/Adverse_selection) problem, where the very fact that someone is willing to buy insurance implies that they're less profitable to insure in expectation (because sick cats are in more need of cat insurance).
 
 Depending on some math that we don't have time for, there can be situations in which the adverse selection problem is solved by the different types of cat owners having incentives to buy different policies. Sick cats face a greater fraction of possible worlds in which they file a claim than healthy cats, so making those worlds worse for the policyholder by decreasing the policy benefit payout decreases the expected value of the policy more for sick cats than healthy cats.
 
-As a corollary, the owners of healthy cats are willing to accept a smaller discount on premium to take out a smaller-benefit policy rather than a larger-benefit one. We end up in a situation where the healthy-cat owners pay a lower premium for a lower-benefit policy and the sick-cat owners pay a higher premium for a higher-benefit policy. The choice of policy becomes a signal that distinguishes the cats; neither type has an incentive to send the signal of the other. That's our separating equilibrium.
+As a corollary, the owners of healthy cats are willing to accept a smaller discount on premium to take out a smaller-benefit policy rather than a larger-benefit one. We end up in a situation where the healthy-cat owners pay a lower premium for a lower-benefit policy and the sick-cat owners pay a higher premium for a higher-benefit policy. The choice of policy becomes a signal that distinguishes the cats. There's nothing technically stopping the owners of sick cats from buying the lower-benefit policy—but it's not worth their while; they need the comprehensive coverage for their sick cat. That's our separating equilibrium.
 
 But depending on some more math that we don't have time for, there are other situations in which we instead get a _pooling equilibrium_ in which everyone buys the same policy. The insurance company treating everyone in a pooling equilibrium the same amounts to treating healthy cats quantitatively more like sick cats and _vice versa_, because the company has no way to tell the difference. All the cats are mixed together and can't be distinguished in the fog of the market.
 
@@ -30,22 +30,39 @@ There is a crucial asymmetry. Owners of sick cats would prefer that the insuranc
 
 ----
 
+Or imagine a woman and a man early in a romantic relationship. After a few dates, the initial chemistry is starting to fade; the woman is beginning to act more withdrawn. Although perhaps not being the most emotionally intelligent of his kind, even this man can tell that something is off.
 
-Imagine a woman and a man early in a romantic relationship. After a few dates, the initial chemistry is starting to wane.
+Being perhaps not the most emotionally intelligent, he decides to use his words. "Am I doing something wrong? Tell me how I could be a better boyfriend to you. If it's a skill issue, maybe I can learn," he says.
+
+She hesitates, struggling to find the words for something that would prefer to remain implicit. Eventually she says, "I learned from a previous relationship not to teach people how to tell me things I want to hear."
+
+Even he can understand that. "I respect your security posture," he says.
+
+Because what else could he do? Even if it stings to be so distrusted, it wouldn't make sense to angrily snap, "So you don't trust me?" She doesn't—but he knows that the reason she doesn't isn't an indictment of his soul, but rather has to do with the distribution of souls that look the same as him from the outside. In this world (and in the environment of evolutionary adaptedness), there are a lot of men who are happy to act however they need to in order to convince a woman to sleep with them, with no intention to be faithful to her. A man who does intend to be faithful can't ask for feedback because of the adverse selection problem, where the fact of asking implies that it's less safe for her to answer in expectation (because there are more unfaithful men who could also use the answer).
+
+Men who don't intend to be faithful face a greater fraction of possible worlds in which scrutiny reveals a dealbreaker.
+
+As a corollary, men who intend to be true are willing to accept more scrutiny rather than insisting on being trusted right away.
+
+
+so making those worlds worse for the man
+
+
+by decreasing the policy benefit payout decreases the expected value of the policy more for sick cats than healthy cats.
+
+
+The reason it makes sense for the man to say "I respect your security posture" 
+
+
+----
+
+And that's why honest people are never touchy about the matter of being trusted. They know that they have to pay a price to distinguish themselves from dishonest people.
 
 
 [TODO:
 
+Men who don't intend to be faithful face a greater fraction of possible worlds in which they file a claim than healthy cats
+
+previous advice—
 https://claude.ai/chat/6be695f5-6ef9-4e95-93e4-66bdb204c6f6
-
-"I learned from a previous relationship not to teach people how to tell me things I want to hear."
-
-"I respect your security posture."
-
 ]
-
-----
-
-And that's why honest people are never touchy about the matter of being trusted.
-
-They know that they have to pay a price to distinguish themselves from dishonest people,
