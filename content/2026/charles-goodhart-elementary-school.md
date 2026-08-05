@@ -1,8 +1,8 @@
 Title: Charles Goodhart Elementary School
-Date: 2027-01-01
-Status: draft
+Date: 2026-08-05
+Status: published
 Category: psychology
-Tags: parable
+Tags: parable, school
 
 I heard a story (second- or third-hand, which surely lost or gained some details on the telephone path from reality to this telling if it even happened at all) about a boy, age 7 or so, who goes to a very highly-acclaimed school. A piece of recurring homework they give the kids is to read for twenty minutes from a chapter book, and then write a "reflection sentence" about what they read, to be checked off by the teacher.
 
@@ -16,7 +16,7 @@ Stepmom is concerned, asks the kid to read to her, and it's very clear that the 
 
 Another thing they do at this, again, very highly-acclaimed school, is they give the kids arithmetic exercises at the afterschool program. At this point, stepmom is pretty skeptical of the competence of the grown-ups at this school, so she looks over the kid's papers from that. She sees an error in one problem that was marked correct, and points it out to the kid.
 
-Kid throws an absolute fit. "No, no!" he screams. The afterschool grader had marked the problem correct, so it had to be correct. Why was stepmom lying to him about how numbers work? Stepmom tries to explain that the grader must have made a mistake. It happens, sometimes.
+Kid has a complete meltdown. "No, no!" he screams. The afterschool grader had marked the problem correct, so it had to be correct. Why was stepmom lying to him about how numbers work? Stepmom tries to explain that the grader must have made a mistake. It happens, sometimes.
 
 The kid isn't having it. Kid and stepmom take the problem to the father. Dad agrees with stepmom. The kid is still crying. "No!"
 
