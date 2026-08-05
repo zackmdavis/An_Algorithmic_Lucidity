@@ -14,6 +14,10 @@ The blog is a DigitalOcean VPS. `provisioning/` holds the server's config, but n
 | `ai_bot_digest.py` | `/usr/local/bin/ai_bot_digest` |
 | `systemd/*` | `/etc/systemd/system/` |
 | `pelican_scheduler.py` | symlinked as the bare repo's `hooks/post-receive` |
+| `root_index.html` | `/home/blogmistress/zackmdavis.net/index.html` — **renamed on the way over**; scp'ing it under its repo name lands a dead file beside the real one and changes nothing visible |
+| `robots.txt` | `/home/blogmistress/zackmdavis.net/robots.txt` (the true domain root, not `/blog` — see the `STATIC_PATHS` comment in `pelicanconf.py` for why Pelican deliberately doesn't generate it) |
+
+The last two live under the webroot — `root /home/blogmistress/zackmdavis.net` in `nginx_siteconf`, which is also what serves `/docs` and `/media`. Being inside `blogmistress`'s own home, they're the only two deployable without root; `install` as root would leave them root-owned.
 
 After nginx edits, `nginx -t && systemctl reload nginx` — `nginx -t` catches a `conf.d` file that didn't land, since the site config references things defined there. After unit edits, `systemctl daemon-reload` **and** `systemctl restart ai-bot-digest.timer`; a daemon-reload alone leaves an already-scheduled timer on its old schedule.
 
@@ -54,3 +58,11 @@ The fix, when it's worth doing: build into a sibling directory and flip a symlin
 ### AI-crawler observability
 
 `provisioning/ai_bot_digest.py` runs daily via systemd and files `<site>-<date>.txt` into `/var/log/ai-bot-digest/`, summarizing which crawlers fetched which posts. Its own docstring covers usage and the second-site story. Two structural limits worth knowing before trusting it: User-Agents are forgeable (it quarantines UAs whose traffic is ≥60% 404s as likely impostors), and Google/Apple AI-training use is invisible in principle, since `Google-Extended`/`Applebot-Extended` are robots.txt tokens that no request carries.
+
+### `llms.txt` is generated where nothing will find it (unfixed, low priority)
+
+`_write_llms_txt` in `pelicanconf.py` emits it into the Pelican output tree, so it lands at `/blog/llms.txt` — but `llms.txt` is a domain-root convention like `robots.txt`, so a crawler that goes looking checks `zackmdavis.net/llms.txt` and gets a 404. Nothing links to the real one either, from `robots.txt` or from any page. It has **zero fetches** across every digest in `notes/ai_bot_digests/` (2026-07-25 through 2026-08-03) — the file is currently dead weight.
+
+Note this means the heavy `.md` fetching visible in those digests is *not* evidence llms.txt works: the mirrors are reachable from the HTML anyway, via the `<link rel="alternate">` in `theme/templates/article.html` and the visible "Markdown source" link in `theme/templates/includes/post_card.html`.
+
+The fix is placement, not content — `_canonical_url` already builds absolute `https://zackmdavis.net/blog/...` links, so a copy served from the webroot works unmodified. It's the same problem `STATIC_PATHS` in `pelicanconf.py` already solves for `robots.txt` by deploying that standalone, but `llms.txt` is build-generated, so it needs copying out of `output/` after each build (`provisioning/pelican_scheduler.py`) rather than a one-time `scp`. While in there: there's no `sitemap.xml` at all and no `Sitemap:` line in `robots.txt`, which is the same missing-machine-discovery-surface problem — robots.txt *is* reliably fetched (ClaudeBot, Applebot, PerplexityBot, OAI-SearchBot all hit it), so it's the better hook of the two.
