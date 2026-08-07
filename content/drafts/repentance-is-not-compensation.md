@@ -4,7 +4,7 @@ Status: draft
 Category: philosophy
 Tags: regret
 
-Previously, on the topic of when to apologize, [I wrote](https://zackmdavis.net/blog/2026/Jun/contra-pace-on-when-to-apologize/)—
+Previously, on the topic of when to apologize, [I wrote](/blog/2026/Jun/contra-pace-on-when-to-apologize/)—
 
 > When someone wrongs me, it seems like the _smallest_ ask I could reasonably make in exchange for my forgiveness is that they not do that again (or more generally, update their policy such that they're less likely to do it again). Not to ask to be "made whole"—[for the past cannot be changed](http://unremediatedgender.space/2020/Dec/liability/)—but simply that they do better in the future, which can.
 >

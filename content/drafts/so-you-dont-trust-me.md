@@ -4,7 +4,7 @@ Status: draft
 Category: philosophy
 Tags: honesty
 
-One of my favorite passages from _Atlas Shrugged_ is this one, when [Cherryl is beginning to have second thoughts about her marriage to James Taggart](http://zackmdavis.net/blog/2023/Jul/justice-cherryl/#iii):
+One of my favorite passages from _Atlas Shrugged_ is this one, when [Cherryl is beginning to have second thoughts about her marriage to James Taggart](/blog/2023/Jul/justice-cherryl/#iii):
 
 > It was his sudden, angry "so you don't trust me?" snapped in answer to her first, innocent questions that made her realize she did not—when the doubt had not yet formed in her mind and she had fully expected that the answers would reassure her. She had learned, in the slums of her childhood, that honest people were never touchy about the matter of being trusted.
 
@@ -12,7 +12,7 @@ The logic here might be worth explaining in case it's not obvious. One might obj
 
 The problem is that in order to be trusted, it's not enough to be trustworthy; the other needs to _know_ that you're trustworthy. You could try telling them, "Hey, you can trust me," but that doesn't work if a dishonest person could just as easily say the same thing.
 
-A solution, if there is one, has to take the form of [saying something that a dishonest person couldn't just as easily say](http://zackmdavis.net/blog/2021/Mar/communication-requires-common-interests-or-differential-signal-costs/).
+A solution, if there is one, has to take the form of [saying something that a dishonest person couldn't just as easily say](/blog/2021/Mar/communication-requires-common-interests-or-differential-signal-costs/).
 
 ----
 

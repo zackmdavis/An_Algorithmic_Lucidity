@@ -15,4 +15,4 @@ I categorically reject the idea declaring someone else so deceived that their ow
 
 It certainly doesn't make conversation with _me_ impossible. When someone tells me that my understanding of my beliefs and motives should be rejected, I don't take my ball and go home in a huff, muttering that they've made further conversation nearly impossible.
 
-
+Rather, I react 
