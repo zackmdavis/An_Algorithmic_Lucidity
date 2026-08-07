@@ -55,9 +55,27 @@ Fixed by wrapping `blob_contenttype` in `provisioning/gitweb.conf` so the type a
 
 The fix, when it's worth doing: build into a sibling directory and flip a symlink, so `output/` is always a complete tree — keeping the reason `DELETE_OUTPUT_DIRECTORY` is set (stale files from deleted posts don't linger) without the outage. Touches `SITEGEN_COMMAND` in `provisioning/pelican_scheduler.py`; nginx's `alias` re-resolves symlinks per request, so a flip takes effect immediately with no reload.
 
+**Alternative worth preferring — `rsync -a --checksum --delete newbuild/ output/`.** Same `SITEGEN_COMMAND`, and it closes the window without any symlink machinery: `--checksum` compares content rather than timestamps, so files whose bytes didn't change are left physically untouched, `--delete` still reaps files for deleted posts, and `output/` is never in a wiped state. It also fixes a second, subtler effect of the wipe: nginx derives static-file ETags from **mtime + size** (verified live — `etag: "6a736bfe-f07a"` decodes to the same timestamp as `last-modified`), and a full regenerate stamps every file with a fresh mtime, so *every* page's ETag changes on *every* deploy even when its bytes are identical. Any client holding a cached copy gets a failed revalidation and a full re-download.
+
+Priority note: that ETag effect sounds worse than it measures. Across 2026-07-25→08-06 the digests record **35 total 304 revalidations against ~1M requests** — near-nobody sends conditional requests here, so almost nothing is actually paying the invalidation cost. Justify this change on the 404 window, which hits human readers; treat the ETag hygiene as a free side effect, not a reason.
+
 ### AI-crawler observability
 
 `provisioning/ai_bot_digest.py` runs daily via systemd and files `<site>-<date>.txt` into `/var/log/ai-bot-digest/`, summarizing which crawlers fetched which posts. Its own docstring covers usage and the second-site story. Two structural limits worth knowing before trusting it: User-Agents are forgeable (it quarantines UAs whose traffic is ≥60% 404s as likely impostors), and Google/Apple AI-training use is invisible in principle, since `Google-Extended`/`Applebot-Extended` are robots.txt tokens that no request carries.
+
+**The dominant finding in the digests so far is the gitweb trap, and it's growing fast** (noted 2026-08-07, from `notes/ai_bot_digests/`):
+
+| date | `/blog/source` requests | content pages read |
+| --- | --- | --- |
+| 2026-07-25 | 21,147 | 500 |
+| 2026-07-29 | 61,345 | 234 |
+| 2026-08-01 | 102,867 | 265 |
+| 2026-08-04 | **312,894** | 138 |
+| 2026-08-06 | 107,180 | 151 |
+
+Roughly **99.9% of AI-crawler traffic is the gitweb interface**, up ~15× in twelve days, while actual fetching of posts *declined* over the same window. Meta/Facebook AI logged 69,074 requests and **zero** content pages in one day; GPTBot 37,122 requests for one page.
+
+This is permitted behavior, not abuse: `provisioning/robots.txt` is `Allow: /` with **no `Disallow` lines at all**, and git history is a near-infinite URL space (commits × files × view modes × blame/diff/raw). The cheap experiment is `Disallow: /blog/source` — the digests confirm ClaudeBot, Applebot, PerplexityBot, and OAI-SearchBot all reliably fetch robots.txt, so compliant bots would stop; whatever keeps hammering afterward is then a much clearer signal about who's ignoring it. Not done as of 2026-08-07. Weigh it against actually wanting the git history publicly crawlable, which is a real thing to want and the reason it's exposed.
 
 ### `llms.txt` is generated where nothing will find it (unfixed, low priority)
 
@@ -67,6 +85,14 @@ Note this means the heavy `.md` fetching visible in those digests is *not* evide
 
 The fix is placement, not content — `_canonical_url` already builds absolute `https://zackmdavis.net/blog/...` links, so a copy served from the webroot works unmodified. It's the same problem `STATIC_PATHS` in `pelicanconf.py` already solves for `robots.txt` by deploying that standalone, but `llms.txt` is build-generated, so it needs copying out of `output/` after each build (`provisioning/pelican_scheduler.py`) rather than a one-time `scp`. While in there: there's no `sitemap.xml` at all and no `Sitemap:` line in `robots.txt`, which is the same missing-machine-discovery-surface problem — robots.txt *is* reliably fetched (ClaudeBot, Applebot, PerplexityBot, OAI-SearchBot all hit it), so it's the better hook of the two.
 
+### Internal links are root-relative on purpose — don't "fix" them
+
+Every internal link in `content/` is `/blog/YYYY/Mon/slug/`. This is deliberate and matches the convention on the other blog: root-relative links survive a scheme change, work in local builds where `SITEURL` is `''`, and don't bake the hostname into ~500 source files. They are **not** an oversight to be absolutized.
+
+Where absolute URLs are genuinely needed — the `.md` mirrors, which exist to be read detached from the site — `_absolutize_site_links` in `pelicanconf.py` converts them at build time, guarded on `SITEURL` being set. Add destinations there, not in the source.
+
+Before 2026-08-07 these were absolute `http://zackmdavis.net/blog/YYYY/MM/slug/`, resolving only via the legacy-permalink redirect in `nginx_siteconf`. That redirect still exists for inbound links from elsewhere, but nothing in the corpus depends on it now.
+
 ## Less Wrong cross-posting (designed, not built — nothing decided)
 
 Two related wants, neither implemented: a "Discussion on Less Wrong" link on each post, and a script that rewrites internal blog links to their LW equivalents when preparing a linkpost. Findings below so this doesn't get re-derived.
@@ -75,9 +101,13 @@ Two related wants, neither implemented: a "Discussion on Less Wrong" link on eac
 
 **Where the LW URL should live — leaning sidecar, undecided.** The obvious answer is a `Lesswrong:` line in the post header; Pelican supports arbitrary metadata with no config change (`readers.py:320` lowercases the key, `:341` returns a single-line value as a string, `:117` passes unknown names through), exposing `article.lesswrong`. The problem is sequencing: the LW URL doesn't exist until *after* publishing, so post-header metadata forces a second commit per post that touches the post file. A sidecar `slug → LW URL` JSON keeps the publish commit clean and lets updates batch — which matters beyond tidiness, since every push triggers a full rebuild and the site-wide 404 window described above. Read it once in `pelicanconf.py` and attach `article.lesswrong` the way `_prepare_markdown_mirrors` attaches `article.markdown_url`; warn on a key matching no post, since the sidecar loses the typo-safety of co-located metadata. Slugs are verified unique corpus-wide, so slug is a safe key. Third option: linkpost *before* pushing (the blog URL is predictable from date and filename), publish once with the field already filled — costs a window where the LW post points at a 404.
 
-**Gotcha either way:** `_write_markdown_mirrors` restates a **hardcoded** field list (Author, date, Category, Tags, Canonical URL), so a new field silently vanishes from the `.md` mirrors — i.e. the artifact that exists for LLM legibility — unless added there too.
+**Gotcha either way:** `_write_markdown_mirrors` restates a **hardcoded** field list (Author, date, Category, Tags, Canonical URL), so a new field silently vanishes from the `.md` mirrors — i.e. the artifact that exists for LLM legibility — unless added there too. It also pipes the body through `_absolutize_site_links`, so anything else that reuses post bodies for off-site consumption wants the same treatment.
 
-**Link-rewriting script.** Key on slug, not whole-URL matching: of 323 internal links in the corpus, 284 are the legacy `http://zackmdavis.net/blog/YYYY/MM/slug/` form that only resolves via the 302 in `nginx_siteconf`, and only 9 are the current Pelican `/blog/YYYY/Mon/slug/` shape; there are also root-relative and `.md`-suffixed variants. Dispositions: mapped post → LW URL; unmapped post → absolutize (**mandatory** — root-relative links resolve against lesswrong.com once pasted); link with a `#fragment` → leave pointing home, since LW has no corresponding anchor and a wrong landing spot beats an off-site one; `/blog/` and `/blog/tag/...` → absolutize only; plus a self-link guard. Make it a standalone CLI with a `--check` mode that reports each link's disposition, *not* a build hook — no reason to grow the job that owns the 404 window.
+**Link-rewriting script.** Key on slug, not whole-URL matching. Since 2026-08-07 the corpus is uniform — every internal link is root-relative `/blog/YYYY/Mon/slug/` (293 of them: 287 in published posts, 6 in drafts), with no absolute or legacy-numeric-month forms left, so the script only has one input shape to parse. Dispositions: mapped post → LW URL; unmapped post → absolutize; link with a `#fragment` → leave pointing home, since LW has no corresponding anchor and a wrong landing spot beats an off-site one; `/blog/` and `/blog/tag/...` → absolutize only; plus a self-link guard.
+
+`pelicanconf.py`'s `_absolutize_site_links` already implements the absolutizing half (for the `.md` mirrors) — reuse it rather than reimplementing. It encodes the principle worth keeping: **absolutization is a per-destination publishing transform, not a constraint on the source.** An earlier version of this note had that backwards, calling absolute source links "mandatory" on the grounds that root-relative ones resolve against lesswrong.com once pasted — but rewriting links is the script's entire job, so that's the problem it exists to solve, not a reason to avoid the convention.
+
+Make it a standalone CLI with a `--check` mode that reports each link's disposition, *not* a build hook — no reason to grow the job that owns the 404 window.
 
 **Scope boundary.** Link rewriting is the easy half; your Markdown is not LW's Markdown (footnotes `[^name]`, `~~` via `pymdownx.tilde`, `$...$` MathJax, the `&#36;` entity workaround). "Swap the links" is bounded; "paste without touching" is open-ended. Build the first and let the footnotes say whether the second is needed.
 
