@@ -109,6 +109,8 @@ EXTRA_PATH_METADATA = {
 # Writes a plain .md sibling next to each article's HTML (e.g. 2026/Jun/slug/
 # -> 2026/Jun/slug.md) and an llms.txt index at the site root linking to them.
 import os as _os
+import re as _re
+from urllib.parse import urlsplit as _urlsplit, urlunsplit as _urlunsplit
 from pelican import signals as _signals
 
 _markdown_mirror_state = {'output_path': None, 'siteurl': '', 'articles': []}
@@ -135,6 +137,36 @@ def _canonical_url(path):
     return (siteurl + '/' if siteurl else '/') + path
 
 
+# Internal links in content/ are root-relative (/blog/YYYY/Mon/slug/): they
+# survive a scheme change, work in local builds where SITEURL is '', and don't
+# bake the hostname into 500 source files. But the .md mirrors exist precisely
+# to be read *detached* from the site -- see the metadata comment in
+# _write_markdown_mirrors -- and a bare path has nothing to resolve against
+# once the body text is separated from the URL it was fetched from, which is
+# exactly what chunked ingestion does. So absolutize on the way out: the source
+# stays relative, the published artifact carries whole URLs.
+#
+# Note this is a *per-destination publishing transform*, not a constraint on
+# the source; a Less Wrong linkpost would want the same treatment for the same
+# reason, and should reuse this rather than push absolute URLs back upstream.
+_ROOT_RELATIVE_LINK = _re.compile(r'(\]\()(/(?!/)[^)]*)(\))')
+
+
+def _absolutize_site_links(body):
+    siteurl = _markdown_mirror_state['siteurl']
+    if not siteurl:
+        return body  # local build: nothing to resolve against, and a
+                     # relative link is already right for a local tree
+    split = _urlsplit(siteurl)
+    if not split.netloc:
+        return body
+    # Origin only -- SITEURL includes the /blog path prefix, which the links
+    # already carry, so joining against SITEURL itself would double it.
+    origin = _urlunsplit((split.scheme, split.netloc, '', '', ''))
+    return _ROOT_RELATIVE_LINK.sub(
+        lambda m: m.group(1) + origin + m.group(2) + m.group(3), body)
+
+
 def _write_markdown_mirrors(pelican_obj):
     output_path = _markdown_mirror_state['output_path']
     if not output_path:
@@ -143,6 +175,7 @@ def _write_markdown_mirrors(pelican_obj):
         with open(article.source_path, encoding='utf-8') as f:
             source = f.read()
         _, _, body = source.partition('\n\n')
+        body = _absolutize_site_links(body)
         md_abspath = _os.path.join(output_path, article.markdown_url)
         _os.makedirs(_os.path.dirname(md_abspath), exist_ok=True)
         # The source file's own metadata block was just stripped off by the
