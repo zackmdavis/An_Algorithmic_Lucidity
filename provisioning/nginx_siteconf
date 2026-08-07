@@ -2,12 +2,32 @@
 # by conf.d/aal_month_map.conf, both included once from nginx.conf's http{}
 # block (not here -- see those files for why).
 #
-# All of the redirects below are 302 (not 301) for now, deliberately: we're
-# still actively testing/adjusting this exact redirect logic pre-launch, and
-# a wrong 301 can get stuck in visitors' browser caches for a long time in a
-# way a 302 won't. Flip these to 301 (the semantically correct choice for a
-# genuinely permanent URL-scheme migration, and better for search engines
-# updating their index) once we're confident and actually going live.
+# The redirects below were all 302 through launch, while the redirect logic
+# was still being adjusted and a wrong 301 stuck in visitors' browser caches
+# would have been unfixable from this end. The WordPress-permalink rewrite
+# and the bare-/blog normalization are 301 as of 2026-08-07. The bare-feed
+# redirect is still 302 only because it hasn't been revisited, not because a
+# temporary redirect is right for it -- it's arguably the one with the most
+# to gain, being the only redirect here that a client re-traverses on a
+# schedule rather than once, and many feed readers permanently rewrite a
+# stored subscription URL on a 301.
+#
+# The stuck-cache worry that motivated the 302s turns out to be moot, via
+# machinery that wasn't put there for it: `expires $expires` at server level
+# below maps text/html to `epoch` (conf.d/common_expires_map.conf), and a
+# `return` generates a text/html body, so every redirect here goes out with
+# `Cache-Control: no-cache` and browsers revalidate each time. Verified
+# against the live site, not assumed -- but note it rests on an incidental
+# key match, since that map was written for posts. If it ever grows a rule
+# covering redirect responses, re-check this before trusting any 301 here.
+#
+# Consequence: no-cache means each hit costs a round trip forever, so none of
+# the latency win of a cacheable redirect. To buy that back, add `expires 1d;`
+# inside a redirect location -- NOT `add_header Cache-Control ...`, which
+# appends a second, contradictory Cache-Control beside the one `expires`
+# already emits instead of replacing it. Search engines read the status code,
+# not the cache header, so bounding cache lifetime costs nothing in
+# canonicalization terms.
 
 # HTTPS is available (cert obtained via `certbot certonly --nginx`,
 # deliberately certonly rather than letting certbot's installer rewrite this
@@ -115,14 +135,14 @@ server {
         # prefix location below regardless of ordering, so this only needs
         # to exist, not to come first.
         location ~ "^/blog/(\d{4})/(\d{2})/(.*)$" {
-            return 302 /blog/$1/$aal_month_abbrev/$3;
+            return 301 /blog/$1/$aal_month_abbrev/$3;
         }
 
         # location /blog/ below requires the trailing slash to match (it's
         # what makes the alias line up), so the bare /blog on its own would
         # otherwise fall through to location / above and 404.
         location = /blog {
-            return 302 /blog/;
+            return 301 /blog/;
         }
 
         # The Pelican-generated blog itself. alias (not root) strips the
