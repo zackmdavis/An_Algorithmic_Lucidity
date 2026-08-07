@@ -3,7 +3,7 @@ Date: 2021-01-13 19:52
 Status: published
 Category: psychology
 
-[(Previously)](http://zackmdavis.net/blog/2019/05/may-is-math-and-wellness-month/)
+[(Previously)](/blog/2019/May/may-is-math-and-wellness-month/)
 
 There is a time to tackle ambitious intellectual projects and go on grand political crusades, and tour the podcast circuit marketing both.
 

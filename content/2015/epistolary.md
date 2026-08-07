@@ -3,7 +3,7 @@ Date: 2015-04-14 22:41
 Status: published
 Category: asides
 
-[(Previously.)](http://zackmdavis.net/blog/2014/05/a-short-story/)
+[(Previously.)](/blog/2014/May/a-short-story/)
 
 ```
 [19:26:50] <bob>    alice: you still around?

@@ -47,7 +47,7 @@ Second insight! On counterfactual reasoning. The adversarial, recursive nature o
 
 On the other hand, maybe you _would_ bother loading a gun even if you didn't intend to fire it. When facing an intelligent opponent, you need to take into account how your choices affect your opponent's choices. This leads our algorithm to set up attacks that it _predicts_ won't be realized, because the credible _threat_ constrains the opposing player's choices.
 
-This position came up in a game with my coworkers [as part of the engine's planning](http://zackmdavis.net/blog/2016/02/missing-refutations/) in a scenario where Black's previous move was moving her bishop to f5—
+This position came up in a game with my coworkers [as part of the engine's planning](/blog/2016/Feb/missing-refutations/) in a scenario where Black's previous move was moving her bishop to f5—
 
 [![chess position]({static}/images/scenario_pt1-300x300.png)]({static}/images/scenario_pt1.png)
 

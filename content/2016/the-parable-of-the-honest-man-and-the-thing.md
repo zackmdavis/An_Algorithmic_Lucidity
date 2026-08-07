@@ -19,6 +19,6 @@ _(A beat.)_
 
 "You know, honestly, my life is fine as it is. I don't need to do the thing. I'm glad my friends are having fun."
 
-_([dies of cardiac disease fifty years later](http://zackmdavis.net/blog/2016/05/more-running/) without having done the thing)_
+_([dies of cardiac disease fifty years later](/blog/2016/May/more-running/) without having done the thing)_
 
 _(Earth is consumed in a self-replicating nanotechnology accident)_

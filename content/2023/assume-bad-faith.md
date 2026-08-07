@@ -58,7 +58,7 @@ The reason I don't think it's useful to talk about "bad faith" is because the on
 
 If I'm sticking to the object level, it's irrelevant: I reply to what's in the text; my suspicions about the process generating the text are out of scope.
 
-If I'm doing full-contact psychoanalysis, the problem with "I don't think you're here in good faith" is that it's insufficiently _specific_. Rather than accusing someone of generic "bad faith", the way to move the discussion forward is by positing that one's interlocutor has some specific motive that hasn't yet been made explicit—and the way to defend oneself against such an accusation is by [making the case that one's real agenda isn't the one being proposed](http://zackmdavis.net/blog/2022/05/plea-bargaining/), rather than protesting one's "good faith" and implausibly claiming not to have an agenda.
+If I'm doing full-contact psychoanalysis, the problem with "I don't think you're here in good faith" is that it's insufficiently _specific_. Rather than accusing someone of generic "bad faith", the way to move the discussion forward is by positing that one's interlocutor has some specific motive that hasn't yet been made explicit—and the way to defend oneself against such an accusation is by [making the case that one's real agenda isn't the one being proposed](/blog/2022/May/plea-bargaining/), rather than protesting one's "good faith" and implausibly claiming not to have an agenda.
 
 The two strategies can be mixed. A simple meta-strategy that performs well without imposing too high of a skill requirement is to default to the object level, and only pull out psychoanalysis as a last resort against [stonewalling](https://www.lesswrong.com/posts/wqmmv6NraYv4Xoeyj/conversation-halters).
 

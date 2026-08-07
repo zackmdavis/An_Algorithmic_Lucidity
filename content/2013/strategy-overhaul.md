@@ -8,7 +8,7 @@ Tags: madness, schooling
 
 "Say more."
 
-"Well, [as discussed previously](http://zackmdavis.net/blog/2013/02/lessons/), I had been modeling other people as defective versions of my model of myself, without realizing that this was a mistake on at least two counts: one, other people are not like my model of me, and two, _I'm_ not as much like my model of me as I had wanted to believe, both of which observations are manifestations of that horrifying fact which I'm only now starting to appreciate: that people are animals, that Darwinism isn't just a proposition to endorse, but it _actually happened that way in real life_."
+"Well, [as discussed previously](/blog/2013/Feb/lessons/), I had been modeling other people as defective versions of my model of myself, without realizing that this was a mistake on at least two counts: one, other people are not like my model of me, and two, _I'm_ not as much like my model of me as I had wanted to believe, both of which observations are manifestations of that horrifying fact which I'm only now starting to appreciate: that people are animals, that Darwinism isn't just a proposition to endorse, but it _actually happened that way in real life_."
 
 "And how does that relate to the costs of nonconformity?"
 

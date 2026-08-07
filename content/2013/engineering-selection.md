@@ -4,7 +4,7 @@ Status: published
 Category: social science
 Tags: cynicism, transhumanism
 
-This whole business of being alive used to seem so much simpler and less morally ambiguous before I realized that the strong do what they can and the weak suffer what they must, that it has always been thus and [could not have been otherwise](http://zackmdavis.net/blog/2013/04/the-horror-of-naturalism/). The other day I was reading Luke Muehlhauser's [interview with Steve Hsu](http://intelligence.org/2013/08/31/stephen-hsu-on-cognitive-genomics/), and Hsu says:
+This whole business of being alive used to seem so much simpler and less morally ambiguous before I realized that the strong do what they can and the weak suffer what they must, that it has always been thus and [could not have been otherwise](/blog/2013/Apr/the-horror-of-naturalism/). The other day I was reading Luke Muehlhauser's [interview with Steve Hsu](http://intelligence.org/2013/08/31/stephen-hsu-on-cognitive-genomics/), and Hsu says:
 
 > Let me add that, in my opinion, each society has to decide for itself (_e.g._ through democratic process) whether it wants to legalize or forbid activities that amount to genetic engineering. Intelligent people can reasonably disagree as to whether such activity is wise.
 

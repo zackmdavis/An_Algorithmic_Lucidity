@@ -3,7 +3,7 @@ Date: 2016-09-29 11:03
 Status: published
 Category: asides
 
-[(Previously.)](http://zackmdavis.net/blog/2016/07/concerns/)
+[(Previously.)](/blog/2016/Jul/concerns/)
 
 "I'm concerned about the [socially-undesirable](https://en.wikipedia.org/wiki/Social_desirability_bias) implications of the correlations documented in these published studies, which seem consistent with my own observations and personal experience."
 

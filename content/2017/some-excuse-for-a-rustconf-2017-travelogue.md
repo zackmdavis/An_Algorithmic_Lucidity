@@ -4,9 +4,9 @@ Status: published
 Category: computing
 Tags: akrasia, Rust, timely Special Event
 
-([Previously](http://zackmdavis.net/blog/2016/09/rustconf-2016-travelogue/), [previously](http://zackmdavis.net/blog/2015/08/rustcamp-reminiscences/) on _An Algorithmic Lucidity_.)
+([Previously](/blog/2016/Sep/rustconf-2016-travelogue/), [previously](/blog/2015/Aug/rustcamp-reminiscences/) on _An Algorithmic Lucidity_.)
 
-Wow, has it already been a year since last RustConf?—give or take the exact date of the event sliding a bit between years—and give a month-and-a-half of procrastination before being truly struck by the mounting realization that my opportunity to blog _something_ about it [before the opportunity expires](http://zackmdavis.net/blog/2016/01/ideas-have-expirations/) has almost—but crucially, not quite—faded into oblivion. And a year-and-a-quarter since [my first contribution](http://zackmdavis.net/blog/2016/06/pose/) to the compiler? I've recently moved into the top hundred contributors by commit count, because GitHub's [contributors graph page](https://github.com/rust-lang/rust/graphs/contributors) only goes down to a hundred and [my life is controlled by what things GitHub happens to provide graphs for](http://zackmdavis.net/blog/2014/02/motivation/).
+Wow, has it already been a year since last RustConf?—give or take the exact date of the event sliding a bit between years—and give a month-and-a-half of procrastination before being truly struck by the mounting realization that my opportunity to blog _something_ about it [before the opportunity expires](/blog/2016/Jan/ideas-have-expirations/) has almost—but crucially, not quite—faded into oblivion. And a year-and-a-quarter since [my first contribution](/blog/2016/Jun/pose/) to the compiler? I've recently moved into the top hundred contributors by commit count, because GitHub's [contributors graph page](https://github.com/rust-lang/rust/graphs/contributors) only goes down to a hundred and [my life is controlled by what things GitHub happens to provide graphs for](/blog/2014/Feb/motivation/).
 
 [![RustConf 2017 swag laid out on a t-shirt: two lanyards with name badges, a mug and tote bag with the Rust logo]({static}/images/rustconf_2017_swag-225x300.jpg)]({static}/images/rustconf_2017_swag.jpg){: .alignleft }
 

@@ -15,6 +15,6 @@ $$A = \frac{1}{2}(A + A^T) + \frac{1}{2}(A - A^T)$$
 
 (In fact, I have been given to understand that this observation is actually expressing a deep truth about the nature of linear transformations: every linear transformation is in some sense—which I hope to make more explicit later—the sum of a scaling in orthogonal directions (from the symmetric matrix; consider the spectral theorem) and a rotation (from the skew-symmetric matrix, which is said to represent an infinitesimal rotation).)
 
-Also (and _probably_ related to the matrix thing), in the geometric algebra, the geometric product of vectors can be expressed as the sum of an inner product and an [anticommutative outer product](http://zackmdavis.net/blog/2012/09/blades/).
+Also (and _probably_ related to the matrix thing), in the geometric algebra, the geometric product of vectors can be expressed as the sum of an inner product and an [anticommutative outer product](/blog/2012/Sep/blades/).
 
 Are there more examples of this theme of splitting something into symmetric and antisymmetric parts? Is there a general theorem explaining exactly which mathematical objects do this kind of thing?

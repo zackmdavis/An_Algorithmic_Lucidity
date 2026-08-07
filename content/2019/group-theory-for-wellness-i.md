@@ -4,7 +4,7 @@ Status: published
 Category: mathematics
 Tags: algebra, theme week
 
-(Part of [Math and Wellness Month](http://zackmdavis.net/blog/2019/05/may-is-math-and-wellness-month/).)
+(Part of [Math and Wellness Month](/blog/2019/May/may-is-math-and-wellness-month/).)
 
 Groups! A group is a set with an associative binary operation such that there exists an identity element and inverse elements! And my _favorite_ thing about groups is that all the time that you spend thinking about groups, is time that you're _not_ thinking about pain, betrayal, politics, or moral uncertainty!
 

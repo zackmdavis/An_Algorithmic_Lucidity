@@ -4,7 +4,7 @@ Status: published
 Category: psychology
 Tags: sex & gender
 
-([Previously](http://zackmdavis.net/blog/2016/09/wicked-transcendence-ii/), [previously](http://zackmdavis.net/blog/2016/07/wicked-transcendence/).)
+([Previously](/blog/2016/Sep/wicked-transcendence-ii/), [previously](/blog/2016/Jul/wicked-transcendence/).)
 
 Woooooow
 

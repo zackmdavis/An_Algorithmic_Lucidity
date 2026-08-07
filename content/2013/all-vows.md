@@ -22,4 +22,4 @@ Tags: morality
 
 "I don't understand. How could it not be necessary?"
 
-"['Knock, knock.'](http://zackmdavis.net/blog/2012/07/a-knock-knock-joke/)"
+"['Knock, knock.'](/blog/2012/Jul/a-knock-knock-joke/)"

@@ -3,7 +3,7 @@ Date: 2017-05-20 15:31
 Status: published
 Category: psychology
 
-[(Previously.)](http://zackmdavis.net/blog/2017/05/change/)
+[(Previously.)](/blog/2017/May/change/)
 
 Hey. Just so you know.
 
@@ -11,7 +11,7 @@ Today while I was walking to the store to procrastinate from writing a big autob
 
 So, I'm not inhuman.
 
-Although, as far as humanity goes, it is _interesting to note_ that in [that earlier-blogged incident](http://zackmdavis.net/blog/2017/05/change/) when I _was_ inhuman, the person asking for money ended up with three dollars, and this time, she ended up with none.
+Although, as far as humanity goes, it is _interesting to note_ that in [that earlier-blogged incident](/blog/2017/May/change/) when I _was_ inhuman, the person asking for money ended up with three dollars, and this time, she ended up with none.
 
 But you shouldn't exonerate me yet. While leaving the store, I overheard a canvasser saying that he was helping the Southern Poverty Law Center fight descrimination, and I didn't resist the urge to look over my shoulder and say, "Discrimination is _Bayesian reasoning_ applied to human beings!"
 

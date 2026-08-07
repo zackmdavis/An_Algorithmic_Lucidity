@@ -8,4 +8,4 @@ Tags: population ethics
 
 "Like what?"
 
-"'Thinkers from my native subculture, ranked on [a continuum](http://zackmdavis.net/blog/2013/04/continuum-utilitarianism/) from negative to positive utilitarianism': it goes from [Brian Tomasik](http://www.utilitarian-essays.com/) to [Robin Hanson](http://www.overcomingbias.com/2007/12/it-is-good-to-e.html)."
+"'Thinkers from my native subculture, ranked on [a continuum](/blog/2013/Apr/continuum-utilitarianism/) from negative to positive utilitarianism': it goes from [Brian Tomasik](http://www.utilitarian-essays.com/) to [Robin Hanson](http://www.overcomingbias.com/2007/12/it-is-good-to-e.html)."

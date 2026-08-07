@@ -4,7 +4,7 @@ Status: published
 Category: social science
 Tags: genetics, gridiron football, timely Special Event
 
-_(just some quick notes, [hopefully in the spirit](http://www.xkcd.com/1640/) of [delightfully quirky symmetry-breaking](http://zackmdavis.net/blog/2013/03/tradition/))_
+_(just some quick notes, [hopefully in the spirit](http://www.xkcd.com/1640/) of [delightfully quirky symmetry-breaking](/blog/2013/Mar/tradition/))_
 
 In her little 2010 book _The Mirage of a Space Between Nature and Nurture_, Evelyn Fox Keller examines some of the eternal conceptual confusions surrounding the perennially popular nature/nurture question. Like, it's both, and everyone _knows_ it's both, so why can't the discourse move on to more interesting and well-specified questions? That the oppositional form of the question isn't well-specified can be easily seen just from simple thought experiments. One such from the book: if one person has [PKU](https://en.wikipedia.org/wiki/Phenylketonuria), a high-phenylalanine diet, and a low IQ, and another person doesn't have PKU, eats a low-phenylalanine diet, and has a normal IQ, we can't attribute the IQ difference to either diet or genetics _alone_; the question dissolves once you understand the causal mechanism. Keller argues that the very idea of distinguishing _heredity_ and _environment_ as distinct, separable, exclusive alternatives whose relative contributions can be compared is a historically recent one that we can probably blame on Francis Galton.
 

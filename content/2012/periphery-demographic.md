@@ -11,13 +11,13 @@ I know, it sounds as if I'm complaining, but I'm not: we are all grateful that s
 
 If you don't know what I'm talking about, some commentary on spam comments submitted to this blog is below the break—
 
-Would-be commenter "charms" writes on "[Summing the Multinomial Coefficients](http://zackmdavis.net/blog/2012/09/summing-the-multinomial-coefficients/)":
+Would-be commenter "charms" writes on "[Summing the Multinomial Coefficients](/blog/2012/Sep/summing-the-multinomial-coefficients/)":
 
 > I adore thomas family funeral home! I got my initial couple as soon as i was initially 10 yrs old, the sunlight yellow quite short old classic.Now i'm 15 yrs old nowadays and also, since after that, I have got as well received your ebony quite short old classic, your bleak quite short old classic, [...]
 
 And it goes on like that for another ninety words. One wonders: is anyone _really_ going to buy shoes or whatever based on a blog comment like that? Maybe, _maybe_ fifteen out of a million ... which I guess was the point. But again, one imagines that there would be a payoff to spammers for being more discriminating—I guess some them are. I got a few attempted comments referring to [Zack Snyder](http://en.wikipedia.org/wiki/Zack_Snyder), so someone's at least paying attention to the URL.
 
-I even got one attempted comment that sort-of _looks_ on topic, maybe, if you don't look too closely? "Alexey" writes on "[Interpolating Between Vectorized Green's Theorems](http://zackmdavis.net/blog/2012/06/interpolating-between-vectorized-greens-theorems/)":
+I even got one attempted comment that sort-of _looks_ on topic, maybe, if you don't look too closely? "Alexey" writes on "[Interpolating Between Vectorized Green's Theorems](/blog/2012/Jun/interpolating-between-vectorized-greens-theorems/)":
 
 > Great! I see how to finish it off now, and I see why given the dftierenfial equation and being told to look at F and f you would see that relation, but just introducing F in the first place well, I guess I just have to accept this proof is awesome. =DYou asked for topic areas: Have you ever seen Euler's proof that the number of partitions of a number into odd numbers equals that of a number into distinct numbers? That is a good one. Other than that, some Galois theory would be nice?
 

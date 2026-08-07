@@ -3,7 +3,7 @@ Date: 2017-05-06 13:30
 Status: published
 Category: psychology
 
-_Adventures in recalibrating my models of social reality ... Portland edition! [(Previous adventures in Portland.)](http://zackmdavis.net/blog/2016/09/rustconf-2016-travelogue/)_
+_Adventures in recalibrating my models of social reality ... Portland edition! [(Previous adventures in Portland.)](/blog/2016/Sep/rustconf-2016-travelogue/)_
 
 "I think the man who asked me for change was trying to scam me. At the end of the interaction-slash-negotiation, I had given him three dollars, and I didn't get any quarters back, which is not how making change is supposed to work. Does ... does the poor thing not even have a concept of 'scam'? Is this just how his tribe makes a living?"
 

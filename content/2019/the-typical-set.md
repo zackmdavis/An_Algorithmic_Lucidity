@@ -4,7 +4,7 @@ Status: published
 Category: mathematics
 Tags: information theory
 
-(Part of [Math and Wellness Month](http://zackmdavis.net/blog/2019/05/may-is-math-and-wellness-month/).)
+(Part of [Math and Wellness Month](/blog/2019/May/may-is-math-and-wellness-month/).)
 
 Say you have a biased coin that comes up Heads 80% of the time. (I like to imagine that the Heads side has a portrait of [Bernoulli](https://en.wikipedia.org/wiki/Bernoulli_process).) Flip it 100 times. The naïve way to report the outcome—just report the sequences of Headses and Tailses—costs 100 bits. But maybe you don't have 100 [bits](https://mlp.fandom.com/wiki/Bits). What to do?
 

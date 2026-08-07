@@ -8,4 +8,4 @@ At a quarter past eight on the first Monday of the new year, the yellow line on 
 
 It catches the eye of a young woman who got on at Lafayette and has spent the last six minutes scribbling in a Moleskine notebook. "Oh!" she says, approaching. "Are you a writer, too?"
 
-The man looks up, seeming slightly surprised and confused, which slightly surprises and confuses her in turn. "[Of course not](http://zackmdavis.net/blog/2013/12/thinking-about-writing/)," he says, indicating the magazine. "If I were, would I be reading _this_?"
+The man looks up, seeming slightly surprised and confused, which slightly surprises and confuses her in turn. "[Of course not](/blog/2013/Dec/thinking-about-writing/)," he says, indicating the magazine. "If I were, would I be reading _this_?"

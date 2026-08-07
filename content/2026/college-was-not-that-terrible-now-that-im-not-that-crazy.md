@@ -4,7 +4,7 @@ Status: published
 Category: social science
 Tags: schooling
 
-Previously, [I wrote about how I was considering going back to San Francisco State University for two semesters](http://zackmdavis.net/blog/2024/05/should-i-finish-my-bachelors-degree/) to finish up my Bachelor's degree in math.
+Previously, [I wrote about how I was considering going back to San Francisco State University for two semesters](/blog/2024/May/should-i-finish-my-bachelors-degree/) to finish up my Bachelor's degree in math.
 
 So, I did that. I think it was a good decision! I got more out of it than I expected.
 
@@ -20,7 +20,7 @@ The undergraduate mathematics program at SFSU has three tracks: for "advanced st
 
 ### "Real Analysis II" (Fall 2024)
 
-My last class at SF State in Spring 2013 (before getting rescued by the software industry) had been ["Real Analysis I"](https://math.sfsu.edu/courses/370) with Prof. Alex Schuster. I regret that I wasn't in a state to properly focus and savor it at the time: I [had a pretty bad sleep-deprivation-induced psychotic break in early February 2013](http://zackmdavis.net/blog/2013/03/religious/) and for a few months thereafter was [mostly just trying to hold myself together](http://zackmdavis.net/blog/2013/04/prodrome/). I withdrew from my other classes ("Introduction to Functions of a Complex Variable" and "Urban Issues of Black Children and Youth") and ended up getting a B−.
+My last class at SF State in Spring 2013 (before getting rescued by the software industry) had been ["Real Analysis I"](https://math.sfsu.edu/courses/370) with Prof. Alex Schuster. I regret that I wasn't in a state to properly focus and savor it at the time: I [had a pretty bad sleep-deprivation-induced psychotic break in early February 2013](/blog/2013/Mar/religious/) and for a few months thereafter was [mostly just trying to hold myself together](/blog/2013/Apr/prodrome/). I withdrew from my other classes ("Introduction to Functions of a Complex Variable" and "Urban Issues of Black Children and Youth") and ended up getting a B−.
 
 My psychiatric impairment that semester was particularly disappointing because I had been looking forward to "Real Analysis I" as my first "serious" math class, being concerned with proving theorems rather than the "school-math" that most people associate with the subject, of applying given techniques to given problem classes. I had wanted to take it concurrently with the prerequsite, ["Exploration and Proof"](https://math.sfsu.edu/courses/301) (which I didn't consider sufficiently "serious") upon transferring to SFSU the previous semester, but was not permitted to. I had emailed Prof. Schuster asking to be allowed to enroll, with evidence that I was ready (attaching [a PDF of a small result I had proved about analogues of π under the _p_-norm](http://zackmdavis.net/docs/Davis-pi_in_Lp.pdf), and including the contact email of Prof. Robert Hasner of Diablo Valley College, who had been my "Calculus III" professor and had agreed to vouch for my preparedness), but he didn't reply.
 
@@ -82,7 +82,7 @@ I can only speculate that the occurrence of a student pointing out something abo
 
 ### The 85th William Lowell Putnam Mathematical Competition
 
-I also organized a team for the Putnam Competition, SFSU's first in institutional memory. (I'm really proud of [my recruitment advertisements](http://zackmdavis.net/blog/2025/01/recruitment-advertisements-for-the-2024-putnam-competition-at-san-francisco-state-university/) to the math majors' mailing list.) The story of the Putnam effort has been recounted in a separate post, ["The End of the Movie: SF State's 2024 Putnam Competition Team, A Retrospective"](http://zackmdavis.net/blog/2025/01/the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective/).
+I also organized a team for the Putnam Competition, SFSU's first in institutional memory. (I'm really proud of [my recruitment advertisements](/blog/2025/Jan/recruitment-advertisements-for-the-2024-putnam-competition-at-san-francisco-state-university/) to the math majors' mailing list.) The story of the Putnam effort has been recounted in a separate post, ["The End of the Movie: SF State's 2024 Putnam Competition Team, A Retrospective"](/blog/2025/Jan/the-end-of-the-movie-sf-state-2024-putnam-competition-team-a-retrospective/).
 
 As the email headers at the top of the post indicate, the post was originally composed for the department mailing lists, but it never actually got published there: department chair Eric Hsu wrote to me that it was "much too long to send directly to the whole department" but asked for my "permission to eventually share it with the department, either as a link or possibly as a department web page." (He cc'd a department office admin whom I had spoken to about posting the Putnam training session announcements on the mailing list; reading between the lines, I'm imagining that she was discomfited by the tone of the post and had appealed to Chair Hsu's authority about whether to let it through.)
 
@@ -145,7 +145,7 @@ I guess that's okay because grades aren't real, but the work was real. If Prof. 
 
 ### "Modern Algebra I" (Spring 2025)
 
-One of the quirks of being an autodidact is that it's easy to end up with an "unbalanced" skill profile relative to what school authorities expect. As a student of mathematics, I consider myself more of an analyst than an algebraist and had not previously prioritized learning abstract algebra nor (what the school authorities cared about) "taking" an algebra "class", neither the previous semester nor in Fall 2012/Spring 2013. (Over the years, I had taken a few [desultory swings at Dummit & Foote](http://zackmdavis.net/blog/2019/05/group-theory-for-wellness-i/), but had never gotten very far.) I thus found myself in Prof. Dusty Ross's "Modern Algebra I" ("MATH 335"), the last "core" course I needed to graduate.
+One of the quirks of being an autodidact is that it's easy to end up with an "unbalanced" skill profile relative to what school authorities expect. As a student of mathematics, I consider myself more of an analyst than an algebraist and had not previously prioritized learning abstract algebra nor (what the school authorities cared about) "taking" an algebra "class", neither the previous semester nor in Fall 2012/Spring 2013. (Over the years, I had taken a few [desultory swings at Dummit & Foote](/blog/2019/May/group-theory-for-wellness-i/), but had never gotten very far.) I thus found myself in Prof. Dusty Ross's "Modern Algebra I" ("MATH 335"), the last "core" course I needed to graduate.
 
 "Modern Algebra I" met on Monday, Wednesday, and Friday. All of my other classes met Tuesdays and Thursdays. I had wondered whether I could save myself a lot of commuting by ditching algebra most of the time, but started off the semester dutifully attending—and, as long as I was on campus that day anyway, also sitting in on Prof. Ross's "Topology" ("MATH 450") even though I couldn't commit to a fourth math course for credit.
 
@@ -172,7 +172,7 @@ He didn't give me credit for those. We hadn't covered the quaternions in class.
 
 ## Not Sweating the Fake Stuff (Non-Math)
 
-In addition to the gen-ed requirements that could be satisfied with transfer credits, there were also upper-division gen-ed requirements that had to be taken at SFSU: one class each from "UD-B: Physical and/or Life Sciences" (which I had satisfied with [a ridiculous "Contemporary Sexuality" class in Summer 2012](http://zackmdavis.net/blog/2012/08/contemporary/)), "UD-C: Arts and/or Humanities", and "UD-D: Social Sciences". There was also an "Area E: Lifelong Learning and Self-Development" requirement, and four "SF State Studies" requirements (which overlapped with the UD- classes).
+In addition to the gen-ed requirements that could be satisfied with transfer credits, there were also upper-division gen-ed requirements that had to be taken at SFSU: one class each from "UD-B: Physical and/or Life Sciences" (which I had satisfied with [a ridiculous "Contemporary Sexuality" class in Summer 2012](/blog/2012/Aug/contemporary/)), "UD-C: Arts and/or Humanities", and "UD-D: Social Sciences". There was also an "Area E: Lifelong Learning and Self-Development" requirement, and four "SF State Studies" requirements (which overlapped with the UD- classes).
 
 
 ### "Queer Literatures and Media" (Fall 2024)

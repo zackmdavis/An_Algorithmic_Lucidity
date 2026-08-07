@@ -3,7 +3,7 @@ Date: 2016-12-29 05:00
 Status: published
 Category: asides
 
-[(Previously.)](http://zackmdavis.net/blog/2016/12/alpha-gamma-phi/)
+[(Previously.)](/blog/2016/Dec/alpha-gamma-phi/)
 
 "I'm [naming my daughter](https://xkcd.com/910/) _Climara_."
 

@@ -3,7 +3,7 @@ Date: 2016-04-03 00:31
 Status: published
 Category: asides
 
-[_(Previously.)_](http://zackmdavis.net/blog/2013/01/group-introduction/)
+[_(Previously.)_](/blog/2013/Jan/group-introduction/)
 
 > I'm pleased to introduce the five of you to start off the App Academy mentorship program. Zack -- meet _[redacted 1]_, _[redacted 2]_, _[redacted 3]_, and _[redacted 4]_, your mentees from the March 2016 cohort.
 >

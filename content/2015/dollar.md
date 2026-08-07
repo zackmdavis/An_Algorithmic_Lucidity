@@ -4,7 +4,7 @@ Status: published
 Category: computing
 Tags: Clojure, Python, Ruby
 
-I used to think of `$` in regular expressions as matching the end of the string. I was wrong! It actually might do something more subtle than that, depending on what regex engine you're using. In my [native](http://zackmdavis.net/blog/2014/11/native-tongue/) Python's [`re` module, `$`](https://docs.python.org/3/library/re.html)
+I used to think of `$` in regular expressions as matching the end of the string. I was wrong! It actually might do something more subtle than that, depending on what regex engine you're using. In my [native](/blog/2014/Nov/native-tongue/) Python's [`re` module, `$`](https://docs.python.org/3/library/re.html)
 
 > [m]atches the end of the string or just before the newline at the end of the string, and in MULTILINE mode also matches before a newline.
 

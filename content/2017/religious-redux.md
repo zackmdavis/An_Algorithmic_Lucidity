@@ -4,7 +4,7 @@ Status: published
 Category: psychology
 Tags: madness
 
-"Shit! _Shit!_ Remember how, the last time this happened to me, I described it as [feeling religious](http://zackmdavis.net/blog/2013/03/religious/)?"
+"Shit! _Shit!_ Remember how, the last time this happened to me, I described it as [feeling religious](/blog/2013/Mar/religious/)?"
 
 "Yeah."
 

@@ -4,7 +4,7 @@ Status: published
 Category: arts & culture
 Tags: Star Trek
 
-([Previously](http://zackmdavis.net/blog/2014/11/yet-another-idle-wish-for-a-future-star-trek-series/), [previously](http://zackmdavis.net/blog/2013/11/another-idle-wish-for-a-future-star-trek-series/), [previously](http://zackmdavis.net/blog/2012/11/an-idle-wish-for-a-future-star-trek-series/) on _An Algorithmic Lucidity_.)
+([Previously](/blog/2014/Nov/yet-another-idle-wish-for-a-future-star-trek-series/), [previously](/blog/2013/Nov/another-idle-wish-for-a-future-star-trek-series/), [previously](/blog/2012/Nov/an-idle-wish-for-a-future-star-trek-series/) on _An Algorithmic Lucidity_.)
 
 "The next thing we need is a secure way to communicate with our contacts on Bajor," says Maj. Kira during Act One of _Deep Space Nine_ Season 6, Episode 3, ["Sons and Daughters"](http://memory-alpha.wikia.com/wiki/Sons_and_Daughters_%28episode%29), planning the secret resistance to the Dominion's occupation of Deep Space Nine ... at a table in a public bar?! Who writes this stuff?
 
