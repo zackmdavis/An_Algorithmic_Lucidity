@@ -2,6 +2,7 @@ Title: Contra Piper on When Conversation Is Possible
 Date: 2027-01-01
 Status: draft
 Category: philosophy
+Tags: honesty
 
 [Kelsey Piper replies to Richard Ngo on Twitter](https://x.com/KelseyTuoc/status/2071375416812867820):
 
@@ -23,22 +24,22 @@ However, I reject the premise that the accusation or its denial can be made just
 
 In the same way, people don't need to know what it feels like to be me in order to speak sensibly about rejecting my own understanding of my beliefs and motives. They could claim that my stated beliefs and motives are inconsistent with my behavior (which they can see) while remaining agnostic about how it feels to be me (which they don't have access to). Such a claim [probably wouldn't be based on nothing at all](/blog/2022/May/plea-bargaining/); indeed, the very existence of persistent disagreements (when you'd expect honest rational agents to simply update on each other's evidence and converge on the correct probability) [suggests that hidden motives are common](/blog/2023/Aug/assume-bad-faith/).
 
-If I buy cookies for the [salon](https://en.wikipedia.org/wiki/Salon_(gathering)) from a bakery owned by my girlfriend in Australia (at a substantial markup), it kind of makes sense for other salon members to wonder if my choice might have been biased by nepotism rather than reflecting true optimization towards the goal of the salon having the best desserts. At the same time, my belief that I wasn't swayed by nepotism is something I can provide reasoning and evidence for: for example, I could show the other salon members the notes and spreadsheets I compiled while comparison shopping, which justify my true belief that my girlfriend just happens to be the optimal dessert vendor for the salon.
+If I buy cookies for the [salon](https://en.wikipedia.org/wiki/Salon_(gathering)) from a bakery owned by my girlfriend in Australia (at a substantial markup), it kind of makes sense for other salon members to wonder if my choice might have been biased by nepotism rather than reflecting true optimization towards the goal of the salon having the best desserts. At the same time, my belief that I wasn't swayed by nepotism is something I can provide reasoning and evidence for: for example, I could show the other salon members the notes and spreadsheets I compiled while comparison shopping, which justify my belief that my girlfriend just happens to be the optimal dessert vendor for the salon.
 
-Now, maybe the other salon members don't find my spreadsheets convincing, but it should be clear that the details of the spreadsheets at least give us _something to talk about_. It's not just a deadlock between an unfalsifiable accusation of self-deception and an unfalsifiable denial, because my catering decision (and therefore the beliefs and motives that led to it) was tangled up with empirical realities of the world. The correctness of my understanding of my beliefs and motives is something I can rationally defend to skeptics in front of third parties; it's not something that needs to be assumed as a prerequisite for even talking at all.
+Now, maybe the other salon members don't find my spreadsheets convincing, but it should be clear that the details of the spreadsheets at least give us _something to talk about_. It's not just a deadlock between an unfalsifiable accusation of self-deception and an unfalsifiable denial, because my catering decision (and therefore the beliefs and motives that led to it) was tangled up with empirical realities of the world. If my comparison shopping was thorough and my girlfriend's bakery is just the best, that makes my story about only wanting the best cookies for the salon more credible; if I didn't really shop around much, that makes my story less credible. The correctness of my understanding of my beliefs and motives is something I can rationally defend to skeptics in front of third parties; it's not something that needs to be assumed as a prerequisite for even talking at all.
 
 ## Why the Self-Understanding of Those Who Think It's Impossible Should Be Rejected
 
-But if I'm right about that, it raises the question of why someone would incorrectly believe that self-deception accusations make conversation impossible. It could just be a random, unmotivated mistake: maybe someone found the unfalsifiability objection superficially compelling, didn't really think it through, and would change their minds as soon as the error was pointed out to them.
+But if I'm right about that, it raises the question: why would someone incorrectly believe that self-deception accusations make conversation impossible? It could just be a random, unmotivated mistake: maybe someone found the unfalsifiability objection superficially compelling, didn't really think it through, and would change their minds as soon as the error was pointed out to them. If someone incorrectly says that 123 + 68 = 181 (when in fact it's 191), it's almost certainly just because they forgot to carry the one; there's no reason for someone to want to believe the wrong answer to that question.
 
+In contrast, there is a clear reason why someone would want the wrong answer about whether self-deception accusations make communication impossible. If I feel vaguely guilty about something and am at some level afraid of being found out, then I have an incentive to shut down conversations that might lead to me being found out, by only agreeing to talk to people who already trust me and won't press me on any uncomfortable questions. (And those who know themselves to be innocent and want to [distinguish themselves from those who have something to hide](/blog/2026/Aug/so-you-dont-trust-me/) have an incentive to welcome the uncomfortable questions.)
 
+Notice how Piper writes about Ngo calling liberals self-deceived: warning him that the "move" of adopting that "frame" sacrifices his ability to communicate with liberals, and that while he might find the benefit worth the cost, from her perspective, "it's a really serious loss."
 
+But positing self-deception isn't just a "move" that one could decline to make while still transmitting the same information; the "frame" is the expression of a hypothesis that could be true or false, which Ngo believes to be true. And as I've discussed above, the cost of not being able to communicate with people you're accusing of self-deception isn't a logical or physical inevitability; it's a choice imposed by the people who don't want to talk to people who don't already trust them.
 
-[TODO—
- * "sacrificing the ability to communicate with liberals" is proposing beliefs from instrumentality; that's not OK!!
- * why would someone do that? I have an hypothesis, but it implies that Piper's self-understanding should be rejected
+In light of these observations, I think Piper's apparently well-meaning advice is better understood as a negotiating threat: don't criticize us in this way, or we'll walk. Even if you privately think us self-decieved, you must not reveal that you think that, or we'll destroy the surplus of you being able to interact with us.
 
-/blog/2026/Feb/hazards-of-selection-effects-on-approved-information/
-http://unremediatedgender.space/2016/Sep/psychology-is-about-invalidating-peoples-identities/
+If Piper doesn't think of herself as making a negotiating threat, I guess that implies that I'm rejecting her self-understanding? But, you know, I don't think I'm doing it maliciously, as an attack. I'm just applying my knowledge of game theory, human psychology, _&c._ to the words I see before me and observing, hey, this looks to me like a veiled negotiating threat intended to suppress a class of criticism; that's an interesting phenomenon to analyze in a blog post.
 
-]
+But if you think I'm kidding myself about that, then I'm happy to talk about it.
