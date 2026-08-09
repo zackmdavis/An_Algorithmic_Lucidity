@@ -6,13 +6,11 @@ Tags: honesty
 
 ## Embarrassment and Innocence
 
-
-
-## 
-
 Sometimes we say things that we think are true—perhaps even things that _are_ true—which end up causing reasonable people to conclude something false. It's tempting to relate to such a situation primarily in terms of maintaining the innocence of one's soul—to say, fine, my readers became more wrong, but I'm not to be [judged](/blog/2025/Oct/the-relationship-between-social-punishment-and-shared-maps/) for it because I believed what I was saying; I wasn't _being misleading_ just because the people who believed me were thereby led into falsehood.
 
 The temptation reflects a confusion as to the nature of the judgment. Mostly, people don't care about judging the innocence of your soul; they care about whether they'll be led into falsehood the next time they take the risk of believing what you say—if there is a next time. If you want there to be a next time and you're going to have social emotions about it, the most productive emotion is _embarrassment_ rather than defensiveness. Visibly embarrassed people can be counted on to work hard to make sure that people won't regret believing them next time. Defensive people won't, because, well, why would they? They didn't do anything wrong.
+
+[TODO: https://en.wikipedia.org/wiki/Marit_ayinit and roommate playing videogame; embarrassment]
 
 ## Two Case Studies About Accidentally Misleading People
 
@@ -34,10 +32,12 @@ In light of that statement, I thought the paraphrase in the article was misleadi
 
 [When I complained about this to the journalist](https://www.lesswrong.com/posts/P8GuwYdy6foSzyZog/conversations-with-cade-metz-on-the-rationalists#24_June_2025), he didn't seem embarrassed. "I had to boil down what she said to plain English," he said. I said that it hadn't worked. He said it did. He recounted that the source had objected when he said his coverage would represent both views of the public figure. When I continued to insist that it seemed like a bad paraphrase when compared to what the source had told me later, he said, "Is that necessarily what she said to me?"
 
-And in absolute fairness, maybe it wasn't, _necessarily_. I of course was not present for the conversation between the journalist and the source; I don't have the recording, if there was one. Even if the source can be assumed to be an authority about what she _meant_ to say, I cannot with absolute certainty rule out the scenario where the "somehow prove statistically which side was right" line was a reasonable paraphrase of the words she had literally said at the time and that her reconstruction three years later of what she remembered saying was unintentionally injecting more nuance after the fact. The source hadn't objected during the fact check call. If the journalist had reasonably paraphrased the words that were said to him at the time, then he was innocent in his soul. Even if his readers walked away with a distorted impression of what the source privately believed (but did not manage to successfully communicate in the interview), the miscommunication wasn't his fault.
+And in absolute fairness, maybe it wasn't, _necessarily_. I of course was not present for the years-prior conversation between the journalist and the source; I don't have the recording, if there was one. Even if the source can be assumed to be an authority about what she _meant_ to say, I cannot with absolute certainty rule out the scenario where the "somehow prove statistically which side was right" line was a reasonable paraphrase of the words she had literally said at the time and that her reconstruction three years later of what she remembered saying was unintentionally injecting more nuance after the fact. The source hadn't objected during the fact check call. If the journalist had reasonably paraphrased the words that were said to him at the time, then he was innocent in his soul. Even if his readers walked away with a distorted impression of what the source privately believed (but did not manage to successfully communicate in the interview), the miscommunication wasn't his fault.
 
 I still think this episode _looks bad for him_ and that he should have been _embarrassed_, because there should have been generalizable policy changes that could have prevented this class of error—perhaps, thinking more carefully about whether a paraphrase that makes a subject look unreasonable is truly a fair paraphrase before going to print with it. Potential sources deciding whether they should talk to the journalist are mostly worried about the risk that their views will end up being miscommunicated, not whose fault a miscommunication would be if it happened. Unlucky accidents do not impinge upon the innocence of one's soul under the moral law, but the moral law is unmercifully permissive about everyone else's right to _avoid unlucky people_.
 
 ### Higher Innocence
 
-[TODO]
+And that's why accidentally misleading people should be embarrassing: because the desire to avoid such embarrassment motivates a counterfactual reduction in such incidents of people being misled, notwithstanding that it was an accident and totally unintentional.
+
+Or was it?

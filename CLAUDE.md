@@ -109,6 +109,8 @@ Two related wants, neither implemented: a "Discussion on Less Wrong" link on eac
 
 Make it a standalone CLI with a `--check` mode that reports each link's disposition, *not* a build hook — no reason to grow the job that owns the 404 window.
 
+We should also include, corpus links to the _Less Wrong_ version (from posts that were originally _Less Wrong_ exclusives) should be changed to point to our version.
+
 **Scope boundary.** Link rewriting is the easy half; your Markdown is not LW's Markdown (footnotes `[^name]`, `~~` via `pymdownx.tilde`, `$...$` MathJax, the `&#36;` entity workaround). "Swap the links" is bounded; "paste without touching" is open-ended. Build the first and let the footnotes say whether the second is needed.
 
 **Incidental:** `SOCIAL = ()` in `pelicanconf.py` is dead — the theme references `LINKS` (`theme/templates/base.html:94`) and never `SOCIAL`. It's `pelican-quickstart` scaffolding, and site-global anyway, so it's not a mechanism for per-post links.
