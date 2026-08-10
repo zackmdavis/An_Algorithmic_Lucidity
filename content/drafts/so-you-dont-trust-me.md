@@ -38,31 +38,10 @@ She hesitates, struggling to find the words for something that would prefer to r
 
 Even he can understand that. "I respect your security posture," he says.
 
-Because what else could he do? Even if it stings to be so distrusted, it wouldn't make sense to angrily snap, "So you don't trust me?" She doesn't—but he knows that the reason she doesn't isn't an indictment of his soul, but rather has to do with the distribution of souls that look the same as him from the outside. In this world (and in the environment of evolutionary adaptedness), there are a lot of men who are happy to act however they need to in order to convince a woman to sleep with them, with no intention to be faithful to her. A man who does intend to be faithful can't ask for feedback because of the adverse selection problem where the fact of asking implies that it's less safe for her to answer in expectation (because there are a greater number of unfaithful men who could also use the answer).
+Because what else could he do? Even if it stings to be so distrusted, it wouldn't make sense for him to angrily snap, "so you don't trust me?" She doesn't—but he knows that the reason she doesn't isn't an indictment of his soul, but rather has to do with the distribution of souls that look the same as him from the outside. In this world (and in the environment of evolutionary adaptedness), there are a lot of men who are happy to act however they need to in order to convince a woman to sleep with them, with no intention of being faithful to her. A man who does intend to be faithful can't ask for feedback because of the adverse selection problem where the fact of asking implies that it's less safe for her to answer in expectation (because there are a greater number of unfaithful men who could also use the answer).
 
-Men who don't intend to be faithful face a greater fraction of possible worlds in which scrutiny reveals a dealbreaker.
-
-As a corollary, men who intend to be true are willing to accept more scrutiny rather than insisting on being trusted right away.
-
-
-so making those worlds worse for the man
-
-
-by decreasing the policy benefit payout decreases the expected value of the policy more for sick cats than healthy cats.
-
-
-The reason it makes sense for the man to say "I respect your security posture" 
-
+That is, unfaithful men face a greater fraction of possible worlds in which scrutiny turns up a dealbreaker, so scrutiny decreases the expected value of the relationship more for unfaithful men than faithful men. As a corollary, faithful men are willing to accept more scrutiny rather than insisting on being trusted right away. It would be better for both the woman and the faithful man if no scrutiny had to be applied, but the woman can't do that, because then an unfaithful man would take advantage of her.
 
 ----
 
-And that's why honest people are never touchy about the matter of being trusted. They know that they have to pay a price to distinguish themselves from dishonest people.
-
-
-[TODO:
-
-Men who don't intend to be faithful face a greater fraction of possible worlds in which they file a claim than healthy cats
-
-previous advice—
-https://claude.ai/chat/6be695f5-6ef9-4e95-93e4-66bdb204c6f6
-]
+And that's why honest people are never touchy about the matter of being trusted. They know that in order to distinguish themselves from dishonest people, they have to pay a price that's too expensive for dishonest people to pay. Sometimes the price might be very expensive, but it's the only way things could be: the hidden Bayesian structure of the universe is not kind. Those who try to wriggle out of paying the price should understand what signal they're sending.
