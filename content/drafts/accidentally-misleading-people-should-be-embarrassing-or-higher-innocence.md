@@ -44,7 +44,7 @@ And in absolute fairness, maybe it wasn't, _necessarily_. I of course was not pr
 I still think this episode _looks bad for him_ and that he should have been _embarrassed_, because there should have been generalizable policy changes that could have prevented this class of error—perhaps, thinking more carefully about whether a paraphrase that makes a subject look unreasonable is truly a fair paraphrase before going to print with it. Potential sources deciding whether they should talk to the journalist are mostly worried about the risk that their views will end up being miscommunicated, not whose fault a miscommunication would be if it happened. Unlucky accidents do not impinge upon the innocence of one's soul under the moral law, but the moral law is unmercifully permissive about everyone else's right to _avoid unlucky people_.
 
 
-### Higher Innocence
+## Higher Innocence
 
 And that's why accidentally misleading people should be embarrassing: because the desire to avoid such embarrassment motivates a counterfactual reduction in such incidents of people being misled, notwithstanding that it was a totally unintentional accident and the speaker is perfectly innocent in their soul.
 
