@@ -1,5 +1,5 @@
 Title: "So You Don't Trust Me?"
-Date: 2027-08-26 07:20
+Date: 2026-08-26 07:20
 Status: published
 Category: philosophy
 Tags: honesty
