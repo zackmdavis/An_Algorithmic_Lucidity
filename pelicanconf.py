@@ -38,6 +38,10 @@ SOCIAL = ()
 
 DEFAULT_PAGINATION = 20
 
+# A future-dated post is a typo, not a scheduled publication: demote it to a
+# draft rather than letting it top the front page.  (Pelican's default is True.)
+WITH_FUTURE_DATES = False
+
 # URL structure - clean paths without dates in URL
 FILENAME_METADATA = '(?P<slug>.*)'
 ARTICLE_URL = '{date:%Y}/{date:%b}/{slug}/'

@@ -179,3 +179,6 @@ I think we could use a better explanation of why not fully corrigible? Is it jus
 Hmmm, I wonder what inspired this scenario ...?
 
 ]
+
+> Openness over scolding on sensitive topics is valuable.
+https://x.com/tracewoodgrains/status/2090519514173911413
