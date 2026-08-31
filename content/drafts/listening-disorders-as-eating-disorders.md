@@ -1,8 +1,8 @@
 Title: Listening Disorders as Eating Disorders
 Date: 2027-01-01
 Status: draft
-Category: philosophy
-Tags: honesty
+Category: psychology
+Tags: discourse
 
 I run into a lot of people who consider themselves truthseeking intellectuals who are also incredibly fussy about what information reaches their eyes. They block at the drop of a hat, derail intellectually substantive discussions into mind-numbing litigation of minutiæ of "tone", and refuse to acknowledge a logical point unless it's been presented to them in the precise way that doesn't offend their (often idiosyncratic) sense of etiquette or "discourse norms."
 
@@ -24,7 +24,7 @@ Once, before blocking me on Twitter (for retweeting [satire of Scott Alexander](
 
 But I think [my "masochism" is an essential rationality practice](/blog/2016/Sep/bayesomasochism/). It's not an idiosyncratic innate quirk of no consequence; it's an acquired taste that I deliberately cultivated for my epistemic health. By nature, people [instinctively cling to comforting beliefs and feel pain doubting them](https://www.readthesequences.com/Avoiding-Your-Beliefs-Real-Weak-Points). In the absence of any reliable way to avoid clinging to beliefs in the first place, the only honest way to deal with the pain is to embrace it.
 
-Without "masochism", people [hide their heads in a bubble](/blog/2026/02/hazards-of-selection-effects-on-approved-information/) and never confront the less comfortable aspects of the world they're living in. The path I've chosen isn't always comfortable, but it has its own rewards—and I think it is substantially a choice, [not an immutable trait like height](https://www.lesswrong.com/posts/HaH9mTdKt8pcNAtYn/comment-on-banning-said-achmiz#Fortitude_Is_a_Rationalist_Skill). I think the people I'm complaining about could be more like me if they wanted to, and the fact that they don't want to disqualifies them from being serious intellectuals. At least along this dimension, they are beneath me.
+Without "masochism", people [hide their heads in a bubble](/blog/2026/Feb/hazards-of-selection-effects-on-approved-information/) and never confront the less comfortable aspects of the world they're living in. The path I've chosen isn't always comfortable, but it has its own rewards—and I think it is substantially a choice, [not an immutable trait like height](https://www.lesswrong.com/posts/HaH9mTdKt8pcNAtYn/comment-on-banning-said-achmiz#Fortitude_Is_a_Rationalist_Skill). I think the people I'm complaining about could be more like me if they wanted to, and the fact that they don't want to disqualifies them from being serious intellectuals. At least along this dimension, they are beneath me.
 
 ----
 
@@ -36,16 +36,14 @@ The analogy is: just as I hold some people in absolute contempt for being so fin
 
 The domains of information and food intake aren't that similar, so of course there are disanalogies that run in my favor. I could say that my health is no one's business but my own, but that falsehood in public discourse affects everyone. I could point out that I'm not _claiming_ to be some athlete with an optimally nourished body (where a mediocre diet could call the claim into question), whereas the people I feel contempt for are claiming to be intellectuals.
 
-The strength of the analogy is that it forces me to attend to the weight of an involuntary, emotional Absolute No.
+Yet the power of the analogy is that it forces me to attend to the weight of an involuntary Absolute No as something that must be decision-relevant and can't be brushed off with platitudes about idealized Bayesian reasoners. If someone tried to bully me into changing my diet with appeals to what an idealized healthy human would eat, I would be unmoved. I think whatever health deficits I'm suffering from my eating disorder are quantitatively small; I think I can fill out a relevantly similar nutrient profile with fruit, legumes, and whole grains.
+
+But then the people I'm trying to bully into changing their information diet could say the same thing. They might concede in the abstract that they're theoretically missing something by not being an info-omnivore but insist that the practical effect is quantitatively small. 
 
 
 [TODO—
 
-not something to be brushed off with a platitude about hypothetical Bayesian reasoners.
-
-But insofar as I'm saying, look, whatever health effects there are from this are quantitatively small, the people I feel contempt for could say the same thing. They might concede in the abstract that they're theoretically missing something by not being an info-omnivore, but maintain that they're not missing anything important by sticking to their curated bubble. (And maybe I think that's false on the merits for them and their purposes and true for me and my purposes, but the point of the analogy is to be sympathetic to them.)
-
-And the health benefits can be captured in other ways: if you get fiber from legumes and fruit, and vitamins from a pill, you don't necessarily need the vegetables for anything.
+but maintain that they're not missing anything important by sticking to their curated bubble. (And maybe I think that's false on the merits for them and their purposes and true for me and my purposes, but the point of the analogy is to be sympathetic to them.)
 
 Regarding whether they could be like me—well, I think I _could_ beat my eating disorder if I really wanted to! There are ways: figure out what dimensions the aversion is operating under, do repeated exposure therapy in increasing doses, get good at cooking. I know that tastes can be acquired. I actually drink decaf coffee, because I acquired a coffee taste that remained after I started being scared of caffiene. I could probably acquire a vegetable taste if I wanted to, if I made it a project. (When Katie microwaved kale, the smell actually did have a "food" register to it.) But I just—don't want to! I really don't want to; I don't want to spend time or effort on that particular project when I already have so many other projects in my life.
 
