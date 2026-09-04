@@ -36,13 +36,13 @@ The analogy is: just as I hold some people in absolute contempt for being so fin
 
 To be clear, it's not a great analogy. The domains of information and food intake aren't that similar, so of course there are disanalogies that run in my favor. For example, I could say that my health is no one's business but my own, but that falsehood in public discourse affects everyone. Or I could point out that I'm not _claiming_ to be some athlete with an optimally nourished body (where a suboptimal diet could call the claim into question), whereas the people I feel contempt for are claiming to be truthseeking intellectuals.
 
-But the power of the analogy is that it forces me to attend to the practical weight of an involuntary Absolute No, rather than brushing it off with platitudes about idealized Bayesian reasoners. If someone tried to bully me into changing my diet with appeals to what an idealized healthy human would eat, I would be unmoved. I think whatever health deficits I'm suffering from my eating disorder are quantitatively small. Whatever nutrients I'm missing out on by not being able to tolerate most vegetables, my understanding is that I can fill out a relevantly similar profile with fruit, legumes, and whole grains.
+But the power of the analogy is that it forces me to attend to the practical weight of an involuntary Absolute No, rather than brushing it off with platitudes about idealized Bayesian reasoners. If someone tried to bully me into changing my diet with appeals to what an idealized healthy human would eat, I would be unmoved. I think whatever health deficits I'm suffering from my eating disorder are quantitatively small. Whatever I'm missing out on by not being able to tolerate most vegetables, my understanding is that I can fill out a relevantly similar nutrient profile with fruit, legumes, and whole grains.
 
 But then the people I'm trying to bully into changing their information diet could say the same thing. They might concede in the abstract that they're theoretically missing something by not being an info-omnivore but insist that the practical effect is quantitatively small. Whatever information they're missing out on by not being able to tolerate Sneer Club, they think they can fill it out from other sources.[^sneer-deficit]
 
 [^sneer-deficit]: In the case of Sneer Club in particular, I mostly agree.
 
-The analogy also stress-tests my haughty claim that the people I'm complaining about could be more like me if they wanted to. It's not that the claim is wrong, but the conditional is doing more work than I was giving it credit for. I think I _could_ beat my eating disorder—if I wanted to. There's lots of interventions to try: figure out what dimensions the aversion is responding to, do repeated exposure therapy in increasing doses, get skilled at cooking. Acquired tastes are a thing. (No one "innately" thinks coffee tastes good, and yet I drink decaf coffee, because at some point I acquired a coffee taste that remained even after I started being scared of caffeine.) I'm sure I could acquire a vegetable taste—if I made a project out of it.
+The analogy also stress-tests my haughty claim that the people I'm complaining about could be more like me if they wanted to. It's not that the claim is wrong, but the conditional is doing more work than I was giving it credit for. I think I _could_ beat my eating disorder—if I wanted to. There's lots of interventions to try: figure out what dimensions the aversion is responding to, do repeated exposure therapy in increasing doses, get skilled at cooking. Acquired tastes are a thing. (No one "innately" thinks coffee tastes good, and yet I drink decaf coffee, because at some point I acquired a coffee taste that remained even after I started being scared of caffeine.) I bet I could acquire a vegetable taste—if I made a project out of it.
 
 But I don't want to make a project out of it! I just don't! One of the things that makes me most grateful to be an economically independent adult rather than a child is that I can control my own food supply. I buy and prepare the foods that I want to eat, and it's not a problem if I don't say it's a problem.
 
@@ -64,6 +64,7 @@ The analogy is useful to make me not dismiss the costs, but ultimately the analo
 So, should I have mercy on people with listening disorders? Should I not take public status shots at them the way that I do? Um, actually I think the analogy is weak enough (accepting info is more fundamental to the rationality project than diet balance is to being healthy enough to participate in Society), that I'm still going to be pretty "mean" about it. But maybe I can be more clear-eyed about how much pain I'm dealing. I shouldn't flinch from that.
 
 ]
+
 
 [TODO scrap or footnote—
 
