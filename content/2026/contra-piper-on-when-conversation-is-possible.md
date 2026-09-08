@@ -1,6 +1,6 @@
 Title: Contra Piper on When Conversation Is Possible
-Date: 2027-01-01
-Status: draft
+Date: 2026-09-07 20:20
+Status: published
 Category: philosophy
 Tags: honesty
 
@@ -42,8 +42,8 @@ But positing self-deception isn't just a "move" that one could decline to make w
 
 Furthermore, as I've discussed above, the cost of not being able to communicate with people you're accusing of self-deception isn't a logical or physical inevitability; it's a choice imposed by the people who don't want to talk to those who don't already trust them.
 
-In light of these observations, I think Piper's apparently well-meaning advice is more naturally understood as a negotiating threat: don't criticize us in this way, or we'll walk. Even if you privately think us self-decieved, you must not reveal that you think that, or we'll destroy the surplus of you being able to interact with us.
+In light of these observations, I think Piper's apparently well-meaning advice is more naturally understood as a negotiating threat: don't criticize us in this way, or we'll walk. Even if you privately think us self-deceived, you must not reveal that you think that, or we'll destroy the surplus of you being able to interact with us.
 
-If Piper doesn't think of herself as making a negotiating threat, I guess that implies that I'm rejecting her self-understanding? But, you know, I don't think I'm doing it maliciously. I'm just applying my knowledge of game theory, human psychology, _&c._ to the words I see before me and observing, hey, my max-likelihood interpretation of this behavior is that it looks like a veiled negotiating threat intended to suppress a class of criticism; that's an interesting phenomenon to analyze in a blog post.
+If Piper doesn't think of herself as making a negotiating threat, I guess that implies that I'm rejecting her self-understanding? But, you know, I don't think I'm doing it maliciously. I'm just applying my knowledge of game theory, human psychology, _&c._ to the words I see before me and observing, hey, my maximum _a posteriori_ (point estimate) interpretation of this behavior is that it looks like a veiled negotiating threat intended to suppress a class of criticism; that's an interesting phenomenon to analyze in a blog post.
 
 But if you think I'm kidding myself about that, then I'm happy to talk about it.
