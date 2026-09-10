@@ -1,6 +1,19 @@
 User-Agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Disallow: /blog/source
+Disallow: /docs/diary
+Allow: /
+
+User-Agent: GPTBot
+User-Agent: ClaudeBot
+User-Agent: CCBot
+User-Agent: GoogleOther
+User-Agent: Meta-ExternalAgent
+User-Agent: FacebookBot
+User-Agent: Bytespider
+User-Agent: cohere-ai
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Disallow: /blog/source
 Allow: /
 
 Sitemap: https://zackmdavis.net/sitemap.xml

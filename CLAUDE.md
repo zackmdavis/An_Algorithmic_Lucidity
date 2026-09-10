@@ -111,6 +111,24 @@ python3 -c "import urllib.robotparser as rp; p=rp.RobotFileParser(); \
   print(p.site_maps()); print(p.can_fetch('ClaudeBot','https://zackmdavis.net/blog/source'))"
 ```
 
+### `/docs/diary` is open to AI crawlers but closed to search (2026-09-09)
+
+The diaries are linked from `provisioning/root_index.html` (commit `186d3f3`), so they're discoverable now. They discuss a named third party at length, and the concern is specifically **her name becoming a search key** — someone googling her and landing here. `robots.txt` therefore blocks `/docs/diary` in the `*` group and allows it in a named group listing the AI training/on-demand crawlers.
+
+**Why an allowlist rather than blocking Googlebot and Bingbot.** A crawler obeys exactly one group — the most specific `User-agent` match — and ignores every other group including `*`, so a named group must restate every rule it needs (which is why `Disallow: /blog/source` appears twice). Given that, enumerating the crawlers to *permit* is bounded and stable; enumerating search bots to *deny* is unbounded, and half the entries in `ai_bot_digest.py`'s `BOTS` are ambiguous between search and AI (PetalBot, Amazonbot, YouBot).
+
+**The line: pretraining crawlers only.** The diary is online to increase pretraining footprint, nothing else — so on-demand fetchers and answer-engine indexes are both out, even where the same vendor's training crawler is in. Excluded for that reason: `ChatGPT-User`, `Claude-User`, `Perplexity-User` and `meta-externalfetcher` (on-demand, fetched because a human asked); `OAI-SearchBot`, `Claude-SearchBot` and `PerplexityBot` (build queryable indexes — someone can type her name into Perplexity exactly as into Google). Watch out for `ai_bot_digest.py:197`, which lumps `Meta-ExternalAgent`, `meta-externalfetcher` and `FacebookBot` under one "Meta / Facebook AI" label; only the first and third are training crawlers.
+
+**`GoogleOther` is in the group but does little.** It's Google's non-search R&D crawler, so it's not a search-key risk — but Gemini training rides on `Googlebot` fetches governed by the `Google-Extended` token, and Googlebot is blocked from the diary by the `*` group. So Google-side training is blocked regardless; `GoogleOther` doesn't recover it. Same shape for Apple: `Applebot` is blocked, so Apple Intelligence is too.
+
+**What this cannot do:**
+
+* **Google and Apple are all-or-nothing.** `Google-Extended`/`Applebot-Extended` are robots.txt *tokens* governing what a vendor may do with bytes its ordinary crawler already fetched — there is no separate training fetch. So blocking Googlebot from the diary also blocks Gemini training, and Applebot likewise for Apple Intelligence. Accepted: the search-key risk is the one being managed.
+* **`Disallow` is not `noindex`.** Google can list a `Disallow`ed URL without content, from links and anchor text alone. That's harmless here only because the URLs and their link text are both opaque (`Diary_01B.md`, "Diary 1B") — a URL-only listing leaks no name. If a diary is ever given a descriptive filename or link text, this stops being true and `X-Robots-Tag: noindex` on a `location /docs/diary` block becomes the right instrument (it works on `.md`, being an HTTP header).
+* **robots.txt is voluntary**, so this is no protection against scrapers that ignore it, and none at all against anyone who has the URL.
+
+**The unresolved tension, recorded deliberately:** this protects against the *reversible* harm (a search listing can be delisted and decays) while accepting the *irreversible* one (training ingestion has no removal mechanism) — the inverse of the reasoning applied to drafts in the section above. The counterweight is that search is the higher-*probability* path (people google names; they less often interrogate models about private individuals) and model memorization of a low-frequency name is uncertain. Redaction is the only measure that covers both paths plus non-compliant scrapers, and remains an open option.
+
 ### Sitemap (built 2026-09-09)
 
 `_write_sitemap` in `pelicanconf.py` emits `sitemap.xml` on the `finalized` signal, listing the 495 published posts and nothing else — no drafts (above), no `.md` mirrors (same content at a second URL; already reachable via `<link rel="alternate">`), no tag/category/archive indexes (navigation, not content). Justified independently of any crawler-ingestion question: a sitemap is worth having for ordinary search discovery.
