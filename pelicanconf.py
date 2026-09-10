@@ -234,3 +234,69 @@ def _write_llms_txt(pelican_obj):
 _signals.article_generator_finalized.connect(_prepare_markdown_mirrors)
 _signals.finalized.connect(_write_markdown_mirrors)
 _signals.finalized.connect(_write_llms_txt)
+
+
+# --- sitemap.xml ------------------------------------------------------------
+# Published posts only, and deliberately so. Drafts were considered and left
+# out (2026-09-09): a draft and its eventual published version live at
+# different URLs -- drafts/<slug>.html vs YYYY/Mon/<slug>/ -- and the draft URL
+# 404s once the post moves out of content/drafts/. A crawler that captured the
+# draft therefore has no live page to revisit and no canonical link to the
+# finished piece, so a superseded take persists uncorrected in a way that an
+# edited published post (stable URL, re-crawled) never does. Listing drafts
+# traded a reversible gain for an irreversible cost.
+#
+# Also left out: the .md mirrors (same content as the HTML at a second URL --
+# listing both invites duplicate-content handling; the mirrors are already
+# reachable via <link rel="alternate">) and the tag/category/archive indexes
+# (navigation, not content).
+#
+# On placement, two rules get conflated. *Scope*: the sitemaps.org protocol
+# bounds a sitemap by its own location, so one at /blog/sitemap.xml could only
+# list URLs under /blog/ -- which every URL here satisfies anyway. *Discovery*:
+# crawlers look for /sitemap.xml at the true domain root, and this site is
+# served under /blog. Both are handled outside this file: the deploy hook
+# installs a copy at the webroot (provisioning/pelican_scheduler.py) and
+# robots.txt carries a Sitemap: line naming it (provisioning/robots.txt).
+#
+# Note that's a genuine difference from llms.txt, which has no equivalent of
+# the Sitemap: directive -- nothing at the root can redirect attention to a
+# copy elsewhere -- so for that file the physical move is the whole fix.
+from datetime import date as _date
+from xml.sax.saxutils import escape as _xml_escape
+
+
+def _write_sitemap(pelican_obj):
+    output_path = _markdown_mirror_state['output_path']
+    if not output_path:
+        return
+    # A sitemap must carry absolute URLs, so there's nothing meaningful to
+    # write in a local build where SITEURL is '' -- an invalid sitemap is worse
+    # than none. publishconf.py always sets it, so production is unaffected.
+    # (Same guard, same reason, as _absolutize_site_links.)
+    if not _markdown_mirror_state['siteurl']:
+        return
+    today = _date.today()
+    articles = sorted(_markdown_mirror_state['articles'],
+                      key=lambda a: a.date, reverse=True)
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for article in articles:
+        # Modified: is honored where a post sets one, so a back-edit can
+        # advertise itself; nothing in the corpus does today, in which case
+        # this is the publication date. min() against today because a
+        # <lastmod> in the future is out of spec and crawlers discard
+        # implausible values -- which would cost the freshness signal
+        # silently rather than loudly.
+        lastmod = getattr(article, 'modified', None) or article.date
+        lines.append(
+            "  <url><loc>{}</loc><lastmod>{}</lastmod></url>".format(
+                _xml_escape(_canonical_url(article.url)),
+                min(lastmod.date(), today).strftime('%Y-%m-%d')))
+    lines.append('</urlset>')
+    with open(_os.path.join(output_path, 'sitemap.xml'), 'w',
+              encoding='utf-8') as f:
+        f.write('\n'.join(lines) + '\n')
+
+
+_signals.finalized.connect(_write_sitemap)

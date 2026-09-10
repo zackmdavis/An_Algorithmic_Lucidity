@@ -21,8 +21,36 @@ WORKING_REPO = "/home/blogmistress/An_Algorithmic_Lucidity/working"
 INPUT_DIR = os.path.join(WORKING_REPO, "content")
 OUTPUT_DIR = "/home/blogmistress/An_Algorithmic_Lucidity/output"
 PUBLISH_CONF = os.path.join(WORKING_REPO, "publishconf.py")
-SITEGEN_COMMAND = "bash -c 'cd {} && source .venv/bin/activate && pelican {} -o {} -s {}'".format(
-    WORKING_REPO, INPUT_DIR, OUTPUT_DIR, PUBLISH_CONF)
+# The true domain root (nginx's `root` in provisioning/nginx_siteconf), as
+# opposed to the Pelican tree, which is served under /blog via `alias`.
+WEBROOT = "/home/blogmistress/zackmdavis.net"
+
+# sitemap.xml is generated into the Pelican tree (see _write_sitemap in
+# pelicanconf.py) but has to be *served* from the domain root, since that's
+# where crawlers look for it -- the same placement problem robots.txt has,
+# except robots.txt can be a one-time scp because nothing regenerates it,
+# whereas this is rebuilt on every deploy and so must be reinstalled on every
+# deploy.
+#
+# It belongs in SITEGEN_COMMAND rather than in main() because this command has
+# two callers: main() runs it now, and schedule() hands the very same string to
+# `at` for each future-dated post. `at` executes that string alone -- this
+# script does not run again -- so a copy step living in main() would be skipped
+# by every scheduled run. A post going live at midnight would regenerate
+# output/ (with a fresh sitemap correctly listing it) while the webroot copy
+# stayed at whatever the last push produced: silently stale, in exactly the
+# situation the sitemap exists to announce.
+#
+# Chained with && so a failed build leaves the previous sitemap in place rather
+# than replacing it with a partial one, and `install -m 644` sets the mode
+# explicitly instead of inheriting whatever the build left (matching how
+# everything else here gets deployed).
+SITEGEN_COMMAND = (
+    "bash -c 'cd {repo} && source .venv/bin/activate "
+    "&& pelican {input} -o {output} -s {conf} "
+    "&& install -m 644 {output}/sitemap.xml {webroot}/sitemap.xml'"
+).format(repo=WORKING_REPO, input=INPUT_DIR, output=OUTPUT_DIR,
+         conf=PUBLISH_CONF, webroot=WEBROOT)
 
 DATELINE_REGEX = re.compile(r"^Date: *(\d{4}-\d{2}-\d{2} \d{2}:\d{2}) *$",
                             re.MULTILINE)
