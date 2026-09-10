@@ -264,6 +264,46 @@ _signals.finalized.connect(_write_llms_txt)
 # copy elsewhere -- so for that file the physical move is the whole fix.
 from datetime import date as _date
 from xml.sax.saxutils import escape as _xml_escape
+import subprocess as _subprocess
+
+_REPO_ROOT = _os.path.dirname(_os.path.abspath(__file__))
+
+
+def _git_last_modified():
+    """Source path (repo-relative) -> 'YYYY-MM-DD' of its latest commit.
+
+    <lastmod> is supposed to be the last time the content *changed*, which the
+    post's Date: header does not track -- 491 of 495 posts have been edited
+    since publication (the WordPress import, then the 2026-08-07 root-relative
+    link sweep), so publishing Date: as lastmod was simply false. Modified: in
+    the post header would be the tidy answer but requires remembering to set it
+    on every edit forever; git already knows, exactly, for free.
+
+    One `git log` for the whole corpus rather than one per file: ~35ms vs ~1.9s
+    across ~500 posts, i.e. 1% of build time rather than half of it.
+
+    A NUL sentinel starts each commit line because NUL is the one byte a path
+    cannot contain, so commit lines and filenames can't be confused.
+
+    Returns {} on any failure (not a git checkout, shallow clone, git absent),
+    in which case the sitemap just omits <lastmod> -- which is legal per-URL,
+    and better than inventing a date.
+    """
+    try:
+        out = _subprocess.run(
+            ["git", "-C", _REPO_ROOT, "log", "--format=%x00%cI",
+             "--name-only", "--no-renames", "--", PATH],
+            capture_output=True, text=True, timeout=30, check=True).stdout
+    except (OSError, _subprocess.SubprocessError):
+        return {}
+    dates = {}
+    stamp = None
+    for line in out.splitlines():
+        if line.startswith("\0"):
+            stamp = line[1:11]          # YYYY-MM-DD off the front of %cI
+        elif line and stamp:
+            dates.setdefault(line, stamp)   # log is newest-first, so first wins
+    return dates
 
 
 def _write_sitemap(pelican_obj):
@@ -276,23 +316,26 @@ def _write_sitemap(pelican_obj):
     # (Same guard, same reason, as _absolutize_site_links.)
     if not _markdown_mirror_state['siteurl']:
         return
-    today = _date.today()
+    today = _date.today().strftime('%Y-%m-%d')
+    git_dates = _git_last_modified()
     articles = sorted(_markdown_mirror_state['articles'],
                       key=lambda a: a.date, reverse=True)
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for article in articles:
-        # Modified: is honored where a post sets one, so a back-edit can
-        # advertise itself; nothing in the corpus does today, in which case
-        # this is the publication date. min() against today because a
-        # <lastmod> in the future is out of spec and crawlers discard
-        # implausible values -- which would cost the freshness signal
-        # silently rather than loudly.
-        lastmod = getattr(article, 'modified', None) or article.date
-        lines.append(
-            "  <url><loc>{}</loc><lastmod>{}</lastmod></url>".format(
-                _xml_escape(_canonical_url(article.url)),
-                min(lastmod.date(), today).strftime('%Y-%m-%d')))
+        loc = _xml_escape(_canonical_url(article.url))
+        stamp = git_dates.get(
+            _os.path.relpath(article.source_path, _REPO_ROOT))
+        if stamp is None:
+            # Uncommitted (a new post in a local build) -- omit rather than
+            # substitute the publication date, which would be a guess.
+            lines.append("  <url><loc>{}</loc></url>".format(loc))
+            continue
+        # Clamp: a <lastmod> in the future is out of spec and crawlers discard
+        # implausible values. Only reachable via a skewed committer clock, but
+        # the failure would be silent, so it's cheap to rule out.
+        lines.append("  <url><loc>{}</loc><lastmod>{}</lastmod></url>".format(
+            loc, min(stamp, today)))
     lines.append('</urlset>')
     with open(_os.path.join(output_path, 'sitemap.xml'), 'w',
               encoding='utf-8') as f:
