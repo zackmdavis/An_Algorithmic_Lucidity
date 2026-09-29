@@ -1,5 +1,5 @@
 Title: Listening Disorders as Eating Disorders
-Date: 2027-01-01
+Date: 2026-09-29
 Status: draft
 Category: psychology
 Tags: discourse
@@ -22,7 +22,7 @@ The people I'm complaining about often point to /r/SneerClub (a group of "haters
 
 Once, before blocking me on Twitter (for retweeting [satire of Scott Alexander](https://x.com/0x49fa98/status/2010491654797426940) that they thought was too sneering), someone told me that my own masochistic taste didn't license me to inflict it on others.
 
-But I think [my "masochism" is an essential rationality practice](/blog/2016/Sep/bayesomasochism/). It's not an idiosyncratic innate quirk of no consequence; it's an acquired taste that I deliberately cultivated for my epistemic health. By nature, people [instinctively cling to comforting beliefs and feel pain doubting them](https://www.readthesequences.com/Avoiding-Your-Beliefs-Real-Weak-Points). In the absence of any reliable way to avoid clinging to beliefs in the first place, the only honest way to deal with the pain is to embrace it.
+But I think [my "masochism" is an essential rationality practice](/blog/2016/Sep/bayesomasochism/). It's not an idiosyncratic innate quirk of no consequence; it's an acquired taste that I deliberately cultivated for my epistemic health. By nature, people instinctively cling to comforting beliefs and feel pain doubting them. In the absence of any reliable way to avoid clinging to beliefs in the first place, the only honest way to deal with the pain is to embrace it.
 
 Without "masochism", people [hide their heads in a bubble](/blog/2026/Feb/hazards-of-selection-effects-on-approved-information/) and never confront the less comfortable aspects of the world they're living in. The path I've chosen isn't always comfortable, but it has its own rewards—and I think it is substantially a choice, [not an immutable trait like height](https://www.lesswrong.com/posts/HaH9mTdKt8pcNAtYn/comment-on-banning-said-achmiz#Fortitude_Is_a_Rationalist_Skill). I think the people I'm complaining about could be more like me if they wanted to, and the fact that they don't want to disqualifies them from being serious intellectuals. At least along this dimension, they are beneath me.
 
@@ -30,7 +30,9 @@ Without "masochism", people [hide their heads in a bubble](/blog/2026/Feb/hazard
 
 But part of the practice of not being afraid of information is actively seeking out counterarguments against my own comfortable beliefs. "My rivals in my local intellectual scene are beneath me" is exactly the kind of ego-gratifying belief that people tend to cling to contrary to evidence. I should search especially hard for potential reasons I've got it all wrong, even if my stated reasons for my belief (that rational agents shouldn't pay to avoid information) seem axiomatic.
 
-When I do the search, I hit on one analogy that keeps haunting me. So, I'm kind of a picky eater. It's not _that_ bad (and it's not as bad as when I was a child), but most vegetables just don't parse as food to me. (Onions and potatoes are not relevantly vegetables.) I can tolerate peas and carrots in the context of a soup or a fried-rice dish, but I wouldn't actually just eat a carrot. Salad just seems like an Absolute No—not just, I'd prefer to eat it later (as I sometimes prefer to check my email later), but rather that it's just Not Food. This has occasionally caused awkwardness in social eating situations.
+When I do the search, I hit on one analogy that keeps haunting me. So, I'm kind of a picky eater. It's not _that_ bad (and it's not as bad as when I was a child), but most vegetables just don't parse as food to me. (Onions and potatoes are not relevantly vegetables.) I can tolerate peas and carrots in the context of a soup or a fried-rice dish, but I wouldn't actually just eat a carrot. Salad just seems like an Absolute No—not just, I'd prefer to eat it later (as I sometimes prefer to check my email later), but rather that it's just Not Food. I don't know why I'm like this, but I suspect it's [more common than people are willing to talk about](https://thezvi.substack.com/p/sleep-diet-exercise-and-glp-1-drugs#%C2%A7are-vegetables-a-scam)? This has occasionally caused awkwardness in social eating situations.[^punishment]
+
+[^punishment]: I feel blessed that the punishment hasn't been greater than occasional awkwardness. Apparently, the secret to getting away with social deviance is that people have limited will to enforce normative behavior. My father made me eat a carrot when I was about ten, and I threw up on the spot. He didn't try again. Because, well—why would he? It was less work for him to let me keep being childish.
 
 The analogy is: just as I hold some people in absolute contempt for being so finicky about what information reaches their eyes (because I think the finickiness makes them less rational), maybe some people would hold me with the same absolute contempt, that I'm so finicky about what food reaches my mouth (because they think the finickiness makes me less healthy). If I don't want picky eaters to be treated with contempt in social eating situations, maybe I shouldn't treat fragile intellectuals with contempt in public forums. If I want to indulge my eating disorder rather than trying to cure it, maybe I should let them indulge their listening disorder.
 
@@ -40,15 +42,17 @@ But the power of the analogy is that it forces me to attend to the practical dec
 
 But then the people I'm trying to bully into changing their information diet could say the same thing. They might concede in the abstract that they're theoretically missing something by not being an info-omnivore but insist that the practical effect is quantitatively small. Whatever information they're missing out on by not being able to tolerate Sneer Club, they think they can fill it out from other sources.[^sneer-deficit]
 
-[^sneer-deficit]: In the case of Sneer Club in particular, I mostly agree.
+[^sneer-deficit]: In the case of Sneer Club in particular, I mostly agree, but these people don't stop there.
 
-The analogy also stress-tests my haughty claim that the people I'm complaining about could be more like me if they wanted to. It's not that the claim is wrong, but the conditional is doing more work than I was giving it credit for. I think I _could_ beat my eating disorder—if I wanted to. There's lots of interventions to try: figure out what exact dimensions the aversion is responding to, do repeated exposure therapy in increasing doses, get skilled at cooking. Acquired tastes are a thing. (No one "innately" thinks coffee tastes good, and yet I drink decaf coffee, because at some point I acquired a coffee taste that remained even after I started being scared of caffeine.) I bet I could acquire a vegetable taste—if I made a project out of it.
+The analogy also stress-tests my haughty claim that the people I'm complaining about could be more like me if they wanted to. It's not that the claim is wrong, but the conditional is doing more work than I was giving it credit for. I think I _could_ beat my eating disorder—if I wanted to. There's lots of interventions to try: figure out what exact dimensions the aversion is responding to, do repeated exposure therapy in increasing doses, get skilled at cooking. Acquired tastes are a thing. (No one "innately" thinks coffee tastes good, and yet I drink decaf coffee, because at some point I acquired a coffee taste that remained even after I started being scared of caffeine.) I bet I could acquire a vegetable taste—if I made a project out of it.[^kale]
+
+[^kale]: When a friend microwaved kale, I noticed to my surprise that the smell _did_ have a Food register to it. If I wanted to, I could make a project of seeking out such chinks in the wall of aversion, cultivating and making them larger.
 
 But I don't want to make a project out of it! I just don't! One of the things that makes me most grateful to be an economically independent adult rather than a child is that I can control my own food supply. I buy and prepare the foods that I want to eat, and it doesn't have to be a problem if _I_ don't think it's a problem.
 
-I _can_ make an effortful project out of changing my habits when I genuinely think something is a problem. As it happens, I _have_ been adjusting my diet to address some health concerns—nothing immediately dangerous, just some suboptimal weight and [blood sugar](https://en.wikipedia.org/wiki/Glycated_hemoglobin) numbers that it would be nice to get down.
+I _can_ make an effortful project out of changing my habits when I genuinely think something is a problem. As it happens, I _have_ been adjusting my diet recently to address some health concerns—nothing immediately dangerous, just some suboptimal weight and [blood sugar](https://en.wikipedia.org/wiki/Glycated_hemoglobin) numbers that it would be nice to get down.
 
-But when I looked up what interventions would push on the numbers, it turned out that my vegetable problem was basically irrelevant! For fat loss, the idea is that you want to run a calorie deficit while exercising (especially weightlifting) and eating a lot of protein so that your body knows it should respond to the deficit by cannibalizing fat instead of muscle; for blood sugar, there are some more complicated recommendations about limiting starchy foods and timing when and how you eat them. Neither requires me to learn to eat Not Food. Apparently, the main reason to recommend vegetables for weight loss is because their bulk provides the sensation of satiety without actually being many calories, tricking your body to be less hungry despite the calorie deficit. But I don't need to manipulate satiety when I'm counting calories anyway (which seems to be working fine). There's no reason for me to incur pain and expend effort to fix my eating disorder specifically when there are so many other competing projects that push on my actual goals.
+But when I looked up what interventions would push on the numbers, it turned out that my vegetable problem was basically irrelevant! For fat loss, the idea is that you want to run a calorie deficit while exercising (especially weightlifting) and eating a lot of protein so that your body knows it should respond to the deficit by cannibalizing fat instead of muscle; for blood sugar, there are some more complicated recommendations about limiting starchy foods and timing when and how you eat them. Neither requires me to learn to eat Not Food. Apparently, one of the main reasons to recommend vegetables for weight loss is that their bulk provides the sensation of satiety without actually being many calories, tricking your body to be less hungry despite the calorie deficit. But since I'm counting calories anyway (which seems to be working fine), I'd rather be slightly hungrier than suffer eating Not Food to manipulate satiety. There's no reason for me to incur pain and expend effort to fix my eating disorder specifically when there are so many other competing projects that push on my actual goals.
 
 But again, the fragile intellectuals I'm complaining about could say the same thing. They already have their hands full doing whatever kind of intellectual work they do, whether it's studying social dynamics or mechanistic interpretability. They could acquire a "masochistic" taste if they made a project out of it, but there's no reason for them to incur pain and expend effort on that particular project. It's not the low-hanging fruit for improving the work they do.
 
@@ -56,35 +60,10 @@ But again, the fragile intellectuals I'm complaining about could say the same th
 
 So, in light of the analogy to my eating disorder, should I be more merciful to people with listening disorders? Should I stop openly expressing disdain for them in public forums, in timeless exchange for my not being disdained in social eating situations?
 
-I'm tentatively inclined to continue being unmerciful. The issue is that I just don't think the analogy is that strong in the ways that matter. The analogy is useful for forcing me to confront uncomfortable information about how difficult it is to remediate a particular psychological weakness (aversions to information or foods, respectively). The analogy doesn't have much to say about the costs of each aversion if left untreated.
+I'm tentatively inclined to continue being unmerciful. The issue is that I just don't think the analogy is that strong in the ways that matter. The analogy is useful for forcing me to confront uncomfortable information about how difficult it is to remediate a particular psychological weakness (aversions to information or foods, respectively). But the analogy doesn't have much to say about the costs of each aversion if left untreated.
 
-For information aversion, I think I have strong theoretical and empirical grounds to consider it a major if not the primary obstacle to human rationality.
+I think information aversion is a major if not the primary obstacle to human rationality, on both theoretical and empirical grounds. When people fail to achieve the truth, it's less often because they're lacking information than that they're [avoiding their belief's real weak points](https://www.readthesequences.com/Avoiding-Your-Beliefs-Real-Weak-Points). You can't get away avoiding just the information that bothers you, when the piece of information that bothers you are threats to your current beliefs (as contrasted to, _e.g._, unrealistic horror movies that you can not watch without confusing yourself about the world outside of the movies).
 
+For my food aversion, contrary to popular belief, it actually just doesn't seem like a big deal health-wise, as far as I can tell. (And if it were, it would be only my own concern.) I think I _am_ getting away with just avoiding the food that bothers me. In a way, this is "luck": if the science had come out the other way, I would have to make some tough behavioral changes or face the consequences.
 
-For my food aversion,
-
-In a way, this is "luck."
-
-
-
-
-[TODO—
-
-The analogy is useful to make me not dismiss the costs, but ultimately the analogy is weak; flinching away from hypotheses is fatal.  In the least convenient possible world, flinching from vegetables might be fatal, but it doesn't look like it!
-
-So, should I have mercy on people with listening disorders? Should I not take public status shots at them the way that I do? Um, actually I think the analogy is weak enough (accepting info is more fundamental to the rationality project than diet balance is to being healthy enough to participate in Society), that I'm still going to be pretty "mean" about it. But maybe I can be more clear-eyed about how much pain I'm dealing. I shouldn't flinch from that.
-]
-
-
-[TODO scrap or footnote—
-
-And somehow I got away with it, I won the childhood battle of wills? If that seems socially deviant, the secret is that there's only so much labor people are willing to do to force you. My father made me eat a carrot when I was ten, and I threw up on the spot. He didn't try again. Because, well—why would he? It's just less work to let me keep being childish. I suspect that this is more common than people admit? (link to mentions of vegetable aversion by Eigenrobot, Aella, Scott Alexander, Zvi Mowshowitz)
-
-Am I a less complete human being because of this? There are people who won the childhood battle of wills and avoided learning math. I think they're missing something good in life.
-
-
-When Katie microwaved kale, the smell actually did have a "food" register to it.
-
-https://thezvi.substack.com/p/sleep-diet-exercise-and-glp-1-drugs#%C2%A7are-vegetables-a-scam
-
-]
+But if I am going to continue being unmerciful, I can at least strive to be more clear-eyed and empathetic about how much pain I'm dealing. To the extent that my disdain successfully exerts social pressure, I'm pressuring people to override an involuntary Absolute No, which is so hard that most people are never going to do it. So I'm making people's days worse for only a small probability of achieving the behavioral change that I claim is prosocial. I shouldn't flinch from acknowledging that.
