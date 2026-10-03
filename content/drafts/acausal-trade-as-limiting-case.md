@@ -4,6 +4,11 @@ Status: draft
 Category: philosophy
 Tags: decision theory
 
+In the philosophy of decision theory, the idea of _acausal trade_
+
+
+
+
 [TODO—
 There's this idea of acausal trade, where I do something you want because I predict that you'll do something I want &c. A lot of people think this is spooky: what do you mean, you can trade without causality? You're open to trade offers from anyone in the universe (past or future), or even other universes?
 
