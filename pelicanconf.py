@@ -171,6 +171,21 @@ def _absolutize_site_links(body):
         lambda m: m.group(1) + origin + m.group(2) + m.group(3), body)
 
 
+# Pelican rewrites {static}/path placeholders only in the HTML it renders; the
+# mirrors are copied from the raw source, so without this they'd carry the
+# literal placeholder. Resolve it the way Pelican does under the default
+# STATIC_URL = '{path}': SITEURL + '/' + path, which is absolute in a publish
+# build and root-relative ('/images/...') in a local one. Matches anywhere,
+# not just in ](...) -- raw-HTML <img src>, <a href>, <video poster>,
+# <source src> all use it too.
+_STATIC_PLACEHOLDER = _re.compile(r'\{static\}/')
+
+
+def _resolve_static_links(body):
+    return _STATIC_PLACEHOLDER.sub(
+        lambda m: _markdown_mirror_state['siteurl'] + '/', body)
+
+
 def _write_markdown_mirrors(pelican_obj):
     output_path = _markdown_mirror_state['output_path']
     if not output_path:
@@ -179,7 +194,7 @@ def _write_markdown_mirrors(pelican_obj):
         with open(article.source_path, encoding='utf-8') as f:
             source = f.read()
         _, _, body = source.partition('\n\n')
-        body = _absolutize_site_links(body)
+        body = _absolutize_site_links(_resolve_static_links(body))
         md_abspath = _os.path.join(output_path, article.markdown_url)
         _os.makedirs(_os.path.dirname(md_abspath), exist_ok=True)
         # The source file's own metadata block was just stripped off by the
