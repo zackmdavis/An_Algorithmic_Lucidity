@@ -10,8 +10,7 @@ Now, in my old age (and the present end-time in which custom software is no long
 
 The one that's captured my interest lately is the arrow-stomping game—known by a couple other brand names in addition to the original, whose inessential differences of implementation accentuate rather than obscure its fundamental nature as the same game. (Except the South Korean one is trash because the timing windows and letter grades are too lenient.)
 
-<video class="alignright" poster="{static}/images/dance_dance-poster.jpg" width="340" autoplay loop 
-  muted playsinline>
+<video class="alignright" poster="{static}/images/dance_dance-poster.jpg" width="340" autoplay loop muted playsinline controls>
    <source src="{static}/images/dance_dance.mp4" type="video/mp4">
 </video>
 
