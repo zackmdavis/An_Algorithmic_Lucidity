@@ -8,7 +8,14 @@ Type=oneshot
 # Could be an unprivileged user in the adm group instead, given a writable
 # archive dir; root is simpler and this only reads logs and writes a text file.
 User=root
-ExecStart=/usr/local/bin/ai_bot_digest
+# One run per site sharing access.log, in order (oneshot allows several). Each
+# keeps only lines whose $host matches its --site and files its own
+# <site>-<date>.txt. Both are spelled out rather than leaning on the script's
+# defaults, so the pair reads as parallel. unremediatedgender.space is mounted
+# at the domain root, hence its empty prefix. Its leading "-" keeps a failure
+# there from marking the whole job failed.
+ExecStart=/usr/local/bin/ai_bot_digest --site zackmdavis.net --blog-prefix=/blog
+ExecStart=-/usr/local/bin/ai_bot_digest --site unremediatedgender.space --blog-prefix=
 
 # No network, no new privileges, no writing outside the archive dir: this job
 # parses local log files, so there's nothing for it to reach out to.

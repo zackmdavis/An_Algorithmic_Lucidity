@@ -26,16 +26,21 @@ blog moves onto the VPS:
   * If it writes its own access log (the tidy option -- give its server block
     its own `access_log /var/log/nginx/<site>.access.log combined_extended;`),
     just run a second copy of this job with --log-glob and --site.
-  * If it shares this access log, pass --host to attribute lines: that's what
-    the logged $host is for. Lines predating `combined_extended` have no host
-    field and are always kept, since they can only be this site's.
-  * If its URLs are shaped differently, adjust BLOG_PREFIX and ARTICLE_PATTERN
-    (below) -- every path-structural rule derives from those two, so no other
-    code needs touching. A blog served at the domain root rather than under
-    /blog/ wants BLOG_PREFIX = "".
+  * If it shares this access log, lines are attributed by the logged $host,
+    which by default must match --site (so a second copy run with --site
+    other.example filters itself; no separate flag to forget). Pass --host to
+    name a different host, or --host "" to count every site in the log. Lines
+    predating `combined_extended` have no host field and are always kept,
+    since they can only be this site's.
+  * If it's mounted somewhere other than /blog, pass --blog-prefix (a blog
+    served at the domain root wants --blog-prefix ""). Every path-structural
+    rule derives from that and ARTICLE_PATTERN (below), so if its permalinks
+    are shaped differently too, ARTICLE_PATTERN is the one constant to edit.
 
-Per-site systemd units are the natural way to run several: copy the .service
-with an --site/--log-glob-bearing ExecStart, one timer each.
+To run several, give the one oneshot unit an extra ExecStart line per site
+(they run in order, sharing the timer; prefix it with "-" so one site's
+failure doesn't mark the whole job failed), or copy the .service and .timer
+if the runs ought to be isolated.
 
 WHAT THIS CAN AND CAN'T TELL YOU
 --------------------------------
@@ -130,12 +135,14 @@ from datetime import datetime, timedelta, timezone
 LOG_GLOB = "/var/log/nginx/access.log*"
 WINDOW_HOURS = 24
 
-# The site this run reports on. HOST filters by the logged $host, which only
-# matters once a second site shares this box (and only for lines written under
-# `combined_extended`, which logs it); until then every line is this site's and
-# the filter is a no-op. SITE is just the label in the subject and header.
+# The site this run reports on: the label in the subject and header, and by
+# default also the logged $host a line must carry to count (see host_matches).
+# The filter was once opt-in, with a docstring note to switch it on "when a
+# second site moves onto the box". One did, on 2026-09-27, nobody remembered,
+# and days of digests silently counted both blogs. Hence on by default:
+# HOST = None means "same as SITE"; "" means don't filter.
 SITE = "zackmdavis.net"
-HOST = None                     # e.g. "zackmdavis.net"; None = don't filter
+HOST = None
 
 # Where the Pelican blog is mounted, and how its article permalinks are shaped.
 # Everything path-structural is derived from these two, so pointing this script
@@ -150,6 +157,12 @@ ARTICLE_PATTERN = (r"/(?P<year>\d{4})/(?P<month>[A-Za-z]{3}|\d{2})/"
 # Per-crawler cap on listed pages (0 = list everything). Keeps a bot that swept
 # the entire archive from turning the digest into thousands of lines.
 MAX_PAGES = 30
+
+# Archive/tag pages are listed by name only when a crawler touched at most this
+# many distinct ones. Past that it's walking the navigation graph, and the list
+# would be most of the site's ~255 index pages -- the breakdown by kind (tag,
+# month, ...) with distinct counts says everything the names would.
+MAX_NAV_LISTED = 8
 
 # Where each run's digest is filed, as <site>-<YYYY-MM-DD>.txt. Set to "" (or
 # pass --archive-dir "") to just print instead.
@@ -275,13 +288,29 @@ class BotStats:
         return len({(method, path) for _s, method, path, _md in self.hits})
 
 
+def host_matches(logged, host):
+    """Whether a line's logged $host belongs to `host`.
+
+    A missing field (a pre-`combined_extended` line) always matches. A leading
+    "www." is ignored on both sides: nginx_siteconf serves the site under both
+    names, and an exact comparison would quietly drop the www half.
+    """
+    if not logged:
+        return True
+
+    def bare(h):
+        h = h.lower()
+        return h[4:] if h.startswith("www.") else h
+    return bare(logged) == bare(host)
+
+
 def scan(log_glob, cutoff, host=None):
     """Return {bot_label: BotStats} for lines at/after cutoff (aware datetime).
 
-    `host`, if given, keeps only lines whose logged $host matches -- for when
-    more than one site shares an access log. Lines with no host field (written
-    before `combined_extended`) are kept either way: they predate the second
-    site, so they can only be this one's.
+    `host`, if given, keeps only lines whose logged $host matches (see
+    host_matches) -- for when more than one site shares an access log. Lines
+    with no host field (written before `combined_extended`) are kept either
+    way: they predate the second site, so they can only be this one's.
     """
     stats = {}
     cutoff_ts = cutoff.timestamp()
@@ -302,7 +331,7 @@ def scan(log_glob, cutoff, host=None):
                     bot = match_bot(m.group("ua"))
                     if bot is None:
                         continue
-                    if host and (m.group("host") or host) != host:
+                    if host and not host_matches(m.group("host"), host):
                         continue
                     when = parse_time(m.group("time"))
                     if when is None or when < cutoff:
@@ -340,22 +369,66 @@ def plural(n, noun):
 #             spider trap (every commit x file x diff is its own URL), and on a
 #             real run it is ~99% of the raw hit count.
 #   asset  -- css/js/images/fonts, incidental to rendering.
-#   meta   -- robots.txt, sitemap.xml, feeds: machine plumbing.
+#   robots \
+#   sitemap | machine plumbing, but kept apart rather than lumped into one
+#   feed   /  "meta" count: each answers a different question. robots.txt says
+#             whether a bot that ignored a Disallow had actually read the rules;
+#             sitemap.xml says whether anything consumes the Sitemap: directive
+#             (an open question here -- see CLAUDE.md); feeds are ordinary
+#             subscription polling, and were drowning the other two.
 #   nav    -- tag/category/author/dated archive index pages: navigation, not posts.
 #   content-- everything left: post permalinks, .md alternates, /docs, /software.
+#             llms.txt deliberately lands here rather than in a plumbing bucket:
+#             whether anyone fetches it is a live question, and content is the
+#             only bucket that prints a path by name instead of a bare count.
 _ASSET_EXT = (".css", ".js", ".png", ".jpg", ".jpeg", ".gif", ".ico", ".svg",
               ".webp", ".woff", ".woff2", ".ttf", ".map")
-_PREFIX = re.escape(BLOG_PREFIX)
-_NAV_RE = re.compile(_PREFIX + r"/(tag|category|author|page)/", re.IGNORECASE)
-# /blog/2016/ , /blog/2016/Jun/ , /blog/2016/06/ -- archive indexes (no slug):
-_ARCHIVE_RE = re.compile(_PREFIX + r"/\d{4}(/([A-Za-z]{3}|\d{2}))?/?$")
-_SOURCE_PREFIX = BLOG_PREFIX + "/source"
-_ASSET_PREFIXES = tuple(BLOG_PREFIX + p
-                        for p in ("/theme/", "/images/", "/gitweb-static/"))
+
+
+def set_blog_prefix(prefix):
+    """(Re)derive every path rule from where the blog is mounted.
+
+    Module globals rather than arguments threaded through every classifier,
+    because one run reports on one site: main() calls this once with
+    --blog-prefix, and the import-time call below covers library use.
+    """
+    global BLOG_PREFIX, _NAV_RE, _ARCHIVE_RE, _SOURCE_PREFIX, _ASSET_PREFIXES
+    global POST_RE
+    BLOG_PREFIX = prefix.rstrip("/")
+    escaped = re.escape(BLOG_PREFIX)
+    _NAV_RE = re.compile(escaped + r"/(tag|category|author|page)/",
+                         re.IGNORECASE)
+    # /blog/2016/ , /blog/2016/Jun/ , /blog/2016/06/ -- archive indexes:
+    _ARCHIVE_RE = re.compile(escaped + r"/\d{4}(/([A-Za-z]{3}|\d{2}))?/?$")
+    _SOURCE_PREFIX = BLOG_PREFIX + "/source"
+    # gitweb's own css/js: /gitweb-static/ here, /static/ on the other blog.
+    _ASSET_PREFIXES = tuple(BLOG_PREFIX + p for p in
+                            ("/theme/", "/images/", "/gitweb-static/",
+                             "/static/"))
+    # Parsing permalinks lets the digest report *posts* rather than URLs: the
+    # .md and the HTML of one post are the same piece of writing, and belong on
+    # one line.
+    POST_RE = re.compile("^" + escaped + ARTICLE_PATTERN)
+
+
+def nav_kind(path):
+    """Which kind of navigation page a "nav" path is: tag, category, author,
+    index (the paginated /blog/page/N/), month, year, or front."""
+    m = _NAV_RE.match(path)
+    if m:
+        kind = m.group(1).lower()
+        return "index" if kind == "page" else kind
+    m = _ARCHIVE_RE.match(path)
+    if m:
+        return "month" if m.group(1) else "year"
+    return "front"
 
 
 def classify_path(path):
-    if path.startswith(_SOURCE_PREFIX):
+    # The segment, not the prefix: at the domain root, a bare startswith
+    # would also claim a page slugged /sources-of-error/.
+    if (path == _SOURCE_PREFIX
+            or path.startswith((_SOURCE_PREFIX + "/", _SOURCE_PREFIX + "?"))):
         return "source"
     if path.startswith(_ASSET_PREFIXES) or path.endswith(_ASSET_EXT):
         return "asset"
@@ -363,19 +436,19 @@ def classify_path(path):
     # /blog/feed/rss/, /blog/category/<slug>/feed/). Test segments, not a
     # substring: `"/feed" in path` would swallow a post slugged "feedback" or
     # "feed-forward-networks" and silently drop it from the content listing.
-    if (path in ("/robots.txt", "/sitemap.xml") or path.endswith(".xml")
-            or "feed" in path.strip("/").split("/")):
-        return "meta"
+    if "feed" in path.strip("/").split("/"):
+        return "feed"
+    if path == "/robots.txt":
+        return "robots"
+    if path == "/sitemap.xml" or path.endswith(".xml"):
+        return "sitemap"
     if (_NAV_RE.match(path) or _ARCHIVE_RE.match(path)
             or path in (BLOG_PREFIX, BLOG_PREFIX + "/")):
         return "nav"
     return "content"
 
 
-# Parsing permalinks lets the digest report *posts* rather than URLs: the .md
-# and the HTML of one post are the same piece of writing, and belong on one
-# line. Shape comes from ARTICLE_PATTERN/BLOG_PREFIX up top.
-POST_RE = re.compile("^" + _PREFIX + ARTICLE_PATTERN)
+set_blog_prefix(BLOG_PREFIX)
 
 
 def parse_post(path):
@@ -397,9 +470,11 @@ class Analysis:
         self.total = stats.requests
         self.ips = stats.ips
         self.buckets = Counter()      # bucket -> request count
+        self.redirects = Counter()    # bucket of the *requested* path -> count
         self.content = Counter()      # content display-path -> request count
         self.posts = {}               # (year, slug) -> {"n", "md", "html"}
         self.other = Counter()        # non-post content (/, /docs/*, ...)
+        self.nav = Counter()          # archive/tag path -> request count
         self.paths = Counter()        # every path -> request count (for scanners)
         self.four_xx = 0
         for (status, method, path, got_md), n in stats.hits.items():
@@ -422,9 +497,17 @@ class Analysis:
                 continue
             if status.startswith("3"):
                 self.buckets["redirect"] += n
+                # Also bucket by what was *requested*. A flat count can't tell
+                # a standing redirect a client re-traverses on a schedule (the
+                # bare-feed 302 in nginx_siteconf) from one it hits once per
+                # post (the legacy WordPress-permalink 301) -- and those call
+                # for opposite responses, so the digest has to name which.
+                self.redirects[classify_path(path)] += n
                 continue
             bucket = classify_path(path)
             self.buckets[bucket] += n
+            if bucket == "nav":
+                self.nav[path] += n
             if bucket == "content":
                 key = path if method == "GET" else "{} {}".format(method, path)
                 self.content[key] += n
@@ -478,6 +561,39 @@ def describe_routes(tag):
     if len(parts) == 1:
         return parts[0]
     return "{} and {}".format(", ".join(parts[:-1]), parts[-1])
+
+
+def describe_redirects(counter):
+    """' (44 feed, 1 content)' -- which kinds of URL redirected, commonest first.
+
+    Empty string when nothing redirected, so the caller can append it
+    unconditionally to the bare redirect count.
+    """
+    if not counter:
+        return ""
+    return " ({})".format(", ".join("{} {}".format(n, kind)
+                                    for kind, n in counter.most_common()))
+
+
+def describe_nav(nav):
+    """' (84 tag, 40 month on 37 pages, 2 category)' -- archive/tag fetches by
+    kind, commonest first.
+
+    The distinct-page count is what separates a crawler *walking* the archive
+    (requests == pages) from one re-polling a few index pages on a schedule
+    (many requests, few pages), so it's shown wherever the two differ.
+    """
+    if not nav:
+        return ""
+    hits, pages = Counter(), Counter()
+    for path, n in nav.items():
+        kind = nav_kind(path)
+        hits[kind] += n
+        pages[kind] += 1
+    return " ({})".format(", ".join(
+        "{} {}".format(n, kind) +
+        ("" if pages[kind] == n else " on {}".format(plural(pages[kind], "page")))
+        for kind, n in hits.most_common()))
 
 
 def _join_items(items):
@@ -566,6 +682,16 @@ def render_posts(a, max_pages):
                                initial_indent="  else  ",
                                subsequent_indent="        ",
                                break_on_hyphens=False, break_long_words=False)
+
+    # Archive/tag pages by name, but only a handful: see MAX_NAV_LISTED.
+    if a.nav and len(a.nav) <= MAX_NAV_LISTED:
+        navs = ["{}{}".format(page, "" if n == 1 else "×{}".format(n))
+                for page, n in sorted(a.nav.items(),
+                                      key=lambda kv: (-kv[1], kv[0]))]
+        lines += textwrap.wrap(_join_items(navs), width=76,
+                               initial_indent="  nav   ",
+                               subsequent_indent="        ",
+                               break_on_hyphens=False, break_long_words=False)
     return lines
 
 
@@ -641,7 +767,8 @@ def build_report(stats, window_hours, log_glob, max_pages=MAX_PAGES,
         lines.append("  {:<32}{:>12}{:>9}{:>7}".format(
             a.label[:32], a.total, a.content_pages(), len(a.ips)))
     lines += [
-        "  (\"requests\" counts every fetch, incl. the /blog/source git-history",
+        "  (\"requests\" counts every fetch, incl. the {} git-history".format(
+            _SOURCE_PREFIX),
         "   trap; \"pages\" is distinct posts/pages -- the real ingestion signal.)",
         "",
     ]
@@ -654,15 +781,22 @@ def build_report(stats, window_hours, log_glob, max_pages=MAX_PAGES,
             plural(a.content_pages(), "content page"), plural(len(a.ips), "IP")))
         noise = []
         if a.buckets["source"]:
-            noise.append("{}× /blog/source (git browser)".format(a.buckets["source"]))
+            noise.append("{}× {} (git browser)".format(
+                a.buckets["source"], _SOURCE_PREFIX))
         if a.buckets["asset"]:
             noise.append("{}× assets".format(a.buckets["asset"]))
         if a.buckets["nav"]:
-            noise.append("{}× archive/tag".format(a.buckets["nav"]))
-        if a.buckets["meta"]:
-            noise.append("{}× robots/sitemap/feeds".format(a.buckets["meta"]))
+            noise.append("{}× archive/tag{}".format(
+                a.buckets["nav"], describe_nav(a.nav)))
+        if a.buckets["robots"]:
+            noise.append("{}× robots.txt".format(a.buckets["robots"]))
+        if a.buckets["sitemap"]:
+            noise.append("{}× sitemap.xml".format(a.buckets["sitemap"]))
+        if a.buckets["feed"]:
+            noise.append("{}× feeds".format(a.buckets["feed"]))
         if a.buckets["redirect"]:
-            noise.append("{}× redirects".format(a.buckets["redirect"]))
+            noise.append("{}× redirects{}".format(
+                a.buckets["redirect"], describe_redirects(a.redirects)))
         if a.buckets["notmodified"]:
             noise.append("{}× 304 revalidations".format(
                 a.buckets["notmodified"]))
@@ -739,9 +873,13 @@ def main():
                         help="per-crawler cap on listed pages (0 = no cap)")
     parser.add_argument("--site", default=SITE,
                         help="label for this site in the subject/header")
+    parser.add_argument("--blog-prefix", default=BLOG_PREFIX,
+                        help="where the blog is mounted (default: {}; \"\""
+                             " for the domain root)".format(BLOG_PREFIX))
     parser.add_argument("--host", default=HOST,
                         help="only count lines whose logged $host matches"
-                             " (for an access log shared by several sites)")
+                             " (default: same as --site; \"\" counts every"
+                             " site sharing the log)")
     parser.add_argument("--archive-dir", default=ARCHIVE_DIR,
                         help="write a dated digest here (default: {}); "
                              "empty string disables".format(ARCHIVE_DIR))
@@ -749,9 +887,11 @@ def main():
                         help="also print the digest (implied when no archive"
                              " dir is set)")
     args = parser.parse_args()
+    set_blog_prefix(args.blog_prefix)
 
     cutoff = datetime.now(timezone.utc) - timedelta(hours=args.window_hours)
-    stats = scan(args.log_glob, cutoff, args.host)
+    host = args.site if args.host is None else args.host
+    stats = scan(args.log_glob, cutoff, host or None)
     total = sum(s.requests for s in stats.values())
     subject, body = build_report(stats, args.window_hours, args.log_glob,
                                  args.max_pages, args.site)
