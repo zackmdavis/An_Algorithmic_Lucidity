@@ -60,6 +60,31 @@ The fix, when it's worth doing: build into a sibling directory and flip a symlin
 
 Priority note: that ETag effect sounds worse than it measures. Across 2026-07-25→08-06 the digests record **35 total 304 revalidations against ~1M requests** — near-nobody sends conditional requests here, so almost nothing is actually paying the invalidation cost. Justify this change on the 404 window, which hits human readers; treat the ETag hygiene as a free side effect, not a reason.
 
+### Background CPU load roughly tripled on 2026-09-30, doubling deploy builds (open, not urgent)
+
+Noticed 2026-10-05 when a deploy reported `Processed 497 articles ... in 50.55 seconds`. The build itself hasn't regressed: same tree builds in **3.7 s** locally and **24 s** on the server when it's quiet (the droplet is **1 vCPU**, 956 MiB, no swap — memory is fine, the build peaks at ~76 MB RSS). The extra time is contention: `sar` showed the CPU at **0% idle for 22:50–23:00 UTC**, the window the push landed in.
+
+`sysstat` is installed, so history is in `/var/log/sysstat/saDD` (≈1 month retention). Daily average `%idle`:
+
+| 09-27 | 09-28 | 09-29 | 09-30 | 10-01 | 10-02 | 10-03 | 10-04 | 10-05 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 87 | 80 | 79 | **53** | 47 | 42 | 35 | 34 | 37 |
+
+A step, not a spike — 10-01's busy share stays at ≥~40% in every 10-minute slot around the clock. Not reader-visible yet (static nginx serving is cheap); it becomes urgent if `%idle` trends toward 0 for long stretches.
+
+**Leading suspect: the other blog's gitweb, which moved onto this droplet — not yet confirmed from logs.** `/etc/nginx/sites-enabled/ultimately_untrue_thought` was created **09-27 22:32 UTC**; idle dipped to ~80% on 09-28/29 (DNS propagation, discovery) and stepped down on 09-30. That site serves gitweb at `/source` through the **same `fcgiwrap` socket**, with **no robots.txt** — the exact trap that drew 100k–300k requests/day here before `Disallow: /blog/source`. Corroborating: nothing long-lived shows meaningful CPU in `ps`; the one process caught running in `top` was `gitweb.cgi`, and `fcgiwrap`/PID 1 carry large reaped-child CPU totals. This doesn't contradict the "flat zero `/blog/source`" result above — different path, different host.
+
+**Strong supporting evidence, found 2026-10-09: it was in the digests all along.** The digest wasn't filtering by host (see "Digests 09-28 → 10-13 count both blogs" below), so the other blog's gitweb showed up in the `zackmdavis.net-*` reports as a bare `/source×N` in `else` lists, mostly under GPTBot: 313 (09-28 digest) → 27,238 (09-30) → 155,314 (10-01), then 76k–146k/day. That lines up with the 09-30 idle step. It's still inference rather than proof, because the digest drops the host, so the root-only commands below would settle it.
+
+**Confirming needs root** — `blogmistress` can't read `/var/log/nginx/`. Both sites log to the same `access.log` in `combined_extended`, so split on `"` and the Host is field `$8`. Read-only:
+
+```
+zcat -f /var/log/nginx/access.log* | awk -F'"' '$2 ~ / \/(blog\/)?source/ {split($1,a,"["); print substr(a[2],1,11), $8}' | sort | uniq -c   # per day per host: step on 09-30 at unremediatedgender.space?
+zcat -f /var/log/nginx/access.log* | awk -F'"' '$8=="unremediatedgender.space" && $2 ~ / \/source/ {print $6}' | sort | uniq -c | sort -rn | head -20   # by User-Agent
+```
+
+If confirmed, the fix is the user's call. The likely one is a robots.txt for `unremediatedgender.space` with `Disallow: /source` (mind the blank-line and rule-order footguns in the robots.txt section). Here compliance was total within ~3 days. But that blog's gitweb is also the mechanism the drafts section credits with getting its drafts into models, so closing it is the same trade-off made here on 09-09, not a free fix.
+
 ### AI-crawler observability
 
 `provisioning/ai_bot_digest.py` runs daily via systemd and files `<site>-<date>.txt` into `/var/log/ai-bot-digest/`, summarizing which crawlers fetched which posts. Its own docstring covers usage and the second-site story. Two structural limits worth knowing before trusting it: User-Agents are forgeable (it quarantines UAs whose traffic is ≥60% 404s as likely impostors), and Google/Apple AI-training use is invisible in principle, since `Google-Extended`/`Applebot-Extended` are robots.txt tokens that no request carries.
@@ -135,7 +160,13 @@ Thirteen consecutive days of exactly zero, across 63 digests total. Every UA tha
 
 **The digest splits plumbing three ways (2026-09-25).** `classify_path` used to return one `meta` bucket for robots.txt + sitemap.xml + feeds, printed as a single `46× robots/sitemap/feeds`. That fused three questions: robots.txt tells you whether a bot that ignored a `Disallow` had *read the rules* (the DataForSeoBot question), sitemap.xml tells you whether anything consumes the `Sitemap:` directive (an open question, see the ClaudeBot section), and feeds are ordinary polling that was drowning both. They're now `robots` / `sitemap` / `feed`. Redirects are additionally bucketed by the class of the *requested* path, so the line reads `19× redirects (15 feed, 4 content)`.
 
+**Deployed 2026-10-14.** That split sat uncommitted in the working tree from 09-25 to 10-13, so every digest through 10-13 prints the fused `N× robots/sitemap/feeds`. It shipped together with the host-filter fix and the archive/tag breakdown below.
+
 Two notes. `llms.txt` is deliberately left in `content`, not moved to a plumbing bucket — `content` is the only bucket that prints a path *by name* rather than as a bare count, which is the entire reason we can say it has zero fetches. And this is a reporting change only: the log format is untouched so rotated archives still parse, but **the 63 digests already on disk keep the old aggregate**; getting the breakdown retroactively means re-running over `access.log*`, which reaches back only as far as logrotate kept.
+
+**Digests 09-28 → 10-13 count both blogs (fixed, deployed 2026-10-14).** unremediatedgender.space moved onto this droplet on 09-27 and shares `access.log`. The digest's host filter was opt-in (`HOST = None`), and the systemd unit never passed `--host`, so its traffic was folded into these reports. You can recognise it by paths like `/ancillary/`, `/isso/`, `/papers/*.pdf` and a bare `/source×N` under `else`. **Per-bot request and page totals in that range are inflated, by roughly 100×:** the first filtered run (10-14 06:07) counted 715 zackmdavis.net hits against 90,722 for the other site, where the mixed 10-11 → 10-13 runs had reported 96k–183k. Diary fetches are unaffected**, because `/docs/diary/` exists only here. Now `HOST` defaults to `SITE`, ignoring a leading `www.` because `server_name` serves both names. `--host ""` restores the unfiltered view. The other site gets its own run, filed as `unremediatedgender.space-<date>.txt`, via a second `ExecStart=` line in the same oneshot unit with `--site unremediatedgender.space --blog-prefix ""` (it's mounted at the domain root; its permalinks share `ARTICLE_PATTERN`). Lines with no host field (pre-`combined_extended`, i.e. older rotated archives) are counted in *both* reports, by design, since they can't be attributed.
+
+**Archive/tag fetches are broken down (2026-10-13).** The old `N× archive/tag` now reads like `18× archive/tag (12 tag, 5 month on 1 page, 1 index)`. Kinds are tag/category/author/index (`/blog/page/N/`)/month/year/front. "on N pages" appears where requests exceed distinct pages: a **walk** has requests ≈ pages, a **re-poll** has many requests on few pages. If a crawler touched ≤ `MAX_NAV_LISTED` (8) distinct nav pages, they're also listed by name on a `nav` line. Past that, the list would be most of the site's ~255 index pages, which says nothing the breakdown doesn't. That's why it's capped rather than listing every page as the content bucket does.
 
 ### The bare-feed redirect is a 302, and crawlers re-traverse it forever (unfixed)
 
@@ -200,18 +231,20 @@ The diaries are linked from `provisioning/root_index.html` (commit `186d3f3`), s
 
 | crawler | behaviour |
 | --- | --- |
-| GPTBot | found all 8 within a day; full sweeps 09-07, 09-09, 09-18, 09-19, then **stopped** — on 09-22 it fetched `/` and five posts and did not follow. Four sweeps and done, the normal shape for a crawler that has captured a small static set. |
+| GPTBot | found all 8 within a day; full sweeps 09-07, 09-09, 09-18, 09-19, 09-27 (01B–02D), 09-29 (all 8). A lull 09-20 → 09-26 was briefly misread as "four sweeps and done"; it's periodic re-sweeping. |
 | Bytespider | took over from 09-12; full 8-file sweeps 09-24 and 09-25 with repeats (`01D`×4). Now the heaviest consumer. |
+| CCBot (Common Crawl) | **new 10-04:** fetched `/` then 6 diaries (01B–01D, 02B–02D). Arguably the most consequential consumer: Common Crawl snapshots feed nearly every open pretraining corpus and many private ones. |
+| Meta / Facebook AI | **new 10-03 → 10-06**, ~4 files/day (mostly 01B, 01D, 02B, 02D). Ambiguous: the digest label lumps the allowed `Meta-ExternalAgent`/`FacebookBot` with the excluded `meta-externalfetcher` (on-demand, which Meta says may not honor robots.txt). Telling them apart needs the raw log. |
 | Amazonbot, GoogleOther, YouBot | one-off partial sweeps, all pre-`Disallow`. |
-| ClaudeBot | **never** — see the section below, it's the interesting case. |
+| ClaudeBot | **never**, still true through 10-08 despite 222/304 content pages on 10-06/07. See the section below. |
 
-So the mechanism works and the vendor changed hands. Don't conclude from GPTBot going quiet that it broke.
+So the mechanism works, and the set of consumers has grown rather than turned over. Don't read a few quiet days from any one crawler as it having stopped.
 
 *The exclusions hold where it matters most.* PerplexityBot became the **largest content crawler on the site** (777 requests/371 pages on 09-18, 769/322 on 09-25) and fetched **zero** diaries. It's excluded on purpose — a queryable index is the search-key risk — and it complies. That is the design working on exactly the bot it was written for.
 
 *Two crawlers ignored the `Disallow`*, both search-flavoured and both outside the allowlist: **DataForSeoBot** took all 8 on 09-11, having fetched robots/sitemap URLs the same day (an SEO backlink/SERP vendor — precisely the search-key exposure the rule exists to prevent); **PetalBot** took `01D` on 09-17, one hit, plausibly a stale queue entry. robots.txt is voluntary and this is what that costs.
 
-*The hole: a UA allowlist grants access to anyone who types the string.* Every UA in the named group has been forged on this site, counted from the digests' own quarantine sections — GPTBot 17 days, ClaudeBot 6, Bytespider 5, CCBot 4, cohere-ai 4. **`cohere-ai` has never made a legitimate request here; it appears only as a forgery** — that entry is pure attack surface with no observed benefit, and should be dropped.
+*The hole: a UA allowlist grants access to anyone who types the string.* Every UA in the named group has been forged on this site, counted from the digests' own quarantine sections — GPTBot 17 days, ClaudeBot 6, Bytespider 5, CCBot 4, cohere-ai 4. **`cohere-ai` has never made a legitimate request here; it appears only as a forgery** — on 9 days through 10-08, every one a 100%-404 scanner on cloud IPs probing `/.env`, `/.git/HEAD`, `/.ssh/id_rsa`. An earlier version of this note called the entry "pure attack surface, should be dropped". **That was overstated (corrected 2026-10-09):** the forgers ignore robots.txt anyway, and any of them could wear GPTBot (the most-forged UA here) instead, so removing the entry protects against approximately nobody. It's dead weight, not a hazard, and keeping or dropping it is a matter of taste. Separately unverified: whether `cohere-ai` is Cohere's *training* crawler token at all. Check Cohere's docs if Cohere pretraining is actually wanted.
 
 *And the URL has leaked.* On 09-24 a spoofed-UA scanner (forging GPTBot, 86% 404, quarantined by the ≥60% heuristic) probed `/docs/diary/Diary_01A.md` **by name**, in a wordlist between `/config.py` and `/env.json`, alongside `/.env.production` and `/actuator/heapdump`. First diary probe in 63 digests. Only `01A` — the longest-exposed one — so whatever fed that list predates the 09-06 batch. **Watch for `01B`–`02D` appearing in scanner wordlists; that would date the leak.** This doesn't defeat anything robots.txt was doing (the third bullet above already says it's no protection against scrapers), but it moves that from hypothetical to observed.
 
