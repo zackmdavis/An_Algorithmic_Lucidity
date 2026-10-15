@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-"""Git post-receive hook: sync the working checkout and rebuild the site,
-scheduling future-dated posts to go live automatically via `at`. Adapted from
+"""Git post-receive hook: sync the working checkout and rebuild the site.
+(It can also schedule future-dated posts to go live via `at`, but that's
+switched off; see SCHEDULE_FUTURE_POSTS.) Adapted from
 Ultimately_Untrue_Thought/provisioning/pelican_scheduler.py for the
 An_Algorithmic_Lucidity blogmistress deployment.
 
@@ -23,6 +24,16 @@ OUTPUT_DIR = "/home/blogmistress/An_Algorithmic_Lucidity/output"
 PUBLISH_CONF = os.path.join(WORKING_REPO, "publishconf.py")
 SITEGEN_COMMAND = "bash -c 'cd {} && source .venv/bin/activate && pelican {} -o {} -s {}'".format(
     WORKING_REPO, INPUT_DIR, OUTPUT_DIR, PUBLISH_CONF)
+
+# Off since 2026-10-15. Unused in practice (not since the old server), and the
+# scheduling is wrong on this server anyway: post Date: lines are Pacific
+# (TIMEZONE in pelicanconf.py), but get_future_publication_times compares them
+# against the box's clock and `at` runs them on it, and the droplet is UTC, so a
+# scheduled post would go live 7-8 hours early. (It was written for an old
+# Pacific-time server, where the two agreed.) Fix that before turning this back
+# on. With it off, a future-dated post isn't lost: WITH_FUTURE_DATES = False
+# keeps it unpublished until the first build after its date, i.e. the next push.
+SCHEDULE_FUTURE_POSTS = False
 
 DATELINE_REGEX = re.compile(r"^Date: *(\d{4}-\d{2}-\d{2} \d{2}:\d{2}) *$",
                             re.MULTILINE)
@@ -73,21 +84,28 @@ def main():
     # sync our "working" repo with the bare one
 
     # but first, don't let the fact that this is running as a hook on the bare
-    # repo confuse us
-    our_env = os.environ.copy()
-    our_env.pop('GIT_DIR', None)  # (.pop with a default, unlike the original's
-                                  # `del`, so this doesn't raise if GIT_DIR
-                                  # isn't set)
+    # repo confuse us. Git exports GIT_DIR=. to hooks, and every git command
+    # anything here starts would then take the current directory for the
+    # repository. Drop it from our own environment, not just from the git
+    # calls below: the Pelican build runs `git log` too (sitemap <lastmod>, see
+    # _git_last_modified in pelicanconf.py), and so would any `at` job, which
+    # snapshots the environment it was scheduled from. Cleaning only the git
+    # calls, as this used to, made that `git log` fail silently on every deploy
+    # from 2026-09-09 to 10-15, and the sitemap went out with no dates at all.
+    os.environ.pop('GIT_DIR', None)
 
     for git_cmd in [["git", "fetch", "origin"],
                     ["git", "reset", "--hard", "origin/master"]]:
-        subprocess.run(git_cmd, cwd=WORKING_REPO, env=our_env)
+        subprocess.run(git_cmd, cwd=WORKING_REPO)
 
     # sitegen now! (even if there are no posts to queue, we can at least update
     # /drafts/) and make any back-edits to published posts live
     subprocess.run(SITEGEN_COMMAND,
                    # XXX: `shell=True` is contrary to the moral law
                    shell=True)
+
+    if not SCHEDULE_FUTURE_POSTS:
+        return
 
     # look for scheduled future posts
     future_publication_times = get_future_publication_times()

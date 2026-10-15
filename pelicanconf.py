@@ -114,7 +114,8 @@ EXTRA_PATH_METADATA = {
 # -> 2026/Jun/slug.md) and an llms.txt index at the site root linking to them.
 import os as _os
 import re as _re
-from urllib.parse import urlsplit as _urlsplit, urlunsplit as _urlunsplit
+from urllib.parse import (quote as _quote, urlsplit as _urlsplit,
+                          urlunsplit as _urlunsplit)
 from pelican import signals as _signals
 
 _markdown_mirror_state = {'output_path': None, 'siteurl': '', 'articles': []}
@@ -252,7 +253,8 @@ _signals.finalized.connect(_write_llms_txt)
 
 
 # --- sitemap.xml ------------------------------------------------------------
-# Published posts only, and deliberately so. Drafts were considered and left
+# Published posts, plus everything under the webroot's /docs (see _docs_entries
+# below), and nothing else -- deliberately. Drafts were considered and left
 # out (2026-09-09): a draft and its eventual published version live at
 # different URLs -- drafts/<slug>.html vs YYYY/Mon/<slug>/ -- and the draft URL
 # 404s once the post moves out of content/drafts/. A crawler that captured the
@@ -267,12 +269,15 @@ _signals.finalized.connect(_write_llms_txt)
 # (navigation, not content).
 #
 # On placement, two rules get conflated. *Scope*: the sitemaps.org protocol
-# bounds a sitemap by its own location, so one at /blog/sitemap.xml could only
-# list URLs under /blog/ -- which every URL here satisfies anyway. *Discovery*:
-# crawlers look for /sitemap.xml at the true domain root, and this site is
-# served under /blog. Both are handled outside this file: the deploy hook
-# installs a copy at the webroot (provisioning/pelican_scheduler.py) and
-# robots.txt carries a Sitemap: line naming it (provisioning/robots.txt).
+# bounds a sitemap by its own location, so the copy Pelican serves at
+# /blog/sitemap.xml may only list URLs under /blog/ -- which the /docs entries
+# aren't. *Discovery*: crawlers look for /sitemap.xml at the true domain root,
+# and this site is served under /blog. Both are handled outside this file: the
+# webroot's sitemap.xml is a symlink to this output file, and robots.txt
+# carries a Sitemap: line naming *that* one (provisioning/robots.txt). So the
+# root copy is the canonical one and has root scope, covering /docs; crawlers
+# that do read the /blog copy drop out-of-scope entries rather than rejecting
+# the file.
 #
 # Note that's a genuine difference from llms.txt, which has no equivalent of
 # the Sitemap: directive -- nothing at the root can redirect attention to a
@@ -282,6 +287,13 @@ from xml.sax.saxutils import escape as _xml_escape
 import subprocess as _subprocess
 
 _REPO_ROOT = _os.path.dirname(_os.path.abspath(__file__))
+
+# The true webroot's /docs: PDFs and the diaries, put there by hand rather than
+# built from this repo, so there's no source to derive URLs from -- except the
+# directory itself, which the build can just read, because the deploy hook runs
+# Pelican on the same box. On any other machine it doesn't exist and the
+# sitemap simply has no /docs entries.
+_WEBROOT_DOCS = '/home/blogmistress/zackmdavis.net/docs'
 
 
 def _git_last_modified():
@@ -321,6 +333,33 @@ def _git_last_modified():
     return dates
 
 
+def _docs_entries(siteurl, today):
+    """(loc, lastmod) for every file under _WEBROOT_DOCS, sorted by path.
+
+    lastmod is the file's mtime -- for hand-copied files that's when the copy
+    landed, which is the closest thing to "last changed" there is. Dotfiles
+    are skipped; everything else is listed, diaries included (their search
+    exposure is governed by robots.txt, not by this list: `*` still Disallows
+    /docs/diary, and a sitemap can't override that).
+    """
+    if not _os.path.isdir(_WEBROOT_DOCS):
+        return []
+    parts = _urlsplit(siteurl)
+    root = _urlunsplit((parts.scheme, parts.netloc, '', '', ''))
+    entries = []
+    for dirpath, dirnames, filenames in _os.walk(_WEBROOT_DOCS):
+        dirnames[:] = sorted(d for d in dirnames if not d.startswith('.'))
+        for name in sorted(filenames):
+            if name.startswith('.'):
+                continue
+            full = _os.path.join(dirpath, name)
+            rel = _os.path.relpath(full, _os.path.dirname(_WEBROOT_DOCS))
+            stamp = _date.fromtimestamp(_os.path.getmtime(full)).strftime(
+                '%Y-%m-%d')
+            entries.append((root + '/' + _quote(rel), min(stamp, today)))
+    return entries
+
+
 def _write_sitemap(pelican_obj):
     output_path = _markdown_mirror_state['output_path']
     if not output_path:
@@ -351,6 +390,9 @@ def _write_sitemap(pelican_obj):
         # the failure would be silent, so it's cheap to rule out.
         lines.append("  <url><loc>{}</loc><lastmod>{}</lastmod></url>".format(
             loc, min(stamp, today)))
+    for loc, stamp in _docs_entries(_markdown_mirror_state['siteurl'], today):
+        lines.append("  <url><loc>{}</loc><lastmod>{}</lastmod></url>".format(
+            _xml_escape(loc), stamp))
     lines.append('</urlset>')
     with open(_os.path.join(output_path, 'sitemap.xml'), 'w',
               encoding='utf-8') as f:
