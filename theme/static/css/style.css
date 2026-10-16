@@ -170,7 +170,8 @@ header h1 a:hover {
     border-top: 1px solid #ddd;
 }
 
-.post-content img {
+.post-content img,
+.post-content video {
     max-width: 100%;
     height: auto;
 }
