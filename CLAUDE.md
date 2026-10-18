@@ -92,7 +92,39 @@ zcat -f /var/log/nginx/access.log* | awk -F'"' '$8=="unremediatedgender.space" &
 | 10-16 (deployed mid-window) | 51,949 | 52,477 |
 | 10-17 | **12** | **1** |
 
-GPTBot was the whole trap there: 99.7% of its traffic, with 0 content pages. The 12 left over came from Applebot, Bytespider and GoogleOther, plausibly queued URLs. **What's still unconfirmed is the CPU half of the hypothesis.** The 10-15 deploy, which landed before the robots.txt, still took 48.83 s. Cheapest check: the next build's time, which should be back near 24 s, or `sar -u` for a day after 10-16. If `%idle` doesn't recover toward ~80%, something else is eating the CPU.
+GPTBot was the whole trap there: 99.7% of its traffic, with 0 content pages. The 12 left over came from Applebot, Bytespider and GoogleOther, plausibly queued URLs. **The CPU half is answered (2026-10-18): the other site's gitweb is the load, but the named bots were never most of it.** Robots.txt removed them, total gitweb volume didn't fall, and `top` still showed 0% idle on 10-18. An anonymous scraper that the per-bot digests can't see makes up the rest. See the next section.
+
+### gitweb 504s: anonymous residential-proxy scraper on the other site's `/source` (open, low priority)
+
+Noticed 2026-10-18: gitweb on *both* sites slow (36 s for `/blog/source`) or 504ing, while static pages were fine (0.3 s). Diagnosed over SSH. Nothing has been changed on the box.
+
+**Mechanism.** The two sites share `/run/fcgiwrap.socket`, and stock `fcgiwrap` runs **one** worker (no `/etc/default/fcgiwrap`; `ExecStart=/usr/sbin/fcgiwrap $DAEMON_OPTS` with nothing set). One gitweb request costs ~0.25–0.3 s of CPU (`summary`, `blob_plain`, `history` timed by running `gitweb.cgi` directly as `www-data`) and ~1 s of wall time on the busy 1-vCPU box. Arrivals were ~200–250/min (~4/s). The queue grows until nginx's default 60 s `fastcgi_read_timeout` returns a 504, or the client gives up (499). A flood on the other site therefore starves this site's gitweb too. Static files never touch fcgiwrap. The error log reached 283 MB on 10-17, nearly all `upstream timed out`.
+
+**Who.** On 10-18 the other site's gitweb took 271k requests from **~249k distinct IPs** (≈1 request each) with rotating plain Chrome UAs, ignoring `Disallow: /source`. That's a rented residential-proxy pool, so IP and UA blocking are useless and the operator can't be identified. The view mix is the September trap's signature, i.e. harvesting text rather than probing for vulnerabilities: `blob_plain` 69k, `blob` 64k, `history` 64k, `blobdiff` 21k, `tree` 15k, `search` 6k. Of the 273k requests, 213k were distinct URLs; 35% were repeats, consistent with retrying failures. Parameters like `hp=--cc`/`hb=-c` in the error log look like option injection but aren't: they're gitweb's own merge-diff values, here recombined into the wrong views by the crawler.
+
+**History** (other site's `/source`; day labels inferred from logrotate mtimes, ±1 day):
+
+| day | requests | self-identified bots | 504 + 499 |
+| --- | --- | --- | --- |
+| 10-09 | 378k | 81k | 18% |
+| 10-15 | 326k | 84k | 29% |
+| 10-16 | 281k | 0.9k | 51% |
+| 10-17 | 378k | 0.1k | 51% |
+| 10-18 (to 17:00) | 273k | 0.2k | 80% |
+
+The scraper already sent ~300k/day on 10-09, the oldest kept log. After robots.txt took effect the named bots vanished, but total volume held, and failures *rose*. Successful responses fell from ~310k/day to ~50k. Likely a congestion collapse: once the queue is longer than clients will wait, CPU goes to rendering pages for already-disconnected clients, and the failures get retried. Unverified: whether fcgiwrap keeps running a child after nginx drops the connection. The log format records no `$request_time` to check timing with. By 17:00 on 10-18 it had partly eased: 200 in 10–13 s for both gitweb front pages, but ~half of that hour's gitweb requests still failed. Don't read "it loads" as fixed.
+
+**Also on this site:** `meta-webindexer` (Meta, `57.141.2.*`, honest UA) made ~4.4k `/blog/source` requests on 10-18 and ~4.2k on 10-17. It fetched robots.txt 20 times over those two days and isn't in the named group, so `*`'s `Disallow: /blog/source` applies to it. **It ignores it.** It's small next to the flood, and a UA match returning 403 handles it.
+
+**Mitigation, when it's worth doing** (cheapest first):
+
+1. **Rate-limit gitweb per site, not per IP**, so the excess gets an instant 429 instead of queueing for 60 s and costing CPU. A `limit_req_zone $server_name zone=gitweb:1m rate=2r/s;` plus `limit_req_status 429;` in a new `conf.d` file (http scope, like the existing ones), and `limit_req zone=gitweb burst=10 nodelay;` in each gitweb location. This site's location is in `nginx_siteconf`; the other site's is in its own repo (`/etc/nginx/sites-enabled/ultimately_untrue_thought`, `location /source`, `GITWEB_CONFIG /etc/gitweb-uut.conf`). Keying on `$server_name` gives each site its own budget. Cost: during a flood, real visitors to the other site's gitweb sometimes get a 429, which still beats everyone getting a 504.
+2. **On the other site, 403 the expensive views in nginx** before any CGI runs. gitweb separates parameters with `;`, so `$arg_a` won't match; use `if ($args ~ "(^|;)a=(history|blame|blame_incremental|commitdiff|blobdiff|blobdiff_plain|patch|snapshot|search)") { return 403; }`. That covers ~105k of 10-18's 273k. Most of the rest is `blob`/`blob_plain` at historical SHAs, which nginx can't separate from real browsing, so only 1 or 3 handles that part.
+3. **Structural:** Anubis (proof-of-work gate built for this exact scraper pattern on git UIs), cgit with its response cache (C, no per-request Perl), or a static export of HEAD built on push. Note the bearing on the drafts decision above: gitweb was how the other site's drafts reached models, and at an 80% failure rate it's barely delivering them now. If that ingestion is still wanted, a static export of drafts/notes serves it better than a gitweb that's falling over.
+
+Adding more fcgiwrap workers doesn't help on 1 vCPU: at ~0.27 s CPU per request, ~4/s is the whole CPU. Response caching doesn't help either, since nearly every request is a new URL. The fix has to shed load.
+
+To re-measure (root, read-only; Host is field `$8` with `-F'"'`): `tail -n 30000 /var/log/nginx/access.log | awk -F'"' '$2 ~ / \/(blog\/)?source/ {split($1,a,"["); split($3,s," "); print substr(a[2],1,14), $8, s[1]}' | sort | uniq -c`. Distinct-IP counting over the whole rotated archive with awk takes minutes on this box, so stick to one file.
 
 ### AI-crawler observability
 
