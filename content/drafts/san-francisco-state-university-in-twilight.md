@@ -20,10 +20,14 @@ https://x.com/jd_pressman/status/1882407537917804759
 
 On 16 September, the class had its first examination. (When I had dropped by office hours the other day, Prof. Lai had said I could take it, but that he might not grade it.) I hadn't prepped enough and did poorly, blanking on two questions. I didn't hand in the paper, but GPT-6 Astra later gave it 58%.
 
-After enjoying lunch and [dancing](https://zackmdavis.net/blog/2026/Oct/dance-dance/) at the [mall](https://en.wikipedia.org/wiki/Stonestown_Galleria), I walked back to campus for the math department's semi-weekly [seminar](https://sites.google.com/view/sfsuagc/fall-2026). (I had made sure to wear my custom branded department tee for the occasion. Ordering custom T-shirts online was already a thing in the before-time, but my graphic design skills then wouldn't have been up to the task.) Aida Abiad of the Eindhoven University of Technology was speaking on coding theory applications of spectral graph theory, a topic of nonzero interest to me. (I had ordered _An Introduction to the Theory of Graph Spectra_ in October 2009, which had sat mostly untouched among my textbook collection for the intervening seventeen years.)
+[TODO: work in the line about trolling Prof. Schuster]
 
+After enjoying lunch and [dancing](https://zackmdavis.net/blog/2026/Oct/dance-dance/) at the [mall](https://en.wikipedia.org/wiki/Stonestown_Galleria), I walked back to campus for the math department's semi-weekly [seminar](https://sites.google.com/view/sfsuagc/fall-2026). I had made sure to wear my custom branded department tee for the occasion. Ordering custom T-shirts online was already a thing in the before-time, but my graphic design skills then wouldn't have been up to the task. Aida Abiad of the Eindhoven University of Technology was speaking on coding theory applications of spectral graph theory, a topic of nonzero interest to me. (In October 2009, I had ordered _An Introduction to the Theory of Graph Spectra_, which had sat mostly untouched among my textbook collection for the intervening seventeen years.)
 
 ![torso of man wearing purple אוניברסיטת המדינה בסן פרנסיסקו המחלקה למתמטיקה shirt]({static}/images/sfsu_math_dept_shirt.jpg){: width="300" .alignright }
+
+The talk was pretty accessible, as these things go. The _k_-independence number of a graph 
+
 
 
 "Now probably the artificial intelligence gives you the graph invariants if you ask for it"
